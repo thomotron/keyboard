@@ -14,2801 +14,68 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Switch:SW_SPST SW1
-U 1 1 5EAB1676
-P -11550 -500
-F 0 "SW1" H -11550 -265 50  0000 C CNN
-F 1 "SW_SPST" H -11550 -356 50  0000 C CNN
-F 2 "MyOwnKeyboard:RomerG" H -11550 -500 50  0001 C CNN
-F 3 "~" H -11550 -500 50  0001 C CNN
-	1    -11550 -500
-	0    1    1    0   
-$EndComp
-$Comp
-L Switch:SW_SPST SW2
-U 1 1 5EAC9046
-P -11550 200
-F 0 "SW2" H -11550 435 50  0000 C CNN
-F 1 "SW_SPST" H -11550 344 50  0000 C CNN
-F 2 "MyOwnKeyboard:RomerG" H -11550 200 50  0001 C CNN
-F 3 "~" H -11550 200 50  0001 C CNN
-	1    -11550 200 
-	0    1    1    0   
-$EndComp
-$Comp
-L Switch:SW_SPST SW3
-U 1 1 5EACD656
-P -11550 850
-F 0 "SW3" H -11550 1085 50  0000 C CNN
-F 1 "SW_SPST" H -11550 994 50  0000 C CNN
-F 2 "MyOwnKeyboard:RomerG" H -11550 850 50  0001 C CNN
-F 3 "~" H -11550 850 50  0001 C CNN
-	1    -11550 850 
-	0    1    1    0   
-$EndComp
-$Comp
-L Switch:SW_SPST SW4
-U 1 1 5EACE7EE
-P -11550 1500
-F 0 "SW4" H -11550 1735 50  0000 C CNN
-F 1 "SW_SPST" H -11550 1644 50  0000 C CNN
-F 2 "MyOwnKeyboard:RomerG" H -11550 1500 50  0001 C CNN
-F 3 "~" H -11550 1500 50  0001 C CNN
-	1    -11550 1500
-	0    1    1    0   
-$EndComp
-$Comp
-L Switch:SW_SPST SW5
-U 1 1 5EAD0CC4
-P -11550 2150
-F 0 "SW5" H -11550 2385 50  0000 C CNN
-F 1 "SW_SPST" H -11550 2294 50  0000 C CNN
-F 2 "MyOwnKeyboard:RomerG" H -11550 2150 50  0001 C CNN
-F 3 "~" H -11550 2150 50  0001 C CNN
-	1    -11550 2150
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	-11550 -700 -11550 -750
-Wire Wire Line
-	-11550 0    -11550 -50 
-Wire Wire Line
-	-11550 650  -11550 600 
-Wire Wire Line
-	-11550 1300 -11550 1250
-Wire Wire Line
-	-11550 1950 -11550 1900
-Wire Wire Line
-	-11550 1050 -11550 1100
-Wire Wire Line
-	-11550 1100 -11650 1100
-Connection ~ -11650 1100
-Wire Wire Line
-	-11650 1100 -11650 1750
-Wire Wire Line
-	-11650 -250 -11650 450 
-Wire Wire Line
-	-11550 400  -11550 450 
-Wire Wire Line
-	-11550 450  -11650 450 
-Connection ~ -11650 450 
-Wire Wire Line
-	-11650 450  -11650 1100
-Wire Wire Line
-	-11550 -300 -11550 -250
-Wire Wire Line
-	-11550 -250 -11650 -250
-Wire Wire Line
-	-11550 1700 -11550 1750
-Wire Wire Line
-	-11550 1750 -11650 1750
-Connection ~ -11650 1750
-Wire Wire Line
-	-11650 1750 -11650 2400
-Wire Wire Line
-	-11550 2350 -11550 2400
-Wire Wire Line
-	-11550 2400 -11650 2400
-Connection ~ -11650 2400
-Wire Wire Line
-	-11650 2400 -11650 3000
-$Comp
-L Switch:SW_SPST SW6
-U 1 1 5EBA7A27
-P -11550 2750
-F 0 "SW6" H -11550 2985 50  0000 C CNN
-F 1 "SW_SPST" H -11550 2894 50  0000 C CNN
-F 2 "MyOwnKeyboard:RomerG" H -11550 2750 50  0001 C CNN
-F 3 "~" H -11550 2750 50  0001 C CNN
-	1    -11550 2750
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	-11550 2950 -11550 3000
-Wire Wire Line
-	-11550 3000 -11650 3000
-Connection ~ -11650 3000
-Wire Wire Line
-	-11650 3000 -11650 3100
-$Comp
-L Switch:SW_SPST SW7
-U 1 1 5EBAD9C8
-P -11100 -500
-F 0 "SW7" H -11100 -265 50  0000 C CNN
-F 1 "SW_SPST" H -11100 -356 50  0000 C CNN
-F 2 "MyOwnKeyboard:RomerG" H -11100 -500 50  0001 C CNN
-F 3 "~" H -11100 -500 50  0001 C CNN
-	1    -11100 -500
-	0    1    1    0   
-$EndComp
-$Comp
-L Switch:SW_SPST SW8
-U 1 1 5EBAD9CE
-P -11100 200
-F 0 "SW8" H -11100 435 50  0000 C CNN
-F 1 "SW_SPST" H -11100 344 50  0000 C CNN
-F 2 "MyOwnKeyboard:RomerG" H -11100 200 50  0001 C CNN
-F 3 "~" H -11100 200 50  0001 C CNN
-	1    -11100 200 
-	0    1    1    0   
-$EndComp
-$Comp
-L Switch:SW_SPST SW9
-U 1 1 5EBAD9D4
-P -11100 850
-F 0 "SW9" H -11100 1085 50  0000 C CNN
-F 1 "SW_SPST" H -11100 994 50  0000 C CNN
-F 2 "MyOwnKeyboard:RomerG" H -11100 850 50  0001 C CNN
-F 3 "~" H -11100 850 50  0001 C CNN
-	1    -11100 850 
-	0    1    1    0   
-$EndComp
-$Comp
-L Switch:SW_SPST SW10
-U 1 1 5EBAD9DA
-P -11100 1500
-F 0 "SW10" H -11100 1735 50  0000 C CNN
-F 1 "SW_SPST" H -11100 1644 50  0000 C CNN
-F 2 "MyOwnKeyboard:RomerG" H -11100 1500 50  0001 C CNN
-F 3 "~" H -11100 1500 50  0001 C CNN
-	1    -11100 1500
-	0    1    1    0   
-$EndComp
-$Comp
-L Switch:SW_SPST SW11
-U 1 1 5EBAD9E0
-P -11100 2150
-F 0 "SW11" H -11100 2385 50  0000 C CNN
-F 1 "SW_SPST" H -11100 2294 50  0000 C CNN
-F 2 "MyOwnKeyboard:RomerG" H -11100 2150 50  0001 C CNN
-F 3 "~" H -11100 2150 50  0001 C CNN
-	1    -11100 2150
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	-11100 -700 -11100 -750
-Wire Wire Line
-	-11100 0    -11100 -50 
-Wire Wire Line
-	-11100 650  -11100 600 
-Wire Wire Line
-	-11100 1300 -11100 1250
-Wire Wire Line
-	-11100 1950 -11100 1900
-Wire Wire Line
-	-11100 1050 -11100 1100
-Wire Wire Line
-	-11100 1100 -11200 1100
-Connection ~ -11200 1100
-Wire Wire Line
-	-11200 1100 -11200 1750
-Wire Wire Line
-	-11200 -250 -11200 450 
-Wire Wire Line
-	-11100 400  -11100 450 
-Wire Wire Line
-	-11100 450  -11200 450 
-Connection ~ -11200 450 
-Wire Wire Line
-	-11200 450  -11200 1100
-Wire Wire Line
-	-11100 -300 -11100 -250
-Wire Wire Line
-	-11100 -250 -11200 -250
-Wire Wire Line
-	-11100 1700 -11100 1750
-Wire Wire Line
-	-11100 1750 -11200 1750
-Connection ~ -11200 1750
-Wire Wire Line
-	-11200 1750 -11200 2400
-Wire Wire Line
-	-11100 2350 -11100 2400
-Wire Wire Line
-	-11100 2400 -11200 2400
-Connection ~ -11200 2400
-Wire Wire Line
-	-11200 2400 -11200 3000
-$Comp
-L Switch:SW_SPST SW12
-U 1 1 5EBAD9FE
-P -11100 2750
-F 0 "SW12" H -11100 2985 50  0000 C CNN
-F 1 "SW_SPST" H -11100 2894 50  0000 C CNN
-F 2 "MyOwnKeyboard:RomerG" H -11100 2750 50  0001 C CNN
-F 3 "~" H -11100 2750 50  0001 C CNN
-	1    -11100 2750
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	-11100 2950 -11100 3000
-Wire Wire Line
-	-11100 3000 -11200 3000
-Connection ~ -11200 3000
-Wire Wire Line
-	-11200 3000 -11200 3100
-$Comp
-L Switch:SW_SPST SW13
-U 1 1 5EBAF721
-P -10650 -500
-F 0 "SW13" H -10650 -265 50  0000 C CNN
-F 1 "SW_SPST" H -10650 -356 50  0000 C CNN
-F 2 "MyOwnKeyboard:RomerG" H -10650 -500 50  0001 C CNN
-F 3 "~" H -10650 -500 50  0001 C CNN
-	1    -10650 -500
-	0    1    1    0   
-$EndComp
-$Comp
-L Switch:SW_SPST SW14
-U 1 1 5EBAF727
-P -10650 200
-F 0 "SW14" H -10650 435 50  0000 C CNN
-F 1 "SW_SPST" H -10650 344 50  0000 C CNN
-F 2 "MyOwnKeyboard:RomerG" H -10650 200 50  0001 C CNN
-F 3 "~" H -10650 200 50  0001 C CNN
-	1    -10650 200 
-	0    1    1    0   
-$EndComp
-$Comp
-L Switch:SW_SPST SW15
-U 1 1 5EBAF72D
-P -10650 850
-F 0 "SW15" H -10650 1085 50  0000 C CNN
-F 1 "SW_SPST" H -10650 994 50  0000 C CNN
-F 2 "MyOwnKeyboard:RomerG" H -10650 850 50  0001 C CNN
-F 3 "~" H -10650 850 50  0001 C CNN
-	1    -10650 850 
-	0    1    1    0   
-$EndComp
-$Comp
-L Switch:SW_SPST SW16
-U 1 1 5EBAF733
-P -10650 1500
-F 0 "SW16" H -10650 1735 50  0000 C CNN
-F 1 "SW_SPST" H -10650 1644 50  0000 C CNN
-F 2 "MyOwnKeyboard:RomerG" H -10650 1500 50  0001 C CNN
-F 3 "~" H -10650 1500 50  0001 C CNN
-	1    -10650 1500
-	0    1    1    0   
-$EndComp
-$Comp
-L Switch:SW_SPST SW17
-U 1 1 5EBAF739
-P -10650 2150
-F 0 "SW17" H -10650 2385 50  0000 C CNN
-F 1 "SW_SPST" H -10650 2294 50  0000 C CNN
-F 2 "MyOwnKeyboard:RomerG" H -10650 2150 50  0001 C CNN
-F 3 "~" H -10650 2150 50  0001 C CNN
-	1    -10650 2150
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	-10650 -700 -10650 -750
-Wire Wire Line
-	-10650 0    -10650 -50 
-Wire Wire Line
-	-10650 650  -10650 600 
-Wire Wire Line
-	-10650 1300 -10650 1250
-Wire Wire Line
-	-10650 1950 -10650 1900
-Wire Wire Line
-	-10650 1050 -10650 1100
-Wire Wire Line
-	-10650 1100 -10750 1100
-Connection ~ -10750 1100
-Wire Wire Line
-	-10750 1100 -10750 1750
-Wire Wire Line
-	-10750 -250 -10750 450 
-Wire Wire Line
-	-10650 400  -10650 450 
-Wire Wire Line
-	-10650 450  -10750 450 
-Connection ~ -10750 450 
-Wire Wire Line
-	-10750 450  -10750 1100
-Wire Wire Line
-	-10650 -300 -10650 -250
-Wire Wire Line
-	-10650 -250 -10750 -250
-Wire Wire Line
-	-10650 1700 -10650 1750
-Wire Wire Line
-	-10650 1750 -10750 1750
-Connection ~ -10750 1750
-Wire Wire Line
-	-10750 1750 -10750 2400
-Wire Wire Line
-	-10650 2350 -10650 2400
-Wire Wire Line
-	-10650 2400 -10750 2400
-Connection ~ -10750 2400
-Wire Wire Line
-	-10750 2400 -10750 3000
-$Comp
-L Switch:SW_SPST SW18
-U 1 1 5EBAF757
-P -10650 2750
-F 0 "SW18" H -10650 2985 50  0000 C CNN
-F 1 "SW_SPST" H -10650 2894 50  0000 C CNN
-F 2 "MyOwnKeyboard:RomerG" H -10650 2750 50  0001 C CNN
-F 3 "~" H -10650 2750 50  0001 C CNN
-	1    -10650 2750
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	-10650 2950 -10650 3000
-Wire Wire Line
-	-10650 3000 -10750 3000
-Connection ~ -10750 3000
-Wire Wire Line
-	-10750 3000 -10750 3100
-$Comp
-L Switch:SW_SPST SW19
-U 1 1 5EBB20DC
-P -10200 -500
-F 0 "SW19" H -10200 -265 50  0000 C CNN
-F 1 "SW_SPST" H -10200 -356 50  0000 C CNN
-F 2 "MyOwnKeyboard:RomerG" H -10200 -500 50  0001 C CNN
-F 3 "~" H -10200 -500 50  0001 C CNN
-	1    -10200 -500
-	0    1    1    0   
-$EndComp
-$Comp
-L Switch:SW_SPST SW20
-U 1 1 5EBB20E2
-P -10200 200
-F 0 "SW20" H -10200 435 50  0000 C CNN
-F 1 "SW_SPST" H -10200 344 50  0000 C CNN
-F 2 "MyOwnKeyboard:RomerG" H -10200 200 50  0001 C CNN
-F 3 "~" H -10200 200 50  0001 C CNN
-	1    -10200 200 
-	0    1    1    0   
-$EndComp
-$Comp
-L Switch:SW_SPST SW21
-U 1 1 5EBB20E8
-P -10200 850
-F 0 "SW21" H -10200 1085 50  0000 C CNN
-F 1 "SW_SPST" H -10200 994 50  0000 C CNN
-F 2 "MyOwnKeyboard:RomerG" H -10200 850 50  0001 C CNN
-F 3 "~" H -10200 850 50  0001 C CNN
-	1    -10200 850 
-	0    1    1    0   
-$EndComp
-$Comp
-L Switch:SW_SPST SW22
-U 1 1 5EBB20EE
-P -10200 1500
-F 0 "SW22" H -10200 1735 50  0000 C CNN
-F 1 "SW_SPST" H -10200 1644 50  0000 C CNN
-F 2 "MyOwnKeyboard:RomerG" H -10200 1500 50  0001 C CNN
-F 3 "~" H -10200 1500 50  0001 C CNN
-	1    -10200 1500
-	0    1    1    0   
-$EndComp
-$Comp
-L Switch:SW_SPST SW23
-U 1 1 5EBB20F4
-P -10200 2150
-F 0 "SW23" H -10200 2385 50  0000 C CNN
-F 1 "SW_SPST" H -10200 2294 50  0000 C CNN
-F 2 "MyOwnKeyboard:RomerG" H -10200 2150 50  0001 C CNN
-F 3 "~" H -10200 2150 50  0001 C CNN
-	1    -10200 2150
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	-10200 -700 -10200 -750
-Wire Wire Line
-	-10200 0    -10200 -50 
-Wire Wire Line
-	-10200 650  -10200 600 
-Wire Wire Line
-	-10200 1300 -10200 1250
-Wire Wire Line
-	-10200 1950 -10200 1900
-Wire Wire Line
-	-10200 1050 -10200 1100
-Wire Wire Line
-	-10200 1100 -10300 1100
-Connection ~ -10300 1100
-Wire Wire Line
-	-10300 1100 -10300 1750
-Wire Wire Line
-	-10300 -250 -10300 100 
-Wire Wire Line
-	-10200 400  -10200 450 
-Wire Wire Line
-	-10200 450  -10300 450 
-Connection ~ -10300 450 
-Wire Wire Line
-	-10300 450  -10300 600 
-Wire Wire Line
-	-10200 -300 -10200 -250
-Wire Wire Line
-	-10200 -250 -10300 -250
-Wire Wire Line
-	-10200 1700 -10200 1750
-Wire Wire Line
-	-10200 1750 -10300 1750
-Connection ~ -10300 1750
-Wire Wire Line
-	-10300 1750 -10300 2400
-Wire Wire Line
-	-10200 2350 -10200 2400
-Wire Wire Line
-	-10200 2400 -10300 2400
-Connection ~ -10300 2400
-Wire Wire Line
-	-10300 2400 -10300 3000
-$Comp
-L Switch:SW_SPST SW24
-U 1 1 5EBB2112
-P -10200 2750
-F 0 "SW24" H -10200 2985 50  0000 C CNN
-F 1 "SW_SPST" H -10200 2894 50  0000 C CNN
-F 2 "MyOwnKeyboard:RomerG" H -10200 2750 50  0001 C CNN
-F 3 "~" H -10200 2750 50  0001 C CNN
-	1    -10200 2750
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	-10200 2950 -10200 3000
-Wire Wire Line
-	-10200 3000 -10300 3000
-Connection ~ -10300 3000
-Wire Wire Line
-	-10300 3000 -10300 3100
-$Comp
-L Switch:SW_SPST SW25
-U 1 1 5EBB555A
-P -9750 -500
-F 0 "SW25" H -9750 -265 50  0000 C CNN
-F 1 "SW_SPST" H -9750 -356 50  0000 C CNN
-F 2 "MyOwnKeyboard:RomerG" H -9750 -500 50  0001 C CNN
-F 3 "~" H -9750 -500 50  0001 C CNN
-	1    -9750 -500
-	0    1    1    0   
-$EndComp
-$Comp
-L Switch:SW_SPST SW26
-U 1 1 5EBB5560
-P -9750 200
-F 0 "SW26" H -9750 435 50  0000 C CNN
-F 1 "SW_SPST" H -9750 344 50  0000 C CNN
-F 2 "MyOwnKeyboard:RomerG" H -9750 200 50  0001 C CNN
-F 3 "~" H -9750 200 50  0001 C CNN
-	1    -9750 200 
-	0    1    1    0   
-$EndComp
-$Comp
-L Switch:SW_SPST SW27
-U 1 1 5EBB5566
-P -9750 850
-F 0 "SW27" H -9750 1085 50  0000 C CNN
-F 1 "SW_SPST" H -9750 994 50  0000 C CNN
-F 2 "MyOwnKeyboard:RomerG" H -9750 850 50  0001 C CNN
-F 3 "~" H -9750 850 50  0001 C CNN
-	1    -9750 850 
-	0    1    1    0   
-$EndComp
-$Comp
-L Switch:SW_SPST SW28
-U 1 1 5EBB556C
-P -9750 1500
-F 0 "SW28" H -9750 1735 50  0000 C CNN
-F 1 "SW_SPST" H -9750 1644 50  0000 C CNN
-F 2 "MyOwnKeyboard:RomerG" H -9750 1500 50  0001 C CNN
-F 3 "~" H -9750 1500 50  0001 C CNN
-	1    -9750 1500
-	0    1    1    0   
-$EndComp
-$Comp
-L Switch:SW_SPST SW29
-U 1 1 5EBB5572
-P -9750 2150
-F 0 "SW29" H -9750 2385 50  0000 C CNN
-F 1 "SW_SPST" H -9750 2294 50  0000 C CNN
-F 2 "MyOwnKeyboard:RomerG" H -9750 2150 50  0001 C CNN
-F 3 "~" H -9750 2150 50  0001 C CNN
-	1    -9750 2150
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	-9750 -700 -9750 -750
-Wire Wire Line
-	-9750 0    -9750 -50 
-Wire Wire Line
-	-9750 650  -9750 600 
-Wire Wire Line
-	-9750 1300 -9750 1250
-Wire Wire Line
-	-9750 1950 -9750 1900
-Wire Wire Line
-	-9750 1050 -9750 1100
-Wire Wire Line
-	-9750 1100 -9850 1100
-Connection ~ -9850 1100
-Wire Wire Line
-	-9850 1100 -9850 1750
-Wire Wire Line
-	-9850 -250 -9850 450 
-Wire Wire Line
-	-9750 400  -9750 450 
-Wire Wire Line
-	-9750 450  -9850 450 
-Connection ~ -9850 450 
-Wire Wire Line
-	-9850 450  -9850 1100
-Wire Wire Line
-	-9750 -300 -9750 -250
-Wire Wire Line
-	-9750 -250 -9850 -250
-Wire Wire Line
-	-9750 1700 -9750 1750
-Wire Wire Line
-	-9750 1750 -9850 1750
-Connection ~ -9850 1750
-Wire Wire Line
-	-9850 1750 -9850 2400
-Wire Wire Line
-	-9750 2350 -9750 2400
-Wire Wire Line
-	-9750 2400 -9850 2400
-Connection ~ -9850 2400
-Wire Wire Line
-	-9850 2400 -9850 3000
-$Comp
-L Switch:SW_SPST SW30
-U 1 1 5EBB5590
-P -9750 2750
-F 0 "SW30" H -9750 2985 50  0000 C CNN
-F 1 "SW_SPST" H -9750 2894 50  0000 C CNN
-F 2 "MyOwnKeyboard:RomerG" H -9750 2750 50  0001 C CNN
-F 3 "~" H -9750 2750 50  0001 C CNN
-	1    -9750 2750
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	-9750 2950 -9750 3000
-Wire Wire Line
-	-9750 3000 -9850 3000
-Connection ~ -9850 3000
-Wire Wire Line
-	-9850 3000 -9850 3100
-$Comp
-L Switch:SW_SPST SW31
-U 1 1 5EBBE70D
-P -9300 -500
-F 0 "SW31" H -9300 -265 50  0000 C CNN
-F 1 "SW_SPST" H -9300 -356 50  0000 C CNN
-F 2 "MyOwnKeyboard:RomerG" H -9300 -500 50  0001 C CNN
-F 3 "~" H -9300 -500 50  0001 C CNN
-	1    -9300 -500
-	0    1    1    0   
-$EndComp
-$Comp
-L Switch:SW_SPST SW32
-U 1 1 5EBBE713
-P -9300 200
-F 0 "SW32" H -9300 435 50  0000 C CNN
-F 1 "SW_SPST" H -9300 344 50  0000 C CNN
-F 2 "MyOwnKeyboard:RomerG" H -9300 200 50  0001 C CNN
-F 3 "~" H -9300 200 50  0001 C CNN
-	1    -9300 200 
-	0    1    1    0   
-$EndComp
-$Comp
-L Switch:SW_SPST SW33
-U 1 1 5EBBE719
-P -9300 850
-F 0 "SW33" H -9300 1085 50  0000 C CNN
-F 1 "SW_SPST" H -9300 994 50  0000 C CNN
-F 2 "MyOwnKeyboard:RomerG" H -9300 850 50  0001 C CNN
-F 3 "~" H -9300 850 50  0001 C CNN
-	1    -9300 850 
-	0    1    1    0   
-$EndComp
-$Comp
-L Switch:SW_SPST SW34
-U 1 1 5EBBE71F
-P -9300 1500
-F 0 "SW34" H -9300 1735 50  0000 C CNN
-F 1 "SW_SPST" H -9300 1644 50  0000 C CNN
-F 2 "MyOwnKeyboard:RomerG" H -9300 1500 50  0001 C CNN
-F 3 "~" H -9300 1500 50  0001 C CNN
-	1    -9300 1500
-	0    1    1    0   
-$EndComp
-$Comp
-L Switch:SW_SPST SW35
-U 1 1 5EBBE725
-P -9300 2150
-F 0 "SW35" H -9300 2385 50  0000 C CNN
-F 1 "SW_SPST" H -9300 2294 50  0000 C CNN
-F 2 "MyOwnKeyboard:RomerG" H -9300 2150 50  0001 C CNN
-F 3 "~" H -9300 2150 50  0001 C CNN
-	1    -9300 2150
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	-9300 -700 -9300 -750
-Wire Wire Line
-	-9300 0    -9300 -50 
-Wire Wire Line
-	-9300 650  -9300 600 
-Wire Wire Line
-	-9300 1300 -9300 1250
-Wire Wire Line
-	-9300 1950 -9300 1900
-Wire Wire Line
-	-9300 1050 -9300 1100
-Wire Wire Line
-	-9300 1100 -9400 1100
-Connection ~ -9400 1100
-Wire Wire Line
-	-9400 1100 -9400 1750
-Wire Wire Line
-	-9400 -250 -9400 450 
-Wire Wire Line
-	-9300 400  -9300 450 
-Wire Wire Line
-	-9300 450  -9400 450 
-Connection ~ -9400 450 
-Wire Wire Line
-	-9400 450  -9400 1100
-Wire Wire Line
-	-9300 -300 -9300 -250
-Wire Wire Line
-	-9300 -250 -9400 -250
-Wire Wire Line
-	-9300 1700 -9300 1750
-Wire Wire Line
-	-9300 1750 -9400 1750
-Connection ~ -9400 1750
-Wire Wire Line
-	-9400 1750 -9400 2400
-Wire Wire Line
-	-9300 2350 -9300 2400
-Wire Wire Line
-	-9300 2400 -9400 2400
-Connection ~ -9400 2400
-Wire Wire Line
-	-9400 2400 -9400 3000
-$Comp
-L Switch:SW_SPST SW36
-U 1 1 5EBBE743
-P -9300 2750
-F 0 "SW36" H -9300 2985 50  0000 C CNN
-F 1 "SW_SPST" H -9300 2894 50  0000 C CNN
-F 2 "MyOwnKeyboard:RomerG" H -9300 2750 50  0001 C CNN
-F 3 "~" H -9300 2750 50  0001 C CNN
-	1    -9300 2750
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	-9300 2950 -9300 3000
-Wire Wire Line
-	-9300 3000 -9400 3000
-Connection ~ -9400 3000
-Wire Wire Line
-	-9400 3000 -9400 3100
-$Comp
-L Switch:SW_SPST SW37
-U 1 1 5EBC4A6E
-P -8850 -500
-F 0 "SW37" H -8850 -265 50  0000 C CNN
-F 1 "SW_SPST" H -8850 -356 50  0000 C CNN
-F 2 "MyOwnKeyboard:RomerG" H -8850 -500 50  0001 C CNN
-F 3 "~" H -8850 -500 50  0001 C CNN
-	1    -8850 -500
-	0    1    1    0   
-$EndComp
-$Comp
-L Switch:SW_SPST SW38
-U 1 1 5EBC4A74
-P -8850 200
-F 0 "SW38" H -8850 435 50  0000 C CNN
-F 1 "SW_SPST" H -8850 344 50  0000 C CNN
-F 2 "MyOwnKeyboard:RomerG" H -8850 200 50  0001 C CNN
-F 3 "~" H -8850 200 50  0001 C CNN
-	1    -8850 200 
-	0    1    1    0   
-$EndComp
-$Comp
-L Switch:SW_SPST SW39
-U 1 1 5EBC4A7A
-P -8850 850
-F 0 "SW39" H -8850 1085 50  0000 C CNN
-F 1 "SW_SPST" H -8850 994 50  0000 C CNN
-F 2 "MyOwnKeyboard:RomerG" H -8850 850 50  0001 C CNN
-F 3 "~" H -8850 850 50  0001 C CNN
-	1    -8850 850 
-	0    1    1    0   
-$EndComp
-$Comp
-L Switch:SW_SPST SW40
-U 1 1 5EBC4A80
-P -8850 1500
-F 0 "SW40" H -8850 1735 50  0000 C CNN
-F 1 "SW_SPST" H -8850 1644 50  0000 C CNN
-F 2 "MyOwnKeyboard:RomerG" H -8850 1500 50  0001 C CNN
-F 3 "~" H -8850 1500 50  0001 C CNN
-	1    -8850 1500
-	0    1    1    0   
-$EndComp
-$Comp
-L Switch:SW_SPST SW41
-U 1 1 5EBC4A86
-P -8850 2150
-F 0 "SW41" H -8850 2385 50  0000 C CNN
-F 1 "SW_SPST" H -8850 2294 50  0000 C CNN
-F 2 "MyOwnKeyboard:RomerG" H -8850 2150 50  0001 C CNN
-F 3 "~" H -8850 2150 50  0001 C CNN
-	1    -8850 2150
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	-8850 -700 -8850 -750
-Wire Wire Line
-	-8850 0    -8850 -50 
-Wire Wire Line
-	-8850 650  -8850 600 
-Wire Wire Line
-	-8850 1300 -8850 1250
-Wire Wire Line
-	-8850 1950 -8850 1900
-Wire Wire Line
-	-8850 1050 -8850 1100
-Wire Wire Line
-	-8850 1100 -8950 1100
-Connection ~ -8950 1100
-Wire Wire Line
-	-8950 1100 -8950 1750
-Wire Wire Line
-	-8950 -250 -8950 450 
-Wire Wire Line
-	-8850 400  -8850 450 
-Wire Wire Line
-	-8850 450  -8950 450 
-Connection ~ -8950 450 
-Wire Wire Line
-	-8950 450  -8950 1100
-Wire Wire Line
-	-8850 -300 -8850 -250
-Wire Wire Line
-	-8850 -250 -8950 -250
-Wire Wire Line
-	-8850 1700 -8850 1750
-Wire Wire Line
-	-8850 1750 -8950 1750
-Connection ~ -8950 1750
-Wire Wire Line
-	-8950 1750 -8950 2400
-Wire Wire Line
-	-8850 2350 -8850 2400
-Wire Wire Line
-	-8850 2400 -8950 2400
-Connection ~ -8950 2400
-Wire Wire Line
-	-8950 2400 -8950 3000
-$Comp
-L Switch:SW_SPST SW42
-U 1 1 5EBC4AA4
-P -8850 2750
-F 0 "SW42" H -8850 2985 50  0000 C CNN
-F 1 "SW_SPST" H -8850 2894 50  0000 C CNN
-F 2 "MyOwnKeyboard:RomerG" H -8850 2750 50  0001 C CNN
-F 3 "~" H -8850 2750 50  0001 C CNN
-	1    -8850 2750
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	-8850 2950 -8850 3000
-Wire Wire Line
-	-8850 3000 -8950 3000
-Connection ~ -8950 3000
-Wire Wire Line
-	-8950 3000 -8950 3100
-$Comp
-L Switch:SW_SPST SW43
-U 1 1 5EBCCB3D
-P -8400 -500
-F 0 "SW43" H -8400 -265 50  0000 C CNN
-F 1 "SW_SPST" H -8400 -356 50  0000 C CNN
-F 2 "MyOwnKeyboard:RomerG" H -8400 -500 50  0001 C CNN
-F 3 "~" H -8400 -500 50  0001 C CNN
-	1    -8400 -500
-	0    1    1    0   
-$EndComp
-$Comp
-L Switch:SW_SPST SW44
-U 1 1 5EBCCB43
-P -8400 200
-F 0 "SW44" H -8400 435 50  0000 C CNN
-F 1 "SW_SPST" H -8400 344 50  0000 C CNN
-F 2 "MyOwnKeyboard:RomerG" H -8400 200 50  0001 C CNN
-F 3 "~" H -8400 200 50  0001 C CNN
-	1    -8400 200 
-	0    1    1    0   
-$EndComp
-$Comp
-L Switch:SW_SPST SW45
-U 1 1 5EBCCB49
-P -8400 850
-F 0 "SW45" H -8400 1085 50  0000 C CNN
-F 1 "SW_SPST" H -8400 994 50  0000 C CNN
-F 2 "MyOwnKeyboard:RomerG" H -8400 850 50  0001 C CNN
-F 3 "~" H -8400 850 50  0001 C CNN
-	1    -8400 850 
-	0    1    1    0   
-$EndComp
-$Comp
-L Switch:SW_SPST SW46
-U 1 1 5EBCCB4F
-P -8400 1500
-F 0 "SW46" H -8400 1735 50  0000 C CNN
-F 1 "SW_SPST" H -8400 1644 50  0000 C CNN
-F 2 "MyOwnKeyboard:RomerG" H -8400 1500 50  0001 C CNN
-F 3 "~" H -8400 1500 50  0001 C CNN
-	1    -8400 1500
-	0    1    1    0   
-$EndComp
-$Comp
-L Switch:SW_SPST SW47
-U 1 1 5EBCCB55
-P -8400 2150
-F 0 "SW47" H -8400 2385 50  0000 C CNN
-F 1 "SW_SPST" H -8400 2294 50  0000 C CNN
-F 2 "MyOwnKeyboard:RomerG" H -8400 2150 50  0001 C CNN
-F 3 "~" H -8400 2150 50  0001 C CNN
-	1    -8400 2150
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	-8400 -700 -8400 -750
-Wire Wire Line
-	-8400 0    -8400 -50 
-Wire Wire Line
-	-8400 650  -8400 600 
-Wire Wire Line
-	-8400 1300 -8400 1250
-Wire Wire Line
-	-8400 1950 -8400 1900
-Wire Wire Line
-	-8400 1050 -8400 1100
-Wire Wire Line
-	-8400 1100 -8500 1100
-Connection ~ -8500 1100
-Wire Wire Line
-	-8500 1100 -8500 1750
-Wire Wire Line
-	-8500 -250 -8500 450 
-Wire Wire Line
-	-8400 400  -8400 450 
-Wire Wire Line
-	-8400 450  -8500 450 
-Connection ~ -8500 450 
-Wire Wire Line
-	-8500 450  -8500 1100
-Wire Wire Line
-	-8400 -300 -8400 -250
-Wire Wire Line
-	-8400 -250 -8500 -250
-Wire Wire Line
-	-8400 1700 -8400 1750
-Wire Wire Line
-	-8400 1750 -8500 1750
-Connection ~ -8500 1750
-Wire Wire Line
-	-8500 1750 -8500 2400
-Wire Wire Line
-	-8400 2350 -8400 2400
-Wire Wire Line
-	-8400 2400 -8500 2400
-Connection ~ -8500 2400
-Wire Wire Line
-	-8500 2400 -8500 3000
-$Comp
-L Switch:SW_SPST SW48
-U 1 1 5EBCCB73
-P -8400 2750
-F 0 "SW48" H -8400 2985 50  0000 C CNN
-F 1 "SW_SPST" H -8400 2894 50  0000 C CNN
-F 2 "MyOwnKeyboard:RomerG" H -8400 2750 50  0001 C CNN
-F 3 "~" H -8400 2750 50  0001 C CNN
-	1    -8400 2750
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	-8400 2950 -8400 3000
-Wire Wire Line
-	-8400 3000 -8500 3000
-Connection ~ -8500 3000
-Wire Wire Line
-	-8500 3000 -8500 3100
-$Comp
-L Switch:SW_SPST SW49
-U 1 1 5EBE0FCF
-P -7950 -500
-F 0 "SW49" H -7950 -265 50  0000 C CNN
-F 1 "SW_SPST" H -7950 -356 50  0000 C CNN
-F 2 "MyOwnKeyboard:RomerG" H -7950 -500 50  0001 C CNN
-F 3 "~" H -7950 -500 50  0001 C CNN
-	1    -7950 -500
-	0    1    1    0   
-$EndComp
-$Comp
-L Switch:SW_SPST SW50
-U 1 1 5EBE0FD5
-P -7950 200
-F 0 "SW50" H -7950 435 50  0000 C CNN
-F 1 "SW_SPST" H -7950 344 50  0000 C CNN
-F 2 "MyOwnKeyboard:RomerG" H -7950 200 50  0001 C CNN
-F 3 "~" H -7950 200 50  0001 C CNN
-	1    -7950 200 
-	0    1    1    0   
-$EndComp
-$Comp
-L Switch:SW_SPST SW51
-U 1 1 5EBE0FDB
-P -7950 850
-F 0 "SW51" H -7950 1085 50  0000 C CNN
-F 1 "SW_SPST" H -7950 994 50  0000 C CNN
-F 2 "MyOwnKeyboard:RomerG" H -7950 850 50  0001 C CNN
-F 3 "~" H -7950 850 50  0001 C CNN
-	1    -7950 850 
-	0    1    1    0   
-$EndComp
-$Comp
-L Switch:SW_SPST SW52
-U 1 1 5EBE0FE1
-P -7950 1500
-F 0 "SW52" H -7950 1735 50  0000 C CNN
-F 1 "SW_SPST" H -7950 1644 50  0000 C CNN
-F 2 "MyOwnKeyboard:RomerG" H -7950 1500 50  0001 C CNN
-F 3 "~" H -7950 1500 50  0001 C CNN
-	1    -7950 1500
-	0    1    1    0   
-$EndComp
-$Comp
-L Switch:SW_SPST SW53
-U 1 1 5EBE0FE7
-P -7950 2150
-F 0 "SW53" H -7950 2385 50  0000 C CNN
-F 1 "SW_SPST" H -7950 2294 50  0000 C CNN
-F 2 "MyOwnKeyboard:RomerG" H -7950 2150 50  0001 C CNN
-F 3 "~" H -7950 2150 50  0001 C CNN
-	1    -7950 2150
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	-7950 -700 -7950 -750
-Wire Wire Line
-	-7950 0    -7950 -50 
-Wire Wire Line
-	-7950 650  -7950 600 
-Wire Wire Line
-	-7950 1300 -7950 1250
-Wire Wire Line
-	-7950 1950 -7950 1900
-Wire Wire Line
-	-7950 1050 -7950 1100
-Wire Wire Line
-	-7950 1100 -8050 1100
-Connection ~ -8050 1100
-Wire Wire Line
-	-8050 1100 -8050 1750
-Wire Wire Line
-	-8050 -250 -8050 450 
-Wire Wire Line
-	-7950 400  -7950 450 
-Wire Wire Line
-	-7950 450  -8050 450 
-Connection ~ -8050 450 
-Wire Wire Line
-	-8050 450  -8050 1100
-Wire Wire Line
-	-7950 -300 -7950 -250
-Wire Wire Line
-	-7950 -250 -8050 -250
-Wire Wire Line
-	-7950 1700 -7950 1750
-Wire Wire Line
-	-7950 1750 -8050 1750
-Connection ~ -8050 1750
-Wire Wire Line
-	-8050 1750 -8050 2400
-Wire Wire Line
-	-7950 2350 -7950 2400
-Wire Wire Line
-	-7950 2400 -8050 2400
-Connection ~ -8050 2400
-Wire Wire Line
-	-8050 2400 -8050 3000
-$Comp
-L Switch:SW_SPST SW54
-U 1 1 5EBE1005
-P -7950 2750
-F 0 "SW54" H -7950 2985 50  0000 C CNN
-F 1 "SW_SPST" H -7950 2894 50  0000 C CNN
-F 2 "MyOwnKeyboard:RomerG" H -7950 2750 50  0001 C CNN
-F 3 "~" H -7950 2750 50  0001 C CNN
-	1    -7950 2750
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	-7950 2950 -7950 3000
-Wire Wire Line
-	-7950 3000 -8050 3000
-Connection ~ -8050 3000
-Wire Wire Line
-	-8050 3000 -8050 3100
-$Comp
-L Switch:SW_SPST SW55
-U 1 1 5EBECF79
-P -7500 -500
-F 0 "SW55" H -7500 -265 50  0000 C CNN
-F 1 "SW_SPST" H -7500 -356 50  0000 C CNN
-F 2 "MyOwnKeyboard:RomerG" H -7500 -500 50  0001 C CNN
-F 3 "~" H -7500 -500 50  0001 C CNN
-	1    -7500 -500
-	0    1    1    0   
-$EndComp
-$Comp
-L Switch:SW_SPST SW56
-U 1 1 5EBECF7F
-P -7500 200
-F 0 "SW56" H -7500 435 50  0000 C CNN
-F 1 "SW_SPST" H -7500 344 50  0000 C CNN
-F 2 "MyOwnKeyboard:RomerG" H -7500 200 50  0001 C CNN
-F 3 "~" H -7500 200 50  0001 C CNN
-	1    -7500 200 
-	0    1    1    0   
-$EndComp
-$Comp
-L Switch:SW_SPST SW57
-U 1 1 5EBECF85
-P -7500 850
-F 0 "SW57" H -7500 1085 50  0000 C CNN
-F 1 "SW_SPST" H -7500 994 50  0000 C CNN
-F 2 "MyOwnKeyboard:RomerG" H -7500 850 50  0001 C CNN
-F 3 "~" H -7500 850 50  0001 C CNN
-	1    -7500 850 
-	0    1    1    0   
-$EndComp
-$Comp
-L Switch:SW_SPST SW58
-U 1 1 5EBECF8B
-P -7500 1500
-F 0 "SW58" H -7500 1735 50  0000 C CNN
-F 1 "SW_SPST" H -7500 1644 50  0000 C CNN
-F 2 "MyOwnKeyboard:RomerG" H -7500 1500 50  0001 C CNN
-F 3 "~" H -7500 1500 50  0001 C CNN
-	1    -7500 1500
-	0    1    1    0   
-$EndComp
-$Comp
-L Switch:SW_SPST SW59
-U 1 1 5EBECF91
-P -7500 2150
-F 0 "SW59" H -7500 2385 50  0000 C CNN
-F 1 "SW_SPST" H -7500 2294 50  0000 C CNN
-F 2 "MyOwnKeyboard:RomerG" H -7500 2150 50  0001 C CNN
-F 3 "~" H -7500 2150 50  0001 C CNN
-	1    -7500 2150
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	-7500 -700 -7500 -750
-Wire Wire Line
-	-7500 0    -7500 -50 
-Wire Wire Line
-	-7500 650  -7500 600 
-Wire Wire Line
-	-7500 1300 -7500 1250
-Wire Wire Line
-	-7500 1950 -7500 1900
-Wire Wire Line
-	-7500 1050 -7500 1100
-Wire Wire Line
-	-7500 1100 -7600 1100
-Connection ~ -7600 1100
-Wire Wire Line
-	-7600 1100 -7600 1750
-Wire Wire Line
-	-7600 -250 -7600 450 
-Wire Wire Line
-	-7500 400  -7500 450 
-Wire Wire Line
-	-7500 450  -7600 450 
-Connection ~ -7600 450 
-Wire Wire Line
-	-7600 450  -7600 1100
-Wire Wire Line
-	-7500 -300 -7500 -250
-Wire Wire Line
-	-7500 -250 -7600 -250
-Wire Wire Line
-	-7500 1700 -7500 1750
-Wire Wire Line
-	-7500 1750 -7600 1750
-Connection ~ -7600 1750
-Wire Wire Line
-	-7600 1750 -7600 2400
-Wire Wire Line
-	-7500 2350 -7500 2400
-Wire Wire Line
-	-7500 2400 -7600 2400
-Connection ~ -7600 2400
-Wire Wire Line
-	-7600 2400 -7600 3000
-$Comp
-L Switch:SW_SPST SW60
-U 1 1 5EBECFAF
-P -7500 2750
-F 0 "SW60" H -7500 2985 50  0000 C CNN
-F 1 "SW_SPST" H -7500 2894 50  0000 C CNN
-F 2 "MyOwnKeyboard:RomerG" H -7500 2750 50  0001 C CNN
-F 3 "~" H -7500 2750 50  0001 C CNN
-	1    -7500 2750
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	-7500 2950 -7500 3000
-Wire Wire Line
-	-7500 3000 -7600 3000
-Connection ~ -7600 3000
-Wire Wire Line
-	-7600 3000 -7600 3100
-$Comp
-L Switch:SW_SPST SW61
-U 1 1 5EC107AC
-P -7050 -500
-F 0 "SW61" H -7050 -265 50  0000 C CNN
-F 1 "SW_SPST" H -7050 -356 50  0000 C CNN
-F 2 "MyOwnKeyboard:RomerG" H -7050 -500 50  0001 C CNN
-F 3 "~" H -7050 -500 50  0001 C CNN
-	1    -7050 -500
-	0    1    1    0   
-$EndComp
-$Comp
-L Switch:SW_SPST SW62
-U 1 1 5EC107B2
-P -7050 200
-F 0 "SW62" H -7050 435 50  0000 C CNN
-F 1 "SW_SPST" H -7050 344 50  0000 C CNN
-F 2 "MyOwnKeyboard:RomerG" H -7050 200 50  0001 C CNN
-F 3 "~" H -7050 200 50  0001 C CNN
-	1    -7050 200 
-	0    1    1    0   
-$EndComp
-$Comp
-L Switch:SW_SPST SW63
-U 1 1 5EC107B8
-P -7050 850
-F 0 "SW63" H -7050 1085 50  0000 C CNN
-F 1 "SW_SPST" H -7050 994 50  0000 C CNN
-F 2 "MyOwnKeyboard:RomerG" H -7050 850 50  0001 C CNN
-F 3 "~" H -7050 850 50  0001 C CNN
-	1    -7050 850 
-	0    1    1    0   
-$EndComp
-$Comp
-L Switch:SW_SPST SW64
-U 1 1 5EC107BE
-P -7050 1500
-F 0 "SW64" H -7050 1735 50  0000 C CNN
-F 1 "SW_SPST" H -7050 1644 50  0000 C CNN
-F 2 "MyOwnKeyboard:RomerG" H -7050 1500 50  0001 C CNN
-F 3 "~" H -7050 1500 50  0001 C CNN
-	1    -7050 1500
-	0    1    1    0   
-$EndComp
-$Comp
-L Switch:SW_SPST SW65
-U 1 1 5EC107C4
-P -7050 2150
-F 0 "SW65" H -7050 2385 50  0000 C CNN
-F 1 "SW_SPST" H -7050 2294 50  0000 C CNN
-F 2 "MyOwnKeyboard:RomerG" H -7050 2150 50  0001 C CNN
-F 3 "~" H -7050 2150 50  0001 C CNN
-	1    -7050 2150
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	-7050 -700 -7050 -750
-Wire Wire Line
-	-7050 0    -7050 -50 
-Wire Wire Line
-	-7050 650  -7050 600 
-Wire Wire Line
-	-7050 1300 -7050 1250
-Wire Wire Line
-	-7050 1950 -7050 1900
-Wire Wire Line
-	-7050 1050 -7050 1100
-Wire Wire Line
-	-7050 1100 -7150 1100
-Connection ~ -7150 1100
-Wire Wire Line
-	-7150 1100 -7150 1750
-Wire Wire Line
-	-7150 -250 -7150 450 
-Wire Wire Line
-	-7050 400  -7050 450 
-Wire Wire Line
-	-7050 450  -7150 450 
-Connection ~ -7150 450 
-Wire Wire Line
-	-7150 450  -7150 1100
-Wire Wire Line
-	-7050 -300 -7050 -250
-Wire Wire Line
-	-7050 -250 -7150 -250
-Wire Wire Line
-	-7050 1700 -7050 1750
-Wire Wire Line
-	-7050 1750 -7150 1750
-Connection ~ -7150 1750
-Wire Wire Line
-	-7150 1750 -7150 2400
-Wire Wire Line
-	-7050 2350 -7050 2400
-Wire Wire Line
-	-7050 2400 -7150 2400
-Connection ~ -7150 2400
-Wire Wire Line
-	-7150 2400 -7150 3000
-$Comp
-L Switch:SW_SPST SW66
-U 1 1 5EC107E2
-P -7050 2750
-F 0 "SW66" H -7050 2985 50  0000 C CNN
-F 1 "SW_SPST" H -7050 2894 50  0000 C CNN
-F 2 "MyOwnKeyboard:RomerG" H -7050 2750 50  0001 C CNN
-F 3 "~" H -7050 2750 50  0001 C CNN
-	1    -7050 2750
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	-7050 2950 -7050 3000
-Wire Wire Line
-	-7050 3000 -7150 3000
-Connection ~ -7150 3000
-Wire Wire Line
-	-7150 3000 -7150 3100
-$Comp
-L Switch:SW_SPST SW67
-U 1 1 5EC107EC
-P -6600 -500
-F 0 "SW67" H -6600 -265 50  0000 C CNN
-F 1 "SW_SPST" H -6600 -356 50  0000 C CNN
-F 2 "MyOwnKeyboard:RomerG" H -6600 -500 50  0001 C CNN
-F 3 "~" H -6600 -500 50  0001 C CNN
-	1    -6600 -500
-	0    1    1    0   
-$EndComp
-$Comp
-L Switch:SW_SPST SW68
-U 1 1 5EC107F2
-P -6600 200
-F 0 "SW68" H -6600 435 50  0000 C CNN
-F 1 "SW_SPST" H -6600 344 50  0000 C CNN
-F 2 "MyOwnKeyboard:RomerG" H -6600 200 50  0001 C CNN
-F 3 "~" H -6600 200 50  0001 C CNN
-	1    -6600 200 
-	0    1    1    0   
-$EndComp
-$Comp
-L Switch:SW_SPST SW69
-U 1 1 5EC107F8
-P -6600 850
-F 0 "SW69" H -6600 1085 50  0000 C CNN
-F 1 "SW_SPST" H -6600 994 50  0000 C CNN
-F 2 "MyOwnKeyboard:RomerG" H -6600 850 50  0001 C CNN
-F 3 "~" H -6600 850 50  0001 C CNN
-	1    -6600 850 
-	0    1    1    0   
-$EndComp
-$Comp
-L Switch:SW_SPST SW70
-U 1 1 5EC107FE
-P -6600 1500
-F 0 "SW70" H -6600 1735 50  0000 C CNN
-F 1 "SW_SPST" H -6600 1644 50  0000 C CNN
-F 2 "MyOwnKeyboard:RomerG" H -6600 1500 50  0001 C CNN
-F 3 "~" H -6600 1500 50  0001 C CNN
-	1    -6600 1500
-	0    1    1    0   
-$EndComp
-$Comp
-L Switch:SW_SPST SW71
-U 1 1 5EC10804
-P -6600 2150
-F 0 "SW71" H -6600 2385 50  0000 C CNN
-F 1 "SW_SPST" H -6600 2294 50  0000 C CNN
-F 2 "MyOwnKeyboard:RomerG" H -6600 2150 50  0001 C CNN
-F 3 "~" H -6600 2150 50  0001 C CNN
-	1    -6600 2150
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	-6600 -700 -6600 -750
-Wire Wire Line
-	-6600 0    -6600 -50 
-Wire Wire Line
-	-6600 650  -6600 600 
-Wire Wire Line
-	-6600 1300 -6600 1250
-Wire Wire Line
-	-6600 1950 -6600 1900
-Wire Wire Line
-	-6600 1050 -6600 1100
-Wire Wire Line
-	-6600 1100 -6700 1100
-Connection ~ -6700 1100
-Wire Wire Line
-	-6700 1100 -6700 1750
-Wire Wire Line
-	-6700 -250 -6700 450 
-Wire Wire Line
-	-6600 400  -6600 450 
-Wire Wire Line
-	-6600 450  -6700 450 
-Connection ~ -6700 450 
-Wire Wire Line
-	-6700 450  -6700 1100
-Wire Wire Line
-	-6600 -300 -6600 -250
-Wire Wire Line
-	-6600 -250 -6700 -250
-Wire Wire Line
-	-6600 1700 -6600 1750
-Wire Wire Line
-	-6600 1750 -6700 1750
-Connection ~ -6700 1750
-Wire Wire Line
-	-6700 1750 -6700 2400
-Wire Wire Line
-	-6600 2350 -6600 2400
-Wire Wire Line
-	-6600 2400 -6700 2400
-Connection ~ -6700 2400
-Wire Wire Line
-	-6700 2400 -6700 3000
-$Comp
-L Switch:SW_SPST SW72
-U 1 1 5EC10822
-P -6600 2750
-F 0 "SW72" H -6600 2985 50  0000 C CNN
-F 1 "SW_SPST" H -6600 2894 50  0000 C CNN
-F 2 "MyOwnKeyboard:RomerG" H -6600 2750 50  0001 C CNN
-F 3 "~" H -6600 2750 50  0001 C CNN
-	1    -6600 2750
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	-6600 2950 -6600 3000
-Wire Wire Line
-	-6600 3000 -6700 3000
-Connection ~ -6700 3000
-Wire Wire Line
-	-6700 3000 -6700 3100
-$Comp
-L Switch:SW_SPST SW73
-U 1 1 5EC1082C
-P -6150 -500
-F 0 "SW73" H -6150 -265 50  0000 C CNN
-F 1 "SW_SPST" H -6150 -356 50  0000 C CNN
-F 2 "MyOwnKeyboard:RomerG" H -6150 -500 50  0001 C CNN
-F 3 "~" H -6150 -500 50  0001 C CNN
-	1    -6150 -500
-	0    1    1    0   
-$EndComp
-$Comp
-L Switch:SW_SPST SW74
-U 1 1 5EC10832
-P -6150 200
-F 0 "SW74" H -6150 435 50  0000 C CNN
-F 1 "SW_SPST" H -6150 344 50  0000 C CNN
-F 2 "MyOwnKeyboard:RomerG" H -6150 200 50  0001 C CNN
-F 3 "~" H -6150 200 50  0001 C CNN
-	1    -6150 200 
-	0    1    1    0   
-$EndComp
-$Comp
-L Switch:SW_SPST SW75
-U 1 1 5EC10838
-P -6150 850
-F 0 "SW75" H -6150 1085 50  0000 C CNN
-F 1 "SW_SPST" H -6150 994 50  0000 C CNN
-F 2 "MyOwnKeyboard:RomerG" H -6150 850 50  0001 C CNN
-F 3 "~" H -6150 850 50  0001 C CNN
-	1    -6150 850 
-	0    1    1    0   
-$EndComp
-$Comp
-L Switch:SW_SPST SW76
-U 1 1 5EC1083E
-P -6150 1500
-F 0 "SW76" H -6150 1735 50  0000 C CNN
-F 1 "SW_SPST" H -6150 1644 50  0000 C CNN
-F 2 "MyOwnKeyboard:RomerG" H -6150 1500 50  0001 C CNN
-F 3 "~" H -6150 1500 50  0001 C CNN
-	1    -6150 1500
-	0    1    1    0   
-$EndComp
-$Comp
-L Switch:SW_SPST SW77
-U 1 1 5EC10844
-P -6150 2150
-F 0 "SW77" H -6150 2385 50  0000 C CNN
-F 1 "SW_SPST" H -6150 2294 50  0000 C CNN
-F 2 "MyOwnKeyboard:RomerG" H -6150 2150 50  0001 C CNN
-F 3 "~" H -6150 2150 50  0001 C CNN
-	1    -6150 2150
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	-6150 -700 -6150 -750
-Wire Wire Line
-	-6150 0    -6150 -50 
-Wire Wire Line
-	-6150 650  -6150 600 
-Wire Wire Line
-	-6150 1300 -6150 1250
-Wire Wire Line
-	-6150 1950 -6150 1900
-Wire Wire Line
-	-6150 1050 -6150 1100
-Wire Wire Line
-	-6150 1100 -6250 1100
-Connection ~ -6250 1100
-Wire Wire Line
-	-6250 1100 -6250 1750
-Wire Wire Line
-	-6250 -250 -6250 450 
-Wire Wire Line
-	-6150 400  -6150 450 
-Wire Wire Line
-	-6150 450  -6250 450 
-Connection ~ -6250 450 
-Wire Wire Line
-	-6250 450  -6250 1100
-Wire Wire Line
-	-6150 -300 -6150 -250
-Wire Wire Line
-	-6150 -250 -6250 -250
-Wire Wire Line
-	-6150 1700 -6150 1750
-Wire Wire Line
-	-6150 1750 -6250 1750
-Connection ~ -6250 1750
-Wire Wire Line
-	-6250 1750 -6250 2400
-Wire Wire Line
-	-6150 2350 -6150 2400
-Wire Wire Line
-	-6150 2400 -6250 2400
-Connection ~ -6250 2400
-Wire Wire Line
-	-6250 2400 -6250 3000
-$Comp
-L Switch:SW_SPST SW78
-U 1 1 5EC10862
-P -6150 2750
-F 0 "SW78" H -6150 2985 50  0000 C CNN
-F 1 "SW_SPST" H -6150 2894 50  0000 C CNN
-F 2 "MyOwnKeyboard:RomerG" H -6150 2750 50  0001 C CNN
-F 3 "~" H -6150 2750 50  0001 C CNN
-	1    -6150 2750
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	-6150 2950 -6150 3000
-Wire Wire Line
-	-6150 3000 -6250 3000
-Connection ~ -6250 3000
-Wire Wire Line
-	-6250 3000 -6250 3100
-$Comp
-L Switch:SW_SPST SW79
-U 1 1 5EC1086C
-P -5700 -500
-F 0 "SW79" H -5700 -265 50  0000 C CNN
-F 1 "SW_SPST" H -5700 -356 50  0000 C CNN
-F 2 "MyOwnKeyboard:RomerG" H -5700 -500 50  0001 C CNN
-F 3 "~" H -5700 -500 50  0001 C CNN
-	1    -5700 -500
-	0    1    1    0   
-$EndComp
-$Comp
-L Switch:SW_SPST SW80
-U 1 1 5EC10872
-P -5700 200
-F 0 "SW80" H -5700 435 50  0000 C CNN
-F 1 "SW_SPST" H -5700 344 50  0000 C CNN
-F 2 "MyOwnKeyboard:RomerG" H -5700 200 50  0001 C CNN
-F 3 "~" H -5700 200 50  0001 C CNN
-	1    -5700 200 
-	0    1    1    0   
-$EndComp
-$Comp
-L Switch:SW_SPST SW81
-U 1 1 5EC10878
-P -5700 850
-F 0 "SW81" H -5700 1085 50  0000 C CNN
-F 1 "SW_SPST" H -5700 994 50  0000 C CNN
-F 2 "MyOwnKeyboard:RomerG" H -5700 850 50  0001 C CNN
-F 3 "~" H -5700 850 50  0001 C CNN
-	1    -5700 850 
-	0    1    1    0   
-$EndComp
-$Comp
-L Switch:SW_SPST SW82
-U 1 1 5EC1087E
-P -5700 1500
-F 0 "SW82" H -5700 1735 50  0000 C CNN
-F 1 "SW_SPST" H -5700 1644 50  0000 C CNN
-F 2 "MyOwnKeyboard:RomerG" H -5700 1500 50  0001 C CNN
-F 3 "~" H -5700 1500 50  0001 C CNN
-	1    -5700 1500
-	0    1    1    0   
-$EndComp
-$Comp
-L Switch:SW_SPST SW83
-U 1 1 5EC10884
-P -5700 2150
-F 0 "SW83" H -5700 2385 50  0000 C CNN
-F 1 "SW_SPST" H -5700 2294 50  0000 C CNN
-F 2 "MyOwnKeyboard:RomerG" H -5700 2150 50  0001 C CNN
-F 3 "~" H -5700 2150 50  0001 C CNN
-	1    -5700 2150
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	-5700 -700 -5700 -750
-Wire Wire Line
-	-5700 0    -5700 -50 
-Wire Wire Line
-	-5700 650  -5700 600 
-Wire Wire Line
-	-5700 1300 -5700 1250
-Wire Wire Line
-	-5700 1950 -5700 1900
-Wire Wire Line
-	-5700 1050 -5700 1100
-Wire Wire Line
-	-5700 1100 -5800 1100
-Connection ~ -5800 1100
-Wire Wire Line
-	-5800 1100 -5800 1750
-Wire Wire Line
-	-5800 -250 -5800 450 
-Wire Wire Line
-	-5700 400  -5700 450 
-Wire Wire Line
-	-5700 450  -5800 450 
-Connection ~ -5800 450 
-Wire Wire Line
-	-5800 450  -5800 1100
-Wire Wire Line
-	-5700 -300 -5700 -250
-Wire Wire Line
-	-5700 -250 -5800 -250
-Wire Wire Line
-	-5700 1700 -5700 1750
-Wire Wire Line
-	-5700 1750 -5800 1750
-Connection ~ -5800 1750
-Wire Wire Line
-	-5800 1750 -5800 2400
-Wire Wire Line
-	-5700 2350 -5700 2400
-Wire Wire Line
-	-5700 2400 -5800 2400
-Connection ~ -5800 2400
-Wire Wire Line
-	-5800 2400 -5800 3000
-$Comp
-L Switch:SW_SPST SW84
-U 1 1 5EC108A2
-P -5700 2750
-F 0 "SW84" H -5700 2985 50  0000 C CNN
-F 1 "SW_SPST" H -5700 2894 50  0000 C CNN
-F 2 "MyOwnKeyboard:RomerG" H -5700 2750 50  0001 C CNN
-F 3 "~" H -5700 2750 50  0001 C CNN
-	1    -5700 2750
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	-5700 2950 -5700 3000
-Wire Wire Line
-	-5700 3000 -5800 3000
-Connection ~ -5800 3000
-Wire Wire Line
-	-5800 3000 -5800 3100
-$Comp
-L Switch:SW_SPST SW85
-U 1 1 5EC108AC
-P -5250 -500
-F 0 "SW85" H -5250 -265 50  0000 C CNN
-F 1 "SW_SPST" H -5250 -356 50  0000 C CNN
-F 2 "MyOwnKeyboard:RomerG" H -5250 -500 50  0001 C CNN
-F 3 "~" H -5250 -500 50  0001 C CNN
-	1    -5250 -500
-	0    1    1    0   
-$EndComp
-$Comp
-L Switch:SW_SPST SW86
-U 1 1 5EC108B2
-P -5250 200
-F 0 "SW86" H -5250 435 50  0000 C CNN
-F 1 "SW_SPST" H -5250 344 50  0000 C CNN
-F 2 "MyOwnKeyboard:RomerG" H -5250 200 50  0001 C CNN
-F 3 "~" H -5250 200 50  0001 C CNN
-	1    -5250 200 
-	0    1    1    0   
-$EndComp
-$Comp
-L Switch:SW_SPST SW87
-U 1 1 5EC108B8
-P -5250 850
-F 0 "SW87" H -5250 1085 50  0000 C CNN
-F 1 "SW_SPST" H -5250 994 50  0000 C CNN
-F 2 "MyOwnKeyboard:RomerG" H -5250 850 50  0001 C CNN
-F 3 "~" H -5250 850 50  0001 C CNN
-	1    -5250 850 
-	0    1    1    0   
-$EndComp
-$Comp
-L Switch:SW_SPST SW88
-U 1 1 5EC108BE
-P -5250 1500
-F 0 "SW88" H -5250 1735 50  0000 C CNN
-F 1 "SW_SPST" H -5250 1644 50  0000 C CNN
-F 2 "MyOwnKeyboard:RomerG" H -5250 1500 50  0001 C CNN
-F 3 "~" H -5250 1500 50  0001 C CNN
-	1    -5250 1500
-	0    1    1    0   
-$EndComp
-$Comp
-L Switch:SW_SPST SW89
-U 1 1 5EC108C4
-P -5250 2150
-F 0 "SW89" H -5250 2385 50  0000 C CNN
-F 1 "SW_SPST" H -5250 2294 50  0000 C CNN
-F 2 "MyOwnKeyboard:RomerG" H -5250 2150 50  0001 C CNN
-F 3 "~" H -5250 2150 50  0001 C CNN
-	1    -5250 2150
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	-5250 -700 -5250 -750
-Wire Wire Line
-	-5250 0    -5250 -50 
-Wire Wire Line
-	-5250 650  -5250 600 
-Wire Wire Line
-	-5250 1300 -5250 1250
-Wire Wire Line
-	-5250 1950 -5250 1900
-Wire Wire Line
-	-5250 1050 -5250 1100
-Wire Wire Line
-	-5250 1100 -5350 1100
-Connection ~ -5350 1100
-Wire Wire Line
-	-5350 1100 -5350 1750
-Wire Wire Line
-	-5350 -250 -5350 450 
-Wire Wire Line
-	-5250 400  -5250 450 
-Wire Wire Line
-	-5250 450  -5350 450 
-Connection ~ -5350 450 
-Wire Wire Line
-	-5350 450  -5350 1100
-Wire Wire Line
-	-5250 -300 -5250 -250
-Wire Wire Line
-	-5250 -250 -5350 -250
-Wire Wire Line
-	-5250 1700 -5250 1750
-Wire Wire Line
-	-5250 1750 -5350 1750
-Connection ~ -5350 1750
-Wire Wire Line
-	-5350 1750 -5350 2400
-Wire Wire Line
-	-5250 2350 -5250 2400
-Wire Wire Line
-	-5250 2400 -5350 2400
-Connection ~ -5350 2400
-Wire Wire Line
-	-5350 2400 -5350 3000
-$Comp
-L Switch:SW_SPST SW90
-U 1 1 5EC108E2
-P -5250 2750
-F 0 "SW90" H -5250 2985 50  0000 C CNN
-F 1 "SW_SPST" H -5250 2894 50  0000 C CNN
-F 2 "MyOwnKeyboard:RomerG" H -5250 2750 50  0001 C CNN
-F 3 "~" H -5250 2750 50  0001 C CNN
-	1    -5250 2750
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	-5250 2950 -5250 3000
-Wire Wire Line
-	-5250 3000 -5350 3000
-Connection ~ -5350 3000
-Wire Wire Line
-	-5350 3000 -5350 3100
-$Comp
-L Switch:SW_SPST SW91
-U 1 1 5EC108EC
-P -4800 -500
-F 0 "SW91" H -4800 -265 50  0000 C CNN
-F 1 "SW_SPST" H -4800 -356 50  0000 C CNN
-F 2 "MyOwnKeyboard:RomerG" H -4800 -500 50  0001 C CNN
-F 3 "~" H -4800 -500 50  0001 C CNN
-	1    -4800 -500
-	0    1    1    0   
-$EndComp
-$Comp
-L Switch:SW_SPST SW92
-U 1 1 5EC108F2
-P -4800 200
-F 0 "SW92" H -4800 435 50  0000 C CNN
-F 1 "SW_SPST" H -4800 344 50  0000 C CNN
-F 2 "MyOwnKeyboard:RomerG" H -4800 200 50  0001 C CNN
-F 3 "~" H -4800 200 50  0001 C CNN
-	1    -4800 200 
-	0    1    1    0   
-$EndComp
-$Comp
-L Switch:SW_SPST SW93
-U 1 1 5EC108F8
-P -4800 850
-F 0 "SW93" H -4800 1085 50  0000 C CNN
-F 1 "SW_SPST" H -4800 994 50  0000 C CNN
-F 2 "MyOwnKeyboard:RomerG" H -4800 850 50  0001 C CNN
-F 3 "~" H -4800 850 50  0001 C CNN
-	1    -4800 850 
-	0    1    1    0   
-$EndComp
-$Comp
-L Switch:SW_SPST SW94
-U 1 1 5EC108FE
-P -4800 1500
-F 0 "SW94" H -4800 1735 50  0000 C CNN
-F 1 "SW_SPST" H -4800 1644 50  0000 C CNN
-F 2 "MyOwnKeyboard:RomerG" H -4800 1500 50  0001 C CNN
-F 3 "~" H -4800 1500 50  0001 C CNN
-	1    -4800 1500
-	0    1    1    0   
-$EndComp
-$Comp
-L Switch:SW_SPST SW95
-U 1 1 5EC10904
-P -4800 2150
-F 0 "SW95" H -4800 2385 50  0000 C CNN
-F 1 "SW_SPST" H -4800 2294 50  0000 C CNN
-F 2 "MyOwnKeyboard:RomerG" H -4800 2150 50  0001 C CNN
-F 3 "~" H -4800 2150 50  0001 C CNN
-	1    -4800 2150
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	-4800 -700 -4800 -750
-Wire Wire Line
-	-4800 0    -4800 -50 
-Wire Wire Line
-	-4800 650  -4800 600 
-Wire Wire Line
-	-4800 1300 -4800 1250
-Wire Wire Line
-	-4800 1950 -4800 1900
-Wire Wire Line
-	-4800 1050 -4800 1100
-Wire Wire Line
-	-4800 1100 -4900 1100
-Connection ~ -4900 1100
-Wire Wire Line
-	-4900 1100 -4900 1750
-Wire Wire Line
-	-4900 -250 -4900 450 
-Wire Wire Line
-	-4800 400  -4800 450 
-Wire Wire Line
-	-4800 450  -4900 450 
-Connection ~ -4900 450 
-Wire Wire Line
-	-4900 450  -4900 1100
-Wire Wire Line
-	-4800 -300 -4800 -250
-Wire Wire Line
-	-4800 -250 -4900 -250
-Wire Wire Line
-	-4800 1700 -4800 1750
-Wire Wire Line
-	-4800 1750 -4900 1750
-Connection ~ -4900 1750
-Wire Wire Line
-	-4900 1750 -4900 2400
-Wire Wire Line
-	-4800 2350 -4800 2400
-Wire Wire Line
-	-4800 2400 -4900 2400
-Connection ~ -4900 2400
-Wire Wire Line
-	-4900 2400 -4900 3000
-$Comp
-L Switch:SW_SPST SW96
-U 1 1 5EC10922
-P -4800 2750
-F 0 "SW96" H -4800 2985 50  0000 C CNN
-F 1 "SW_SPST" H -4800 2894 50  0000 C CNN
-F 2 "MyOwnKeyboard:RomerG" H -4800 2750 50  0001 C CNN
-F 3 "~" H -4800 2750 50  0001 C CNN
-	1    -4800 2750
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	-4800 2950 -4800 3000
-Wire Wire Line
-	-4800 3000 -4900 3000
-Connection ~ -4900 3000
-Wire Wire Line
-	-4900 3000 -4900 3100
-$Comp
-L Switch:SW_SPST SW97
-U 1 1 5EC1092C
-P -4350 -500
-F 0 "SW97" H -4350 -265 50  0000 C CNN
-F 1 "SW_SPST" H -4350 -356 50  0000 C CNN
-F 2 "MyOwnKeyboard:RomerG" H -4350 -500 50  0001 C CNN
-F 3 "~" H -4350 -500 50  0001 C CNN
-	1    -4350 -500
-	0    1    1    0   
-$EndComp
-$Comp
-L Switch:SW_SPST SW98
-U 1 1 5EC10932
-P -4350 200
-F 0 "SW98" H -4350 435 50  0000 C CNN
-F 1 "SW_SPST" H -4350 344 50  0000 C CNN
-F 2 "MyOwnKeyboard:RomerG" H -4350 200 50  0001 C CNN
-F 3 "~" H -4350 200 50  0001 C CNN
-	1    -4350 200 
-	0    1    1    0   
-$EndComp
-$Comp
-L Switch:SW_SPST SW99
-U 1 1 5EC10938
-P -4350 850
-F 0 "SW99" H -4350 1085 50  0000 C CNN
-F 1 "SW_SPST" H -4350 994 50  0000 C CNN
-F 2 "MyOwnKeyboard:RomerG" H -4350 850 50  0001 C CNN
-F 3 "~" H -4350 850 50  0001 C CNN
-	1    -4350 850 
-	0    1    1    0   
-$EndComp
-$Comp
-L Switch:SW_SPST SW100
-U 1 1 5EC1093E
-P -4350 1500
-F 0 "SW100" H -4350 1735 50  0000 C CNN
-F 1 "SW_SPST" H -4350 1644 50  0000 C CNN
-F 2 "MyOwnKeyboard:RomerG" H -4350 1500 50  0001 C CNN
-F 3 "~" H -4350 1500 50  0001 C CNN
-	1    -4350 1500
-	0    1    1    0   
-$EndComp
-$Comp
-L Switch:SW_SPST SW101
-U 1 1 5EC10944
-P -4350 2150
-F 0 "SW101" H -4350 2385 50  0000 C CNN
-F 1 "SW_SPST" H -4350 2294 50  0000 C CNN
-F 2 "MyOwnKeyboard:RomerG" H -4350 2150 50  0001 C CNN
-F 3 "~" H -4350 2150 50  0001 C CNN
-	1    -4350 2150
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	-4350 -700 -4350 -750
-Wire Wire Line
-	-4350 0    -4350 -50 
-Wire Wire Line
-	-4350 650  -4350 600 
-Wire Wire Line
-	-4350 1300 -4350 1250
-Wire Wire Line
-	-4350 1950 -4350 1900
-Wire Wire Line
-	-4350 1050 -4350 1100
-Wire Wire Line
-	-4350 1100 -4450 1100
-Connection ~ -4450 1100
-Wire Wire Line
-	-4450 1100 -4450 1750
-Wire Wire Line
-	-4450 -250 -4450 450 
-Wire Wire Line
-	-4350 400  -4350 450 
-Wire Wire Line
-	-4350 450  -4450 450 
-Connection ~ -4450 450 
-Wire Wire Line
-	-4450 450  -4450 1100
-Wire Wire Line
-	-4350 -300 -4350 -250
-Wire Wire Line
-	-4350 -250 -4450 -250
-Wire Wire Line
-	-4350 1700 -4350 1750
-Wire Wire Line
-	-4350 1750 -4450 1750
-Connection ~ -4450 1750
-Wire Wire Line
-	-4450 1750 -4450 2400
-Wire Wire Line
-	-4350 2350 -4350 2400
-Wire Wire Line
-	-4350 2400 -4450 2400
-Connection ~ -4450 2400
-Wire Wire Line
-	-4450 2400 -4450 3000
-$Comp
-L Switch:SW_SPST SW102
-U 1 1 5EC10962
-P -4350 2750
-F 0 "SW102" H -4350 2985 50  0000 C CNN
-F 1 "SW_SPST" H -4350 2894 50  0000 C CNN
-F 2 "MyOwnKeyboard:RomerG" H -4350 2750 50  0001 C CNN
-F 3 "~" H -4350 2750 50  0001 C CNN
-	1    -4350 2750
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	-4350 2950 -4350 3000
-Wire Wire Line
-	-4350 3000 -4450 3000
-Connection ~ -4450 3000
-Wire Wire Line
-	-4450 3000 -4450 3100
-Wire Wire Line
-	-11550 -750 -11100 -750
-Connection ~ -11100 -750
-Wire Wire Line
-	-11100 -750 -10650 -750
-Connection ~ -10650 -750
-Wire Wire Line
-	-10650 -750 -10200 -750
-Connection ~ -10200 -750
-Wire Wire Line
-	-10200 -750 -9750 -750
-Connection ~ -9750 -750
-Wire Wire Line
-	-9750 -750 -9300 -750
-Connection ~ -9300 -750
-Wire Wire Line
-	-9300 -750 -8850 -750
-Connection ~ -8850 -750
-Wire Wire Line
-	-8850 -750 -8400 -750
-Connection ~ -8400 -750
-Wire Wire Line
-	-8400 -750 -7950 -750
-Connection ~ -7950 -750
-Wire Wire Line
-	-7950 -750 -7500 -750
-Connection ~ -7500 -750
-Wire Wire Line
-	-7500 -750 -7050 -750
-Connection ~ -7050 -750
-Wire Wire Line
-	-7050 -750 -6600 -750
-Connection ~ -6600 -750
-Wire Wire Line
-	-6600 -750 -6150 -750
-Connection ~ -6150 -750
-Wire Wire Line
-	-6150 -750 -5700 -750
-Connection ~ -5700 -750
-Wire Wire Line
-	-5700 -750 -5250 -750
-Connection ~ -5250 -750
-Wire Wire Line
-	-5250 -750 -4800 -750
-Connection ~ -4800 -750
-Wire Wire Line
-	-4800 -750 -4350 -750
-Connection ~ -4350 -750
-Wire Wire Line
-	-4350 -750 -3900 -750
-Wire Wire Line
-	-11550 -50  -11100 -50 
-Connection ~ -11100 -50 
-Wire Wire Line
-	-11100 -50  -10650 -50 
-Connection ~ -10650 -50 
-Wire Wire Line
-	-10650 -50  -10200 -50 
-Connection ~ -10200 -50 
-Wire Wire Line
-	-10200 -50  -9750 -50 
-Connection ~ -9750 -50 
-Wire Wire Line
-	-9750 -50  -9300 -50 
-Connection ~ -9300 -50 
-Wire Wire Line
-	-9300 -50  -8850 -50 
-Connection ~ -8850 -50 
-Wire Wire Line
-	-8850 -50  -8400 -50 
-Connection ~ -8400 -50 
-Wire Wire Line
-	-8400 -50  -7950 -50 
-Connection ~ -7950 -50 
-Wire Wire Line
-	-7950 -50  -7500 -50 
-Connection ~ -7500 -50 
-Wire Wire Line
-	-7500 -50  -7050 -50 
-Connection ~ -7050 -50 
-Wire Wire Line
-	-7050 -50  -6600 -50 
-Connection ~ -6600 -50 
-Wire Wire Line
-	-6600 -50  -6150 -50 
-Connection ~ -6150 -50 
-Wire Wire Line
-	-6150 -50  -5700 -50 
-Connection ~ -5700 -50 
-Wire Wire Line
-	-5700 -50  -5250 -50 
-Connection ~ -5250 -50 
-Wire Wire Line
-	-5250 -50  -4800 -50 
-Connection ~ -4800 -50 
-Wire Wire Line
-	-4800 -50  -4350 -50 
-Connection ~ -4350 -50 
-Wire Wire Line
-	-4350 -50  -3900 -50 
-Wire Wire Line
-	-11550 600  -11100 600 
-Connection ~ -11100 600 
-Wire Wire Line
-	-11100 600  -10650 600 
-Connection ~ -10650 600 
-Wire Wire Line
-	-10650 600  -10300 600 
-Connection ~ -10200 600 
-Wire Wire Line
-	-10200 600  -9750 600 
-Connection ~ -9750 600 
-Wire Wire Line
-	-9750 600  -9300 600 
-Connection ~ -9300 600 
-Wire Wire Line
-	-9300 600  -8850 600 
-Connection ~ -8850 600 
-Wire Wire Line
-	-8850 600  -8400 600 
-Connection ~ -8400 600 
-Wire Wire Line
-	-8400 600  -7950 600 
-Connection ~ -7950 600 
-Wire Wire Line
-	-7950 600  -7500 600 
-Connection ~ -7500 600 
-Wire Wire Line
-	-7500 600  -7050 600 
-Connection ~ -7050 600 
-Wire Wire Line
-	-7050 600  -6600 600 
-Connection ~ -6600 600 
-Wire Wire Line
-	-6600 600  -6150 600 
-Connection ~ -6150 600 
-Wire Wire Line
-	-6150 600  -5700 600 
-Connection ~ -5700 600 
-Wire Wire Line
-	-5700 600  -5250 600 
-Connection ~ -5250 600 
-Wire Wire Line
-	-5250 600  -4800 600 
-Connection ~ -4800 600 
-Wire Wire Line
-	-4800 600  -4350 600 
-Connection ~ -4350 600 
-Wire Wire Line
-	-4350 600  -3900 600 
-Wire Wire Line
-	-11550 1250 -11100 1250
-Connection ~ -11100 1250
-Wire Wire Line
-	-11100 1250 -10650 1250
-Connection ~ -10650 1250
-Wire Wire Line
-	-10650 1250 -10200 1250
-Connection ~ -10200 1250
-Wire Wire Line
-	-10200 1250 -9750 1250
-Connection ~ -9750 1250
-Wire Wire Line
-	-9750 1250 -9300 1250
-Connection ~ -9300 1250
-Wire Wire Line
-	-9300 1250 -8850 1250
-Connection ~ -8850 1250
-Wire Wire Line
-	-8850 1250 -8400 1250
-Connection ~ -8400 1250
-Wire Wire Line
-	-8400 1250 -7950 1250
-Connection ~ -7950 1250
-Wire Wire Line
-	-7950 1250 -7500 1250
-Connection ~ -7500 1250
-Wire Wire Line
-	-7500 1250 -7050 1250
-Connection ~ -7050 1250
-Wire Wire Line
-	-7050 1250 -6600 1250
-Connection ~ -6600 1250
-Wire Wire Line
-	-6600 1250 -6150 1250
-Connection ~ -6150 1250
-Wire Wire Line
-	-6150 1250 -5700 1250
-Connection ~ -5700 1250
-Wire Wire Line
-	-5700 1250 -5250 1250
-Connection ~ -5250 1250
-Wire Wire Line
-	-5250 1250 -4800 1250
-Connection ~ -4800 1250
-Wire Wire Line
-	-4800 1250 -4350 1250
-Connection ~ -4350 1250
-Wire Wire Line
-	-4350 1250 -3900 1250
-Wire Wire Line
-	-11550 1900 -11100 1900
-Connection ~ -11100 1900
-Wire Wire Line
-	-11100 1900 -10650 1900
-Connection ~ -10650 1900
-Wire Wire Line
-	-10650 1900 -10200 1900
-Connection ~ -10200 1900
-Wire Wire Line
-	-10200 1900 -9750 1900
-Connection ~ -9750 1900
-Wire Wire Line
-	-9750 1900 -9300 1900
-Connection ~ -9300 1900
-Wire Wire Line
-	-9300 1900 -8850 1900
-Connection ~ -8850 1900
-Wire Wire Line
-	-8850 1900 -8400 1900
-Connection ~ -8400 1900
-Wire Wire Line
-	-8400 1900 -7950 1900
-Connection ~ -7950 1900
-Wire Wire Line
-	-7950 1900 -7500 1900
-Connection ~ -7500 1900
-Wire Wire Line
-	-7500 1900 -7050 1900
-Connection ~ -7050 1900
-Wire Wire Line
-	-7050 1900 -6600 1900
-Connection ~ -6600 1900
-Wire Wire Line
-	-6600 1900 -6150 1900
-Connection ~ -6150 1900
-Wire Wire Line
-	-6150 1900 -5700 1900
-Connection ~ -5700 1900
-Wire Wire Line
-	-5700 1900 -5250 1900
-Connection ~ -5250 1900
-Wire Wire Line
-	-5250 1900 -4800 1900
-Connection ~ -4800 1900
-Wire Wire Line
-	-4800 1900 -4350 1900
-Connection ~ -4350 1900
-Wire Wire Line
-	-4350 1900 -3900 1900
-Wire Wire Line
-	-11550 2550 -11100 2550
-Connection ~ -11100 2550
-Wire Wire Line
-	-11100 2550 -10650 2550
-Connection ~ -10650 2550
-Wire Wire Line
-	-10650 2550 -10200 2550
-Connection ~ -10200 2550
-Wire Wire Line
-	-10200 2550 -9750 2550
-Connection ~ -9750 2550
-Wire Wire Line
-	-9750 2550 -9300 2550
-Connection ~ -9300 2550
-Wire Wire Line
-	-9300 2550 -8850 2550
-Connection ~ -8850 2550
-Wire Wire Line
-	-8850 2550 -8400 2550
-Connection ~ -8400 2550
-Wire Wire Line
-	-8400 2550 -7950 2550
-Connection ~ -7950 2550
-Wire Wire Line
-	-7950 2550 -7500 2550
-Connection ~ -7500 2550
-Wire Wire Line
-	-7500 2550 -7050 2550
-Connection ~ -7050 2550
-Wire Wire Line
-	-7050 2550 -6600 2550
-Connection ~ -6600 2550
-Wire Wire Line
-	-6600 2550 -6150 2550
-Connection ~ -6150 2550
-Wire Wire Line
-	-6150 2550 -5700 2550
-Connection ~ -5700 2550
-Wire Wire Line
-	-5700 2550 -5250 2550
-Connection ~ -5250 2550
-Wire Wire Line
-	-5250 2550 -4800 2550
-Connection ~ -4800 2550
-Wire Wire Line
-	-4800 2550 -4350 2550
-Connection ~ -4350 2550
-Wire Wire Line
-	-4350 2550 -3900 2550
-Text GLabel -11650 3100 3    50   Output ~ 0
-A
-Text GLabel -11200 3100 3    50   Output ~ 0
-B
-Text GLabel -10750 3100 3    50   Output ~ 0
-C
-Text GLabel -10300 3100 3    50   Output ~ 0
-D
-Text GLabel -9850 3100 3    50   Output ~ 0
-E
-Text GLabel -9400 3100 3    50   Output ~ 0
-F
-Text GLabel -8950 3100 3    50   Output ~ 0
-G
-Text GLabel -8500 3100 3    50   Output ~ 0
-H
-Text GLabel -8050 3100 3    50   Output ~ 0
-I
-Text GLabel -7600 3100 3    50   Output ~ 0
-J
-Text GLabel -7150 3100 3    50   Output ~ 0
-K
-Text GLabel -6700 3100 3    50   Output ~ 0
-L
-Text GLabel -6250 3100 3    50   Output ~ 0
-M
-Text GLabel -5800 3100 3    50   Output ~ 0
-N
-Text GLabel -5350 3100 3    50   Output ~ 0
-O
-Text GLabel -4900 3100 3    50   Output ~ 0
-P
-Text GLabel -4450 3100 3    50   Output ~ 0
-Q
-Text GLabel -3250 -750 2    50   Input ~ 0
-a
-Text GLabel -3250 -50  2    50   Input ~ 0
-b
-Text GLabel -3250 600  2    50   Input ~ 0
-c
-Text GLabel -3250 1250 2    50   Input ~ 0
-d
-Text GLabel -3250 1900 2    50   Input ~ 0
-e
-Text GLabel -3250 2550 2    50   Input ~ 0
-f
-$Comp
 L power:Earth #PWR0101
 U 1 1 5FB0F6DF
-P 1700 10650
-F 0 "#PWR0101" H 1700 10400 50  0001 C CNN
-F 1 "Earth" H 1700 10500 50  0001 C CNN
-F 2 "" H 1700 10650 50  0001 C CNN
-F 3 "~" H 1700 10650 50  0001 C CNN
-	1    1700 10650
+P 2450 11000
+F 0 "#PWR0101" H 2450 10750 50  0001 C CNN
+F 1 "Earth" H 2450 10850 50  0001 C CNN
+F 2 "" H 2450 11000 50  0001 C CNN
+F 3 "~" H 2450 11000 50  0001 C CNN
+	1    2450 11000
 	1    0    0    -1  
 $EndComp
-Text GLabel 1700 9450 1    50   Input ~ 0
+Text GLabel 2450 7000 1    50   Input ~ 0
 5v
-$Comp
-L Switch:SW_SPST SW103
-U 1 1 5FB9E85B
-P -3900 -500
-F 0 "SW103" H -3900 -265 50  0000 C CNN
-F 1 "SW_SPST" H -3900 -356 50  0000 C CNN
-F 2 "MyOwnKeyboard:RomerG" H -3900 -500 50  0001 C CNN
-F 3 "~" H -3900 -500 50  0001 C CNN
-	1    -3900 -500
-	0    1    1    0   
-$EndComp
-$Comp
-L Switch:SW_SPST SW104
-U 1 1 5FB9E861
-P -3900 200
-F 0 "SW104" H -3900 435 50  0000 C CNN
-F 1 "SW_SPST" H -3900 344 50  0000 C CNN
-F 2 "MyOwnKeyboard:RomerG" H -3900 200 50  0001 C CNN
-F 3 "~" H -3900 200 50  0001 C CNN
-	1    -3900 200 
-	0    1    1    0   
-$EndComp
-$Comp
-L Switch:SW_SPST SW105
-U 1 1 5FB9E867
-P -3900 850
-F 0 "SW105" H -3900 1085 50  0000 C CNN
-F 1 "SW_SPST" H -3900 994 50  0000 C CNN
-F 2 "MyOwnKeyboard:RomerG" H -3900 850 50  0001 C CNN
-F 3 "~" H -3900 850 50  0001 C CNN
-	1    -3900 850 
-	0    1    1    0   
-$EndComp
-$Comp
-L Switch:SW_SPST SW106
-U 1 1 5FB9E86D
-P -3900 1500
-F 0 "SW106" H -3900 1735 50  0000 C CNN
-F 1 "SW_SPST" H -3900 1644 50  0000 C CNN
-F 2 "MyOwnKeyboard:RomerG" H -3900 1500 50  0001 C CNN
-F 3 "~" H -3900 1500 50  0001 C CNN
-	1    -3900 1500
-	0    1    1    0   
-$EndComp
-$Comp
-L Switch:SW_SPST SW107
-U 1 1 5FB9E873
-P -3900 2150
-F 0 "SW107" H -3900 2385 50  0000 C CNN
-F 1 "SW_SPST" H -3900 2294 50  0000 C CNN
-F 2 "MyOwnKeyboard:RomerG" H -3900 2150 50  0001 C CNN
-F 3 "~" H -3900 2150 50  0001 C CNN
-	1    -3900 2150
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	-3900 -700 -3900 -750
-Wire Wire Line
-	-3900 0    -3900 -50 
-Wire Wire Line
-	-3900 650  -3900 600 
-Wire Wire Line
-	-3900 1300 -3900 1250
-Wire Wire Line
-	-3900 1950 -3900 1900
-Wire Wire Line
-	-3900 1050 -3900 1100
-Wire Wire Line
-	-3900 1100 -4000 1100
-Connection ~ -4000 1100
-Wire Wire Line
-	-4000 1100 -4000 1750
-Wire Wire Line
-	-4000 -250 -4000 450 
-Wire Wire Line
-	-3900 400  -3900 450 
-Wire Wire Line
-	-3900 450  -4000 450 
-Connection ~ -4000 450 
-Wire Wire Line
-	-4000 450  -4000 1100
-Wire Wire Line
-	-3900 -300 -3900 -250
-Wire Wire Line
-	-3900 -250 -4000 -250
-Wire Wire Line
-	-3900 1700 -3900 1750
-Wire Wire Line
-	-3900 1750 -4000 1750
-Connection ~ -4000 1750
-Wire Wire Line
-	-4000 1750 -4000 2400
-Wire Wire Line
-	-3900 2350 -3900 2400
-Wire Wire Line
-	-3900 2400 -4000 2400
-Connection ~ -4000 2400
-Wire Wire Line
-	-4000 2400 -4000 3000
-$Comp
-L Switch:SW_SPST SW108
-U 1 1 5FB9E891
-P -3900 2750
-F 0 "SW108" H -3900 2985 50  0000 C CNN
-F 1 "SW_SPST" H -3900 2894 50  0000 C CNN
-F 2 "MyOwnKeyboard:RomerG" H -3900 2750 50  0001 C CNN
-F 3 "~" H -3900 2750 50  0001 C CNN
-	1    -3900 2750
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	-3900 2950 -3900 3000
-Wire Wire Line
-	-3900 3000 -4000 3000
-Connection ~ -4000 3000
-Wire Wire Line
-	-4000 3000 -4000 3100
-Connection ~ -3900 -750
-Wire Wire Line
-	-3900 -750 -3450 -750
-Connection ~ -3900 -50 
-Wire Wire Line
-	-3900 -50  -3450 -50 
-Connection ~ -3900 600 
-Wire Wire Line
-	-3900 600  -3450 600 
-Connection ~ -3900 1250
-Wire Wire Line
-	-3900 1250 -3450 1250
-Connection ~ -3900 1900
-Wire Wire Line
-	-3900 1900 -3450 1900
-Connection ~ -3900 2550
-Wire Wire Line
-	-3900 2550 -3450 2550
-Text GLabel -4000 3100 3    50   Output ~ 0
-R
-$Comp
-L Switch:SW_SPST SW109
-U 1 1 5FDB5F3E
-P -3450 -500
-F 0 "SW109" H -3450 -265 50  0000 C CNN
-F 1 "SW_SPST" H -3450 -356 50  0000 C CNN
-F 2 "MyOwnKeyboard:RomerG" H -3450 -500 50  0001 C CNN
-F 3 "~" H -3450 -500 50  0001 C CNN
-	1    -3450 -500
-	0    1    1    0   
-$EndComp
-$Comp
-L Switch:SW_SPST SW110
-U 1 1 5FDB5F44
-P -3450 200
-F 0 "SW110" H -3450 435 50  0000 C CNN
-F 1 "SW_SPST" H -3450 344 50  0000 C CNN
-F 2 "MyOwnKeyboard:RomerG" H -3450 200 50  0001 C CNN
-F 3 "~" H -3450 200 50  0001 C CNN
-	1    -3450 200 
-	0    1    1    0   
-$EndComp
-$Comp
-L Switch:SW_SPST SW111
-U 1 1 5FDB5F4A
-P -3450 850
-F 0 "SW111" H -3450 1085 50  0000 C CNN
-F 1 "SW_SPST" H -3450 994 50  0000 C CNN
-F 2 "MyOwnKeyboard:RomerG" H -3450 850 50  0001 C CNN
-F 3 "~" H -3450 850 50  0001 C CNN
-	1    -3450 850 
-	0    1    1    0   
-$EndComp
-$Comp
-L Switch:SW_SPST SW112
-U 1 1 5FDB5F50
-P -3450 1500
-F 0 "SW112" H -3450 1735 50  0000 C CNN
-F 1 "SW_SPST" H -3450 1644 50  0000 C CNN
-F 2 "MyOwnKeyboard:RomerG" H -3450 1500 50  0001 C CNN
-F 3 "~" H -3450 1500 50  0001 C CNN
-	1    -3450 1500
-	0    1    1    0   
-$EndComp
-$Comp
-L Switch:SW_SPST SW113
-U 1 1 5FDB5F56
-P -3450 2150
-F 0 "SW113" H -3450 2385 50  0000 C CNN
-F 1 "SW_SPST" H -3450 2294 50  0000 C CNN
-F 2 "MyOwnKeyboard:RomerG" H -3450 2150 50  0001 C CNN
-F 3 "~" H -3450 2150 50  0001 C CNN
-	1    -3450 2150
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	-3450 -700 -3450 -750
-Wire Wire Line
-	-3450 0    -3450 -50 
-Wire Wire Line
-	-3450 650  -3450 600 
-Wire Wire Line
-	-3450 1300 -3450 1250
-Wire Wire Line
-	-3450 1950 -3450 1900
-Wire Wire Line
-	-3450 1050 -3450 1100
-Wire Wire Line
-	-3450 1100 -3550 1100
-Connection ~ -3550 1100
-Wire Wire Line
-	-3550 1100 -3550 1750
-Wire Wire Line
-	-3550 -250 -3550 450 
-Wire Wire Line
-	-3450 400  -3450 450 
-Wire Wire Line
-	-3450 450  -3550 450 
-Connection ~ -3550 450 
-Wire Wire Line
-	-3550 450  -3550 1100
-Wire Wire Line
-	-3450 -300 -3450 -250
-Wire Wire Line
-	-3450 -250 -3550 -250
-Wire Wire Line
-	-3450 1700 -3450 1750
-Wire Wire Line
-	-3450 1750 -3550 1750
-Connection ~ -3550 1750
-Wire Wire Line
-	-3550 1750 -3550 2400
-Wire Wire Line
-	-3450 2350 -3450 2400
-Wire Wire Line
-	-3450 2400 -3550 2400
-Connection ~ -3550 2400
-Wire Wire Line
-	-3550 2400 -3550 3000
-$Comp
-L Switch:SW_SPST SW114
-U 1 1 5FDB5F74
-P -3450 2750
-F 0 "SW114" H -3450 2985 50  0000 C CNN
-F 1 "SW_SPST" H -3450 2894 50  0000 C CNN
-F 2 "MyOwnKeyboard:RomerG" H -3450 2750 50  0001 C CNN
-F 3 "~" H -3450 2750 50  0001 C CNN
-	1    -3450 2750
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	-3450 2950 -3450 3000
-Wire Wire Line
-	-3450 3000 -3550 3000
-Connection ~ -3550 3000
-Wire Wire Line
-	-3550 3000 -3550 3100
-Connection ~ -3450 -750
-Connection ~ -3450 -50 
-Connection ~ -3450 600 
-Connection ~ -3450 1250
-Connection ~ -3450 1900
-Connection ~ -3450 2550
-Text GLabel -3550 3100 3    50   Output ~ 0
-S
-Wire Wire Line
-	-3450 -750 -3250 -750
-Wire Wire Line
-	-3450 -50  -3250 -50 
-Wire Wire Line
-	-3450 600  -3250 600 
-Wire Wire Line
-	-3450 1250 -3250 1250
-Wire Wire Line
-	-3450 1900 -3250 1900
-Wire Wire Line
-	-3450 2550 -3250 2550
-Text GLabel 3650 10500 2    50   Output ~ 0
-5v
-NoConn ~ 3650 10400
-NoConn ~ 3650 10600
-Text Label -3050 3200 2    100  ~ 0
-19x6
-$Comp
-L Interface_Expansion:MCP23017_SP U2
-U 1 1 6076101A
-P 3950 8450
-F 0 "U2" H 3500 9450 50  0000 C CNN
-F 1 "MCP23017_SP" H 4300 9450 50  0000 C CNN
-F 2 "Package_DIP:DIP-28_W7.62mm" H 4150 7450 50  0001 L CNN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20001952C.pdf" H 4150 7350 50  0001 L CNN
-	1    3950 8450
-	1    0    0    -1  
-$EndComp
-$Comp
-L Interface_Expansion:MCP23017_SP U3
-U 1 1 6076293E
-P 6300 8450
-F 0 "U3" H 5850 9450 50  0000 C CNN
-F 1 "MCP23017_SP" H 6650 9450 50  0000 C CNN
-F 2 "Package_DIP:DIP-28_W7.62mm" H 6500 7450 50  0001 L CNN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20001952C.pdf" H 6500 7350 50  0001 L CNN
-	1    6300 8450
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2900 9850 2900 7650
-Wire Wire Line
-	2900 7650 3250 7650
-Wire Wire Line
-	3000 9950 3000 7750
-Wire Wire Line
-	3000 7750 3250 7750
-Wire Wire Line
-	2900 9850 5250 9850
-Wire Wire Line
-	5250 9850 5250 7650
-Wire Wire Line
-	5250 7650 5600 7650
-Connection ~ 2900 9850
-Wire Wire Line
-	3000 9950 5350 9950
-Wire Wire Line
-	5350 9950 5350 7750
-Wire Wire Line
-	5350 7750 5600 7750
-Connection ~ 3000 9950
-Text GLabel 4650 7650 2    50   Input ~ 0
+Text GLabel 3050 7300 2    50   Input ~ 0
 A
-Text GLabel 4650 7750 2    50   Input ~ 0
+Text GLabel 3050 7400 2    50   Input ~ 0
 B
-Text GLabel 4650 7850 2    50   Input ~ 0
+Text GLabel 3050 7500 2    50   Input ~ 0
 C
-Text GLabel 4650 7950 2    50   Input ~ 0
+Text GLabel 3050 7600 2    50   Input ~ 0
 D
-Text GLabel 4650 8050 2    50   Input ~ 0
+Text GLabel 3050 7700 2    50   Input ~ 0
 E
-Text GLabel 4650 8150 2    50   Input ~ 0
+Text GLabel 3050 7800 2    50   Input ~ 0
 F
-Text GLabel 4650 8250 2    50   Input ~ 0
+Text GLabel 3050 7900 2    50   Input ~ 0
 G
-Text GLabel 4650 8350 2    50   Input ~ 0
+Text GLabel 3050 8000 2    50   Input ~ 0
 H
-Text GLabel 4650 8550 2    50   Input ~ 0
+Text GLabel 3050 8200 2    50   Input ~ 0
 I
-Text GLabel 4650 8650 2    50   Input ~ 0
+Text GLabel 3050 8300 2    50   Input ~ 0
 J
-Text GLabel 4650 8750 2    50   Input ~ 0
+Text GLabel 3050 8400 2    50   Input ~ 0
 K
-Text GLabel 4650 8850 2    50   Input ~ 0
+Text GLabel 3050 8500 2    50   Input ~ 0
 L
-Text GLabel 4650 8950 2    50   Input ~ 0
+Text GLabel 3050 8600 2    50   Input ~ 0
 M
-Text GLabel 4650 9050 2    50   Input ~ 0
+Text GLabel 3050 8700 2    50   Input ~ 0
 N
-Text GLabel 4650 9150 2    50   Input ~ 0
+Text GLabel 3050 8800 2    50   Input ~ 0
 O
-Text GLabel 4650 9250 2    50   Input ~ 0
+Text GLabel 3050 8900 2    50   Input ~ 0
 P
-Text GLabel 7000 7650 2    50   Input ~ 0
+Text GLabel 3050 9100 2    50   Input ~ 0
 Q
-Text GLabel 7000 7750 2    50   Input ~ 0
+Text GLabel 3050 9200 2    50   Input ~ 0
 R
-Text GLabel 7000 7850 2    50   Input ~ 0
+Text GLabel 3050 9300 2    50   Input ~ 0
 S
-Text GLabel 7000 8550 2    50   Output ~ 0
+Text GLabel 3050 10000 2    50   Output ~ 0
 a
-Text GLabel 7000 8650 2    50   Output ~ 0
+Text GLabel 3050 10100 2    50   Output ~ 0
 b
-Text GLabel 7000 8750 2    50   Output ~ 0
+Text GLabel 3050 10200 2    50   Output ~ 0
 c
-Text GLabel 7000 8850 2    50   Output ~ 0
+Text GLabel 3050 10300 2    50   Output ~ 0
 d
-Text GLabel 7000 8950 2    50   Output ~ 0
+Text GLabel 3050 10400 2    50   Output ~ 0
 e
-Text GLabel 7000 9050 2    50   Output ~ 0
+Text GLabel 3050 10500 2    50   Output ~ 0
 f
-$Comp
-L power:Earth #PWR0102
-U 1 1 60955CEA
-P 3950 9550
-F 0 "#PWR0102" H 3950 9300 50  0001 C CNN
-F 1 "Earth" H 3950 9400 50  0001 C CNN
-F 2 "" H 3950 9550 50  0001 C CNN
-F 3 "~" H 3950 9550 50  0001 C CNN
-	1    3950 9550
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:Earth #PWR0103
-U 1 1 60956110
-P 6300 9550
-F 0 "#PWR0103" H 6300 9300 50  0001 C CNN
-F 1 "Earth" H 6300 9400 50  0001 C CNN
-F 2 "" H 6300 9550 50  0001 C CNN
-F 3 "~" H 6300 9550 50  0001 C CNN
-	1    6300 9550
-	1    0    0    -1  
-$EndComp
-Text GLabel 3950 7350 1    50   Input ~ 0
-5v
-Text GLabel 6300 7350 1    50   Input ~ 0
-5v
-Text GLabel 3050 10500 0    50   BiDi ~ 0
-GND
-$Comp
-L MCU_Microchip_ATtiny:ATtiny85-20PU U1
-U 1 1 610D46EC
-P 1700 10050
-F 0 "U1" H 1300 10650 50  0000 R CNN
-F 1 "ATtiny85-20PU" H 2350 10650 50  0000 R CNN
-F 2 "Package_DIP:DIP-8_W7.62mm" H 1700 10050 50  0001 C CIN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/atmel-2586-avr-8-bit-microcontroller-attiny25-attiny45-attiny85_datasheet.pdf" H 1700 10050 50  0001 C CNN
-	1    1700 10050
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2300 9950 3000 9950
-Wire Wire Line
-	2450 9850 2450 9750
-Wire Wire Line
-	2450 9750 2300 9750
-Wire Wire Line
-	2450 9850 2900 9850
-Wire Wire Line
-	2550 10050 2300 10050
-Wire Wire Line
-	2450 10150 2300 10150
-$Comp
-L Connector:Mini-DIN-6 J1
-U 1 1 6054BCBD
-P 3350 10500
-F 0 "J1" H 3550 10750 50  0000 C CNN
-F 1 "Mini-DIN-6" H 3100 10750 50  0000 C CNN
-F 2 "" H 3350 10500 50  0001 C CNN
-F 3 "http://service.powerdynamics.com/ec/Catalog17/Section%2011.pdf" H 3350 10500 50  0001 C CNN
-	1    3350 10500
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	3050 10600 2450 10600
-Wire Wire Line
-	2450 10150 2450 10600
-Wire Wire Line
-	2550 10400 3050 10400
-Wire Wire Line
-	2550 10050 2550 10400
-Text Label 2600 10600 0    50   ~ 0
-Data
-Text Label 2600 10400 0    50   ~ 0
-Clk
 $Comp
 L Switch:SW_SPST SW115
 U 1 1 6146CC58
@@ -5832,15 +3099,6 @@ Wire Wire Line
 Wire Wire Line
 	9400 6300 9300 6300
 Wire Wire Line
-	-10300 400  -10300 450 
-Wire Wire Line
-	-10300 1050 -10300 1100
-Connection ~ -10300 600 
-Wire Wire Line
-	-10300 600  -10300 650 
-Wire Wire Line
-	-10300 600  -10200 600 
-Wire Wire Line
 	800  1550 800  2500
 Connection ~ 800  2500
 Wire Wire Line
@@ -6733,32 +3991,281 @@ Wire Wire Line
 	8900 4550 9400 4550
 Wire Wire Line
 	8900 5500 9400 5500
-Wire Notes Line style solid
-	2200 9700 1750 9700
-Wire Notes Line style solid
-	1750 9700 1750 9800
-Wire Notes Line style solid
-	1750 9800 2200 9800
-Wire Notes Line style solid
-	2200 9900 1750 9900
-Wire Notes Line style solid
-	1750 10000 2200 10000
-Wire Notes Line style solid
-	1750 10200 2200 10200
-Wire Notes Line
-	1750 9950 1700 9950
-Wire Notes Line style solid
-	1750 9900 1750 10200
-Wire Notes Line
-	1700 9950 1700 9750
-Wire Notes Line
-	1700 9750 1750 9750
-Text Notes 1700 9900 2    50   ~ 0
-I2C
-Text Notes 1750 10150 2    50   ~ 0
-PS/2
-Text Label 2600 9850 0    50   ~ 0
-SDA
-Text Label 2600 9950 0    50   ~ 0
-SCL
+$Comp
+L MCU_Microchip_ATmega:ATmega164P-20PU U1
+U 1 1 5F6749FA
+P 2450 9000
+F 0 "U1" H 1950 11000 50  0000 C CNN
+F 1 "ATmega164P-20PU" H 3000 11000 50  0000 C CNN
+F 2 "Package_DIP:DIP-40_W15.24mm" H 2450 9000 50  0001 C CIN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-42742-ATmega164P_Datasheet.pdf" H 2450 9000 50  0001 C CNN
+	1    2450 9000
+	1    0    0    -1  
+$EndComp
+Text Label 3250 9700 0    50   ~ 0
+Clk
+Text Label 3250 9900 0    50   ~ 0
+Data
+$Comp
+L Connector:Mini-DIN-6 J1
+U 1 1 6054BCBD
+P 4000 9800
+F 0 "J1" H 4200 10050 50  0000 C CNN
+F 1 "Mini-DIN-6" H 3750 10050 50  0000 C CNN
+F 2 "" H 4000 9800 50  0001 C CNN
+F 3 "http://service.powerdynamics.com/ec/Catalog17/Section%2011.pdf" H 4000 9800 50  0001 C CNN
+	1    4000 9800
+	-1   0    0    -1  
+$EndComp
+Text GLabel 3700 9800 0    50   BiDi ~ 0
+GND
+NoConn ~ 4300 9900
+NoConn ~ 4300 9700
+Text GLabel 4300 9800 2    50   Output ~ 0
+5v
+Wire Wire Line
+	3200 9900 3200 9800
+Wire Wire Line
+	3200 9800 3050 9800
+Wire Wire Line
+	3200 9900 3700 9900
+Wire Wire Line
+	3050 9700 3700 9700
+$Comp
+L Device:Crystal Y1
+U 1 1 6031AF6C
+P 1300 7600
+F 0 "Y1" V 1150 7450 50  0000 L CNN
+F 1 "20MHz" V 1150 7650 50  0000 L CNN
+F 2 "Crystal:Crystal_HC49-U_Horizontal" H 1300 7600 50  0001 C CNN
+F 3 "~" H 1300 7600 50  0001 C CNN
+	1    1300 7600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1300 7450 1300 7350
+Wire Wire Line
+	1300 7350 1700 7350
+Wire Wire Line
+	1700 7350 1700 7500
+Wire Wire Line
+	1700 7500 1850 7500
+Wire Wire Line
+	1850 7700 1700 7700
+Wire Wire Line
+	1700 7700 1700 7850
+Wire Wire Line
+	1700 7850 1300 7850
+Wire Wire Line
+	1300 7850 1300 7750
+$Comp
+L Device:CP1 C1
+U 1 1 60774F83
+P 1050 7350
+F 0 "C1" V 900 7300 50  0000 C CNN
+F 1 "30pF" V 900 7450 50  0000 C CNN
+F 2 "" H 1050 7350 50  0001 C CNN
+F 3 "~" H 1050 7350 50  0001 C CNN
+	1    1050 7350
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:CP1 C2
+U 1 1 60776852
+P 1050 7850
+F 0 "C2" V 1200 7800 50  0000 C CNN
+F 1 "30pF" V 1200 7950 50  0000 C CNN
+F 2 "" H 1050 7850 50  0001 C CNN
+F 3 "~" H 1050 7850 50  0001 C CNN
+	1    1050 7850
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1200 7350 1300 7350
+Connection ~ 1300 7350
+Wire Wire Line
+	1200 7850 1300 7850
+Connection ~ 1300 7850
+$Comp
+L power:Earth #PWR01
+U 1 1 60997487
+P 800 7950
+F 0 "#PWR01" H 800 7700 50  0001 C CNN
+F 1 "Earth" H 800 7800 50  0001 C CNN
+F 2 "" H 800 7950 50  0001 C CNN
+F 3 "~" H 800 7950 50  0001 C CNN
+	1    800  7950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	900  7350 800  7350
+Wire Wire Line
+	800  7350 800  7850
+Wire Wire Line
+	900  7850 800  7850
+Connection ~ 800  7850
+Wire Wire Line
+	800  7850 800  7950
+$Comp
+L Device:LED D117
+U 1 1 60CDCEFE
+P 5700 9850
+F 0 "D117" V 5700 9900 50  0000 L CNN
+F 1 "LED" V 5738 9928 50  0001 L CNN
+F 2 "" H 5700 9850 50  0001 C CNN
+F 3 "~" H 5700 9850 50  0001 C CNN
+	1    5700 9850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D116
+U 1 1 60CDE0A4
+P 5400 9850
+F 0 "D116" V 5400 9900 50  0000 L CNN
+F 1 "LED" V 5438 9928 50  0001 L CNN
+F 2 "" H 5400 9850 50  0001 C CNN
+F 3 "~" H 5400 9850 50  0001 C CNN
+	1    5400 9850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D115
+U 1 1 60DF05E0
+P 5100 9850
+F 0 "D115" V 5100 9900 50  0000 L CNN
+F 1 "LED" V 5138 9928 50  0001 L CNN
+F 2 "" H 5100 9850 50  0001 C CNN
+F 3 "~" H 5100 9850 50  0001 C CNN
+	1    5100 9850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5700 10000 5700 10050
+Wire Wire Line
+	5400 10050 5400 10000
+Wire Wire Line
+	5100 10050 5100 10000
+$Comp
+L Device:R R4
+U 1 1 614715A8
+P 5400 9550
+F 0 "R4" H 5450 9500 50  0000 L CNN
+F 1 "150" H 5450 9600 50  0000 L CNN
+F 2 "" V 5330 9550 50  0001 C CNN
+F 3 "~" H 5400 9550 50  0001 C CNN
+	1    5400 9550
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5700 9400 5700 9350
+Wire Wire Line
+	5700 9350 5400 9350
+Wire Wire Line
+	5400 9350 5400 9400
+Wire Wire Line
+	5400 9350 5100 9350
+Wire Wire Line
+	5100 9350 5100 9400
+Connection ~ 5400 9350
+Wire Wire Line
+	5700 10050 5400 10050
+Wire Wire Line
+	5100 10050 5400 10050
+Connection ~ 5400 10050
+Text GLabel 5400 9250 1    50   Input ~ 0
+5v
+$Comp
+L Transistor_FET:2N7000 Q1
+U 1 1 61B03A6F
+P 5300 10350
+F 0 "Q1" H 5504 10396 50  0000 L CNN
+F 1 "2N7000" H 5504 10305 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 5500 10275 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7000.pdf" H 5300 10350 50  0001 L CNN
+	1    5300 10350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5400 9250 5400 9350
+$Comp
+L power:Earth #PWR02
+U 1 1 622C90E0
+P 5400 10950
+F 0 "#PWR02" H 5400 10700 50  0001 C CNN
+F 1 "Earth" H 5400 10800 50  0001 C CNN
+F 2 "" H 5400 10950 50  0001 C CNN
+F 3 "~" H 5400 10950 50  0001 C CNN
+	1    5400 10950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R2
+U 1 1 622CAA51
+P 5000 10600
+F 0 "R2" H 5070 10646 50  0000 L CNN
+F 1 "100k" H 5070 10555 50  0000 L CNN
+F 2 "" V 4930 10600 50  0001 C CNN
+F 3 "~" H 5000 10600 50  0001 C CNN
+	1    5000 10600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5000 10850 5400 10850
+Wire Wire Line
+	5400 10850 5400 10950
+Connection ~ 5400 10850
+Wire Wire Line
+	5400 10150 5400 10050
+$Comp
+L Device:R R1
+U 1 1 62736142
+P 4750 10350
+F 0 "R1" V 4650 10250 50  0000 C CNN
+F 1 "100" V 4650 10450 50  0000 C CNN
+F 2 "" V 4680 10350 50  0001 C CNN
+F 3 "~" H 4750 10350 50  0001 C CNN
+	1    4750 10350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4900 10350 5000 10350
+Wire Wire Line
+	5000 10450 5000 10350
+Connection ~ 5000 10350
+Wire Wire Line
+	5000 10350 5100 10350
+Wire Wire Line
+	5000 10850 5000 10750
+Wire Wire Line
+	5400 10550 5400 10850
+Wire Wire Line
+	4600 10350 4500 10350
+Wire Wire Line
+	4500 10350 4500 10700
+Wire Wire Line
+	4500 10700 3050 10700
+$Comp
+L Device:R R3
+U 1 1 6158545C
+P 5100 9550
+F 0 "R3" H 5150 9500 50  0000 L CNN
+F 1 "150" H 5150 9600 50  0000 L CNN
+F 2 "" V 5030 9550 50  0001 C CNN
+F 3 "~" H 5100 9550 50  0001 C CNN
+	1    5100 9550
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R5
+U 1 1 6146FAA5
+P 5700 9550
+F 0 "R5" H 5750 9500 50  0000 L CNN
+F 1 "150" H 5750 9600 50  0000 L CNN
+F 2 "" V 5630 9550 50  0001 C CNN
+F 3 "~" H 5700 9550 50  0001 C CNN
+	1    5700 9550
+	-1   0    0    1   
+$EndComp
+Text Label 3250 10700 0    50   ~ 0
+Counter2A-PWM
 $EndSCHEMATC
