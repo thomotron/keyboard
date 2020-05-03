@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:MyOwnKeyboard-cache
 EELAYER 30 0
 EELAYER END
 $Descr A3 11693 16535 portrait
@@ -75,7 +76,7 @@ e
 Text GLabel 2850 15400 2    50   Output ~ 0
 f
 $Comp
-L MCU_Microchip_ATmega:ATmega164P-20PU U1
+L MyOwnKeyboard-rescue:ATmega164P-20PU-MCU_Microchip_ATmega U1
 U 1 1 5F6749FA
 P 2250 13900
 F 0 "U1" H 1750 15900 50  0000 C CNN
@@ -85,26 +86,26 @@ F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-42742-ATmega164P_Data
 	1    2250 13900
 	1    0    0    -1  
 $EndComp
-Text Label 3050 14500 0    50   ~ 0
+Text Label 3050 14600 0    50   ~ 0
 Clk
-Text Label 3050 14700 0    50   ~ 0
+Text Label 3050 14800 0    50   ~ 0
 Data
 $Comp
 L Connector:Mini-DIN-6 J1
 U 1 1 6054BCBD
-P 3800 14600
-F 0 "J1" H 4000 14850 50  0000 C CNN
-F 1 "Mini-DIN-6" H 3550 14850 50  0000 C CNN
-F 2 "" H 3800 14600 50  0001 C CNN
-F 3 "http://service.powerdynamics.com/ec/Catalog17/Section%2011.pdf" H 3800 14600 50  0001 C CNN
-	1    3800 14600
+P 3800 14700
+F 0 "J1" H 4000 14950 50  0000 C CNN
+F 1 "Mini-DIN-6" H 3550 14950 50  0000 C CNN
+F 2 "Connector_PinHeader_1.27mm:PinHeader_1x06_P1.27mm_Vertical" H 3800 14700 50  0001 C CNN
+F 3 "http://service.powerdynamics.com/ec/Catalog17/Section%2011.pdf" H 3800 14700 50  0001 C CNN
+	1    3800 14700
 	-1   0    0    -1  
 $EndComp
-Text GLabel 3500 14600 0    50   BiDi ~ 0
+Text GLabel 3500 14700 0    50   BiDi ~ 0
 GND
-NoConn ~ 4100 14700
-NoConn ~ 4100 14500
-Text GLabel 4100 14600 2    50   Output ~ 0
+NoConn ~ 4100 14800
+NoConn ~ 4100 14600
+Text GLabel 4100 14700 2    50   Output ~ 0
 5v
 $Comp
 L Device:Crystal Y1
@@ -112,7 +113,7 @@ U 1 1 6031AF6C
 P 1100 12500
 F 0 "Y1" V 950 12350 50  0000 L CNN
 F 1 "20MHz" V 950 12550 50  0000 L CNN
-F 2 "Crystal:Crystal_HC49-U_Horizontal" H 1100 12500 50  0001 C CNN
+F 2 "Crystal:Crystal_HC49-U_Vertical" H 1100 12500 50  0001 C CNN
 F 3 "~" H 1100 12500 50  0001 C CNN
 	1    1100 12500
 	0    1    1    0   
@@ -137,9 +138,9 @@ $Comp
 L Device:CP1 C1
 U 1 1 60774F83
 P 850 12250
-F 0 "C1" V 700 12200 50  0000 C CNN
+F 0 "C1" V 700 12150 50  0000 C CNN
 F 1 "30pF" V 700 12350 50  0000 C CNN
-F 2 "" H 850 12250 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 850 12250 50  0001 C CNN
 F 3 "~" H 850 12250 50  0001 C CNN
 	1    850  12250
 	0    1    1    0   
@@ -148,9 +149,9 @@ $Comp
 L Device:CP1 C2
 U 1 1 60776852
 P 850 12750
-F 0 "C2" V 1000 12700 50  0000 C CNN
+F 0 "C2" V 1000 12650 50  0000 C CNN
 F 1 "30pF" V 1000 12850 50  0000 C CNN
-F 2 "" H 850 12750 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 850 12750 50  0001 C CNN
 F 3 "~" H 850 12750 50  0001 C CNN
 	1    850  12750
 	0    1    1    0   
@@ -186,8 +187,8 @@ L Transistor_FET:2N7000 Q1
 U 1 1 61B03A6F
 P 4500 15100
 F 0 "Q1" H 4704 15146 50  0000 L CNN
-F 1 "2N7000" H 4704 15055 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline" H 4700 15025 50  0001 L CIN
+F 1 "RFD14N05L" H 4704 15055 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-251-3-1EP_Horizontal_TabDown" H 4700 15025 50  0001 L CIN
 F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7000.pdf" H 4500 15100 50  0001 L CNN
 	1    4500 15100
 	1    0    0    -1  
@@ -8083,14 +8084,6 @@ Wire Wire Line
 Wire Wire Line
 	3900 15100 4200 15100
 Wire Wire Line
-	2850 14700 3500 14700
-Wire Wire Line
-	2850 14600 3000 14600
-Wire Wire Line
-	3000 14600 3000 14500
-Wire Wire Line
-	3000 14500 3500 14500
-Wire Wire Line
 	4600 14900 4600 11650
 $Comp
 L Device:R R2
@@ -8103,4 +8096,85 @@ F 3 "~" H 4200 15350 50  0001 C CNN
 	1    4200 15350
 	1    0    0    -1  
 $EndComp
+$Comp
+L Device:LED D229
+U 1 1 5EE7CE59
+P 4000 13650
+F 0 "D229" H 4150 13500 50  0000 C CNN
+F 1 "NUMLOCK" H 3825 13500 50  0000 C CNN
+F 2 "MyOwnKeyboard:158301250" H 4000 13650 50  0001 C CNN
+F 3 "~" H 4000 13650 50  0001 C CNN
+	1    4000 13650
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:LED D230
+U 1 1 5EE8076E
+P 4000 13950
+F 0 "D230" H 4150 14050 50  0000 C CNN
+F 1 "CAPSLOCK" H 3825 14050 50  0000 C CNN
+F 2 "MyOwnKeyboard:158301250" H 4000 13950 50  0001 C CNN
+F 3 "~" H 4000 13950 50  0001 C CNN
+	1    4000 13950
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:R R117
+U 1 1 5EE84056
+P 3500 13650
+F 0 "R117" V 3325 13650 50  0000 C CNN
+F 1 "2.3k" V 3400 13650 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 3430 13650 50  0001 C CNN
+F 3 "~" H 3500 13650 50  0001 C CNN
+	1    3500 13650
+	0    -1   1    0   
+$EndComp
+$Comp
+L Device:R R118
+U 1 1 5EE86968
+P 3500 13950
+F 0 "R118" V 3325 13950 50  0000 C CNN
+F 1 "2.3k" V 3400 13950 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 3430 13950 50  0001 C CNN
+F 3 "~" H 3500 13950 50  0001 C CNN
+	1    3500 13950
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	3300 14500 3300 13950
+Wire Wire Line
+	3300 13950 3350 13950
+Wire Wire Line
+	3350 13650 3250 13650
+Wire Wire Line
+	3250 13650 3250 14400
+Text GLabel 4300 13800 2    50   Input ~ 0
+5v
+Wire Wire Line
+	4150 13650 4200 13650
+Wire Wire Line
+	4200 13650 4200 13800
+Wire Wire Line
+	4200 13950 4150 13950
+Wire Wire Line
+	4300 13800 4200 13800
+Connection ~ 4200 13800
+Wire Wire Line
+	4200 13800 4200 13950
+Wire Wire Line
+	2850 14600 3500 14600
+Wire Wire Line
+	2950 14800 2950 14700
+Wire Wire Line
+	2950 14700 2850 14700
+Wire Wire Line
+	2950 14800 3500 14800
+Wire Wire Line
+	2850 14500 3300 14500
+Wire Wire Line
+	2850 14400 3250 14400
+Wire Wire Line
+	3650 13650 3850 13650
+Wire Wire Line
+	3850 13950 3650 13950
 $EndSCHEMATC
