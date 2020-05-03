@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:MyOwnKeyboard-cache
 EELAYER 30 0
 EELAYER END
 $Descr A3 11693 16535 portrait
@@ -17,171 +16,96 @@ $EndDescr
 $Comp
 L power:Earth #PWR03
 U 1 1 5FB0F6DF
-P 2250 15900
-F 0 "#PWR03" H 2250 15650 50  0001 C CNN
-F 1 "Earth" H 2250 15750 50  0001 C CNN
-F 2 "" H 2250 15900 50  0001 C CNN
-F 3 "~" H 2250 15900 50  0001 C CNN
-	1    2250 15900
+P 1700 15900
+F 0 "#PWR03" H 1700 15650 50  0001 C CNN
+F 1 "Earth" H 1700 15750 50  0001 C CNN
+F 2 "" H 1700 15900 50  0001 C CNN
+F 3 "~" H 1700 15900 50  0001 C CNN
+	1    1700 15900
 	1    0    0    -1  
 $EndComp
-Text GLabel 2850 12200 2    50   Input ~ 0
+Text GLabel 2300 12200 2    50   Input ~ 0
 A
-Text GLabel 2850 12300 2    50   Input ~ 0
+Text GLabel 2300 12300 2    50   Input ~ 0
 B
-Text GLabel 2850 12400 2    50   Input ~ 0
+Text GLabel 2300 12400 2    50   Input ~ 0
 C
-Text GLabel 2850 12500 2    50   Input ~ 0
+Text GLabel 2300 12500 2    50   Input ~ 0
 D
-Text GLabel 2850 12600 2    50   Input ~ 0
+Text GLabel 2300 12600 2    50   Input ~ 0
 E
-Text GLabel 2850 12700 2    50   Input ~ 0
+Text GLabel 2300 12700 2    50   Input ~ 0
 F
-Text GLabel 2850 12800 2    50   Input ~ 0
+Text GLabel 2300 12800 2    50   Input ~ 0
 G
-Text GLabel 2850 12900 2    50   Input ~ 0
+Text GLabel 2300 12900 2    50   Input ~ 0
 H
-Text GLabel 2850 13100 2    50   Input ~ 0
+Text GLabel 2300 13100 2    50   Input ~ 0
 I
-Text GLabel 2850 13200 2    50   Input ~ 0
+Text GLabel 2300 13200 2    50   Input ~ 0
 J
-Text GLabel 2850 13300 2    50   Input ~ 0
+Text GLabel 2300 13300 2    50   Input ~ 0
 K
-Text GLabel 2850 13400 2    50   Input ~ 0
+Text GLabel 2300 13400 2    50   Input ~ 0
 L
-Text GLabel 2850 13500 2    50   Input ~ 0
+Text GLabel 2300 13500 2    50   Input ~ 0
 M
-Text GLabel 2850 13600 2    50   Input ~ 0
+Text GLabel 2300 13600 2    50   Input ~ 0
 N
-Text GLabel 2850 13700 2    50   Input ~ 0
+Text GLabel 2300 13700 2    50   Input ~ 0
 O
-Text GLabel 2850 13800 2    50   Input ~ 0
+Text GLabel 2300 13800 2    50   Input ~ 0
 P
-Text GLabel 2850 14000 2    50   Input ~ 0
+Text GLabel 2300 14000 2    50   Input ~ 0
 Q
-Text GLabel 2850 14100 2    50   Input ~ 0
+Text GLabel 2300 14100 2    50   Input ~ 0
 R
-Text GLabel 2850 14200 2    50   Input ~ 0
+Text GLabel 2300 14200 2    50   Input ~ 0
 S
-Text GLabel 2850 14900 2    50   Output ~ 0
+Text GLabel 2300 14900 2    50   Output ~ 0
 a
-Text GLabel 2850 15000 2    50   Output ~ 0
+Text GLabel 2300 15000 2    50   Output ~ 0
 b
-Text GLabel 2850 15100 2    50   Output ~ 0
+Text GLabel 2300 15100 2    50   Output ~ 0
 c
-Text GLabel 2850 15200 2    50   Output ~ 0
+Text GLabel 2300 15200 2    50   Output ~ 0
 d
-Text GLabel 2850 15300 2    50   Output ~ 0
+Text GLabel 2300 15300 2    50   Output ~ 0
 e
-Text GLabel 2850 15400 2    50   Output ~ 0
+Text GLabel 2300 15400 2    50   Output ~ 0
 f
 $Comp
-L MyOwnKeyboard-rescue:ATmega164P-20PU-MCU_Microchip_ATmega U1
+L MyOwnKeyboard-rescue:ATmega164P-20PU-MCU_Microchip_ATmega-MyOwnKeyboard-rescue U1
 U 1 1 5F6749FA
-P 2250 13900
-F 0 "U1" H 1750 15900 50  0000 C CNN
-F 1 "ATmega164P-20PU" H 2800 15900 50  0000 C CNN
-F 2 "Package_DIP:DIP-40_W15.24mm" H 2250 13900 50  0001 C CIN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-42742-ATmega164P_Datasheet.pdf" H 2250 13900 50  0001 C CNN
-	1    2250 13900
+P 1700 13900
+F 0 "U1" H 1200 15900 50  0000 C CNN
+F 1 "ATmega164P-20PU" H 2250 15900 50  0000 C CNN
+F 2 "Package_DIP:DIP-40_W15.24mm" H 1700 13900 50  0001 C CIN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-42742-ATmega164P_Datasheet.pdf" H 1700 13900 50  0001 C CNN
+	1    1700 13900
 	1    0    0    -1  
 $EndComp
-Text Label 3050 14600 0    50   ~ 0
+Text Label 2500 14600 0    50   ~ 0
 Clk
-Text Label 3050 14800 0    50   ~ 0
+Text Label 2500 14800 0    50   ~ 0
 Data
 $Comp
 L Connector:Mini-DIN-6 J1
 U 1 1 6054BCBD
-P 3800 14700
-F 0 "J1" H 4000 14950 50  0000 C CNN
-F 1 "Mini-DIN-6" H 3550 14950 50  0000 C CNN
-F 2 "Connector_PinHeader_1.27mm:PinHeader_1x06_P1.27mm_Vertical" H 3800 14700 50  0001 C CNN
-F 3 "http://service.powerdynamics.com/ec/Catalog17/Section%2011.pdf" H 3800 14700 50  0001 C CNN
-	1    3800 14700
+P 3250 14700
+F 0 "J1" H 3450 14950 50  0000 C CNN
+F 1 "Mini-DIN-6" H 3000 14950 50  0000 C CNN
+F 2 "Connector_PinHeader_1.27mm:PinHeader_1x06_P1.27mm_Vertical" H 3250 14700 50  0001 C CNN
+F 3 "http://service.powerdynamics.com/ec/Catalog17/Section%2011.pdf" H 3250 14700 50  0001 C CNN
+	1    3250 14700
 	-1   0    0    -1  
 $EndComp
-Text GLabel 3500 14700 0    50   BiDi ~ 0
+Text GLabel 2950 14700 0    50   BiDi ~ 0
 GND
-NoConn ~ 4100 14800
-NoConn ~ 4100 14600
-Text GLabel 4100 14700 2    50   Output ~ 0
+NoConn ~ 3550 14800
+NoConn ~ 3550 14600
+Text GLabel 3550 14700 2    50   Output ~ 0
 5v
-$Comp
-L Device:Crystal Y1
-U 1 1 6031AF6C
-P 1100 12500
-F 0 "Y1" V 950 12350 50  0000 L CNN
-F 1 "20MHz" V 950 12550 50  0000 L CNN
-F 2 "Crystal:Crystal_HC49-U_Vertical" H 1100 12500 50  0001 C CNN
-F 3 "~" H 1100 12500 50  0001 C CNN
-	1    1100 12500
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	1100 12350 1100 12250
-Wire Wire Line
-	1100 12250 1500 12250
-Wire Wire Line
-	1500 12250 1500 12400
-Wire Wire Line
-	1500 12400 1650 12400
-Wire Wire Line
-	1650 12600 1500 12600
-Wire Wire Line
-	1500 12600 1500 12750
-Wire Wire Line
-	1500 12750 1100 12750
-Wire Wire Line
-	1100 12750 1100 12650
-$Comp
-L Device:CP1 C1
-U 1 1 60774F83
-P 850 12250
-F 0 "C1" V 700 12150 50  0000 C CNN
-F 1 "30pF" V 700 12350 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 850 12250 50  0001 C CNN
-F 3 "~" H 850 12250 50  0001 C CNN
-	1    850  12250
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:CP1 C2
-U 1 1 60776852
-P 850 12750
-F 0 "C2" V 1000 12650 50  0000 C CNN
-F 1 "30pF" V 1000 12850 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 850 12750 50  0001 C CNN
-F 3 "~" H 850 12750 50  0001 C CNN
-	1    850  12750
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	1000 12250 1100 12250
-Connection ~ 1100 12250
-Wire Wire Line
-	1000 12750 1100 12750
-Connection ~ 1100 12750
-$Comp
-L power:Earth #PWR01
-U 1 1 60997487
-P 600 12850
-F 0 "#PWR01" H 600 12600 50  0001 C CNN
-F 1 "Earth" H 600 12700 50  0001 C CNN
-F 2 "" H 600 12850 50  0001 C CNN
-F 3 "~" H 600 12850 50  0001 C CNN
-	1    600  12850
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	700  12250 600  12250
-Wire Wire Line
-	600  12250 600  12750
-Wire Wire Line
-	700  12750 600  12750
-Connection ~ 600  12750
-Wire Wire Line
-	600  12750 600  12850
 $Comp
 L Transistor_FET:2N7000 Q1
 U 1 1 61B03A6F
@@ -230,8 +154,8 @@ Wire Wire Line
 Wire Wire Line
 	4600 15300 4600 15600
 Wire Wire Line
-	3900 15600 2850 15600
-Text Label 3050 15600 0    50   ~ 0
+	3900 15600 2300 15600
+Text Label 2500 15600 0    50   ~ 0
 Counter2A-PWM
 Text Label 10200 6400 2    100  ~ 0
 19x6
@@ -4124,7 +4048,7 @@ F 3 "~" H 750 850 50  0001 C CNN
 	1    750  850 
 	0    1    1    0   
 $EndComp
-Text GLabel 2250 11900 1    50   Input ~ 0
+Text GLabel 1700 11900 1    50   Input ~ 0
 5v
 Wire Wire Line
 	8250 8650 8250 9100
@@ -8099,82 +8023,82 @@ $EndComp
 $Comp
 L Device:LED D229
 U 1 1 5EE7CE59
-P 4000 13650
-F 0 "D229" H 4150 13500 50  0000 C CNN
-F 1 "NUMLOCK" H 3825 13500 50  0000 C CNN
-F 2 "MyOwnKeyboard:158301250" H 4000 13650 50  0001 C CNN
-F 3 "~" H 4000 13650 50  0001 C CNN
-	1    4000 13650
+P 3450 13650
+F 0 "D229" H 3600 13500 50  0000 C CNN
+F 1 "NUMLOCK" H 3275 13500 50  0000 C CNN
+F 2 "MyOwnKeyboard:158301250" H 3450 13650 50  0001 C CNN
+F 3 "~" H 3450 13650 50  0001 C CNN
+	1    3450 13650
 	1    0    0    1   
 $EndComp
 $Comp
 L Device:LED D230
 U 1 1 5EE8076E
-P 4000 13950
-F 0 "D230" H 4150 14050 50  0000 C CNN
-F 1 "CAPSLOCK" H 3825 14050 50  0000 C CNN
-F 2 "MyOwnKeyboard:158301250" H 4000 13950 50  0001 C CNN
-F 3 "~" H 4000 13950 50  0001 C CNN
-	1    4000 13950
+P 3450 13950
+F 0 "D230" H 3600 14050 50  0000 C CNN
+F 1 "CAPSLOCK" H 3275 14050 50  0000 C CNN
+F 2 "MyOwnKeyboard:158301250" H 3450 13950 50  0001 C CNN
+F 3 "~" H 3450 13950 50  0001 C CNN
+	1    3450 13950
 	1    0    0    1   
 $EndComp
 $Comp
 L Device:R R117
 U 1 1 5EE84056
-P 3500 13650
-F 0 "R117" V 3325 13650 50  0000 C CNN
-F 1 "2.3k" V 3400 13650 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 3430 13650 50  0001 C CNN
-F 3 "~" H 3500 13650 50  0001 C CNN
-	1    3500 13650
+P 2950 13650
+F 0 "R117" V 2775 13650 50  0000 C CNN
+F 1 "2.3k" V 2850 13650 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 2880 13650 50  0001 C CNN
+F 3 "~" H 2950 13650 50  0001 C CNN
+	1    2950 13650
 	0    -1   1    0   
 $EndComp
 $Comp
 L Device:R R118
 U 1 1 5EE86968
-P 3500 13950
-F 0 "R118" V 3325 13950 50  0000 C CNN
-F 1 "2.3k" V 3400 13950 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 3430 13950 50  0001 C CNN
-F 3 "~" H 3500 13950 50  0001 C CNN
-	1    3500 13950
+P 2950 13950
+F 0 "R118" V 2775 13950 50  0000 C CNN
+F 1 "2.3k" V 2850 13950 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 2880 13950 50  0001 C CNN
+F 3 "~" H 2950 13950 50  0001 C CNN
+	1    2950 13950
 	0    -1   1    0   
 $EndComp
 Wire Wire Line
-	3300 14500 3300 13950
+	2750 14500 2750 13950
 Wire Wire Line
-	3300 13950 3350 13950
+	2750 13950 2800 13950
 Wire Wire Line
-	3350 13650 3250 13650
+	2800 13650 2700 13650
 Wire Wire Line
-	3250 13650 3250 14400
-Text GLabel 4300 13800 2    50   Input ~ 0
+	2700 13650 2700 14400
+Text GLabel 3750 13800 2    50   Input ~ 0
 5v
 Wire Wire Line
-	4150 13650 4200 13650
+	3600 13650 3650 13650
 Wire Wire Line
-	4200 13650 4200 13800
+	3650 13650 3650 13800
 Wire Wire Line
-	4200 13950 4150 13950
+	3650 13950 3600 13950
 Wire Wire Line
-	4300 13800 4200 13800
-Connection ~ 4200 13800
+	3750 13800 3650 13800
+Connection ~ 3650 13800
 Wire Wire Line
-	4200 13800 4200 13950
+	3650 13800 3650 13950
 Wire Wire Line
-	2850 14600 3500 14600
+	2300 14600 2950 14600
 Wire Wire Line
-	2950 14800 2950 14700
+	2400 14800 2400 14700
 Wire Wire Line
-	2950 14700 2850 14700
+	2400 14700 2300 14700
 Wire Wire Line
-	2950 14800 3500 14800
+	2400 14800 2950 14800
 Wire Wire Line
-	2850 14500 3300 14500
+	2300 14500 2750 14500
 Wire Wire Line
-	2850 14400 3250 14400
+	2300 14400 2700 14400
 Wire Wire Line
-	3650 13650 3850 13650
+	3100 13650 3300 13650
 Wire Wire Line
-	3850 13950 3650 13950
+	3300 13950 3100 13950
 $EndSCHEMATC
