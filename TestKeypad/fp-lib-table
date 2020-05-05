@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name MyOwnKeyboard)(type KiCad)(uri D:/Libraries/Documents/Repos/MyOwnKeyboard/libs/MyOwnKeyboard.pretty)(options "")(descr ""))
+)

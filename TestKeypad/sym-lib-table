@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name MyOwnKeyboard-rescue)(type Legacy)(uri /home/tom/Repos/MyOwnKeyboard/Keyboard/MyOwnKeyboard-rescue.lib)(options "")(descr ""))
+)
