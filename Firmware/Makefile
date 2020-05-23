@@ -3,7 +3,6 @@ ISP=usbtiny
 CLOCK=1000000
 LFUSE=0x64
 HFUSE=0xD9
-EFUSE=0xFF
 
 all: main
 
@@ -26,4 +25,4 @@ flash: main
 
 fuse:
 	# Burn fuses
-	avrdude -p $(MCU) -c $(ISP) U lfuse:w:$(LFUSE):m -U hfuse:w:$(HFUSE):m -U efuse:w:$(EFUSE):m
+	avrdude -p $(MCU) -c $(ISP) U lfuse:w:$(LFUSE):m -U hfuse:w:$(HFUSE):m
