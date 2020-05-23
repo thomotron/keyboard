@@ -10,8 +10,8 @@
 #include "ps2dev.h"
 #include "io_macros.h"
 
-#define CLK A, 0
-#define DATA A, 1
+#define CLK B, 0
+#define DATA B, 1
 
 //Enable serial debug mode?
 //#define _PS2DBG Serial
@@ -313,6 +313,8 @@ int PS2dev::keyboard_reply(unsigned char cmd, unsigned char *leds)
   return 0;
 }
 
+// Handles incoming messages from the host (if any) and sets the LEDs.
+// Call this function repeatedly to keep up with the host.
 int PS2dev::keyboard_handle(unsigned char *leds) {
   unsigned char c;  //char stores data recieved from computer for KBD
   if(available())
