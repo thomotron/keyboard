@@ -49,6 +49,9 @@
 #define _TOGGLE(type, port, bit)    (BitToggle((type## port), bit))
 #define _GET(type, port, bit)       (BitCheck((type## port), bit))
 
+//Other macros
+#define nop asm volatile ("nop")
+
 //Definitions
 #define Input   0
 #define Output  !Input

@@ -412,6 +412,33 @@ int PS2dev::keyboard_mkbrk_printscreen()
 	return 0;
 }
 
+// Presses Pound
+int PS2dev::keyboard_press_pound()
+{
+    keyboard_press(PS2dev::LEFT_SHIFT);
+    keyboard_press(PS2dev::THREE);
+
+    return 0;
+}
+
+// Releases Pound
+int PS2dev::keyboard_release_pound()
+{
+    keyboard_release(PS2dev::LEFT_SHIFT);
+    keyboard_release(PS2dev::THREE);
+
+    return 0;
+}
+
+// Presses then releases Pound
+int PS2dev::keyboard_mkbrk_pound()
+{
+    keyboard_press_pound();
+    keyboard_release_pound();
+
+    return 0;
+}
+
 // Presses/Releases Pause/Break
 int PS2dev::keyboard_pausebreak()
 {
