@@ -105,6 +105,9 @@ int main()
 // codes to the host.
 void readMatrix()
 {
+    // Reset each row
+    PORTD |= 0b11111100;
+
     for (int row = 0; row < 6; row++)
     {
         // Set the row high and others low
