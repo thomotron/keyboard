@@ -2,6 +2,10 @@
 #include "ps2dev.h"
 #include "io_macros.h"
 
+//
+// Pin and other physically-dependent definitions.
+// These are used with macros from io_macros.h for simplicity and readability.
+//
 #define CLK B, 0
 #define DATA B, 1
 #define CLK_LED A, 0
@@ -108,27 +112,35 @@ void readMatrix()
     // Reset each row
     PORTD |= 0b11111100;
 
+    // Scan the matrix and store each key's state
+    bool keyStates[6][19];
     for (int row = 0; row < 6; row++)
     {
-        // Set the row high and others low
-        PORTD = 0b11111111 & ~(1 << row);
-
-        // Wait one cycle for the MCU to do its thing
+        // Set the row high
+        BitClear(PORTD, row);
         nop;
 
         // Pack signal lines A-S into a 32-bit integer (19 > 16, so 32 is the next in line)
-        uint32_t columnData = (PINA << 11) | (PINB << 3) | (PINC >> 5);
+        // The result is inverted since according to AVR 1 = low and 0 = high
+        uint32_t columnData = ~((PINA << 11) | (PINB << 3) | (PINC >> 5));
 
-        for (int col = 18; col >= 0; col--)
+        // Fill in keyStates with this row's data
+        for (int col = 0; col < 19; col++)
         {
-            // Get the key in question from the map
-            key* k = &kbmap[row][col];
+            keyStates[row][col] = columnData & (1 << col);
+        }
 
-            // Get the state of the key from the matrix
-            bool newPressedState = ((columnData >> col) & 0b1) == High;
+        // Set the row low
+        BitSet(PORTD, row);
+    }
 
+    // Handle any state changes of the keys we just sampled
+    for (int row = 0; row < 6; row++)
+    {
+        for (int col = 0; col < 19; col++)
+        {
             // Handle any change to the key
-            handleKeypress(k, newPressedState);
+            handleKeypress(&kbmap[row][col], keyStates[row][col]);
         }
     }
 
