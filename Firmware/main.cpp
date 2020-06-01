@@ -101,7 +101,8 @@ int main()
 }
 
 // Polls each key in the keyboard matrix and processes any changes.
-// This includes both setting their last state in kbmap and sending make/break codes to the host.
+// This includes both setting their last state in kbmap and sending make/break
+// codes to the host.
 void readMatrix()
 {
     for (int row = 0; row < 6; row++)
@@ -132,6 +133,9 @@ void readMatrix()
     PORTD = 0b11111111;
 }
 
+// Polls each key in the keypad matrix and processes any changes.
+// This includes both setting their last state in kpmap and sending make/break
+// codes to the host.
 void readKeypad()
 {
     // Reset each row
@@ -184,6 +188,9 @@ void readKeypad()
     }
 }
 
+// Handles state changes for the given key.
+// If value is different from the key's last recorded state, the state is
+// updated and the corresponding make/break code is sent to the host.
 void handleKeypress(key* key, bool value)
 {
     // Only update the key if the state has changed
