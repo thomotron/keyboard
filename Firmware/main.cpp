@@ -132,42 +132,82 @@ void readMatrix()
     PORTD = 0b11111111;
 }
 
-void readKeypad()
+void readKeypadRow1()
 {
-    PORTA = (PORTA & 0b11000000) | ~(0b11000000);
-    DigitalWrite(KP1, Low);
+    DigitalWrite(KP2, Low);
+    DigitalWrite(KP7, Low);
+    DigitalWrite(KP6, Low);
+    DigitalWrite(KP4, Low);
 
     // Read row 1
     DigitalWrite(KP2, High);
     nop;
-    handleKeypress(&kpmap[0][0], DigitalRead(KP3));
-    handleKeypress(&kpmap[0][1], DigitalRead(KP1));
-    handleKeypress(&kpmap[0][2], DigitalRead(KP5));
+    bool col1 = DigitalRead(KP3), col2 = DigitalRead(KP1), col3 = DigitalRead(KP5);
+    handleKeypress(&kpmap[0][0], col1);
+    handleKeypress(&kpmap[0][1], col2);
+    handleKeypress(&kpmap[0][2], col3);
     DigitalWrite(KP2, Low);
+}
+
+void readKeypadRow2()
+{
+    DigitalWrite(KP2, Low);
+    DigitalWrite(KP7, Low);
+    DigitalWrite(KP6, Low);
+    DigitalWrite(KP4, Low);
 
     // Read row 2
     DigitalWrite(KP7, High);
     nop;
-    handleKeypress(&kpmap[1][0], DigitalRead(KP3));
-    handleKeypress(&kpmap[1][1], DigitalRead(KP1));
-    handleKeypress(&kpmap[1][2], DigitalRead(KP5));
+    bool col1 = DigitalRead(KP3), col2 = DigitalRead(KP1), col3 = DigitalRead(KP5);
+    handleKeypress(&kpmap[1][0], col1);
+    handleKeypress(&kpmap[1][1], col2);
+    handleKeypress(&kpmap[1][2], col3);
+    DigitalWrite(KP2, Low);
+}
+
+void readKeypadRow3()
+{
+    DigitalWrite(KP2, Low);
     DigitalWrite(KP7, Low);
+    DigitalWrite(KP6, Low);
+    DigitalWrite(KP4, Low);
 
     // Read row 3
     DigitalWrite(KP6, High);
     nop;
-    handleKeypress(&kpmap[2][0], DigitalRead(KP3));
-    handleKeypress(&kpmap[2][1], DigitalRead(KP1));
-    handleKeypress(&kpmap[2][2], DigitalRead(KP5));
+    bool col1 = DigitalRead(KP3), col2 = DigitalRead(KP1), col3 = DigitalRead(KP5);
+    handleKeypress(&kpmap[2][0], col1);
+    handleKeypress(&kpmap[2][1], col2);
+    handleKeypress(&kpmap[2][2], col3);
+    DigitalWrite(KP2, Low);
+}
+
+void readKeypadRow4()
+{
+    DigitalWrite(KP2, Low);
+    DigitalWrite(KP7, Low);
     DigitalWrite(KP6, Low);
+    DigitalWrite(KP4, Low);
 
     // Read row 4
     DigitalWrite(KP4, High);
     nop;
-    handleKeypress(&kpmap[3][0], DigitalRead(KP3));
-    handleKeypress(&kpmap[3][1], DigitalRead(KP1));
-    handleKeypress(&kpmap[3][2], DigitalRead(KP5));
-    DigitalWrite(KP4, Low);
+    bool col1 = DigitalRead(KP3), col2 = DigitalRead(KP1), col3 = DigitalRead(KP5);
+    handleKeypress(&kpmap[3][0], col1);
+    handleKeypress(&kpmap[3][1], col2);
+    handleKeypress(&kpmap[3][2], col3);
+    DigitalWrite(KP2, Low);
+}
+
+void readKeypad()
+{
+    PORTA = (PORTA & 0b11000000) | ~(0b11000000);
+
+    readKeypadRow1();
+    readKeypadRow2();
+    readKeypadRow3();
+    readKeypadRow4();
 }
 
 void handleKeypress(key* key, bool value)
