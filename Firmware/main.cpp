@@ -252,7 +252,24 @@ void handleKeypress(key* key, bool value)
 // over/underflow.
 void changeBacklight(int increment)
 {
+    // Change the backlight brightness
     if (OCR2 + increment > 255) OCR2 = 255;
     else if (OCR2 + increment < 0) OCR2 = 0;
     else OCR2 += increment;
+
+    if (OCR2 == 0)
+    {
+        // Disable the backlight if it's set to zero
+        BitClear(TCCR2, CS20);
+        BitClear(TCCR2, CS21);
+        BitClear(TCCR2, CS22);
+        DigitalWrite(BACKLIGHT, Low);
+    }
+    else if (OCR2 == increment)
+    {
+        // Re-enable the backlight if it's just been incremented from zero
+        BitSet(TCCR2, CS20);
+        //BitSet(TCCR2, CS21);
+        //BitSet(TCCR2, CS22);
+    }
 }
