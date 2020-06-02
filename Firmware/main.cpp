@@ -10,6 +10,7 @@
 #define DATA B, 1
 #define CLK_LED A, 0
 #define DATA_LED A, 1
+#define BACKLIGHT D, 7
 #define BUTTON D, 6
 
 // Keypad pinout:
@@ -30,6 +31,11 @@
 #define KP6 A, 3
 #define KP7 A, 2
 
+//
+// Other definitions
+//
+#define BACKLIGHT_INCREMENT 32
+
 // A single key on the keyboard.
 typedef struct key {
     unsigned char code;
@@ -40,6 +46,7 @@ typedef struct key {
 void readMatrix();
 void readKeypad();
 void handleKeypress(key* key, bool value);
+void changeBacklight(int increment);
 
 PS2dev ps2;
 
@@ -60,7 +67,7 @@ key kpmap[4][3] = {
     {{PS2dev::NUMPAD_ONE, false, false}, {PS2dev::NUMPAD_TWO, false, false}, {PS2dev::NUMPAD_THREE, false, false}},
     {{PS2dev::NUMPAD_FOUR, false, false}, {PS2dev::NUMPAD_FIVE, false, false}, {PS2dev::NUMPAD_SIX, false, false}},
     {{PS2dev::NUMPAD_SEVEN, false, false}, {PS2dev::NUMPAD_EIGHT, false, false}, {PS2dev::NUMPAD_NINE, false, false}},
-    {{PS2dev::ASTERISK, false, false}, {PS2dev::NUMPAD_ZERO, false, false}, {'#', false, false}}
+    {{'*', false, false}, {PS2dev::NUMPAD_ZERO, false, false}, {'#', false, false}}
 };
 
 void init()
@@ -83,6 +90,14 @@ void init()
 
     ps2 = PS2dev();
     ps2.keyboard_init();
+
+    // Set up PWM for the backlight
+    TCCR2 = (0 << FOC2)  | // FOC: Ignored, not useful in PWM modes
+            (1 << WGM21) | (1 << WGM20) | // WGM: Waveform generation mode
+            (1 << COM21) | (0 << COM20) | // COM: Output pin toggle behaviour
+            (0 << CS22)  | (0 << CS21)  | (1 << CS20); // CS: Clock prescaler
+    OCR2 = 0;
+    PinMode(BACKLIGHT, Output);
 }
 
 int main()
@@ -216,8 +231,9 @@ void handleKeypress(key* key, bool value)
         {
             // Handle any exceptions before using the key code
             if (key->code == '#')
-                // Handle the # key separately since it's effectively Shift+3
-                ps2.keyboard_press_pound();
+                changeBacklight(BACKLIGHT_INCREMENT); // Increase backlight
+            else if (key->code == '*')
+                changeBacklight(-BACKLIGHT_INCREMENT); // Decrease backlight
             else if (key->code == 0x00)
                 // Don't do anything for blank keys (this shouldn't even happen)
                 return;
@@ -227,10 +243,7 @@ void handleKeypress(key* key, bool value)
         }
         else
         {
-            if (key->code == '#')
-                // Handle the # key separately since it's effectively Shift+3
-                ps2.keyboard_release_pound();
-            else if (key->code == 0x00)
+            if (key->code == 0x00)
                 // Don't do anything for blank keys (this shouldn't even happen)
                 return;
             else
@@ -238,4 +251,15 @@ void handleKeypress(key* key, bool value)
                 key->special ? ps2.keyboard_release_special(key->code) : ps2.keyboard_release(key->code);
         }
     }
+}
+
+// Changes the backlight brightness level by the given increment.
+// Increment may be negative to decrease the brightness level.
+// Brightness is capped at levels 0 and 255 respectively and will not
+// over/underflow.
+void changeBacklight(int increment)
+{
+    if (OCR2 + increment > 255) OCR2 = 255;
+    else if (OCR2 + increment < 0) OCR2 = 0;
+    else OCR2 += increment;
 }
