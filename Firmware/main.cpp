@@ -8,8 +8,6 @@
 //
 #define CLK B, 0
 #define DATA B, 1
-#define CLK_LED A, 0
-#define DATA_LED A, 1
 #define BACKLIGHT D, 7
 #define BUTTON D, 6
 
@@ -75,8 +73,6 @@ void init()
     DDRC = 0b11111111;
     PORTC = 0;
 
-    PinMode(CLK_LED, Output);
-    PinMode(DATA_LED, Output);
     PinMode(BUTTON, Input);
     DigitalWrite(BUTTON, Low);
 
@@ -107,9 +103,6 @@ int main()
     unsigned char leds = 0b11111111;
     while (true)
     {
-        DigitalWrite(CLK_LED, DigitalRead(CLK));
-        DigitalWrite(DATA_LED, DigitalRead(DATA));
-
         if (ps2.keyboard_handle(&leds))
         {
             PORTC = leds;
