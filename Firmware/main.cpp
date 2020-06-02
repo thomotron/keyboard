@@ -22,7 +22,7 @@
 // 4--*--0--#
 //    |  |  |
 //    3  1  5
-#define KP1 D, 7
+#define KP1 D, 5
 #define KP2 A, 7
 #define KP3 A, 6
 #define KP4 A, 5
