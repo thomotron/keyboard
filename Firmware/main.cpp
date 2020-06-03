@@ -32,7 +32,8 @@
 //
 // Other definitions
 //
-#define BACKLIGHT_INCREMENT 32
+#define BACKLIGHT_PRESCALER 0b110
+#define BACKLIGHT_INCREMENT 32 // Backlight range is 0-255
 
 // A single key on the keyboard.
 typedef struct key {
@@ -91,8 +92,8 @@ void init()
     TCCR2 = (0 << FOC2)  | // FOC: Ignored, not useful in PWM modes
             (1 << WGM21) | (1 << WGM20) | // WGM: Waveform generation mode
             (1 << COM21) | (0 << COM20) | // COM: Output pin toggle behaviour
-            (0 << CS22)  | (0 << CS21)  | (1 << CS20); // CS: Clock prescaler
-    OCR2 = 0;
+            (BACKLIGHT_PRESCALER & 0b100 << CS22) | (BACKLIGHT_PRESCALER & 0b10 << CS21) | (BACKLIGHT_PRESCALER & 0b1 << CS20);
+    OCR2 = 255;
     PinMode(BACKLIGHT, Output);
 }
 
@@ -260,16 +261,12 @@ void changeBacklight(int increment)
     if (OCR2 == 0)
     {
         // Disable the backlight if it's set to zero
-        BitClear(TCCR2, CS20);
-        BitClear(TCCR2, CS21);
-        BitClear(TCCR2, CS22);
+        TCCR2 &= ~((BACKLIGHT_PRESCALER & 0b100 << CS22) | (BACKLIGHT_PRESCALER & 0b10 << CS21) | (BACKLIGHT_PRESCALER & 0b1 << CS20));
         DigitalWrite(BACKLIGHT, Low);
     }
     else if (OCR2 == increment)
     {
         // Re-enable the backlight if it's just been incremented from zero
-        BitSet(TCCR2, CS20);
-        //BitSet(TCCR2, CS21);
-        //BitSet(TCCR2, CS22);
+        TCCR2 |= (BACKLIGHT_PRESCALER & 0b100 << CS22) | (BACKLIGHT_PRESCALER & 0b10 << CS21) | (BACKLIGHT_PRESCALER & 0b1 << CS20);
     }
 }
