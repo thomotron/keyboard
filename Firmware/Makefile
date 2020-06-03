@@ -1,7 +1,7 @@
 MCU=atmega8535
 ISP=usbtiny
-CLOCK=1000000
-LFUSE=0x64
+CLOCK=8000000
+LFUSE=0xA4
 HFUSE=0xD9
 
 all: main
@@ -25,4 +25,4 @@ flash: main
 
 fuse:
 	# Burn fuses
-	avrdude -p $(MCU) -c $(ISP) U lfuse:w:$(LFUSE):m -U hfuse:w:$(HFUSE):m
+	avrdude -u -p $(MCU) -c $(ISP) -U lfuse:w:$(LFUSE):m -U hfuse:w:$(HFUSE):m
