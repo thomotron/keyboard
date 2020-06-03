@@ -254,8 +254,8 @@ void handleKeypress(key* key, bool value)
 void changeBacklight(int increment)
 {
     // Change the backlight brightness
-    if (OCR2 + increment > 255) OCR2 = 255;
-    else if (OCR2 + increment < 0) OCR2 = 0;
+    if ((int)OCR2 + increment > 255) OCR2 = 255;
+    else if ((int)OCR2 + increment < 0) OCR2 = 0;
     else OCR2 += increment;
 
     if (OCR2 == 0)
