@@ -9,7 +9,6 @@
 #define CLK B, 0
 #define DATA B, 1
 #define BACKLIGHT D, 7
-#define BUTTON D, 6
 
 // Keypad pinout:
 // 2--1--2--3
@@ -73,9 +72,6 @@ void init()
 {
     DDRC = 0b11111111;
     PORTC = 0;
-
-    PinMode(BUTTON, Input);
-    DigitalWrite(BUTTON, Low);
 
     PinMode(KP1, Input);
     PinMode(KP2, Output);
