@@ -89,9 +89,9 @@ void init()
     ps2.keyboard_init();
 
     // Set up PWM for the backlight
-    TCCR2 = (0 << FOC2)  | // FOC: Ignored, not useful in PWM modes
-            (1 << WGM21) | (1 << WGM20) | // WGM: Waveform generation mode
-            (1 << COM21) | (0 << COM20) | // COM: Output pin toggle behaviour
+    TCCR2 = (0 << FOC2)  | // Not useful in PWM modes
+            (1 << WGM21) | (1 << WGM20) | // Use fast PWM mode
+            (1 << COM21) | (0 << COM20) | // Toggle the output pin when matched
             (BACKLIGHT_PRESCALER & 0b100 << CS22) | (BACKLIGHT_PRESCALER & 0b10 << CS21) | (BACKLIGHT_PRESCALER & 0b1 << CS20);
     OCR2 = 255;
     PinMode(BACKLIGHT, Output);
