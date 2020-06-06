@@ -149,9 +149,8 @@ int PS2dev::write(unsigned char data)
 }
 
 int PS2dev::available() {
-  //_delay_us(BYTEWAIT);
-  //return ( (DigitalRead(DATA) == Low) || (DigitalRead(CLK) == Low) );
-  return ( (DigitalRead(CLK) == Low) );
+  // Sample both the CLK and DATA lines to check if the host is in an RTS state
+  return ( (DigitalRead(DATA) == Low) || (DigitalRead(CLK) == Low) );
 }
 
 int PS2dev::read(unsigned char * value)
