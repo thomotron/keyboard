@@ -61,7 +61,10 @@ struct {
 void readMatrix();
 void readKeypad();
 void handleKeypress(key* key, bool value);
-void changeBacklight(int increment);
+void incrementBacklight();
+void decrementBacklight();
+void enableBacklight();
+void disableBacklight();
 
 PS2dev ps2;
 
@@ -128,6 +131,7 @@ void init()
     // Load the backlight setting from EEPROM
     uint8_t saved_backlight = eeprom_read_byte((uint8_t *) 0);
     OCR2 = saved_backlight;
+    saved_backlight ? enableBacklight() : disableBacklight();
 
     // Initialise our PS2dev instance and tell the host that we exist
     ps2 = PS2dev();
@@ -259,11 +263,11 @@ void handleKeypress(key* key, bool value)
             // Handle any exceptions before using the key code
             if (key->code == '#')
             {
-                changeBacklight(BACKLIGHT_INCREMENT); // Increase backlight
+                incrementBacklight(); // Increase backlight
             }
             else if (key->code == '*')
             {
-                changeBacklight(-BACKLIGHT_INCREMENT); // Decrease backlight
+                decrementBacklight(); // Decrease backlight
             }
             else if (key->code == 0x00)
             {
@@ -296,29 +300,56 @@ void handleKeypress(key* key, bool value)
     }
 }
 
-// Changes the backlight brightness level by the given increment.
-// Increment may be negative to decrease the brightness level.
-// Brightness is capped at levels 0 and 255 respectively and will not
-// over/underflow.
-void changeBacklight(int increment)
+// Increments the backlight brightness by one step as defined by
+// BACKLIGHT_INCREMENT.
+void incrementBacklight()
 {
-    // Change the backlight brightness
-    if ((int)OCR2 + increment > 255) OCR2 = 255;
-    else if ((int)OCR2 + increment < 0) OCR2 = 0;
-    else OCR2 += increment;
+    // Enable the backlight if it hasn't been already
+    enableBacklight();
+
+    // Increment the backlight brightness, capping at 255
+    if ((int)OCR2 + BACKLIGHT_INCREMENT > 255)
+    {
+        OCR2 = 255;
+    }
+    else
+    {
+        OCR2 += BACKLIGHT_INCREMENT;
+    }
 
     // Save the backlight value to EEPROM
     eeprom_write_byte((uint8_t *) 0, OCR2);
+}
 
-    if (OCR2 == 0)
+// Decrements the backlight brightness by one step as defined by
+// BACKLIGHT_INCREMENT.
+void decrementBacklight()
+{
+    // Decrement the backlight brightness, capping at 0
+    if ((int)OCR2 - BACKLIGHT_INCREMENT <= 0)
     {
-        // Disable the backlight if it's set to zero
-        TCCR2 &= ~((BACKLIGHT_PRESCALER & 0b100 << CS22) | (BACKLIGHT_PRESCALER & 0b10 << CS21) | (BACKLIGHT_PRESCALER & 0b1 << CS20));
-        DigitalWrite(BACKLIGHT, Low);
+        // Disable the backlight at zero
+        disableBacklight();
+        OCR2 = 0;
     }
-    else if (OCR2 == increment)
+    else
     {
-        // Re-enable the backlight if it's just been incremented from zero
-        TCCR2 |= (BACKLIGHT_PRESCALER & 0b100 << CS22) | (BACKLIGHT_PRESCALER & 0b10 << CS21) | (BACKLIGHT_PRESCALER & 0b1 << CS20);
+        OCR2 -= BACKLIGHT_INCREMENT;
     }
+
+    // Save the backlight value to EEPROM
+    eeprom_write_byte((uint8_t *) 0, OCR2);
+}
+
+// Enables the backlight by starting the PWM timer.
+void enableBacklight()
+{
+    TCCR2 |= (1 << COM21) | (0 << COM20); // Enable OC2 pin output
+}
+
+// Disables the backlight by stopping the PWM timer and writing the pin low.
+void disableBacklight()
+{
+    TCCR2 &= ~((1 << COM21) | (1 << COM20)); // Disable OC2 pin output but leave the timer running
+    DigitalWrite(BACKLIGHT, Low);
 }
