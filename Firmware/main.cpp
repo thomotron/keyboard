@@ -51,6 +51,13 @@ typedef struct key {
     bool lastPressedState;
 } key;
 
+// Status LEDs states (i.e. numlock, capslock, etc.)
+struct {
+    bool scroll_lock;
+    bool numlock;
+    bool capslock;
+} leds = {false, false, false};
+
 void readMatrix();
 void readKeypad();
 void handleKeypress(key* key, bool value);
@@ -78,14 +85,17 @@ key kpmap[4][3] = {
     {{'*', false, false}, {PS2dev::NUMPAD_ZERO, false, false}, {'#', false, false}}
 };
 
-// Status LEDs states (i.e. numlock, capslock, etc.)
-unsigned char leds = 0;
-
 // Timer0 matching comparison interrupt
 ISR(TIMER0_COMP_vect)
 {
     // Check for host communication and update LEDs if necessary
-    if (ps2.keyboard_handle(&leds)) PORTC = leds;
+    unsigned char raw_leds = 0;
+    if (ps2.keyboard_handle(&raw_leds))
+    {
+        // LEDs updated, handle accordingly
+        PORTC = raw_leds;
+        leds = {(bool)(raw_leds & 0b100), (bool)(raw_leds & 0b10), (bool)(raw_leds & 0b1)};
+    }
 }
 
 void init()
