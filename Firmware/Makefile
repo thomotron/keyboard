@@ -26,3 +26,7 @@ flash: main
 fuse:
 	# Burn fuses
 	avrdude -u -p $(MCU) -c $(ISP) -U lfuse:w:$(LFUSE):m -U hfuse:w:$(HFUSE):m
+
+eeprom:
+	# Set up default values in EEPROM
+	avrdude -p $(MCU) -c $(ISP) -U eeprom:w:0xFF:m
