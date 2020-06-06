@@ -44,14 +44,14 @@
 #define HOSTCOM_PRESCALER 0b100
 #define HOSTCOM_TOP 156
 
-// A single key on the keyboard.
+/// A single key on the keyboard.
 typedef struct key {
     unsigned char code;
     bool special;
     bool lastPressedState;
 } key;
 
-// Status LEDs states (i.e. numlock, capslock, etc.)
+/// Status LEDs states (i.e. numlock, capslock, etc.)
 struct {
     bool scroll_lock;
     bool numlock;
@@ -68,8 +68,8 @@ void disableBacklight();
 
 PS2dev ps2;
 
-// Table containing character codes for each key in the keyboard layout.
-// This firmware was designed for a 19x6 matrix (114 keys total).
+/// Table containing character codes for each key in the keyboard layout.
+/// This firmware was designed for a 19x6 matrix (114 keys total).
 key kbmap[6][19] = {
     {{0x76, false, false},{0x05, false, false},{0x06, false, false},{0x04, false, false},{0x0C, false, false},{0x03, false, false},{0x0B, false, false},{0x83, false, false},{0x0A, false, false},{0x01, false, false},{0x09, false, false},{0x78, false, false},{0x07, false, false},{0x70, true, false},{0x6C, true, false},{0x7D, true, false},{0x77, false, false},{0x00, false, false},{0x00, false, false}},
     {{0x0E, false, false},{0x16, false, false},{0x1E, false, false},{0x26, false, false},{0x25, false, false},{0x2E, false, false},{0x36, false, false},{0x3D, false, false},{0x3E, false, false},{0x46, false, false},{0x45, false, false},{0x4E, false, false},{0x55, false, false},{0x66, false, false},{0x71, true, false},{0x69, true, false},{0x7A, true, false},{0x00, false, false},{0x00, false, false}},
@@ -79,8 +79,8 @@ key kbmap[6][19] = {
     {{0x14, false, false},{0x1F, true, false},{0x11, false, false},{0x00, false, false},{0x29, false, false},{0x00, false, false},{0x11, true, false},{0x00, false, false},{0x14, true, false},{0x6B, true, false},{0x72, true, false},{0x74, true, false},{0x70, false, false},{0x72, false, false},{0x7A, false, false},{0x71, false, false},{0x5A, true, false},{0x00, false, false},{0x00, false, false}}
 };
 
-// Table containing character codes for each key in the keypad layout.
-// This firmware was designed for a 3x4 matrix (12 keys total).
+/// Table containing character codes for each key in the keypad layout.
+/// This firmware was designed for a 3x4 matrix (12 keys total).
 key kpmap[4][3] = {
     {{PS2dev::NUMPAD_ONE, false, false}, {PS2dev::NUMPAD_TWO, false, false}, {PS2dev::NUMPAD_THREE, false, false}},
     {{PS2dev::NUMPAD_FOUR, false, false}, {PS2dev::NUMPAD_FIVE, false, false}, {PS2dev::NUMPAD_SIX, false, false}},
@@ -88,7 +88,7 @@ key kpmap[4][3] = {
     {{'*', false, false}, {PS2dev::NUMPAD_ZERO, false, false}, {'#', false, false}}
 };
 
-// Timer0 matching comparison interrupt
+/// Timer0 matching comparison interrupt
 ISR(TIMER0_COMP_vect)
 {
     // Check for host communication and update LEDs if necessary
@@ -151,9 +151,9 @@ int main()
     }
 }
 
-// Polls each key in the keyboard matrix and processes any changes.
-// This includes both setting their last state in kbmap and sending make/break
-// codes to the host.
+/// Polls each key in the keyboard matrix and processes any changes.
+/// This includes both setting their last state in kbmap and sending make/break
+/// codes to the host.
 void readMatrix()
 {
     // Reset each row
@@ -194,9 +194,9 @@ void readMatrix()
     PORTD &= 0b00000011;
 }
 
-// Polls each key in the keypad matrix and processes any changes.
-// This includes both setting their last state in kpmap and sending make/break
-// codes to the host.
+/// Polls each key in the keypad matrix and processes any changes.
+/// This includes both setting their last state in kpmap and sending make/break
+/// codes to the host.
 void readKeypad()
 {
     // Reset each row
@@ -249,9 +249,9 @@ void readKeypad()
     }
 }
 
-// Handles state changes for the given key.
-// If value is different from the key's last recorded state, the state is
-// updated and the corresponding make/break code is sent to the host.
+/// Handles state changes for the given key.
+/// If value is different from the key's last recorded state, the state is
+/// updated and the corresponding make/break code is sent to the host.
 void handleKeypress(key* key, bool value)
 {
     // Only update the key if the state has changed
@@ -300,8 +300,8 @@ void handleKeypress(key* key, bool value)
     }
 }
 
-// Increments the backlight brightness by one step as defined by
-// BACKLIGHT_INCREMENT.
+/// Increments the backlight brightness by one step as defined by
+/// BACKLIGHT_INCREMENT.
 void incrementBacklight()
 {
     // Enable the backlight if it hasn't been already
@@ -321,8 +321,8 @@ void incrementBacklight()
     eeprom_write_byte((uint8_t *) 0, OCR2);
 }
 
-// Decrements the backlight brightness by one step as defined by
-// BACKLIGHT_INCREMENT.
+/// Decrements the backlight brightness by one step as defined by
+/// BACKLIGHT_INCREMENT.
 void decrementBacklight()
 {
     // Decrement the backlight brightness, capping at 0
@@ -341,13 +341,13 @@ void decrementBacklight()
     eeprom_write_byte((uint8_t *) 0, OCR2);
 }
 
-// Enables the backlight by starting the PWM timer.
+/// Enables the backlight by starting the PWM timer.
 void enableBacklight()
 {
     TCCR2 |= (1 << COM21) | (0 << COM20); // Enable OC2 pin output
 }
 
-// Disables the backlight by stopping the PWM timer and writing the pin low.
+/// Disables the backlight by stopping the PWM timer and writing the pin low.
 void disableBacklight()
 {
     TCCR2 &= ~((1 << COM21) | (1 << COM20)); // Disable OC2 pin output but leave the timer running
