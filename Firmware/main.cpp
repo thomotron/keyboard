@@ -1,5 +1,6 @@
 #include <util/delay.h>
 #include <avr/interrupt.h>
+#include <avr/eeprom.h>
 #include "ps2dev.h"
 #include "io_macros.h"
 
@@ -113,7 +114,10 @@ void init()
     TCCR2 |= (1 << WGM21) | (1 << WGM20); // Use fast PWM mode
     TCCR2 |= (1 << COM21) | (0 << COM20); // Toggle the output pin when matched
     TCCR2 |= (BACKLIGHT_PRESCALER & 0b100 << CS22) | (BACKLIGHT_PRESCALER & 0b10 << CS21) | (BACKLIGHT_PRESCALER & 0b1 << CS20);
-    OCR2 = 255;
+
+    // Load the backlight setting from EEPROM
+    uint8_t saved_backlight = eeprom_read_byte((uint8_t *) 0);
+    OCR2 = saved_backlight;
 
     // Initialise our PS2dev instance and tell the host that we exist
     ps2 = PS2dev();
@@ -292,6 +296,9 @@ void changeBacklight(int increment)
     if ((int)OCR2 + increment > 255) OCR2 = 255;
     else if ((int)OCR2 + increment < 0) OCR2 = 0;
     else OCR2 += increment;
+
+    // Save the backlight value to EEPROM
+    eeprom_write_byte((uint8_t *) 0, OCR2);
 
     if (OCR2 == 0)
     {

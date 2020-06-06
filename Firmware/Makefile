@@ -2,7 +2,7 @@ MCU=atmega8535
 ISP=usbtiny
 CLOCK=8000000
 LFUSE=0xA4
-HFUSE=0xD9
+HFUSE=0xD1
 
 all: main
 
