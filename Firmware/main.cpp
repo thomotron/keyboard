@@ -139,7 +139,7 @@ int main()
 void readMatrix()
 {
     // Reset each row
-    PORTD |= 0b11111100;
+    PORTD &= 0b00000011;
 
     // Scan the matrix and store each key's state
     bool keyStates[6][19];
@@ -173,8 +173,8 @@ void readMatrix()
         }
     }
 
-    // Set PORTD low
-    PORTD = 0b11111111;
+    // Reset each row
+    PORTD &= 0b00000011;
 }
 
 // Polls each key in the keypad matrix and processes any changes.
