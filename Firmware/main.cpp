@@ -150,7 +150,6 @@ void readMatrix()
         nop;
 
         // Pack signal lines A-S into a 32-bit integer (19 > 16, so 32 is the next in line)
-        // The result is inverted since according to AVR 1 = low and 0 = high
         uint32_t columnData = ~((PINA << 11) | (PINB << 3) | (PINC >> 5));
 
         // Fill in keyStates with this row's data
