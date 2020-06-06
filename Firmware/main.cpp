@@ -1,4 +1,5 @@
 #include <util/delay.h>
+#include <avr/interrupt.h>
 #include "ps2dev.h"
 #include "io_macros.h"
 
@@ -34,6 +35,14 @@
 #define BACKLIGHT_PRESCALER 0b110
 #define BACKLIGHT_INCREMENT 32 // Backlight range is 0-255
 
+// The PS/2 protocol requires that the CLK line be checked by the device at
+// least once every 10ms at most. To do that in a more consistent way, we'll use
+// Timer0 to check for incoming communication once every ~5ms.
+// The closest we can get with the clock and prescaler is ~4.992ms @ 8MHz
+// by setting the prescaler to /256 and counting to 156 before resetting.
+#define HOSTCOM_PRESCALER 0b100
+#define HOSTCOM_TOP 156
+
 // A single key on the keyboard.
 typedef struct key {
     unsigned char code;
@@ -68,11 +77,23 @@ key kpmap[4][3] = {
     {{'*', false, false}, {PS2dev::NUMPAD_ZERO, false, false}, {'#', false, false}}
 };
 
+// Status LEDs states (i.e. numlock, capslock, etc.)
+unsigned char leds = 0;
+
+// Timer0 matching comparison interrupt
+ISR(TIMER0_COMP_vect)
+{
+    // Check for host communication and update LEDs if necessary
+    if (ps2.keyboard_handle(&leds)) PORTC = leds;
+}
+
 void init()
 {
-    DDRC = 0b11111111;
-    PORTC = 0;
+    // Disable interrupts
+    cli();
 
+    // Set port directions
+    DDRC = 0b11111111;
     PinMode(KP1, Input);
     PinMode(KP2, Output);
     PinMode(KP3, Input);
@@ -80,31 +101,34 @@ void init()
     PinMode(KP5, Input);
     PinMode(KP6, Output);
     PinMode(KP7, Output);
+    PinMode(BACKLIGHT, Output);
 
+    // Set up Timer0 to check for host communication periodically
+    TCCR0 |= (1 << WGM01); // Count up and reset when matched
+    TCCR0 |= (HOSTCOM_PRESCALER & 0b100 << CS02) | (HOSTCOM_PRESCALER & 0b10 << CS01) | (HOSTCOM_PRESCALER & 0b1 << CS00);
+    OCR0 = HOSTCOM_TOP; // Set our custom top value
+    BitSet(TIMSK, OCIE0); // Enable compare match interrupt
+
+    // Set up PWM for the backlight
+    TCCR2 |= (1 << WGM21) | (1 << WGM20); // Use fast PWM mode
+    TCCR2 |= (1 << COM21) | (0 << COM20); // Toggle the output pin when matched
+    TCCR2 |= (BACKLIGHT_PRESCALER & 0b100 << CS22) | (BACKLIGHT_PRESCALER & 0b10 << CS21) | (BACKLIGHT_PRESCALER & 0b1 << CS20);
+    OCR2 = 255;
+
+    // Initialise our PS2dev instance and tell the host that we exist
     ps2 = PS2dev();
     ps2.keyboard_init();
 
-    // Set up PWM for the backlight
-    TCCR2 = (0 << FOC2)  | // Not useful in PWM modes
-            (1 << WGM21) | (1 << WGM20) | // Use fast PWM mode
-            (1 << COM21) | (0 << COM20) | // Toggle the output pin when matched
-            (BACKLIGHT_PRESCALER & 0b100 << CS22) | (BACKLIGHT_PRESCALER & 0b10 << CS21) | (BACKLIGHT_PRESCALER & 0b1 << CS20);
-    OCR2 = 255;
-    PinMode(BACKLIGHT, Output);
+    // Enable interrupts
+    sei();
 }
 
 int main()
 {
     init();
 
-    unsigned char leds = 0b11111111;
     while (true)
     {
-        if (ps2.keyboard_handle(&leds))
-        {
-            PORTC = leds;
-        }
-
         readKeypad();
     }
 }
@@ -221,24 +245,40 @@ void handleKeypress(key* key, bool value)
         {
             // Handle any exceptions before using the key code
             if (key->code == '#')
+            {
                 changeBacklight(BACKLIGHT_INCREMENT); // Increase backlight
+            }
             else if (key->code == '*')
+            {
                 changeBacklight(-BACKLIGHT_INCREMENT); // Decrease backlight
+            }
             else if (key->code == 0x00)
+            {
                 // Don't do anything for blank keys (this shouldn't even happen)
                 return;
+            }
             else
+            {
                 // Handle the key change normally
+                cli();
                 key->special ? ps2.keyboard_press_special(key->code) : ps2.keyboard_press(key->code);
+                sei();
+            }
         }
         else
         {
             if (key->code == 0x00)
+            {
                 // Don't do anything for blank keys (this shouldn't even happen)
                 return;
+            }
             else
+            {
                 // Handle the key change normally
+                cli();
                 key->special ? ps2.keyboard_release_special(key->code) : ps2.keyboard_release(key->code);
+                sei();
+            }
         }
     }
 }
