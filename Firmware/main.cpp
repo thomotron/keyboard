@@ -288,6 +288,10 @@ void handleKeypress(key* key, bool value)
                 case 0x00:
                     // Don't do anything for blank keys (this shouldn't even happen)
                     break;
+                case '#':
+                case '*':
+                    // Ignore key release
+                    break;
                 default:
                     // Handle the key change normally
                     cli();
