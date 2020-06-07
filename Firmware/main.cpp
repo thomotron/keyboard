@@ -154,7 +154,7 @@ int main()
 /// Polls each key in the keyboard matrix and processes any changes.
 /// This includes both setting their last state in kbmap and sending make/break
 /// codes to the host.
-void readMatrix()
+inline void readMatrix()
 {
     // Reset each row
     PORTD &= 0b00000011;
@@ -197,7 +197,7 @@ void readMatrix()
 /// Polls each key in the keypad matrix and processes any changes.
 /// This includes both setting their last state in kpmap and sending make/break
 /// codes to the host.
-void readKeypad()
+inline void readKeypad()
 {
     // Reset each row
     DigitalWrite(KP2, Low);
@@ -342,13 +342,13 @@ void decrementBacklight()
 }
 
 /// Enables the backlight by starting the PWM timer.
-void enableBacklight()
+inline void enableBacklight()
 {
     TCCR2 |= (1 << COM21) | (0 << COM20); // Enable OC2 pin output
 }
 
 /// Disables the backlight by stopping the PWM timer and writing the pin low.
-void disableBacklight()
+inline void disableBacklight()
 {
     TCCR2 &= ~((1 << COM21) | (1 << COM20)); // Disable OC2 pin output but leave the timer running
     DigitalWrite(BACKLIGHT, Low);
