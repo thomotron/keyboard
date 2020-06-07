@@ -260,41 +260,40 @@ void handleKeypress(key* key, bool value)
         key->lastPressedState = value;
         if (value == High)
         {
-            // Handle any exceptions before using the key code
-            if (key->code == '#')
+            switch (key->code)
             {
-                incrementBacklight(); // Increase backlight
-            }
-            else if (key->code == '*')
-            {
-                decrementBacklight(); // Decrease backlight
-            }
-            else if (key->code == 0x00)
-            {
-                // Don't do anything for blank keys (this shouldn't even happen)
-                return;
-            }
-            else
-            {
-                // Handle the key change normally
-                cli();
-                key->special ? ps2.keyboard_press_special(key->code) : ps2.keyboard_press(key->code);
-                sei();
+                case 0x00:
+                    // Don't do anything for blank keys (this shouldn't even happen)
+                    break;
+                case '#':
+                    // Increment backlight
+                    incrementBacklight();
+                    break;
+                case '*':
+                    // Decrement backlight
+                    decrementBacklight();
+                    break;
+                default:
+                    // Handle the key change normally
+                    cli();
+                    key->special ? ps2.keyboard_press_special(key->code) : ps2.keyboard_press(key->code);
+                    sei();
+                    break;
             }
         }
         else
         {
-            if (key->code == 0x00)
+            switch (key->code)
             {
-                // Don't do anything for blank keys (this shouldn't even happen)
-                return;
-            }
-            else
-            {
-                // Handle the key change normally
-                cli();
-                key->special ? ps2.keyboard_release_special(key->code) : ps2.keyboard_release(key->code);
-                sei();
+                case 0x00:
+                    // Don't do anything for blank keys (this shouldn't even happen)
+                    break;
+                default:
+                    // Handle the key change normally
+                    cli();
+                    key->special ? ps2.keyboard_release_special(key->code) : ps2.keyboard_release(key->code);
+                    sei();
+                    break;
             }
         }
     }
