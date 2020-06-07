@@ -164,7 +164,7 @@ inline void readMatrix()
     for (int row = 0; row < 6; row++)
     {
         // Set the row high
-        BitClear(PORTD, row);
+        BitSet(PORTD, row);
         nop;
 
         // Pack signal lines A-S into a 32-bit integer (19 > 16, so 32 is the next in line)
@@ -177,7 +177,7 @@ inline void readMatrix()
         }
 
         // Set the row low
-        BitSet(PORTD, row);
+        BitClear(PORTD, row);
     }
 
     // Handle any state changes of the keys we just sampled
