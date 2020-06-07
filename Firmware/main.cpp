@@ -8,27 +8,11 @@
 // Pin and other physically-dependent definitions.
 // These are used with macros from io_macros.h for simplicity and readability.
 //
-#define CLK B, 0
-#define DATA B, 1
+#define CLK C, 6
+#define DATA C, 7
 #define BACKLIGHT D, 7
-
-// Keypad pinout:
-// 2--1--2--3
-//    |  |  |
-// 7--4--5--6
-//    |  |  |
-// 6--7--8--9
-//    |  |  |
-// 4--*--0--#
-//    |  |  |
-//    3  1  5
-#define KP1 D, 5
-#define KP2 A, 7
-#define KP3 A, 6
-#define KP4 A, 5
-#define KP5 A, 4
-#define KP6 A, 3
-#define KP7 A, 2
+#define NUMLOCK C, 4
+#define CAPSLOCK C, 5
 
 //
 // Other definitions
@@ -59,7 +43,6 @@ struct {
 } leds = {false, false, false};
 
 void readMatrix();
-void readKeypad();
 void handleKeypress(key* key, bool value);
 void incrementBacklight();
 void decrementBacklight();
@@ -79,15 +62,6 @@ key kbmap[6][19] = {
     {{0x14, false, false},{0x1F, true, false},{0x11, false, false},{0x00, false, false},{0x29, false, false},{0x00, false, false},{0x11, true, false},{0x00, false, false},{0x14, true, false},{0x6B, true, false},{0x72, true, false},{0x74, true, false},{0x70, false, false},{0x72, false, false},{0x7A, false, false},{0x71, false, false},{0x5A, true, false},{0x00, false, false},{0x00, false, false}}
 };
 
-/// Table containing character codes for each key in the keypad layout.
-/// This firmware was designed for a 3x4 matrix (12 keys total).
-key kpmap[4][3] = {
-    {{PS2dev::NUMPAD_ONE, false, false}, {PS2dev::NUMPAD_TWO, false, false}, {PS2dev::NUMPAD_THREE, false, false}},
-    {{PS2dev::NUMPAD_FOUR, false, false}, {PS2dev::NUMPAD_FIVE, false, false}, {PS2dev::NUMPAD_SIX, false, false}},
-    {{PS2dev::NUMPAD_SEVEN, false, false}, {PS2dev::NUMPAD_EIGHT, false, false}, {PS2dev::NUMPAD_NINE, false, false}},
-    {{'*', false, false}, {PS2dev::NUMPAD_ZERO, false, false}, {'#', false, false}}
-};
-
 /// Timer0 matching comparison interrupt
 ISR(TIMER0_COMP_vect)
 {
@@ -96,8 +70,11 @@ ISR(TIMER0_COMP_vect)
     if (ps2.keyboard_handle(&raw_leds))
     {
         // LEDs updated, handle accordingly
-        PORTC = raw_leds;
         leds = {(bool)(raw_leds & 0b100), (bool)(raw_leds & 0b10), (bool)(raw_leds & 0b1)};
+
+        // Write inverted to disable pullup and sink
+        DigitalWrite(NUMLOCK, !leds.numlock);
+        DigitalWrite(CAPSLOCK, !leds.capslock);
     }
 }
 
@@ -107,15 +84,21 @@ void init()
     cli();
 
     // Set port directions
-    DDRC = 0b11111111;
-    PinMode(KP1, Input);
-    PinMode(KP2, Output);
-    PinMode(KP3, Input);
-    PinMode(KP4, Output);
-    PinMode(KP5, Input);
-    PinMode(KP6, Output);
-    PinMode(KP7, Output);
+    DDRA = 0;
+    DDRB = 0;
+    DDRC = 0;
+    DDRD = 0b11111100;
     PinMode(BACKLIGHT, Output);
+    PinMode(CLK, Input);
+    PinMode(DATA, Input);
+    PinMode(NUMLOCK, Input);
+    PinMode(CAPSLOCK, Input);
+
+    // Enable pullups
+    DigitalWrite(CLK, High);
+    DigitalWrite(DATA, High);
+    DigitalWrite(NUMLOCK, High);
+    DigitalWrite(CAPSLOCK, High);
 
     // Set up Timer0 to check for host communication periodically
     TCCR0 |= (1 << WGM01); // Count up and reset when matched
@@ -147,7 +130,7 @@ int main()
 
     while (true)
     {
-        readKeypad();
+        readMatrix();
     }
 }
 
@@ -194,61 +177,6 @@ inline void readMatrix()
     PORTD &= 0b00000011;
 }
 
-/// Polls each key in the keypad matrix and processes any changes.
-/// This includes both setting their last state in kpmap and sending make/break
-/// codes to the host.
-inline void readKeypad()
-{
-    // Reset each row
-    DigitalWrite(KP2, Low);
-    DigitalWrite(KP7, Low);
-    DigitalWrite(KP6, Low);
-    DigitalWrite(KP4, Low);
-
-    // Sample each key
-    // Row 1
-    bool keyStates[4][3];
-    DigitalWrite(KP2, High);
-    nop;
-    keyStates[0][0] = DigitalRead(KP3);
-    keyStates[0][1] = DigitalRead(KP1);
-    keyStates[0][2] = DigitalRead(KP5);
-    DigitalWrite(KP2, Low);
-
-    // Row 2
-    DigitalWrite(KP7, High);
-    nop;
-    keyStates[1][0] = DigitalRead(KP3);
-    keyStates[1][1] = DigitalRead(KP1);
-    keyStates[1][2] = DigitalRead(KP5);
-    DigitalWrite(KP7, Low);
-
-    // Row 3
-    DigitalWrite(KP6, High);
-    nop;
-    keyStates[2][0] = DigitalRead(KP3);
-    keyStates[2][1] = DigitalRead(KP1);
-    keyStates[2][2] = DigitalRead(KP5);
-    DigitalWrite(KP6, Low);
-
-    // Row 4
-    DigitalWrite(KP4, High);
-    nop;
-    keyStates[3][0] = DigitalRead(KP3);
-    keyStates[3][1] = DigitalRead(KP1);
-    keyStates[3][2] = DigitalRead(KP5);
-    DigitalWrite(KP4, Low);
-
-    // Handle any state changes of the keys we just sampled
-    for (int row = 0; row < 4; row++)
-    {
-        for (int col = 0; col < 3; col++)
-        {
-            handleKeypress(&kpmap[row][col], keyStates[row][col]);
-        }
-    }
-}
-
 /// Handles state changes for the given key.
 /// If value is different from the key's last recorded state, the state is
 /// updated and the corresponding make/break code is sent to the host.
@@ -265,14 +193,6 @@ void handleKeypress(key* key, bool value)
                 case 0x00:
                     // Don't do anything for blank keys (this shouldn't even happen)
                     break;
-                case '#':
-                    // Increment backlight
-                    incrementBacklight();
-                    break;
-                case '*':
-                    // Decrement backlight
-                    decrementBacklight();
-                    break;
                 default:
                     // Handle the key change normally
                     cli();
@@ -287,10 +207,6 @@ void handleKeypress(key* key, bool value)
             {
                 case 0x00:
                     // Don't do anything for blank keys (this shouldn't even happen)
-                    break;
-                case '#':
-                case '*':
-                    // Ignore key release
                     break;
                 default:
                     // Handle the key change normally

@@ -10,8 +10,8 @@
 #include "ps2dev.h"
 #include "io_macros.h"
 
-#define CLK B, 0
-#define DATA B, 1
+#define CLK C, 6
+#define DATA C, 7
 
 //Enable serial debug mode?
 //#define _PS2DBG Serial
