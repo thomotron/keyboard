@@ -70,11 +70,18 @@ ISR(TIMER0_COMP_vect)
     if (ps2.keyboard_handle(&raw_leds))
     {
         // LEDs updated, handle accordingly
-        leds = {(bool)(raw_leds & 0b100), (bool)(raw_leds & 0b10), (bool)(raw_leds & 0b1)};
+        leds = {((raw_leds & 0b1) != 0), ((raw_leds & 0b10) != 0), ((raw_leds & 0b100) != 0)};
 
         // Write inverted to disable pullup and sink
-        DigitalWrite(NUMLOCK, !leds.numlock);
-        DigitalWrite(CAPSLOCK, !leds.capslock);
+        if (leds.numlock)
+            DigitalWrite(NUMLOCK, Low);
+        else
+            DigitalWrite(NUMLOCK, High);
+
+        if (leds.capslock)
+            DigitalWrite(CAPSLOCK, Low);
+        else
+            DigitalWrite(CAPSLOCK, High);
     }
 }
 
@@ -91,8 +98,8 @@ void init()
     PinMode(BACKLIGHT, Output);
     PinMode(CLK, Input);
     PinMode(DATA, Input);
-    PinMode(NUMLOCK, Input);
-    PinMode(CAPSLOCK, Input);
+    PinMode(NUMLOCK, Output);
+    PinMode(CAPSLOCK, Output);
 
     // Enable pullups
     DigitalWrite(CLK, High);
