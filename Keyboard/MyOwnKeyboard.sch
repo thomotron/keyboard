@@ -62,18 +62,16 @@ Text GLabel 2450 13950 1    50   Input ~ 0
 R
 Text GLabel 2550 13950 1    50   Input ~ 0
 S
-Text GLabel 2300 14900 2    50   Output ~ 0
-a
 Text GLabel 2300 15000 2    50   Output ~ 0
-b
+2
 Text GLabel 2300 15100 2    50   Output ~ 0
-c
+3
 Text GLabel 2300 15200 2    50   Output ~ 0
-d
+4
 Text GLabel 2300 15300 2    50   Output ~ 0
-e
+5
 Text GLabel 2300 15400 2    50   Output ~ 0
-f
+6
 Text Label 2550 15150 0    50   ~ 0
 Clk
 Text Label 2550 15350 0    50   ~ 0
@@ -301,17 +299,17 @@ B
 Text GLabel 650  6300 3    50   Output ~ 0
 A
 Text GLabel 10000 5350 2    50   Input ~ 0
-f
+6
 Text GLabel 10000 4400 2    50   Input ~ 0
-e
+5
 Text GLabel 10000 3450 2    50   Input ~ 0
-d
+4
 Text GLabel 10000 2500 2    50   Input ~ 0
-c
+3
 Text GLabel 10000 1550 2    50   Input ~ 0
-b
+2
 Text GLabel 10000 600  2    50   Input ~ 0
-a
+1
 $Comp
 L Device:D D113
 U 1 1 61AD2FD2
@@ -8409,4 +8407,6 @@ F 3 "~" H 4400 12650 50  0001 C CNN
 	1    4400 12650
 	-1   0    0    1   
 $EndComp
+Text GLabel 2300 14900 2    50   Output ~ 0
+1
 $EndSCHEMATC
