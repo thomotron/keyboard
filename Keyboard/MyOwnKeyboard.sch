@@ -84,7 +84,7 @@ U 1 1 6054BCBD
 P 3250 15250
 F 0 "J1" H 3450 15500 50  0000 C CNN
 F 1 "Mini-DIN-6" H 3000 15500 50  0000 C CNN
-F 2 "Connector_PinHeader_1.27mm:PinHeader_1x06_P1.27mm_Vertical" H 3250 15250 50  0001 C CNN
+F 2 "MyOwnKeyboard:Connector_Mini-DIN_Female_6Pin_2rows" H 3250 15250 50  0001 C CNN
 F 3 "http://service.powerdynamics.com/ec/Catalog17/Section%2011.pdf" H 3250 15250 50  0001 C CNN
 	1    3250 15250
 	-1   0    0    -1  
@@ -98,8 +98,8 @@ L Transistor_FET:2N7000 Q1
 U 1 1 61B03A6F
 P 4500 15100
 F 0 "Q1" H 4704 15146 50  0000 L CNN
-F 1 "RFD14N05L" H 4704 15055 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-251-3-1EP_Horizontal_TabDown" H 4700 15025 50  0001 L CIN
+F 1 "2N7000" H 4704 15055 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 4700 15025 50  0001 L CIN
 F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7000.pdf" H 4500 15100 50  0001 L CNN
 	1    4500 15100
 	1    0    0    -1  
