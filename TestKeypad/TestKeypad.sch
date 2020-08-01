@@ -55,8 +55,6 @@ F 3 "http://service.powerdynamics.com/ec/Catalog17/Section%2011.pdf" H 2850 6300
 	1    2850 6300
 	-1   0    0    -1  
 $EndComp
-Text GLabel 2550 6300 0    50   BiDi ~ 0
-GND
 NoConn ~ 3150 6400
 NoConn ~ 3150 6200
 Text GLabel 3150 6300 2    50   Output ~ 0
@@ -1503,4 +1501,15 @@ Unused rows to GND
 NoConn ~ 1900 5550
 Wire Wire Line
 	3350 5450 3450 5450
+$Comp
+L power:Earth #PWR?
+U 1 1 5F265FB5
+P 2550 6300
+F 0 "#PWR?" H 2550 6050 50  0001 C CNN
+F 1 "Earth" H 2550 6150 50  0001 C CNN
+F 2 "" H 2550 6300 50  0001 C CNN
+F 3 "~" H 2550 6300 50  0001 C CNN
+	1    2550 6300
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC
