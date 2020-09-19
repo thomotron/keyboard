@@ -132,11 +132,7 @@ specialScanCodes = {
     'WAKE': 0x63
 }
 
-rows = 6
-columns = 19
-
-# Initialise two empty 19x6 arrays, one for the input and output respectively
-#inLayout = [[0 for x in range(columns)] for y in range(rows)]
+# Fill out your desired keyboard layout in the list below.
 inLayout = [
     ['escape', 'F1', 'F2', 'F3', 'F4', 'F5', 'F6', 'F7', 'F8', 'F9', 'F10', 'F11', 'F12', 'insert', 'home', 'page up', 'num lock', '', ''],
     ['accent', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine', 'zero', 'minus', 'equal', 'backspace', 'delete', 'end', 'page down', '', ''],
