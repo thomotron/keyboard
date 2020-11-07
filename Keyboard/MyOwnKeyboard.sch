@@ -13,54 +13,43 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L power:Earth #PWR03
-U 1 1 5FB0F6DF
-P 1700 15900
-F 0 "#PWR03" H 1700 15650 50  0001 C CNN
-F 1 "Earth" H 1700 15750 50  0001 C CNN
-F 2 "" H 1700 15900 50  0001 C CNN
-F 3 "~" H 1700 15900 50  0001 C CNN
-	1    1700 15900
-	1    0    0    -1  
-$EndComp
-Text GLabel 2300 12200 2    50   Input ~ 0
+Text GLabel 2400 12050 1    50   Input ~ 0
 A
-Text GLabel 2300 12300 2    50   Input ~ 0
+Text GLabel 2500 12050 1    50   Input ~ 0
 B
-Text GLabel 2300 12400 2    50   Input ~ 0
+Text GLabel 2600 12050 1    50   Input ~ 0
 C
-Text GLabel 2300 12500 2    50   Input ~ 0
+Text GLabel 2700 12050 1    50   Input ~ 0
 D
-Text GLabel 2300 12600 2    50   Input ~ 0
+Text GLabel 2800 12050 1    50   Input ~ 0
 E
-Text GLabel 2300 12700 2    50   Input ~ 0
+Text GLabel 2900 12050 1    50   Input ~ 0
 F
-Text GLabel 2300 12800 2    50   Input ~ 0
+Text GLabel 3000 12050 1    50   Input ~ 0
 G
-Text GLabel 2300 12900 2    50   Input ~ 0
+Text GLabel 3100 12050 1    50   Input ~ 0
 H
-Text GLabel 2300 13100 2    50   Input ~ 0
+Text GLabel 2400 13050 1    50   Input ~ 0
 I
-Text GLabel 2300 13200 2    50   Input ~ 0
+Text GLabel 2500 13050 1    50   Input ~ 0
 J
-Text GLabel 2300 13300 2    50   Input ~ 0
+Text GLabel 2600 13050 1    50   Input ~ 0
 K
-Text GLabel 2300 13400 2    50   Input ~ 0
+Text GLabel 2700 13050 1    50   Input ~ 0
 L
-Text GLabel 2300 13500 2    50   Input ~ 0
+Text GLabel 2800 13050 1    50   Input ~ 0
 M
-Text GLabel 2300 13600 2    50   Input ~ 0
+Text GLabel 2900 13050 1    50   Input ~ 0
 N
-Text GLabel 2300 13700 2    50   Input ~ 0
+Text GLabel 3000 13050 1    50   Input ~ 0
 O
-Text GLabel 2300 13800 2    50   Input ~ 0
+Text GLabel 3100 13050 1    50   Input ~ 0
 P
-Text GLabel 2300 14000 2    50   Input ~ 0
+Text GLabel 2400 13950 1    50   Input ~ 0
 Q
-Text GLabel 2300 14100 2    50   Input ~ 0
+Text GLabel 2500 13950 1    50   Input ~ 0
 R
-Text GLabel 2300 14200 2    50   Input ~ 0
+Text GLabel 2600 13950 1    50   Input ~ 0
 S
 Text GLabel 2300 14900 2    50   Output ~ 0
 a
@@ -74,37 +63,24 @@ Text GLabel 2300 15300 2    50   Output ~ 0
 e
 Text GLabel 2300 15400 2    50   Output ~ 0
 f
-$Comp
-L MyOwnKeyboard-rescue:ATmega164P-20PU-MCU_Microchip_ATmega-MyOwnKeyboard-rescue U1
-U 1 1 5F6749FA
-P 1700 13900
-F 0 "U1" H 1200 15900 50  0000 C CNN
-F 1 "ATmega164P-20PU" H 2250 15900 50  0000 C CNN
-F 2 "Package_DIP:DIP-40_W15.24mm" H 1700 13900 50  0001 C CIN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-42742-ATmega164P_Datasheet.pdf" H 1700 13900 50  0001 C CNN
-	1    1700 13900
-	1    0    0    -1  
-$EndComp
-Text Label 2500 14600 0    50   ~ 0
-Clk
-Text Label 2500 14800 0    50   ~ 0
+Text Label 2550 15350 0    50   ~ 0
 Data
 $Comp
 L Connector:Mini-DIN-6 J1
 U 1 1 6054BCBD
-P 3250 14700
-F 0 "J1" H 3450 14950 50  0000 C CNN
-F 1 "Mini-DIN-6" H 3000 14950 50  0000 C CNN
-F 2 "Connector_PinHeader_1.27mm:PinHeader_1x06_P1.27mm_Vertical" H 3250 14700 50  0001 C CNN
-F 3 "http://service.powerdynamics.com/ec/Catalog17/Section%2011.pdf" H 3250 14700 50  0001 C CNN
-	1    3250 14700
+P 3250 15250
+F 0 "J1" H 3450 15500 50  0000 C CNN
+F 1 "Mini-DIN-6" H 3000 15500 50  0000 C CNN
+F 2 "Connector_PinHeader_1.27mm:PinHeader_1x06_P1.27mm_Vertical" H 3250 15250 50  0001 C CNN
+F 3 "http://service.powerdynamics.com/ec/Catalog17/Section%2011.pdf" H 3250 15250 50  0001 C CNN
+	1    3250 15250
 	-1   0    0    -1  
 $EndComp
-Text GLabel 2950 14700 0    50   BiDi ~ 0
+Text GLabel 2950 15250 0    50   BiDi ~ 0
 GND
-NoConn ~ 3550 14800
-NoConn ~ 3550 14600
-Text GLabel 3550 14700 2    50   Output ~ 0
+NoConn ~ 3550 15350
+NoConn ~ 3550 15150
+Text GLabel 3550 15250 2    50   Output ~ 0
 5v
 $Comp
 L Transistor_FET:2N7000 Q1
@@ -153,8 +129,6 @@ Wire Wire Line
 	4200 15600 4200 15500
 Wire Wire Line
 	4600 15300 4600 15600
-Wire Wire Line
-	3900 15600 2300 15600
 Text Label 2500 15600 0    50   ~ 0
 Counter2A-PWM
 Text Label 10200 6400 2    100  ~ 0
@@ -8007,8 +7981,6 @@ Wire Wire Line
 	3900 15200 3900 15100
 Wire Wire Line
 	3900 15100 4200 15100
-Wire Wire Line
-	4600 14900 4600 11650
 $Comp
 L Device:R R2
 U 1 1 622CAA51
@@ -8023,82 +7995,325 @@ $EndComp
 $Comp
 L Device:LED D229
 U 1 1 5EE7CE59
-P 3450 13650
-F 0 "D229" H 3600 13500 50  0000 C CNN
-F 1 "NUMLOCK" H 3275 13500 50  0000 C CNN
-F 2 "MyOwnKeyboard:158301250" H 3450 13650 50  0001 C CNN
-F 3 "~" H 3450 13650 50  0001 C CNN
-	1    3450 13650
+P 3500 14500
+F 0 "D229" H 3650 14350 50  0000 C CNN
+F 1 "NUMLOCK" H 3325 14350 50  0000 C CNN
+F 2 "MyOwnKeyboard:158301250" H 3500 14500 50  0001 C CNN
+F 3 "~" H 3500 14500 50  0001 C CNN
+	1    3500 14500
 	1    0    0    1   
 $EndComp
 $Comp
 L Device:LED D230
 U 1 1 5EE8076E
-P 3450 13950
-F 0 "D230" H 3600 14050 50  0000 C CNN
-F 1 "CAPSLOCK" H 3275 14050 50  0000 C CNN
-F 2 "MyOwnKeyboard:158301250" H 3450 13950 50  0001 C CNN
-F 3 "~" H 3450 13950 50  0001 C CNN
-	1    3450 13950
+P 3500 14800
+F 0 "D230" H 3650 14900 50  0000 C CNN
+F 1 "CAPSLOCK" H 3325 14900 50  0000 C CNN
+F 2 "MyOwnKeyboard:158301250" H 3500 14800 50  0001 C CNN
+F 3 "~" H 3500 14800 50  0001 C CNN
+	1    3500 14800
 	1    0    0    1   
 $EndComp
+Text GLabel 3800 14650 2    50   Input ~ 0
+5v
+Wire Wire Line
+	3650 14500 3700 14500
+Wire Wire Line
+	3700 14500 3700 14650
+Wire Wire Line
+	3700 14800 3650 14800
+Wire Wire Line
+	3800 14650 3700 14650
+Connection ~ 3700 14650
+Wire Wire Line
+	3700 14650 3700 14800
+Wire Wire Line
+	2500 15350 2950 15350
+Wire Wire Line
+	3150 14500 3350 14500
+Wire Wire Line
+	3350 14800 3150 14800
+Wire Wire Line
+	2600 15150 2950 15150
+Wire Wire Line
+	2500 15350 2500 14700
+Wire Wire Line
+	2500 14700 2300 14700
+Wire Wire Line
+	2300 14500 2700 14500
+Wire Wire Line
+	3900 15600 2300 15600
+$Comp
+L power:Earth #PWR03
+U 1 1 5FB0F6DF
+P 1700 15900
+F 0 "#PWR03" H 1700 15650 50  0001 C CNN
+F 1 "Earth" H 1700 15750 50  0001 C CNN
+F 2 "" H 1700 15900 50  0001 C CNN
+F 3 "~" H 1700 15900 50  0001 C CNN
+	1    1700 15900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2600 14600 2600 15150
+$Comp
+L MyOwnKeyboard-rescue:ATmega164P-20PU-MCU_Microchip_ATmega-MyOwnKeyboard-rescue U1
+U 1 1 5F6749FA
+P 1700 13900
+F 0 "U1" H 1200 15900 50  0000 C CNN
+F 1 "ATmega164P-20PU" H 2250 15900 50  0000 C CNN
+F 2 "Package_DIP:DIP-40_W15.24mm" H 1700 13900 50  0001 C CIN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-42742-ATmega164P_Datasheet.pdf" H 1700 13900 50  0001 C CNN
+	1    1700 13900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2300 14600 2600 14600
+Text Label 2650 15150 0    50   ~ 0
+Clk
+Wire Wire Line
+	2400 12050 2400 12200
+Wire Wire Line
+	2400 12200 2300 12200
+Wire Wire Line
+	2500 12050 2500 12300
+Wire Wire Line
+	2500 12300 2300 12300
+Wire Wire Line
+	2600 12050 2600 12400
+Wire Wire Line
+	2600 12400 2300 12400
+Wire Wire Line
+	2700 12050 2700 12500
+Wire Wire Line
+	2700 12500 2300 12500
+Wire Wire Line
+	2300 12600 2800 12600
+Wire Wire Line
+	2800 12600 2800 12050
+Wire Wire Line
+	2900 12050 2900 12700
+Wire Wire Line
+	2900 12700 2300 12700
+Wire Wire Line
+	2300 12800 3000 12800
+Wire Wire Line
+	3000 12800 3000 12050
+Wire Wire Line
+	3100 12050 3100 12900
+Wire Wire Line
+	3100 12900 2300 12900
+Connection ~ 2400 12200
+Wire Wire Line
+	2400 12200 3350 12200
+Wire Wire Line
+	2500 12300 3350 12300
+Connection ~ 2500 12300
+Wire Wire Line
+	3350 12400 2600 12400
+Connection ~ 2600 12400
+Wire Wire Line
+	2700 12500 3350 12500
+Connection ~ 2700 12500
+Wire Wire Line
+	3350 12600 2800 12600
+Connection ~ 2800 12600
+Wire Wire Line
+	2900 12700 3350 12700
+Connection ~ 2900 12700
+Wire Wire Line
+	3350 12800 3000 12800
+Connection ~ 3000 12800
+Wire Wire Line
+	3100 12900 3350 12900
+Connection ~ 3100 12900
 $Comp
 L Device:R R117
 U 1 1 5EE84056
-P 2950 13650
-F 0 "R117" V 2775 13650 50  0000 C CNN
-F 1 "2.26k" V 2850 13650 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 2880 13650 50  0001 C CNN
-F 3 "~" H 2950 13650 50  0001 C CNN
-	1    2950 13650
+P 3000 14500
+F 0 "R117" V 2825 14500 50  0000 C CNN
+F 1 "2.26k" V 2900 14500 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 2930 14500 50  0001 C CNN
+F 3 "~" H 3000 14500 50  0001 C CNN
+	1    3000 14500
 	0    -1   1    0   
 $EndComp
 $Comp
 L Device:R R118
 U 1 1 5EE86968
-P 2950 13950
-F 0 "R118" V 2775 13950 50  0000 C CNN
-F 1 "2.26k" V 2850 13950 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 2880 13950 50  0001 C CNN
-F 3 "~" H 2950 13950 50  0001 C CNN
-	1    2950 13950
+P 3000 14800
+F 0 "R118" V 2825 14800 50  0000 C CNN
+F 1 "2.26k" V 2900 14800 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 2930 14800 50  0001 C CNN
+F 3 "~" H 3000 14800 50  0001 C CNN
+	1    3000 14800
 	0    -1   1    0   
 $EndComp
 Wire Wire Line
-	2750 14500 2750 13950
+	2700 14500 2700 14800
 Wire Wire Line
-	2750 13950 2800 13950
+	2700 14800 2850 14800
 Wire Wire Line
-	2800 13650 2700 13650
+	2800 14400 2800 14500
 Wire Wire Line
-	2700 13650 2700 14400
-Text GLabel 3750 13800 2    50   Input ~ 0
-5v
+	2800 14500 2850 14500
 Wire Wire Line
-	3600 13650 3650 13650
+	2300 14400 2800 14400
 Wire Wire Line
-	3650 13650 3650 13800
+	2400 13050 2400 13100
 Wire Wire Line
-	3650 13950 3600 13950
+	2400 13100 2300 13100
 Wire Wire Line
-	3750 13800 3650 13800
-Connection ~ 3650 13800
+	2500 13050 2500 13200
 Wire Wire Line
-	3650 13800 3650 13950
+	2500 13200 2300 13200
 Wire Wire Line
-	2300 14600 2950 14600
+	2600 13050 2600 13300
 Wire Wire Line
-	2400 14800 2400 14700
+	2600 13300 2300 13300
 Wire Wire Line
-	2400 14700 2300 14700
+	2700 13400 2300 13400
 Wire Wire Line
-	2400 14800 2950 14800
+	2800 13050 2800 13500
 Wire Wire Line
-	2300 14500 2750 14500
+	2800 13500 2300 13500
 Wire Wire Line
-	2300 14400 2700 14400
+	2300 13600 2900 13600
 Wire Wire Line
-	3100 13650 3300 13650
+	2900 13600 2900 13050
 Wire Wire Line
-	3300 13950 3100 13950
+	3000 13050 3000 13700
+Wire Wire Line
+	3000 13700 2300 13700
+Wire Wire Line
+	2300 13800 3100 13800
+Wire Wire Line
+	3100 13800 3100 13050
+Connection ~ 2400 13100
+Connection ~ 2500 13200
+Wire Wire Line
+	2600 13300 3350 13300
+Connection ~ 2600 13300
+Wire Wire Line
+	2700 13050 2700 13400
+Wire Wire Line
+	2700 13400 3350 13400
+Connection ~ 2700 13400
+Wire Wire Line
+	3350 13500 2800 13500
+Connection ~ 2800 13500
+Wire Wire Line
+	2900 13600 3350 13600
+Connection ~ 2900 13600
+Wire Wire Line
+	3000 13700 3350 13700
+Connection ~ 3000 13700
+Wire Wire Line
+	3100 13800 3350 13800
+Connection ~ 3100 13800
+Wire Wire Line
+	2300 14000 2400 14000
+Wire Wire Line
+	2400 14000 2400 13950
+Wire Wire Line
+	2500 13950 2500 14100
+Wire Wire Line
+	2500 14100 2300 14100
+Wire Wire Line
+	2600 13950 2600 14200
+Wire Wire Line
+	2600 14200 2300 14200
+Wire Wire Line
+	2400 14000 3350 14000
+Connection ~ 2400 14000
+Wire Wire Line
+	3350 14100 2500 14100
+Connection ~ 2500 14100
+Wire Wire Line
+	2600 14200 3350 14200
+Connection ~ 2600 14200
+$Comp
+L power:Earth #PWR?
+U 1 1 689FE1E0
+P 3800 12250
+F 0 "#PWR?" H 3800 12000 50  0001 C CNN
+F 1 "Earth" H 3800 12100 50  0001 C CNN
+F 2 "" H 3800 12250 50  0001 C CNN
+F 3 "~" H 3800 12250 50  0001 C CNN
+	1    3800 12250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3750 12200 3800 12200
+Wire Wire Line
+	3800 12200 3800 12250
+Wire Wire Line
+	3800 13100 3800 13150
+Wire Wire Line
+	3750 13100 3800 13100
+$Comp
+L power:Earth #PWR?
+U 1 1 68A00CEB
+P 3800 13150
+F 0 "#PWR?" H 3800 12900 50  0001 C CNN
+F 1 "Earth" H 3800 13000 50  0001 C CNN
+F 2 "" H 3800 13150 50  0001 C CNN
+F 3 "~" H 3800 13150 50  0001 C CNN
+	1    3800 13150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4600 14900 4600 11650
+$Comp
+L Device:R_Network08 RN?
+U 1 1 690ACD70
+P 3550 13500
+F 0 "RN?" V 3050 13350 50  0000 C CNN
+F 1 "R_Network08" V 3050 13700 50  0000 C CNN
+F 2 "Resistor_THT:R_Array_SIP9" V 4025 13500 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 3550 13500 50  0001 C CNN
+	1    3550 13500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2500 13200 3350 13200
+Wire Wire Line
+	2400 13100 3350 13100
+$Comp
+L Device:R_Network08 RN?
+U 1 1 698A62CD
+P 3550 12600
+F 0 "RN?" V 3050 12450 50  0000 C CNN
+F 1 "R_Network08" V 3050 12800 50  0000 C CNN
+F 2 "Resistor_THT:R_Array_SIP9" V 4025 12600 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 3550 12600 50  0001 C CNN
+	1    3550 12600
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Network03 RN?
+U 1 1 6A45B056
+P 3550 14100
+F 0 "RN?" V 3350 13950 50  0000 C CNN
+F 1 "R_Network03" V 3350 14300 50  0000 C CNN
+F 2 "Resistor_THT:R_Array_SIP4" V 3825 14100 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 3550 14100 50  0001 C CNN
+	1    3550 14100
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3800 14000 3800 14050
+Wire Wire Line
+	3750 14000 3800 14000
+$Comp
+L power:Earth #PWR?
+U 1 1 6A460CD5
+P 3800 14050
+F 0 "#PWR?" H 3800 13800 50  0001 C CNN
+F 1 "Earth" H 3800 13900 50  0001 C CNN
+F 2 "" H 3800 14050 50  0001 C CNN
+F 3 "~" H 3800 14050 50  0001 C CNN
+	1    3800 14050
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

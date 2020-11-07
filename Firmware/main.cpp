@@ -51,6 +51,8 @@ void disableBacklight();
 
 PS2dev ps2;
 
+bool fnPressed = false;
+
 /// Table containing character codes for each key in the keyboard layout.
 /// This firmware was designed for a 19x6 matrix (114 keys total).
 key kbmap[6][19] = {
@@ -200,7 +202,15 @@ void handleKeypress(key* key, bool value)
                 case 0x00:
                     // Don't do anything for blank keys (this shouldn't even happen)
                     break;
+                case 0x01:
+                    fnPressed = true;
+                    break;
                 default:
+                    normal_keypress:
+
+                    // Don't handle key presses while holding Fn
+                    if (fnPressed) break;
+
                     // Handle the key change normally
                     cli();
                     key->special ? ps2.keyboard_press_special(key->code) : ps2.keyboard_press(key->code);
@@ -215,7 +225,13 @@ void handleKeypress(key* key, bool value)
                 case 0x00:
                     // Don't do anything for blank keys (this shouldn't even happen)
                     break;
+                case 0x01:
+                    fnPressed = false;
+                    break;
                 default:
+                    // Don't handle key presses while holding Fn
+                    if (fnPressed) break;
+
                     // Handle the key change normally
                     cli();
                     key->special ? ps2.keyboard_release_special(key->code) : ps2.keyboard_release(key->code);
