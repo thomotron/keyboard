@@ -97,7 +97,7 @@ void init()
     DDRA = 0;
     DDRB = 0;
     DDRC = 0;
-    DDRD = 0b11111100;
+    DDRD = 0b00111111;
     PinMode(BACKLIGHT, Output);
     PinMode(CLK, Input);
     PinMode(DATA, Input);
@@ -109,6 +109,10 @@ void init()
     DigitalWrite(DATA, High);
     DigitalWrite(NUMLOCK, High);
     DigitalWrite(CAPSLOCK, High);
+    PORTA = 0b11111111;
+    PORTB = 0b11111111;
+    PORTC = 0b00000111;
+    PORTD = 0b00111111;
 
     // Set up Timer0 to check for host communication periodically
     TCCR0 |= (1 << WGM01); // Count up and reset when matched
@@ -149,15 +153,12 @@ int main()
 /// codes to the host.
 inline void readMatrix()
 {
-    // Reset each row
-    PORTD &= 0b00000011;
-
     // Scan the matrix and store each key's state
     bool keyStates[6][19];
     for (int row = 0; row < 6; row++)
     {
-        // Set the row high
-        BitSet(PORTD, row);
+        // Allow the row to sink
+        BitClear(PORTD, row);
         nop;
 
         // Pack signal lines A-S into a 32-bit integer (19 > 16, so 32 is the next in line)
@@ -166,10 +167,10 @@ inline void readMatrix()
         // Fill in keyStates with this row's data
         for (int col = 0; col < 19; col++)
         {
-            keyStates[row][col] = columnData & (1 << col);
+            keyStates[row][col] = !(columnData & (1 << row));
         }
 
-        // Set the row low
+        // Bring the row back high
         BitClear(PORTD, row);
     }
 
@@ -182,9 +183,6 @@ inline void readMatrix()
             handleKeypress(&kbmap[row][col], keyStates[row][col]);
         }
     }
-
-    // Reset each row
-    PORTD &= 0b00000011;
 }
 
 /// Handles state changes for the given key.
@@ -205,6 +203,24 @@ void handleKeypress(key* key, bool value)
                     break;
                 case 0x01:
                     fnPressed = true;
+                    break;
+                case 0x79: // Plus
+                    // Check if the Fn key is pressed
+                    if (fnPressed)
+                        // Increment the backlight
+                        incrementBacklight();
+                    else
+                        // Handle the key change normally
+                        goto normal_keypress;
+                    break;
+                case 0x7b: // Minus
+                    // Check if the Fn key is pressed
+                    if (fnPressed)
+                        // Decrement the backlight
+                        decrementBacklight();
+                    else
+                        // Handle the key change normally
+                        goto normal_keypress;
                     break;
                 default:
                     normal_keypress:
