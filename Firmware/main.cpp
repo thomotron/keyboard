@@ -19,6 +19,7 @@
 //
 #define BACKLIGHT_PRESCALER 0b110
 #define BACKLIGHT_INCREMENT 32 // Backlight range is 0-255
+//#define DISABLE_PS2
 
 // The PS/2 protocol requires that the CLK line be checked by the device at
 // least once every 10ms at most. To do that in a more consistent way, we'll use
@@ -211,10 +212,12 @@ void handleKeypress(key* key, bool value)
                     // Don't handle key presses while holding Fn
                     if (fnPressed) break;
 
+#ifndef DISABLE_PS2
                     // Handle the key change normally
                     cli();
                     key->special ? ps2.keyboard_press_special(key->code) : ps2.keyboard_press(key->code);
                     sei();
+#endif
                     break;
             }
         }
@@ -232,10 +235,12 @@ void handleKeypress(key* key, bool value)
                     // Don't handle key presses while holding Fn
                     if (fnPressed) break;
 
+#ifndef DISABLE_PS2
                     // Handle the key change normally
                     cli();
                     key->special ? ps2.keyboard_release_special(key->code) : ps2.keyboard_release(key->code);
                     sei();
+#endif
                     break;
             }
         }
