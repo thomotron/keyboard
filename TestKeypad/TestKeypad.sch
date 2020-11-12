@@ -24,21 +24,21 @@ F 3 "~" H 1350 7050 50  0001 C CNN
 	1    1350 7050
 	1    0    0    -1  
 $EndComp
-Text GLabel 1950 3200 1    50   Input ~ 0
+Text GLabel 1900 3250 2    50   Output ~ 0
 A
-Text GLabel 2050 3200 1    50   Input ~ 0
+Text GLabel 1900 3350 2    50   Output ~ 0
 B
-Text GLabel 2150 3200 1    50   Input ~ 0
+Text GLabel 1900 3450 2    50   Output ~ 0
 C
-Text GLabel 2250 3200 1    50   Input ~ 0
+Text GLabel 1900 3550 2    50   Output ~ 0
 D
-Text GLabel 1900 5950 2    50   Output ~ 0
+Text GLabel 1900 5950 2    50   Input ~ 0
 1
-Text GLabel 1900 6050 2    50   Output ~ 0
+Text GLabel 1900 6050 2    50   Input ~ 0
 2
-Text GLabel 1900 6150 2    50   Output ~ 0
+Text GLabel 1900 6150 2    50   Input ~ 0
 3
-Text GLabel 1900 6250 2    50   Output ~ 0
+Text GLabel 1900 6250 2    50   Input ~ 0
 4
 Text Label 2150 6200 0    50   ~ 0
 Clk
@@ -108,21 +108,21 @@ Wire Wire Line
 	4200 6350 4200 6650
 Text Label 2100 6650 0    50   ~ 0
 Counter2A-PWM
-Text GLabel 7500 4700 3    50   Output ~ 0
+Text GLabel 7500 4700 3    50   Input ~ 0
 D
-Text GLabel 7000 4700 3    50   Output ~ 0
+Text GLabel 7000 4700 3    50   Input ~ 0
 C
-Text GLabel 6500 4700 3    50   Output ~ 0
+Text GLabel 6500 4700 3    50   Input ~ 0
 B
-Text GLabel 6000 4700 3    50   Output ~ 0
+Text GLabel 6000 4700 3    50   Input ~ 0
 A
-Text GLabel 7950 3750 2    50   Input ~ 0
+Text GLabel 7950 3750 2    50   Output ~ 0
 4
-Text GLabel 7950 2800 2    50   Input ~ 0
+Text GLabel 7950 2800 2    50   Output ~ 0
 3
-Text GLabel 7950 1850 2    50   Input ~ 0
+Text GLabel 7950 1850 2    50   Output ~ 0
 2
-Text GLabel 7950 900  2    50   Input ~ 0
+Text GLabel 7950 900  2    50   Output ~ 0
 1
 Connection ~ 7600 3750
 Wire Wire Line
@@ -210,10 +210,10 @@ U 1 1 6176FB35
 P 7600 4350
 F 0 "D32" H 7600 4134 50  0000 C CNN
 F 1 "1N4148" H 7600 4225 50  0000 C CNN
-F 2 "Diode_SMD:D_MiniMELF_Handsoldering" H 7600 4350 50  0001 C CNN
+F 2 "Diode_SMD:D_MiniMELF" H 7600 4350 50  0001 C CNN
 F 3 "~" H 7600 4350 50  0001 C CNN
 	1    7600 4350
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Switch:SW_SPST SW16
@@ -238,10 +238,10 @@ U 1 1 6176FB26
 P 7600 3400
 F 0 "D28" H 7600 3184 50  0000 C CNN
 F 1 "1N4148" H 7600 3275 50  0000 C CNN
-F 2 "Diode_SMD:D_MiniMELF_Handsoldering" H 7600 3400 50  0001 C CNN
+F 2 "Diode_SMD:D_MiniMELF" H 7600 3400 50  0001 C CNN
 F 3 "~" H 7600 3400 50  0001 C CNN
 	1    7600 3400
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Switch:SW_SPST SW12
@@ -266,10 +266,10 @@ U 1 1 6176FB17
 P 7600 2450
 F 0 "D24" H 7600 2234 50  0000 C CNN
 F 1 "1N4148" H 7600 2325 50  0000 C CNN
-F 2 "Diode_SMD:D_MiniMELF_Handsoldering" H 7600 2450 50  0001 C CNN
+F 2 "Diode_SMD:D_MiniMELF" H 7600 2450 50  0001 C CNN
 F 3 "~" H 7600 2450 50  0001 C CNN
 	1    7600 2450
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Switch:SW_SPST SW8
@@ -294,10 +294,10 @@ U 1 1 6176FB08
 P 7600 1500
 F 0 "D20" H 7600 1284 50  0000 C CNN
 F 1 "1N4148" H 7600 1375 50  0000 C CNN
-F 2 "Diode_SMD:D_MiniMELF_Handsoldering" H 7600 1500 50  0001 C CNN
+F 2 "Diode_SMD:D_MiniMELF" H 7600 1500 50  0001 C CNN
 F 3 "~" H 7600 1500 50  0001 C CNN
 	1    7600 1500
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Switch:SW_SPST SW4
@@ -322,10 +322,10 @@ U 1 1 6171AE4D
 P 7100 4350
 F 0 "D31" H 7100 4134 50  0000 C CNN
 F 1 "1N4148" H 7100 4225 50  0000 C CNN
-F 2 "Diode_SMD:D_MiniMELF_Handsoldering" H 7100 4350 50  0001 C CNN
+F 2 "Diode_SMD:D_MiniMELF" H 7100 4350 50  0001 C CNN
 F 3 "~" H 7100 4350 50  0001 C CNN
 	1    7100 4350
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Switch:SW_SPST SW15
@@ -350,10 +350,10 @@ U 1 1 6171AE3E
 P 7100 3400
 F 0 "D27" H 7100 3184 50  0000 C CNN
 F 1 "1N4148" H 7100 3275 50  0000 C CNN
-F 2 "Diode_SMD:D_MiniMELF_Handsoldering" H 7100 3400 50  0001 C CNN
+F 2 "Diode_SMD:D_MiniMELF" H 7100 3400 50  0001 C CNN
 F 3 "~" H 7100 3400 50  0001 C CNN
 	1    7100 3400
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Switch:SW_SPST SW11
@@ -378,10 +378,10 @@ U 1 1 6171AE2F
 P 7100 2450
 F 0 "D23" H 7100 2234 50  0000 C CNN
 F 1 "1N4148" H 7100 2325 50  0000 C CNN
-F 2 "Diode_SMD:D_MiniMELF_Handsoldering" H 7100 2450 50  0001 C CNN
+F 2 "Diode_SMD:D_MiniMELF" H 7100 2450 50  0001 C CNN
 F 3 "~" H 7100 2450 50  0001 C CNN
 	1    7100 2450
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Switch:SW_SPST SW7
@@ -406,10 +406,10 @@ U 1 1 6171AE20
 P 7100 1500
 F 0 "D19" H 7100 1284 50  0000 C CNN
 F 1 "1N4148" H 7100 1375 50  0000 C CNN
-F 2 "Diode_SMD:D_MiniMELF_Handsoldering" H 7100 1500 50  0001 C CNN
+F 2 "Diode_SMD:D_MiniMELF" H 7100 1500 50  0001 C CNN
 F 3 "~" H 7100 1500 50  0001 C CNN
 	1    7100 1500
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Switch:SW_SPST SW3
@@ -434,10 +434,10 @@ U 1 1 616C340E
 P 6600 4350
 F 0 "D30" H 6600 4134 50  0000 C CNN
 F 1 "1N4148" H 6600 4225 50  0000 C CNN
-F 2 "Diode_SMD:D_MiniMELF_Handsoldering" H 6600 4350 50  0001 C CNN
+F 2 "Diode_SMD:D_MiniMELF" H 6600 4350 50  0001 C CNN
 F 3 "~" H 6600 4350 50  0001 C CNN
 	1    6600 4350
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Switch:SW_SPST SW14
@@ -462,10 +462,10 @@ U 1 1 616C33FF
 P 6600 3400
 F 0 "D26" H 6600 3184 50  0000 C CNN
 F 1 "1N4148" H 6600 3275 50  0000 C CNN
-F 2 "Diode_SMD:D_MiniMELF_Handsoldering" H 6600 3400 50  0001 C CNN
+F 2 "Diode_SMD:D_MiniMELF" H 6600 3400 50  0001 C CNN
 F 3 "~" H 6600 3400 50  0001 C CNN
 	1    6600 3400
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Switch:SW_SPST SW10
@@ -490,10 +490,10 @@ U 1 1 616C33F0
 P 6600 2450
 F 0 "D22" H 6600 2234 50  0000 C CNN
 F 1 "1N4148" H 6600 2325 50  0000 C CNN
-F 2 "Diode_SMD:D_MiniMELF_Handsoldering" H 6600 2450 50  0001 C CNN
+F 2 "Diode_SMD:D_MiniMELF" H 6600 2450 50  0001 C CNN
 F 3 "~" H 6600 2450 50  0001 C CNN
 	1    6600 2450
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Switch:SW_SPST SW6
@@ -516,10 +516,10 @@ U 1 1 616C33E1
 P 6600 1500
 F 0 "D18" H 6600 1284 50  0000 C CNN
 F 1 "1N4148" H 6600 1375 50  0000 C CNN
-F 2 "Diode_SMD:D_MiniMELF_Handsoldering" H 6600 1500 50  0001 C CNN
+F 2 "Diode_SMD:D_MiniMELF" H 6600 1500 50  0001 C CNN
 F 3 "~" H 6600 1500 50  0001 C CNN
 	1    6600 1500
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Switch:SW_SPST SW2
@@ -544,10 +544,10 @@ U 1 1 6159CE4D
 P 6100 4350
 F 0 "D29" H 6100 4134 50  0000 C CNN
 F 1 "1N4148" H 6100 4225 50  0000 C CNN
-F 2 "Diode_SMD:D_MiniMELF_Handsoldering" H 6100 4350 50  0001 C CNN
+F 2 "Diode_SMD:D_MiniMELF" H 6100 4350 50  0001 C CNN
 F 3 "~" H 6100 4350 50  0001 C CNN
 	1    6100 4350
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Switch:SW_SPST SW13
@@ -572,10 +572,10 @@ U 1 1 6159CE3E
 P 6100 3400
 F 0 "D25" H 6100 3184 50  0000 C CNN
 F 1 "1N4148" H 6100 3275 50  0000 C CNN
-F 2 "Diode_SMD:D_MiniMELF_Handsoldering" H 6100 3400 50  0001 C CNN
+F 2 "Diode_SMD:D_MiniMELF" H 6100 3400 50  0001 C CNN
 F 3 "~" H 6100 3400 50  0001 C CNN
 	1    6100 3400
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Switch:SW_SPST SW9
@@ -600,10 +600,10 @@ U 1 1 615508E9
 P 6100 2450
 F 0 "D21" H 6100 2234 50  0000 C CNN
 F 1 "1N4148" H 6100 2325 50  0000 C CNN
-F 2 "Diode_SMD:D_MiniMELF_Handsoldering" H 6100 2450 50  0001 C CNN
+F 2 "Diode_SMD:D_MiniMELF" H 6100 2450 50  0001 C CNN
 F 3 "~" H 6100 2450 50  0001 C CNN
 	1    6100 2450
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Switch:SW_SPST SW5
@@ -628,10 +628,10 @@ U 1 1 6146D1A6
 P 6100 1500
 F 0 "D17" H 6100 1284 50  0000 C CNN
 F 1 "1N4148" H 6100 1375 50  0000 C CNN
-F 2 "Diode_SMD:D_MiniMELF_Handsoldering" H 6100 1500 50  0001 C CNN
+F 2 "Diode_SMD:D_MiniMELF" H 6100 1500 50  0001 C CNN
 F 3 "~" H 6100 1500 50  0001 C CNN
 	1    6100 1500
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Switch:SW_SPST SW1
@@ -1214,34 +1214,6 @@ Wire Wire Line
 Wire Wire Line
 	2100 6200 2550 6200
 Wire Wire Line
-	1900 3250 1950 3250
-Wire Wire Line
-	1950 3250 1950 3200
-Wire Wire Line
-	1900 3350 2050 3350
-Wire Wire Line
-	2050 3350 2050 3200
-Wire Wire Line
-	1900 3450 2150 3450
-Wire Wire Line
-	2150 3450 2150 3200
-Wire Wire Line
-	1900 3550 2250 3550
-Wire Wire Line
-	2250 3550 2250 3200
-Wire Wire Line
-	1950 3250 2300 3250
-Connection ~ 1950 3250
-Wire Wire Line
-	2300 3350 2050 3350
-Connection ~ 2050 3350
-Wire Wire Line
-	2150 3450 2300 3450
-Connection ~ 2150 3450
-Wire Wire Line
-	2300 3550 2250 3550
-Connection ~ 2250 3550
-Wire Wire Line
 	7600 900  7950 900 
 Wire Wire Line
 	7600 1850 7950 1850
@@ -1406,32 +1378,6 @@ F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/doc2502.pdf" H 1300 4950 50
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2750 3250 2750 3300
-Wire Wire Line
-	2700 3250 2750 3250
-$Comp
-L power:Earth #PWR04
-U 1 1 6ABA619B
-P 2750 3300
-F 0 "#PWR04" H 2750 3050 50  0001 C CNN
-F 1 "Earth" H 2750 3150 50  0001 C CNN
-F 2 "" H 2750 3300 50  0001 C CNN
-F 3 "~" H 2750 3300 50  0001 C CNN
-	1    2750 3300
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R_Network08 RN1
-U 1 1 64E45CBF
-P 2500 3650
-F 0 "RN1" V 2000 3550 50  0000 C CNN
-F 1 "100k" V 2000 3800 50  0000 C CNN
-F 2 "Resistor_THT:R_Array_SIP9" V 2975 3650 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 2500 3650 50  0001 C CNN
-	1    2500 3650
-	0    1    1    0   
-$EndComp
-Wire Wire Line
 	1900 5450 2650 5450
 $Comp
 L Connector:Conn_01x06_Male J2
@@ -1447,50 +1393,17 @@ $EndComp
 Text GLabel 2500 4950 0    50   Output ~ 0
 5v
 Wire Wire Line
-	1900 4650 2150 4650
-Wire Wire Line
-	2150 4650 2150 3650
-Wire Wire Line
-	2150 3650 2300 3650
-Wire Wire Line
-	1900 4750 2200 4750
-Wire Wire Line
-	2200 4750 2200 3750
-Wire Wire Line
-	2200 3750 2300 3750
-Wire Wire Line
-	1900 4850 2250 4850
-Wire Wire Line
-	2250 4850 2250 3850
-Wire Wire Line
-	2250 3850 2300 3850
-Wire Wire Line
 	1950 5050 1950 4550
 Connection ~ 1950 4550
 Wire Wire Line
 	1900 6650 3500 6650
 NoConn ~ 1900 6450
 Wire Wire Line
-	2250 4850 2500 4850
-Connection ~ 2250 4850
-Wire Wire Line
-	2500 4750 2200 4750
-Connection ~ 2200 4750
-Wire Wire Line
-	2150 4650 2500 4650
-Connection ~ 2150 4650
-Wire Wire Line
 	700  3250 600  3250
 Wire Wire Line
 	600  3250 600  2550
 Wire Wire Line
-	600  2550 3300 2550
-Wire Wire Line
-	3300 2550 3300 4400
-Wire Wire Line
-	3300 4400 2400 4400
-Wire Wire Line
-	2400 4400 2400 4550
+	600  2550 2400 2550
 Wire Wire Line
 	2400 4550 2500 4550
 Wire Wire Line
@@ -1502,14 +1415,22 @@ NoConn ~ 1900 5550
 Wire Wire Line
 	3350 5450 3450 5450
 $Comp
-L power:Earth #PWR?
+L power:Earth #PWR0101
 U 1 1 5F265FB5
 P 2550 6300
-F 0 "#PWR?" H 2550 6050 50  0001 C CNN
+F 0 "#PWR0101" H 2550 6050 50  0001 C CNN
 F 1 "Earth" H 2550 6150 50  0001 C CNN
 F 2 "" H 2550 6300 50  0001 C CNN
 F 3 "~" H 2550 6300 50  0001 C CNN
 	1    2550 6300
 	0    1    1    0   
 $EndComp
+Wire Wire Line
+	1900 4650 2500 4650
+Wire Wire Line
+	1900 4750 2500 4750
+Wire Wire Line
+	1900 4850 2500 4850
+Wire Wire Line
+	2400 2550 2400 4550
 $EndSCHEMATC
