@@ -15,6 +15,15 @@
 #define CAPSLOCK C, 5
 
 //
+// Matrix size definitions
+//
+#define MATRIX_WIDTH 4
+#define MATRIX_HEIGHT 4
+#define MATRIX_SINK_PORT PORTA // Port of the pins that will sink to allow reading
+#define MATRIX_SINK_PIN_OFFSET 0 // First pin index to pull low
+#define MATRIX_READ (PIND) // Macro used to read each column state
+
+//
 // Other definitions
 //
 #define BACKLIGHT_PRESCALER 0b110
@@ -55,8 +64,7 @@ PS2dev ps2;
 bool fnPressed = false;
 
 /// Table containing character codes for each key in the keyboard layout.
-/// This firmware was designed for a 19x6 matrix (114 keys total).
-key kbmap[6][19] = {
+key kbmap[MATRIX_HEIGHT][MATRIX_WIDTH] = {
     {{0x6C, false, false},{0x75, false, false},{0x7D, false, false},{0x77, false, false}},
     {{0x6B, false, false},{0x73, false, false},{0x74, false, false},{0x79, false, false}},
     {{0x69, false, false},{0x72, false, false},{0x7A, false, false},{0x7B, false, false}},
@@ -150,30 +158,30 @@ int main()
 inline void readMatrix()
 {
     // Scan the matrix and store each key's state
-    bool keyStates[4][4];
-    for (int col = 0; col < 4; col++)
+    bool keyStates[MATRIX_HEIGHT][MATRIX_WIDTH];
+    for (int col = 0; col < MATRIX_WIDTH; col++)
     {
         // Allow the column to sink
-        BitClear(PORTA, col);
+        BitClear(MATRIX_SINK_PORT, (col + MATRIX_SINK_PIN_OFFSET));
         nop;
 
-        // Pack signal lines A-S into a 32-bit integer (19 > 16, so 32 is the next in line)
-        uint32_t rowData = PIND;
+        // Get each row's data
+        uint32_t rowData = MATRIX_READ;
 
         // Fill in keyStates with this column's data
-        for (int row = 0; row < 4; row++)
+        for (int row = 0; row < MATRIX_HEIGHT; row++)
         {
             keyStates[row][col] = !(rowData & (1 << row));
         }
 
         // Bring the column back high
-        BitSet(PORTA, col);
+        BitSet(MATRIX_SINK_PORT, (col + MATRIX_SINK_PIN_OFFSET));
     }
 
     // Handle any state changes of the keys we just sampled
-    for (int row = 0; row < 4; row++)
+    for (int row = 0; row < MATRIX_HEIGHT; row++)
     {
-        for (int col = 0; col < 4; col++)
+        for (int col = 0; col < MATRIX_WIDTH; col++)
         {
             // Handle any change to the key
             handleKeypress(&kbmap[row][col], keyStates[row][col]);
