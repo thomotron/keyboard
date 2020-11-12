@@ -1,0 +1,10 @@
+# Compilation artifacts
+*.elf
+*.hex
+*.o
+*.gch
+
+# CLion
+.idea/
+cmake-build-debug/
+bin/
