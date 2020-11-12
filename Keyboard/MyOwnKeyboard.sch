@@ -24,53 +24,35 @@ F 3 "~" H 1750 15950 50  0001 C CNN
 	1    1750 15950
 	1    0    0    -1  
 $EndComp
-Text GLabel 2350 12150 1    50   Input ~ 0
-A
-Text GLabel 2450 12150 1    50   Input ~ 0
-B
-Text GLabel 2550 12150 1    50   Input ~ 0
-C
-Text GLabel 2650 12150 1    50   Input ~ 0
-D
-Text GLabel 2750 12150 1    50   Input ~ 0
-E
-Text GLabel 2850 12150 1    50   Input ~ 0
-F
-Text GLabel 2950 12150 1    50   Input ~ 0
-G
-Text GLabel 3050 12150 1    50   Input ~ 0
-H
-Text GLabel 2350 13050 1    50   Input ~ 0
+Text GLabel 2350 13100 2    50   Output ~ 0
 I
-Text GLabel 2450 13050 1    50   Input ~ 0
+Text GLabel 2350 13200 2    50   Output ~ 0
 J
-Text GLabel 2550 13050 1    50   Input ~ 0
+Text GLabel 2350 13300 2    50   Output ~ 0
 K
-Text GLabel 2650 13050 1    50   Input ~ 0
+Text GLabel 2350 13400 2    50   Output ~ 0
 L
-Text GLabel 2750 13050 1    50   Input ~ 0
-M
-Text GLabel 2850 13050 1    50   Input ~ 0
+Text GLabel 2900 13600 2    50   Output ~ 0
 N
-Text GLabel 2950 13050 1    50   Input ~ 0
+Text GLabel 2900 13700 2    50   Output ~ 0
 O
-Text GLabel 3050 13050 1    50   Input ~ 0
+Text GLabel 2900 13800 2    50   Output ~ 0
 P
-Text GLabel 2350 13950 1    50   Input ~ 0
+Text GLabel 2350 14000 2    50   Output ~ 0
 Q
-Text GLabel 2450 13950 1    50   Input ~ 0
+Text GLabel 2350 14100 2    50   Output ~ 0
 R
-Text GLabel 2550 13950 1    50   Input ~ 0
+Text GLabel 2350 14200 2    50   Output ~ 0
 S
-Text GLabel 2300 15000 2    50   Output ~ 0
+Text GLabel 2300 15000 2    50   Input ~ 0
 2
-Text GLabel 2300 15100 2    50   Output ~ 0
+Text GLabel 2300 15100 2    50   Input ~ 0
 3
-Text GLabel 2300 15200 2    50   Output ~ 0
+Text GLabel 2300 15200 2    50   Input ~ 0
 4
-Text GLabel 2300 15300 2    50   Output ~ 0
+Text GLabel 2300 15300 2    50   Input ~ 0
 5
-Text GLabel 2300 15400 2    50   Output ~ 0
+Text GLabel 2300 15400 2    50   Input ~ 0
 6
 Text Label 2550 15150 0    50   ~ 0
 Clk
@@ -137,7 +119,7 @@ F 1 "1N4148" H 9750 5825 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF_Handsoldering" H 9750 5950 50  0001 C CNN
 F 3 "~" H 9750 5950 50  0001 C CNN
 	1    9750 5950
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Switch:SW_SPST SW114
@@ -159,7 +141,7 @@ F 1 "1N4148" H 9750 4875 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF_Handsoldering" H 9750 5000 50  0001 C CNN
 F 3 "~" H 9750 5000 50  0001 C CNN
 	1    9750 5000
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Switch:SW_SPST SW95
@@ -181,7 +163,7 @@ F 1 "1N4148" H 9750 3925 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF_Handsoldering" H 9750 4050 50  0001 C CNN
 F 3 "~" H 9750 4050 50  0001 C CNN
 	1    9750 4050
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Switch:SW_SPST SW76
@@ -203,7 +185,7 @@ F 1 "1N4148" H 9750 2975 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF_Handsoldering" H 9750 3100 50  0001 C CNN
 F 3 "~" H 9750 3100 50  0001 C CNN
 	1    9750 3100
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Switch:SW_SPST SW57
@@ -225,7 +207,7 @@ F 1 "1N4148" H 9750 2025 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF_Handsoldering" H 9750 2150 50  0001 C CNN
 F 3 "~" H 9750 2150 50  0001 C CNN
 	1    9750 2150
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Switch:SW_SPST SW38
@@ -247,7 +229,7 @@ F 1 "1N4148" H 9750 1075 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF_Handsoldering" H 9750 1200 50  0001 C CNN
 F 3 "~" H 9750 1200 50  0001 C CNN
 	1    9750 1200
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Switch:SW_SPST SW19
@@ -260,55 +242,51 @@ F 3 "~" H 9750 850 50  0001 C CNN
 	1    9750 850 
 	0    1    1    0   
 $EndComp
-Text GLabel 9650 6300 3    50   Output ~ 0
-S
-Text GLabel 9150 6300 3    50   Output ~ 0
-R
-Text GLabel 8650 6300 3    50   Output ~ 0
+Text GLabel 8650 6300 3    50   Input ~ 0
 Q
-Text GLabel 8150 6300 3    50   Output ~ 0
+Text GLabel 8150 6300 3    50   Input ~ 0
 P
-Text GLabel 7650 6300 3    50   Output ~ 0
+Text GLabel 7650 6300 3    50   Input ~ 0
 O
-Text GLabel 7150 6300 3    50   Output ~ 0
+Text GLabel 7150 6300 3    50   Input ~ 0
 N
-Text GLabel 6650 6300 3    50   Output ~ 0
+Text GLabel 6650 6300 3    50   Input ~ 0
 M
-Text GLabel 6150 6300 3    50   Output ~ 0
+Text GLabel 6150 6300 3    50   Input ~ 0
 L
-Text GLabel 5650 6300 3    50   Output ~ 0
+Text GLabel 5650 6300 3    50   Input ~ 0
 K
-Text GLabel 5150 6300 3    50   Output ~ 0
+Text GLabel 5150 6300 3    50   Input ~ 0
 J
-Text GLabel 4650 6300 3    50   Output ~ 0
+Text GLabel 4650 6300 3    50   Input ~ 0
 I
-Text GLabel 4150 6300 3    50   Output ~ 0
+Text GLabel 4150 6300 3    50   Input ~ 0
 H
-Text GLabel 3650 6300 3    50   Output ~ 0
+Text GLabel 3650 6300 3    50   Input ~ 0
 G
-Text GLabel 3150 6300 3    50   Output ~ 0
+Text GLabel 3150 6300 3    50   Input ~ 0
 F
-Text GLabel 2650 6300 3    50   Output ~ 0
+Text GLabel 2650 6300 3    50   Input ~ 0
 E
-Text GLabel 2150 6300 3    50   Output ~ 0
+Text GLabel 2150 6300 3    50   Input ~ 0
 D
-Text GLabel 1650 6300 3    50   Output ~ 0
+Text GLabel 1650 6300 3    50   Input ~ 0
 C
-Text GLabel 1150 6300 3    50   Output ~ 0
+Text GLabel 1150 6300 3    50   Input ~ 0
 B
-Text GLabel 650  6300 3    50   Output ~ 0
+Text GLabel 650  6300 3    50   Input ~ 0
 A
-Text GLabel 10000 5350 2    50   Input ~ 0
+Text GLabel 10000 5350 2    50   Output ~ 0
 6
-Text GLabel 10000 4400 2    50   Input ~ 0
+Text GLabel 10000 4400 2    50   Output ~ 0
 5
-Text GLabel 10000 3450 2    50   Input ~ 0
+Text GLabel 10000 3450 2    50   Output ~ 0
 4
-Text GLabel 10000 2500 2    50   Input ~ 0
+Text GLabel 10000 2500 2    50   Output ~ 0
 3
-Text GLabel 10000 1550 2    50   Input ~ 0
+Text GLabel 10000 1550 2    50   Output ~ 0
 2
-Text GLabel 10000 600  2    50   Input ~ 0
+Text GLabel 10000 600  2    50   Output ~ 0
 1
 $Comp
 L Device:D D113
@@ -319,7 +297,7 @@ F 1 "1N4148" H 9250 5825 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF_Handsoldering" H 9250 5950 50  0001 C CNN
 F 3 "~" H 9250 5950 50  0001 C CNN
 	1    9250 5950
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Switch:SW_SPST SW113
@@ -341,7 +319,7 @@ F 1 "1N4148" H 9250 4875 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF_Handsoldering" H 9250 5000 50  0001 C CNN
 F 3 "~" H 9250 5000 50  0001 C CNN
 	1    9250 5000
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Switch:SW_SPST SW94
@@ -363,7 +341,7 @@ F 1 "1N4148" H 9250 3925 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF_Handsoldering" H 9250 4050 50  0001 C CNN
 F 3 "~" H 9250 4050 50  0001 C CNN
 	1    9250 4050
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Switch:SW_SPST SW75
@@ -385,7 +363,7 @@ F 1 "1N4148" H 9250 2975 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF_Handsoldering" H 9250 3100 50  0001 C CNN
 F 3 "~" H 9250 3100 50  0001 C CNN
 	1    9250 3100
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Switch:SW_SPST SW56
@@ -407,7 +385,7 @@ F 1 "1N4148" H 9250 2025 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF_Handsoldering" H 9250 2150 50  0001 C CNN
 F 3 "~" H 9250 2150 50  0001 C CNN
 	1    9250 2150
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Switch:SW_SPST SW37
@@ -429,7 +407,7 @@ F 1 "1N4148" H 9250 1075 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF_Handsoldering" H 9250 1200 50  0001 C CNN
 F 3 "~" H 9250 1200 50  0001 C CNN
 	1    9250 1200
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Switch:SW_SPST SW18
@@ -451,7 +429,7 @@ F 1 "1N4148" H 8750 5825 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF_Handsoldering" H 8750 5950 50  0001 C CNN
 F 3 "~" H 8750 5950 50  0001 C CNN
 	1    8750 5950
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Switch:SW_SPST SW112
@@ -473,7 +451,7 @@ F 1 "1N4148" H 8750 4875 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF_Handsoldering" H 8750 5000 50  0001 C CNN
 F 3 "~" H 8750 5000 50  0001 C CNN
 	1    8750 5000
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Switch:SW_SPST SW93
@@ -495,7 +473,7 @@ F 1 "1N4148" H 8750 3925 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF_Handsoldering" H 8750 4050 50  0001 C CNN
 F 3 "~" H 8750 4050 50  0001 C CNN
 	1    8750 4050
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Switch:SW_SPST SW74
@@ -517,7 +495,7 @@ F 1 "1N4148" H 8750 2975 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF_Handsoldering" H 8750 3100 50  0001 C CNN
 F 3 "~" H 8750 3100 50  0001 C CNN
 	1    8750 3100
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Switch:SW_SPST SW55
@@ -539,7 +517,7 @@ F 1 "1N4148" H 8750 2025 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF_Handsoldering" H 8750 2150 50  0001 C CNN
 F 3 "~" H 8750 2150 50  0001 C CNN
 	1    8750 2150
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Switch:SW_SPST SW36
@@ -561,7 +539,7 @@ F 1 "1N4148" H 8750 1075 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF_Handsoldering" H 8750 1200 50  0001 C CNN
 F 3 "~" H 8750 1200 50  0001 C CNN
 	1    8750 1200
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Switch:SW_SPST SW17
@@ -583,7 +561,7 @@ F 1 "1N4148" H 8250 5825 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF_Handsoldering" H 8250 5950 50  0001 C CNN
 F 3 "~" H 8250 5950 50  0001 C CNN
 	1    8250 5950
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Switch:SW_SPST SW111
@@ -605,7 +583,7 @@ F 1 "1N4148" H 8250 4875 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF_Handsoldering" H 8250 5000 50  0001 C CNN
 F 3 "~" H 8250 5000 50  0001 C CNN
 	1    8250 5000
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Switch:SW_SPST SW92
@@ -627,7 +605,7 @@ F 1 "1N4148" H 8250 3925 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF_Handsoldering" H 8250 4050 50  0001 C CNN
 F 3 "~" H 8250 4050 50  0001 C CNN
 	1    8250 4050
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Switch:SW_SPST SW73
@@ -649,7 +627,7 @@ F 1 "1N4148" H 8250 2975 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF_Handsoldering" H 8250 3100 50  0001 C CNN
 F 3 "~" H 8250 3100 50  0001 C CNN
 	1    8250 3100
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Switch:SW_SPST SW54
@@ -671,7 +649,7 @@ F 1 "1N4148" H 8250 2025 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF_Handsoldering" H 8250 2150 50  0001 C CNN
 F 3 "~" H 8250 2150 50  0001 C CNN
 	1    8250 2150
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Switch:SW_SPST SW35
@@ -693,7 +671,7 @@ F 1 "1N4148" H 8250 1075 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF_Handsoldering" H 8250 1200 50  0001 C CNN
 F 3 "~" H 8250 1200 50  0001 C CNN
 	1    8250 1200
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Switch:SW_SPST SW16
@@ -715,7 +693,7 @@ F 1 "1N4148" H 7750 5825 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF_Handsoldering" H 7750 5950 50  0001 C CNN
 F 3 "~" H 7750 5950 50  0001 C CNN
 	1    7750 5950
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Switch:SW_SPST SW110
@@ -737,7 +715,7 @@ F 1 "1N4148" H 7750 4875 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF_Handsoldering" H 7750 5000 50  0001 C CNN
 F 3 "~" H 7750 5000 50  0001 C CNN
 	1    7750 5000
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Switch:SW_SPST SW91
@@ -759,7 +737,7 @@ F 1 "1N4148" H 7750 3925 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF_Handsoldering" H 7750 4050 50  0001 C CNN
 F 3 "~" H 7750 4050 50  0001 C CNN
 	1    7750 4050
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Switch:SW_SPST SW72
@@ -781,7 +759,7 @@ F 1 "1N4148" H 7750 2975 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF_Handsoldering" H 7750 3100 50  0001 C CNN
 F 3 "~" H 7750 3100 50  0001 C CNN
 	1    7750 3100
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Switch:SW_SPST SW53
@@ -803,7 +781,7 @@ F 1 "1N4148" H 7750 2025 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF_Handsoldering" H 7750 2150 50  0001 C CNN
 F 3 "~" H 7750 2150 50  0001 C CNN
 	1    7750 2150
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Switch:SW_SPST SW34
@@ -825,7 +803,7 @@ F 1 "1N4148" H 7750 1075 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF_Handsoldering" H 7750 1200 50  0001 C CNN
 F 3 "~" H 7750 1200 50  0001 C CNN
 	1    7750 1200
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Switch:SW_SPST SW15
@@ -847,7 +825,7 @@ F 1 "1N4148" H 7250 5825 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF_Handsoldering" H 7250 5950 50  0001 C CNN
 F 3 "~" H 7250 5950 50  0001 C CNN
 	1    7250 5950
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Switch:SW_SPST SW109
@@ -869,7 +847,7 @@ F 1 "1N4148" H 7250 4875 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF_Handsoldering" H 7250 5000 50  0001 C CNN
 F 3 "~" H 7250 5000 50  0001 C CNN
 	1    7250 5000
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Switch:SW_SPST SW90
@@ -891,7 +869,7 @@ F 1 "1N4148" H 7250 3925 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF_Handsoldering" H 7250 4050 50  0001 C CNN
 F 3 "~" H 7250 4050 50  0001 C CNN
 	1    7250 4050
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Switch:SW_SPST SW71
@@ -913,7 +891,7 @@ F 1 "1N4148" H 7250 2975 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF_Handsoldering" H 7250 3100 50  0001 C CNN
 F 3 "~" H 7250 3100 50  0001 C CNN
 	1    7250 3100
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Switch:SW_SPST SW52
@@ -935,7 +913,7 @@ F 1 "1N4148" H 7250 2025 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF_Handsoldering" H 7250 2150 50  0001 C CNN
 F 3 "~" H 7250 2150 50  0001 C CNN
 	1    7250 2150
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Switch:SW_SPST SW33
@@ -957,7 +935,7 @@ F 1 "1N4148" H 7250 1075 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF_Handsoldering" H 7250 1200 50  0001 C CNN
 F 3 "~" H 7250 1200 50  0001 C CNN
 	1    7250 1200
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Switch:SW_SPST SW14
@@ -979,7 +957,7 @@ F 1 "1N4148" H 6750 5825 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF_Handsoldering" H 6750 5950 50  0001 C CNN
 F 3 "~" H 6750 5950 50  0001 C CNN
 	1    6750 5950
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Switch:SW_SPST SW108
@@ -1001,7 +979,7 @@ F 1 "1N4148" H 6750 4875 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF_Handsoldering" H 6750 5000 50  0001 C CNN
 F 3 "~" H 6750 5000 50  0001 C CNN
 	1    6750 5000
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Switch:SW_SPST SW89
@@ -1023,7 +1001,7 @@ F 1 "1N4148" H 6750 3925 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF_Handsoldering" H 6750 4050 50  0001 C CNN
 F 3 "~" H 6750 4050 50  0001 C CNN
 	1    6750 4050
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Switch:SW_SPST SW70
@@ -1045,7 +1023,7 @@ F 1 "1N4148" H 6750 2975 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF_Handsoldering" H 6750 3100 50  0001 C CNN
 F 3 "~" H 6750 3100 50  0001 C CNN
 	1    6750 3100
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Switch:SW_SPST SW51
@@ -1067,7 +1045,7 @@ F 1 "1N4148" H 6750 2025 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF_Handsoldering" H 6750 2150 50  0001 C CNN
 F 3 "~" H 6750 2150 50  0001 C CNN
 	1    6750 2150
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Switch:SW_SPST SW32
@@ -1089,7 +1067,7 @@ F 1 "1N4148" H 6750 1075 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF_Handsoldering" H 6750 1200 50  0001 C CNN
 F 3 "~" H 6750 1200 50  0001 C CNN
 	1    6750 1200
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Switch:SW_SPST SW13
@@ -1111,7 +1089,7 @@ F 1 "1N4148" H 6250 5825 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF_Handsoldering" H 6250 5950 50  0001 C CNN
 F 3 "~" H 6250 5950 50  0001 C CNN
 	1    6250 5950
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Switch:SW_SPST SW107
@@ -1133,7 +1111,7 @@ F 1 "1N4148" H 6250 4875 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF_Handsoldering" H 6250 5000 50  0001 C CNN
 F 3 "~" H 6250 5000 50  0001 C CNN
 	1    6250 5000
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Switch:SW_SPST SW88
@@ -1155,7 +1133,7 @@ F 1 "1N4148" H 6250 3925 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF_Handsoldering" H 6250 4050 50  0001 C CNN
 F 3 "~" H 6250 4050 50  0001 C CNN
 	1    6250 4050
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Switch:SW_SPST SW69
@@ -1177,7 +1155,7 @@ F 1 "1N4148" H 6250 2975 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF_Handsoldering" H 6250 3100 50  0001 C CNN
 F 3 "~" H 6250 3100 50  0001 C CNN
 	1    6250 3100
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Switch:SW_SPST SW50
@@ -1199,7 +1177,7 @@ F 1 "1N4148" H 6250 2025 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF_Handsoldering" H 6250 2150 50  0001 C CNN
 F 3 "~" H 6250 2150 50  0001 C CNN
 	1    6250 2150
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Switch:SW_SPST SW31
@@ -1221,7 +1199,7 @@ F 1 "1N4148" H 6250 1075 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF_Handsoldering" H 6250 1200 50  0001 C CNN
 F 3 "~" H 6250 1200 50  0001 C CNN
 	1    6250 1200
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Switch:SW_SPST SW12
@@ -1243,7 +1221,7 @@ F 1 "1N4148" H 5750 5825 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF_Handsoldering" H 5750 5950 50  0001 C CNN
 F 3 "~" H 5750 5950 50  0001 C CNN
 	1    5750 5950
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Switch:SW_SPST SW106
@@ -1265,7 +1243,7 @@ F 1 "1N4148" H 5750 4875 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF_Handsoldering" H 5750 5000 50  0001 C CNN
 F 3 "~" H 5750 5000 50  0001 C CNN
 	1    5750 5000
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Switch:SW_SPST SW87
@@ -1287,7 +1265,7 @@ F 1 "1N4148" H 5750 3925 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF_Handsoldering" H 5750 4050 50  0001 C CNN
 F 3 "~" H 5750 4050 50  0001 C CNN
 	1    5750 4050
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Switch:SW_SPST SW68
@@ -1309,7 +1287,7 @@ F 1 "1N4148" H 5750 2975 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF_Handsoldering" H 5750 3100 50  0001 C CNN
 F 3 "~" H 5750 3100 50  0001 C CNN
 	1    5750 3100
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Switch:SW_SPST SW49
@@ -1331,7 +1309,7 @@ F 1 "1N4148" H 5750 2025 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF_Handsoldering" H 5750 2150 50  0001 C CNN
 F 3 "~" H 5750 2150 50  0001 C CNN
 	1    5750 2150
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Switch:SW_SPST SW30
@@ -1353,7 +1331,7 @@ F 1 "1N4148" H 5750 1075 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF_Handsoldering" H 5750 1200 50  0001 C CNN
 F 3 "~" H 5750 1200 50  0001 C CNN
 	1    5750 1200
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Switch:SW_SPST SW11
@@ -1375,7 +1353,7 @@ F 1 "1N4148" H 5250 5825 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF_Handsoldering" H 5250 5950 50  0001 C CNN
 F 3 "~" H 5250 5950 50  0001 C CNN
 	1    5250 5950
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Switch:SW_SPST SW105
@@ -1397,7 +1375,7 @@ F 1 "1N4148" H 5250 4875 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF_Handsoldering" H 5250 5000 50  0001 C CNN
 F 3 "~" H 5250 5000 50  0001 C CNN
 	1    5250 5000
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Switch:SW_SPST SW86
@@ -1419,7 +1397,7 @@ F 1 "1N4148" H 5250 3925 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF_Handsoldering" H 5250 4050 50  0001 C CNN
 F 3 "~" H 5250 4050 50  0001 C CNN
 	1    5250 4050
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Switch:SW_SPST SW67
@@ -1441,7 +1419,7 @@ F 1 "1N4148" H 5250 2975 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF_Handsoldering" H 5250 3100 50  0001 C CNN
 F 3 "~" H 5250 3100 50  0001 C CNN
 	1    5250 3100
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Switch:SW_SPST SW48
@@ -1463,7 +1441,7 @@ F 1 "1N4148" H 5250 2025 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF_Handsoldering" H 5250 2150 50  0001 C CNN
 F 3 "~" H 5250 2150 50  0001 C CNN
 	1    5250 2150
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Switch:SW_SPST SW29
@@ -1485,7 +1463,7 @@ F 1 "1N4148" H 5250 1075 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF_Handsoldering" H 5250 1200 50  0001 C CNN
 F 3 "~" H 5250 1200 50  0001 C CNN
 	1    5250 1200
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Switch:SW_SPST SW10
@@ -1507,7 +1485,7 @@ F 1 "1N4148" H 4750 5825 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF_Handsoldering" H 4750 5950 50  0001 C CNN
 F 3 "~" H 4750 5950 50  0001 C CNN
 	1    4750 5950
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Switch:SW_SPST SW104
@@ -1529,7 +1507,7 @@ F 1 "1N4148" H 4750 4875 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF_Handsoldering" H 4750 5000 50  0001 C CNN
 F 3 "~" H 4750 5000 50  0001 C CNN
 	1    4750 5000
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Switch:SW_SPST SW85
@@ -1551,7 +1529,7 @@ F 1 "1N4148" H 4750 3925 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF_Handsoldering" H 4750 4050 50  0001 C CNN
 F 3 "~" H 4750 4050 50  0001 C CNN
 	1    4750 4050
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Switch:SW_SPST SW66
@@ -1573,7 +1551,7 @@ F 1 "1N4148" H 4750 2975 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF_Handsoldering" H 4750 3100 50  0001 C CNN
 F 3 "~" H 4750 3100 50  0001 C CNN
 	1    4750 3100
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Switch:SW_SPST SW47
@@ -1595,7 +1573,7 @@ F 1 "1N4148" H 4750 2025 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF_Handsoldering" H 4750 2150 50  0001 C CNN
 F 3 "~" H 4750 2150 50  0001 C CNN
 	1    4750 2150
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Switch:SW_SPST SW28
@@ -1617,7 +1595,7 @@ F 1 "1N4148" H 4750 1075 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF_Handsoldering" H 4750 1200 50  0001 C CNN
 F 3 "~" H 4750 1200 50  0001 C CNN
 	1    4750 1200
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Switch:SW_SPST SW9
@@ -1639,7 +1617,7 @@ F 1 "1N4148" H 4250 5825 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF_Handsoldering" H 4250 5950 50  0001 C CNN
 F 3 "~" H 4250 5950 50  0001 C CNN
 	1    4250 5950
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Switch:SW_SPST SW103
@@ -1661,7 +1639,7 @@ F 1 "1N4148" H 4250 4875 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF_Handsoldering" H 4250 5000 50  0001 C CNN
 F 3 "~" H 4250 5000 50  0001 C CNN
 	1    4250 5000
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Switch:SW_SPST SW84
@@ -1683,7 +1661,7 @@ F 1 "1N4148" H 4250 3925 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF_Handsoldering" H 4250 4050 50  0001 C CNN
 F 3 "~" H 4250 4050 50  0001 C CNN
 	1    4250 4050
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Switch:SW_SPST SW65
@@ -1705,7 +1683,7 @@ F 1 "1N4148" H 4250 2975 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF_Handsoldering" H 4250 3100 50  0001 C CNN
 F 3 "~" H 4250 3100 50  0001 C CNN
 	1    4250 3100
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Switch:SW_SPST SW46
@@ -1727,7 +1705,7 @@ F 1 "1N4148" H 4250 2025 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF_Handsoldering" H 4250 2150 50  0001 C CNN
 F 3 "~" H 4250 2150 50  0001 C CNN
 	1    4250 2150
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Switch:SW_SPST SW27
@@ -1749,7 +1727,7 @@ F 1 "1N4148" H 4250 1075 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF_Handsoldering" H 4250 1200 50  0001 C CNN
 F 3 "~" H 4250 1200 50  0001 C CNN
 	1    4250 1200
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Switch:SW_SPST SW8
@@ -1771,7 +1749,7 @@ F 1 "1N4148" H 3750 5825 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF_Handsoldering" H 3750 5950 50  0001 C CNN
 F 3 "~" H 3750 5950 50  0001 C CNN
 	1    3750 5950
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Switch:SW_SPST SW102
@@ -1793,7 +1771,7 @@ F 1 "1N4148" H 3750 4875 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF_Handsoldering" H 3750 5000 50  0001 C CNN
 F 3 "~" H 3750 5000 50  0001 C CNN
 	1    3750 5000
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Switch:SW_SPST SW83
@@ -1815,7 +1793,7 @@ F 1 "1N4148" H 3750 3925 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF_Handsoldering" H 3750 4050 50  0001 C CNN
 F 3 "~" H 3750 4050 50  0001 C CNN
 	1    3750 4050
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Switch:SW_SPST SW64
@@ -1837,7 +1815,7 @@ F 1 "1N4148" H 3750 2975 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF_Handsoldering" H 3750 3100 50  0001 C CNN
 F 3 "~" H 3750 3100 50  0001 C CNN
 	1    3750 3100
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Switch:SW_SPST SW45
@@ -1859,7 +1837,7 @@ F 1 "1N4148" H 3750 2025 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF_Handsoldering" H 3750 2150 50  0001 C CNN
 F 3 "~" H 3750 2150 50  0001 C CNN
 	1    3750 2150
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Switch:SW_SPST SW26
@@ -1881,7 +1859,7 @@ F 1 "1N4148" H 3750 1075 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF_Handsoldering" H 3750 1200 50  0001 C CNN
 F 3 "~" H 3750 1200 50  0001 C CNN
 	1    3750 1200
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Switch:SW_SPST SW7
@@ -1903,7 +1881,7 @@ F 1 "1N4148" H 3250 5825 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF_Handsoldering" H 3250 5950 50  0001 C CNN
 F 3 "~" H 3250 5950 50  0001 C CNN
 	1    3250 5950
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Switch:SW_SPST SW101
@@ -1925,7 +1903,7 @@ F 1 "1N4148" H 3250 4875 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF_Handsoldering" H 3250 5000 50  0001 C CNN
 F 3 "~" H 3250 5000 50  0001 C CNN
 	1    3250 5000
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Switch:SW_SPST SW82
@@ -1947,7 +1925,7 @@ F 1 "1N4148" H 3250 3925 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF_Handsoldering" H 3250 4050 50  0001 C CNN
 F 3 "~" H 3250 4050 50  0001 C CNN
 	1    3250 4050
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Switch:SW_SPST SW63
@@ -1969,7 +1947,7 @@ F 1 "1N4148" H 3250 2975 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF_Handsoldering" H 3250 3100 50  0001 C CNN
 F 3 "~" H 3250 3100 50  0001 C CNN
 	1    3250 3100
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Switch:SW_SPST SW44
@@ -1991,7 +1969,7 @@ F 1 "1N4148" H 3250 2025 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF_Handsoldering" H 3250 2150 50  0001 C CNN
 F 3 "~" H 3250 2150 50  0001 C CNN
 	1    3250 2150
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Switch:SW_SPST SW25
@@ -2013,7 +1991,7 @@ F 1 "1N4148" H 3250 1075 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF_Handsoldering" H 3250 1200 50  0001 C CNN
 F 3 "~" H 3250 1200 50  0001 C CNN
 	1    3250 1200
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Switch:SW_SPST SW6
@@ -2035,7 +2013,7 @@ F 1 "1N4148" H 2750 5825 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF_Handsoldering" H 2750 5950 50  0001 C CNN
 F 3 "~" H 2750 5950 50  0001 C CNN
 	1    2750 5950
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Switch:SW_SPST SW100
@@ -2057,7 +2035,7 @@ F 1 "1N4148" H 2750 4875 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF_Handsoldering" H 2750 5000 50  0001 C CNN
 F 3 "~" H 2750 5000 50  0001 C CNN
 	1    2750 5000
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Switch:SW_SPST SW81
@@ -2079,7 +2057,7 @@ F 1 "1N4148" H 2750 3925 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF_Handsoldering" H 2750 4050 50  0001 C CNN
 F 3 "~" H 2750 4050 50  0001 C CNN
 	1    2750 4050
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Switch:SW_SPST SW62
@@ -2101,7 +2079,7 @@ F 1 "1N4148" H 2750 2975 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF_Handsoldering" H 2750 3100 50  0001 C CNN
 F 3 "~" H 2750 3100 50  0001 C CNN
 	1    2750 3100
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Switch:SW_SPST SW43
@@ -2123,7 +2101,7 @@ F 1 "1N4148" H 2750 2025 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF_Handsoldering" H 2750 2150 50  0001 C CNN
 F 3 "~" H 2750 2150 50  0001 C CNN
 	1    2750 2150
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Switch:SW_SPST SW24
@@ -2145,7 +2123,7 @@ F 1 "1N4148" H 2750 1075 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF_Handsoldering" H 2750 1200 50  0001 C CNN
 F 3 "~" H 2750 1200 50  0001 C CNN
 	1    2750 1200
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Switch:SW_SPST SW5
@@ -2167,7 +2145,7 @@ F 1 "1N4148" H 2250 5825 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF_Handsoldering" H 2250 5950 50  0001 C CNN
 F 3 "~" H 2250 5950 50  0001 C CNN
 	1    2250 5950
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Switch:SW_SPST SW99
@@ -2189,7 +2167,7 @@ F 1 "1N4148" H 2250 4875 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF_Handsoldering" H 2250 5000 50  0001 C CNN
 F 3 "~" H 2250 5000 50  0001 C CNN
 	1    2250 5000
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Switch:SW_SPST SW80
@@ -2211,7 +2189,7 @@ F 1 "1N4148" H 2250 3925 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF_Handsoldering" H 2250 4050 50  0001 C CNN
 F 3 "~" H 2250 4050 50  0001 C CNN
 	1    2250 4050
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Switch:SW_SPST SW61
@@ -2233,7 +2211,7 @@ F 1 "1N4148" H 2250 2975 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF_Handsoldering" H 2250 3100 50  0001 C CNN
 F 3 "~" H 2250 3100 50  0001 C CNN
 	1    2250 3100
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Switch:SW_SPST SW42
@@ -2255,7 +2233,7 @@ F 1 "1N4148" H 2250 2025 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF_Handsoldering" H 2250 2150 50  0001 C CNN
 F 3 "~" H 2250 2150 50  0001 C CNN
 	1    2250 2150
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Switch:SW_SPST SW23
@@ -2277,7 +2255,7 @@ F 1 "1N4148" H 2250 1075 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF_Handsoldering" H 2250 1200 50  0001 C CNN
 F 3 "~" H 2250 1200 50  0001 C CNN
 	1    2250 1200
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Switch:SW_SPST SW4
@@ -2299,7 +2277,7 @@ F 1 "1N4148" H 1750 5825 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF_Handsoldering" H 1750 5950 50  0001 C CNN
 F 3 "~" H 1750 5950 50  0001 C CNN
 	1    1750 5950
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Switch:SW_SPST SW98
@@ -2321,7 +2299,7 @@ F 1 "1N4148" H 1750 4875 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF_Handsoldering" H 1750 5000 50  0001 C CNN
 F 3 "~" H 1750 5000 50  0001 C CNN
 	1    1750 5000
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Switch:SW_SPST SW79
@@ -2343,7 +2321,7 @@ F 1 "1N4148" H 1750 3925 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF_Handsoldering" H 1750 4050 50  0001 C CNN
 F 3 "~" H 1750 4050 50  0001 C CNN
 	1    1750 4050
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Switch:SW_SPST SW60
@@ -2365,7 +2343,7 @@ F 1 "1N4148" H 1750 2975 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF_Handsoldering" H 1750 3100 50  0001 C CNN
 F 3 "~" H 1750 3100 50  0001 C CNN
 	1    1750 3100
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Switch:SW_SPST SW41
@@ -2387,7 +2365,7 @@ F 1 "1N4148" H 1750 2025 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF_Handsoldering" H 1750 2150 50  0001 C CNN
 F 3 "~" H 1750 2150 50  0001 C CNN
 	1    1750 2150
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Switch:SW_SPST SW22
@@ -2409,7 +2387,7 @@ F 1 "1N4148" H 1750 1075 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF_Handsoldering" H 1750 1200 50  0001 C CNN
 F 3 "~" H 1750 1200 50  0001 C CNN
 	1    1750 1200
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Switch:SW_SPST SW3
@@ -2431,7 +2409,7 @@ F 1 "1N4148" H 1250 5825 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF_Handsoldering" H 1250 5950 50  0001 C CNN
 F 3 "~" H 1250 5950 50  0001 C CNN
 	1    1250 5950
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Switch:SW_SPST SW97
@@ -2443,17 +2421,6 @@ F 2 "MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB" H 1250 5600 50  0001 C CNN
 F 3 "~" H 1250 5600 50  0001 C CNN
 	1    1250 5600
 	0    1    1    0   
-$EndComp
-$Comp
-L Device:D D78
-U 1 1 616C341D
-P 1250 5000
-F 0 "D78" H 1250 4784 50  0000 C CNN
-F 1 "1N4148" H 1250 4875 50  0000 C CNN
-F 2 "Diode_SMD:D_MiniMELF_Handsoldering" H 1250 5000 50  0001 C CNN
-F 3 "~" H 1250 5000 50  0001 C CNN
-	1    1250 5000
-	0    -1   -1   0   
 $EndComp
 $Comp
 L Switch:SW_SPST SW78
@@ -2475,7 +2442,7 @@ F 1 "1N4148" H 1250 3925 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF_Handsoldering" H 1250 4050 50  0001 C CNN
 F 3 "~" H 1250 4050 50  0001 C CNN
 	1    1250 4050
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Switch:SW_SPST SW59
@@ -2497,7 +2464,7 @@ F 1 "1N4148" H 1250 2975 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF_Handsoldering" H 1250 3100 50  0001 C CNN
 F 3 "~" H 1250 3100 50  0001 C CNN
 	1    1250 3100
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Switch:SW_SPST SW40
@@ -2519,7 +2486,7 @@ F 1 "1N4148" H 1250 2025 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF_Handsoldering" H 1250 2150 50  0001 C CNN
 F 3 "~" H 1250 2150 50  0001 C CNN
 	1    1250 2150
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Switch:SW_SPST SW21
@@ -2541,7 +2508,7 @@ F 1 "1N4148" H 1250 1075 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF_Handsoldering" H 1250 1200 50  0001 C CNN
 F 3 "~" H 1250 1200 50  0001 C CNN
 	1    1250 1200
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Switch:SW_SPST SW2
@@ -2553,17 +2520,6 @@ F 2 "MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB" H 1250 850 50  0001 C CNN
 F 3 "~" H 1250 850 50  0001 C CNN
 	1    1250 850 
 	0    1    1    0   
-$EndComp
-$Comp
-L Device:D D96
-U 1 1 615F07D4
-P 750 5950
-F 0 "D96" H 750 5734 50  0000 C CNN
-F 1 "1N4148" H 750 5825 50  0000 C CNN
-F 2 "Diode_SMD:D_MiniMELF_Handsoldering" H 750 5950 50  0001 C CNN
-F 3 "~" H 750 5950 50  0001 C CNN
-	1    750  5950
-	0    -1   -1   0   
 $EndComp
 $Comp
 L Switch:SW_SPST SW96
@@ -2585,7 +2541,7 @@ F 1 "1N4148" H 750 4875 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF_Handsoldering" H 750 5000 50  0001 C CNN
 F 3 "~" H 750 5000 50  0001 C CNN
 	1    750  5000
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Switch:SW_SPST SW77
@@ -2607,7 +2563,7 @@ F 1 "1N4148" H 750 3925 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF_Handsoldering" H 750 4050 50  0001 C CNN
 F 3 "~" H 750 4050 50  0001 C CNN
 	1    750  4050
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Switch:SW_SPST SW58
@@ -2629,7 +2585,7 @@ F 1 "1N4148" H 750 2975 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF_Handsoldering" H 750 3100 50  0001 C CNN
 F 3 "~" H 750 3100 50  0001 C CNN
 	1    750  3100
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Switch:SW_SPST SW39
@@ -2651,7 +2607,7 @@ F 1 "1N4148" H 750 2025 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF_Handsoldering" H 750 2150 50  0001 C CNN
 F 3 "~" H 750 2150 50  0001 C CNN
 	1    750  2150
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Switch:SW_SPST SW20
@@ -2673,7 +2629,7 @@ F 1 "1N4148" H 750 1075 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF_Handsoldering" H 750 1200 50  0001 C CNN
 F 3 "~" H 750 1200 50  0001 C CNN
 	1    750  1200
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Switch:SW_SPST SW1
@@ -5258,17 +5214,6 @@ $EndComp
 Text GLabel 3800 14650 2    50   Input ~ 0
 5v
 $Comp
-L Device:R_Network08 RN2
-U 1 1 65D64401
-P 3350 13500
-F 0 "RN2" V 2850 13350 50  0000 C CNN
-F 1 "R_Network08" V 2850 13750 50  0000 C CNN
-F 2 "Resistor_THT:R_Array_SIP9" V 3825 13500 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 3350 13500 50  0001 C CNN
-	1    3350 13500
-	0    1    1    0   
-$EndComp
-$Comp
 L power:Earth #PWR0101
 U 1 1 5F43F993
 P 2950 15250
@@ -5290,54 +5235,6 @@ F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/doc2502.pdf" H 1700 13900 5
 	1    1700 13900
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:R_Network08 RN3
-U 1 1 605C7F59
-P 4050 13900
-F 0 "RN3" V 3550 13750 50  0000 C CNN
-F 1 "R_Network08" V 3550 14150 50  0000 C CNN
-F 2 "Resistor_THT:R_Array_SIP9" V 4525 13900 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 4050 13900 50  0001 C CNN
-	1    4050 13900
-	0    1    1    0   
-$EndComp
-$Comp
-L power:Earth #PWR0102
-U 1 1 60DA79C1
-P 4300 13550
-F 0 "#PWR0102" H 4300 13300 50  0001 C CNN
-F 1 "Earth" H 4300 13400 50  0001 C CNN
-F 2 "" H 4300 13550 50  0001 C CNN
-F 3 "~" H 4300 13550 50  0001 C CNN
-	1    4300 13550
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:Earth #PWR0103
-U 1 1 6254B85F
-P 3600 13150
-F 0 "#PWR0103" H 3600 12900 50  0001 C CNN
-F 1 "Earth" H 3600 13000 50  0001 C CNN
-F 2 "" H 3600 13150 50  0001 C CNN
-F 3 "~" H 3600 13150 50  0001 C CNN
-	1    3600 13150
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:Earth #PWR0104
-U 1 1 62744E1A
-P 3600 12250
-F 0 "#PWR0104" H 3600 12000 50  0001 C CNN
-F 1 "Earth" H 3600 12100 50  0001 C CNN
-F 2 "" H 3600 12250 50  0001 C CNN
-F 3 "~" H 3600 12250 50  0001 C CNN
-	1    3600 12250
-	1    0    0    -1  
-$EndComp
-Text GLabel 2950 13850 3    50   Output ~ 0
-MISO
-Text GLabel 3050 13850 3    50   Input ~ 0
-SCK
 Wire Wire Line
 	4200 15600 4600 15600
 Wire Wire Line
@@ -8174,101 +8071,21 @@ Wire Wire Line
 Wire Wire Line
 	2300 12200 2350 12200
 Wire Wire Line
-	2350 12200 2350 12150
-Wire Wire Line
-	2300 12300 2450 12300
-Wire Wire Line
-	2450 12300 2450 12150
-Wire Wire Line
-	2300 12400 2550 12400
-Wire Wire Line
-	2550 12400 2550 12150
-Wire Wire Line
-	2300 12500 2650 12500
-Wire Wire Line
-	2650 12500 2650 12150
-Wire Wire Line
-	2300 12600 2750 12600
-Wire Wire Line
-	2750 12600 2750 12150
-Wire Wire Line
-	2300 12700 2850 12700
-Wire Wire Line
-	2850 12700 2850 12150
-Wire Wire Line
-	2300 12800 2950 12800
-Wire Wire Line
-	2950 12800 2950 12150
-Wire Wire Line
-	3050 12150 3050 12900
-Wire Wire Line
-	3050 12900 2300 12900
-Wire Wire Line
 	2300 13100 2350 13100
 Wire Wire Line
-	2350 13100 2350 13050
+	2350 13200 2300 13200
 Wire Wire Line
-	2450 13050 2450 13200
+	2300 13300 2350 13300
 Wire Wire Line
-	2450 13200 2300 13200
-Wire Wire Line
-	2300 13300 2550 13300
-Wire Wire Line
-	2550 13300 2550 13050
-Wire Wire Line
-	2650 13050 2650 13400
-Wire Wire Line
-	2300 13500 2750 13500
-Wire Wire Line
-	2750 13500 2750 13050
-Wire Wire Line
-	2850 13050 2850 13600
-Wire Wire Line
-	3050 13050 3050 13800
+	2300 13500 2350 13500
 Wire Wire Line
 	2300 14000 2350 14000
 Wire Wire Line
-	2350 14000 2350 13950
+	2350 14100 2300 14100
 Wire Wire Line
-	2450 13950 2450 14100
+	2300 14200 2350 14200
 Wire Wire Line
-	2450 14100 2300 14100
-Wire Wire Line
-	2300 14200 2550 14200
-Wire Wire Line
-	2550 14200 2550 13950
-Connection ~ 2350 12200
-Connection ~ 2450 12300
-Connection ~ 2550 12400
-Connection ~ 2650 12500
-Connection ~ 2750 12600
-Connection ~ 2850 12700
-Connection ~ 2950 12800
-Connection ~ 3050 12900
-Wire Wire Line
-	2350 13100 3150 13100
-Connection ~ 2350 13100
-Wire Wire Line
-	3150 13200 2450 13200
-Connection ~ 2450 13200
-Wire Wire Line
-	2550 13300 3150 13300
-Connection ~ 2550 13300
-Wire Wire Line
-	2300 13400 2650 13400
-Connection ~ 2650 13400
-Wire Wire Line
-	2650 13400 3150 13400
-Wire Wire Line
-	2750 13500 3150 13500
-Connection ~ 2750 13500
-Connection ~ 2850 13600
-Wire Wire Line
-	2950 13700 3150 13700
-Connection ~ 2950 13700
-Connection ~ 3050 13800
-Wire Wire Line
-	3050 13800 3150 13800
+	2300 13400 2350 13400
 Wire Wire Line
 	1650 11850 1700 11850
 Wire Wire Line
@@ -8287,126 +8104,125 @@ Wire Wire Line
 Wire Wire Line
 	1800 15950 1800 15900
 Connection ~ 1750 15950
-Connection ~ 2350 14000
-Wire Wire Line
-	3850 13500 3650 13500
-Wire Wire Line
-	3700 13600 3850 13600
-Connection ~ 2450 14100
-Wire Wire Line
-	3850 13700 3750 13700
-Wire Wire Line
-	3750 13700 3750 14200
-Wire Wire Line
-	3750 14200 2550 14200
-Connection ~ 2550 14200
-Wire Wire Line
-	4250 13500 4300 13500
-Wire Wire Line
-	4300 13500 4300 13550
-Wire Wire Line
-	3550 13100 3600 13100
-Wire Wire Line
-	3600 13100 3600 13150
-Wire Wire Line
-	3550 12200 3600 12200
-Wire Wire Line
-	3600 12200 3600 12250
-Wire Wire Line
-	3650 14100 3650 13500
-Wire Wire Line
-	2350 14000 2650 14000
-Wire Wire Line
-	3700 14150 3700 13600
-Wire Wire Line
-	2450 14100 2600 14100
-Wire Wire Line
-	2600 14100 2600 14150
-Wire Wire Line
-	2600 14150 3700 14150
-Wire Wire Line
-	2650 14000 2650 14100
-Wire Wire Line
-	2650 14100 3650 14100
-Wire Wire Line
-	2850 13600 3150 13600
-Wire Wire Line
-	2950 13700 2950 13050
-Text GLabel 2850 13850 3    50   Input ~ 0
-MOSI
-Wire Wire Line
-	2300 13800 3050 13800
-Wire Wire Line
-	2300 13700 2950 13700
-Wire Wire Line
-	2300 13600 2850 13600
-Wire Wire Line
-	2850 13850 2850 13600
-Wire Wire Line
-	2950 13850 2950 13700
-Wire Wire Line
-	3050 13850 3050 13800
 Text GLabel 1100 12200 0    50   Input ~ 0
 RESET
-Wire Wire Line
-	3150 12900 3050 12900
-Wire Wire Line
-	2950 12800 3150 12800
-Wire Wire Line
-	3150 12700 2850 12700
-Wire Wire Line
-	2750 12600 3150 12600
-Wire Wire Line
-	3150 12500 2650 12500
-Wire Wire Line
-	2550 12400 3150 12400
-Wire Wire Line
-	3150 12300 2450 12300
-Wire Wire Line
-	2350 12200 3150 12200
-$Comp
-L Device:R_Network08 RN1
-U 1 1 64E45CBF
-P 3350 12600
-F 0 "RN1" V 2850 12450 50  0000 C CNN
-F 1 "R_Network08" V 2850 12850 50  0000 C CNN
-F 2 "Resistor_THT:R_Array_SIP9" V 3825 12600 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 3350 12600 50  0001 C CNN
-	1    3350 12600
-	0    1    1    0   
-$EndComp
-Text GLabel 4200 12350 0    50   Output ~ 0
+Text GLabel 3550 12350 0    50   Output ~ 0
 RESET
 $Comp
 L power:Earth #PWR0105
 U 1 1 67D672AB
-P 4200 12850
-F 0 "#PWR0105" H 4200 12600 50  0001 C CNN
-F 1 "Earth" H 4200 12700 50  0001 C CNN
-F 2 "" H 4200 12850 50  0001 C CNN
-F 3 "~" H 4200 12850 50  0001 C CNN
-	1    4200 12850
+P 3550 12850
+F 0 "#PWR0105" H 3550 12600 50  0001 C CNN
+F 1 "Earth" H 3550 12700 50  0001 C CNN
+F 2 "" H 3550 12850 50  0001 C CNN
+F 3 "~" H 3550 12850 50  0001 C CNN
+	1    3550 12850
 	0    1    1    0   
 $EndComp
-Text GLabel 4200 12750 0    50   Output ~ 0
+Text GLabel 3550 12750 0    50   Output ~ 0
 5v
-Text GLabel 4200 12450 0    50   Output ~ 0
+Text GLabel 3550 12450 0    50   Output ~ 0
 MOSI
-Text GLabel 4200 12650 0    50   Output ~ 0
+Text GLabel 3550 12650 0    50   Output ~ 0
 SCK
-Text GLabel 4200 12550 0    50   Input ~ 0
+Text GLabel 3550 12550 0    50   Input ~ 0
 MISO
 $Comp
 L Connector:Conn_01x06_Male J2
 U 1 1 6295E2EA
-P 4400 12650
-F 0 "J2" H 4650 12150 50  0000 R CNN
-F 1 "ISP Header" H 4600 12250 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" H 4400 12650 50  0001 C CNN
-F 3 "~" H 4400 12650 50  0001 C CNN
-	1    4400 12650
+P 3750 12650
+F 0 "J2" H 4000 12150 50  0000 R CNN
+F 1 "ISP Header" H 3950 12250 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" H 3750 12650 50  0001 C CNN
+F 3 "~" H 3750 12650 50  0001 C CNN
+	1    3750 12650
 	-1   0    0    1   
 $EndComp
-Text GLabel 2300 14900 2    50   Output ~ 0
+Text GLabel 2300 14900 2    50   Input ~ 0
 1
+Wire Wire Line
+	2300 12300 2350 12300
+Wire Wire Line
+	2350 12400 2300 12400
+Wire Wire Line
+	2300 12500 2350 12500
+Wire Wire Line
+	2350 12600 2300 12600
+Wire Wire Line
+	2300 12700 2350 12700
+Wire Wire Line
+	2350 12800 2300 12800
+Wire Wire Line
+	2300 12900 2350 12900
+Text GLabel 2350 13500 2    50   Output ~ 0
+M
+Wire Wire Line
+	2300 13600 2600 13600
+Wire Wire Line
+	2600 13500 2600 13600
+Connection ~ 2600 13600
+Wire Wire Line
+	2600 13600 2900 13600
+Wire Wire Line
+	2700 13500 2700 13700
+Wire Wire Line
+	2300 13700 2700 13700
+Wire Wire Line
+	2800 13800 2800 13500
+Wire Wire Line
+	2300 13800 2800 13800
+Wire Wire Line
+	2700 13700 2900 13700
+Connection ~ 2700 13700
+Wire Wire Line
+	2800 13800 2900 13800
+Connection ~ 2800 13800
+$Comp
+L Device:D D96
+U 1 1 615F07D4
+P 750 5950
+F 0 "D96" H 750 5734 50  0000 C CNN
+F 1 "1N4148" H 750 5825 50  0000 C CNN
+F 2 "Diode_SMD:D_MiniMELF_Handsoldering" H 750 5950 50  0001 C CNN
+F 3 "~" H 750 5950 50  0001 C CNN
+	1    750  5950
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D D78
+U 1 1 616C341D
+P 1250 5000
+F 0 "D78" H 1250 4784 50  0000 C CNN
+F 1 "1N4148" H 1250 4875 50  0000 C CNN
+F 2 "Diode_SMD:D_MiniMELF_Handsoldering" H 1250 5000 50  0001 C CNN
+F 3 "~" H 1250 5000 50  0001 C CNN
+	1    1250 5000
+	0    1    1    0   
+$EndComp
+Text GLabel 9150 6300 3    50   Input ~ 0
+R
+Text GLabel 9650 6300 3    50   Input ~ 0
+S
+Text GLabel 2350 12900 2    50   Output ~ 0
+H
+Text GLabel 2350 12800 2    50   Output ~ 0
+G
+Text GLabel 2350 12700 2    50   Output ~ 0
+F
+Text GLabel 2350 12600 2    50   Output ~ 0
+E
+Text GLabel 2350 12500 2    50   Output ~ 0
+D
+Text GLabel 2350 12400 2    50   Output ~ 0
+C
+Text GLabel 2350 12300 2    50   Output ~ 0
+B
+Text GLabel 2350 12200 2    50   Output ~ 0
+A
+Text GLabel 2600 13500 1    50   Input ~ 0
+MOSI
+Text GLabel 2700 13500 1    50   Output ~ 0
+MISO
+Text GLabel 2800 13500 1    50   Input ~ 0
+SCK
 $EndSCHEMATC
