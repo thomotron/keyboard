@@ -15,6 +15,15 @@
 #define CAPSLOCK C, 5
 
 //
+// Matrix size definitions
+//
+#define MATRIX_WIDTH 19
+#define MATRIX_HEIGHT 6
+#define MATRIX_SINK_PORT PORTD // Port of the pins that will sink to allow reading
+#define MATRIX_SINK_PIN_OFFSET 0 // First pin index to pull low
+#define MATRIX_READ ((PINA << 11) | (PINB << 3) | (PINC >> 5)) // Macro used to read each column state
+
+//
 // Other definitions
 //
 #define BACKLIGHT_PRESCALER 0b110
@@ -55,8 +64,7 @@ PS2dev ps2;
 bool fnPressed = false;
 
 /// Table containing character codes for each key in the keyboard layout.
-/// This firmware was designed for a 19x6 matrix (114 keys total).
-key kbmap[6][19] = {
+key kbmap[MATRIX_HEIGHT][MATRIX_WIDTH] = {
     {{0x76, false, false},{0x05, false, false},{0x06, false, false},{0x04, false, false},{0x0C, false, false},{0x03, false, false},{0x0B, false, false},{0x83, false, false},{0x0A, false, false},{0x01, false, false},{0x09, false, false},{0x78, false, false},{0x07, false, false},{0x70, true, false},{0x6C, true, false},{0x7D, true, false},{0x77, false, false},{0x00, false, false},{0x00, false, false}},
     {{0x0E, false, false},{0x16, false, false},{0x1E, false, false},{0x26, false, false},{0x25, false, false},{0x2E, false, false},{0x36, false, false},{0x3D, false, false},{0x3E, false, false},{0x46, false, false},{0x45, false, false},{0x4E, false, false},{0x55, false, false},{0x66, false, false},{0x71, true, false},{0x69, true, false},{0x7A, true, false},{0x00, false, false},{0x00, false, false}},
     {{0x0D, false, false},{0x15, false, false},{0x1D, false, false},{0x24, false, false},{0x2D, false, false},{0x2C, false, false},{0x35, false, false},{0x3C, false, false},{0x43, false, false},{0x44, false, false},{0x4D, false, false},{0x54, false, false},{0x5B, false, false},{0x5D, false, false},{0x6C, false, false},{0x4A, true, false},{0x7C, false, false},{0x00, false, false},{0x00, false, false}},
@@ -154,30 +162,30 @@ int main()
 inline void readMatrix()
 {
     // Scan the matrix and store each key's state
-    bool keyStates[6][19];
-    for (int row = 0; row < 6; row++)
+    bool keyStates[MATRIX_HEIGHT][MATRIX_WIDTH];
+    for (int row = 0; row < MATRIX_HEIGHT; row++)
     {
-        // Allow the row to sink
-        BitClear(PORTD, row);
+        // Allow the column to sink
+        BitClear(MATRIX_SINK_PORT, (row + MATRIX_SINK_PIN_OFFSET));
         nop;
 
         // Pack signal lines A-S into a 32-bit integer (19 > 16, so 32 is the next in line)
-        uint32_t columnData = ~((PINA << 11) | (PINB << 3) | (PINC >> 5));
+        uint32_t rowData = MATRIX_READ;
 
-        // Fill in keyStates with this row's data
-        for (int col = 0; col < 19; col++)
+        // Fill in keyStates with this column's data
+        for (int col = 0; col < MATRIX_WIDTH; col++)
         {
-            keyStates[row][col] = !(columnData & (1 << row));
+            keyStates[row][col] = !(rowData & (1 << col));
         }
 
-        // Bring the row back high
-        BitClear(PORTD, row);
+        // Bring the column back high
+        BitSet(MATRIX_SINK_PORT, (row + MATRIX_SINK_PIN_OFFSET));
     }
 
     // Handle any state changes of the keys we just sampled
-    for (int row = 0; row < 6; row++)
+    for (int row = 0; row < MATRIX_HEIGHT; row++)
     {
-        for (int col = 0; col < 19; col++)
+        for (int col = 0; col < MATRIX_WIDTH; col++)
         {
             // Handle any change to the key
             handleKeypress(&kbmap[row][col], keyStates[row][col]);
