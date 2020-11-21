@@ -66,6 +66,8 @@ F 0 "J1" H 3450 15500 50  0000 C CNN
 F 1 "Mini-DIN-6" H 3000 15500 50  0000 C CNN
 F 2 "MyOwnKeyboard:Connector_Mini-DIN_Female_6Pin_2rows" H 3250 15250 50  0001 C CNN
 F 3 "http://service.powerdynamics.com/ec/Catalog17/Section%2011.pdf" H 3250 15250 50  0001 C CNN
+F 4 "1:AUD0.554" H 3250 15250 50  0001 C CNN "kicost:AliExpress:pricing"
+F 5 "https://www.aliexpress.com/item/32878704114.html" H 3250 15250 50  0001 C CNN "kicost:AliExpress:link"
 	1    3250 15250
 	-1   0    0    -1  
 $EndComp
@@ -81,6 +83,7 @@ F 0 "Q1" H 4704 15146 50  0000 L CNN
 F 1 "2N7000" H 4704 15055 50  0000 L CNN
 F 2 "Package_TO_SOT_THT:TO-92_Inline" H 4700 15025 50  0001 L CIN
 F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7000.pdf" H 4500 15100 50  0001 L CNN
+F 4 "2N7000" H 4500 15100 50  0001 C CNN "manf#"
 	1    4500 15100
 	1    0    0    -1  
 $EndComp
@@ -103,6 +106,9 @@ F 0 "R1" H 3750 15300 50  0000 L CNN
 F 1 "100" H 3700 15400 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 3830 15350 50  0001 C CNN
 F 3 "~" H 3900 15350 50  0001 C CNN
+F 4 "2446869" H 3900 15350 50  0001 C CNN "manf#"
+F 5 "https://www.aliexpress.com/item/32868987725.html" H 3900 15350 50  0001 C CNN "kicost:AliExpress:link"
+F 6 "1:AUD0.01" H 3900 15350 50  0001 C CNN "kicost:AliExpress:pricing"
 	1    3900 15350
 	-1   0    0    1   
 $EndComp
@@ -118,6 +124,9 @@ F 0 "D114" H 9750 5734 50  0000 C CNN
 F 1 "1N4148" H 9750 5825 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF" H 9750 5950 50  0001 C CNN
 F 3 "~" H 9750 5950 50  0001 C CNN
+F 4 "LL4148" H 9750 5950 50  0001 C CNN "manf#"
+F 5 "https://www.aliexpress.com/item/4000331505052.html" H 9750 5950 50  0001 C CNN "kicost:AliExpress:link"
+F 6 "1:AUD0.0247" H 9750 5950 50  0001 C CNN "kicost:AliExpress:pricing"
 	1    9750 5950
 	0    1    1    0   
 $EndComp
@@ -129,6 +138,8 @@ F 0 "SW114" H 9750 5835 50  0000 C CNN
 F 1 "SW_SPST" H 9750 5744 50  0000 C CNN
 F 2 "MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB" H 9750 5600 50  0001 C CNN
 F 3 "~" H 9750 5600 50  0001 C CNN
+F 4 "1:AUD0.529" H 9750 5600 50  0001 C CNN "kicost:AliExpress:pricing"
+F 5 "https://www.aliexpress.com/item/4001252892240.html" H 9750 5600 50  0001 C CNN "kicost:AliExpress:link"
 	1    9750 5600
 	0    1    1    0   
 $EndComp
@@ -140,6 +151,9 @@ F 0 "D95" H 9750 4784 50  0000 C CNN
 F 1 "1N4148" H 9750 4875 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF" H 9750 5000 50  0001 C CNN
 F 3 "~" H 9750 5000 50  0001 C CNN
+F 4 "LL4148" H 9750 5000 50  0001 C CNN "manf#"
+F 5 "https://www.aliexpress.com/item/4000331505052.html" H 9750 5000 50  0001 C CNN "kicost:AliExpress:link"
+F 6 "1:AUD0.0247" H 9750 5000 50  0001 C CNN "kicost:AliExpress:pricing"
 	1    9750 5000
 	0    1    1    0   
 $EndComp
@@ -151,6 +165,8 @@ F 0 "SW95" H 9750 4885 50  0000 C CNN
 F 1 "SW_SPST" H 9750 4794 50  0000 C CNN
 F 2 "MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB" H 9750 4650 50  0001 C CNN
 F 3 "~" H 9750 4650 50  0001 C CNN
+F 4 "1:AUD0.529" H 9750 4650 50  0001 C CNN "kicost:AliExpress:pricing"
+F 5 "https://www.aliexpress.com/item/4001252892240.html" H 9750 4650 50  0001 C CNN "kicost:AliExpress:link"
 	1    9750 4650
 	0    1    1    0   
 $EndComp
@@ -162,6 +178,9 @@ F 0 "D76" H 9750 3834 50  0000 C CNN
 F 1 "1N4148" H 9750 3925 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF" H 9750 4050 50  0001 C CNN
 F 3 "~" H 9750 4050 50  0001 C CNN
+F 4 "LL4148" H 9750 4050 50  0001 C CNN "manf#"
+F 5 "https://www.aliexpress.com/item/4000331505052.html" H 9750 4050 50  0001 C CNN "kicost:AliExpress:link"
+F 6 "1:AUD0.0247" H 9750 4050 50  0001 C CNN "kicost:AliExpress:pricing"
 	1    9750 4050
 	0    1    1    0   
 $EndComp
@@ -173,6 +192,8 @@ F 0 "SW76" H 9750 3935 50  0000 C CNN
 F 1 "SW_SPST" H 9750 3844 50  0000 C CNN
 F 2 "MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB" H 9750 3700 50  0001 C CNN
 F 3 "~" H 9750 3700 50  0001 C CNN
+F 4 "1:AUD0.529" H 9750 3700 50  0001 C CNN "kicost:AliExpress:pricing"
+F 5 "https://www.aliexpress.com/item/4001252892240.html" H 9750 3700 50  0001 C CNN "kicost:AliExpress:link"
 	1    9750 3700
 	0    1    1    0   
 $EndComp
@@ -184,6 +205,9 @@ F 0 "D57" H 9750 2884 50  0000 C CNN
 F 1 "1N4148" H 9750 2975 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF" H 9750 3100 50  0001 C CNN
 F 3 "~" H 9750 3100 50  0001 C CNN
+F 4 "LL4148" H 9750 3100 50  0001 C CNN "manf#"
+F 5 "https://www.aliexpress.com/item/4000331505052.html" H 9750 3100 50  0001 C CNN "kicost:AliExpress:link"
+F 6 "1:AUD0.0247" H 9750 3100 50  0001 C CNN "kicost:AliExpress:pricing"
 	1    9750 3100
 	0    1    1    0   
 $EndComp
@@ -195,6 +219,8 @@ F 0 "SW57" H 9750 2985 50  0000 C CNN
 F 1 "SW_SPST" H 9750 2894 50  0000 C CNN
 F 2 "MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB" H 9750 2750 50  0001 C CNN
 F 3 "~" H 9750 2750 50  0001 C CNN
+F 4 "1:AUD0.529" H 9750 2750 50  0001 C CNN "kicost:AliExpress:pricing"
+F 5 "https://www.aliexpress.com/item/4001252892240.html" H 9750 2750 50  0001 C CNN "kicost:AliExpress:link"
 	1    9750 2750
 	0    1    1    0   
 $EndComp
@@ -206,6 +232,9 @@ F 0 "D38" H 9750 1934 50  0000 C CNN
 F 1 "1N4148" H 9750 2025 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF" H 9750 2150 50  0001 C CNN
 F 3 "~" H 9750 2150 50  0001 C CNN
+F 4 "LL4148" H 9750 2150 50  0001 C CNN "manf#"
+F 5 "https://www.aliexpress.com/item/4000331505052.html" H 9750 2150 50  0001 C CNN "kicost:AliExpress:link"
+F 6 "1:AUD0.0247" H 9750 2150 50  0001 C CNN "kicost:AliExpress:pricing"
 	1    9750 2150
 	0    1    1    0   
 $EndComp
@@ -217,6 +246,8 @@ F 0 "SW38" H 9750 2035 50  0000 C CNN
 F 1 "SW_SPST" H 9750 1944 50  0000 C CNN
 F 2 "MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB" H 9750 1800 50  0001 C CNN
 F 3 "~" H 9750 1800 50  0001 C CNN
+F 4 "1:AUD0.529" H 9750 1800 50  0001 C CNN "kicost:AliExpress:pricing"
+F 5 "https://www.aliexpress.com/item/4001252892240.html" H 9750 1800 50  0001 C CNN "kicost:AliExpress:link"
 	1    9750 1800
 	0    1    1    0   
 $EndComp
@@ -228,6 +259,9 @@ F 0 "D19" H 9750 984 50  0000 C CNN
 F 1 "1N4148" H 9750 1075 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF" H 9750 1200 50  0001 C CNN
 F 3 "~" H 9750 1200 50  0001 C CNN
+F 4 "LL4148" H 9750 1200 50  0001 C CNN "manf#"
+F 5 "https://www.aliexpress.com/item/4000331505052.html" H 9750 1200 50  0001 C CNN "kicost:AliExpress:link"
+F 6 "1:AUD0.0247" H 9750 1200 50  0001 C CNN "kicost:AliExpress:pricing"
 	1    9750 1200
 	0    1    1    0   
 $EndComp
@@ -239,6 +273,8 @@ F 0 "SW19" H 9750 1085 50  0000 C CNN
 F 1 "SW_SPST" H 9750 994 50  0000 C CNN
 F 2 "MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB" H 9750 850 50  0001 C CNN
 F 3 "~" H 9750 850 50  0001 C CNN
+F 4 "1:AUD0.529" H 9750 850 50  0001 C CNN "kicost:AliExpress:pricing"
+F 5 "https://www.aliexpress.com/item/4001252892240.html" H 9750 850 50  0001 C CNN "kicost:AliExpress:link"
 	1    9750 850 
 	0    1    1    0   
 $EndComp
@@ -296,6 +332,9 @@ F 0 "D113" H 9250 5734 50  0000 C CNN
 F 1 "1N4148" H 9250 5825 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF" H 9250 5950 50  0001 C CNN
 F 3 "~" H 9250 5950 50  0001 C CNN
+F 4 "LL4148" H 9250 5950 50  0001 C CNN "manf#"
+F 5 "https://www.aliexpress.com/item/4000331505052.html" H 9250 5950 50  0001 C CNN "kicost:AliExpress:link"
+F 6 "1:AUD0.0247" H 9250 5950 50  0001 C CNN "kicost:AliExpress:pricing"
 	1    9250 5950
 	0    1    1    0   
 $EndComp
@@ -307,6 +346,8 @@ F 0 "SW113" H 9250 5835 50  0000 C CNN
 F 1 "SW_SPST" H 9250 5744 50  0000 C CNN
 F 2 "MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB" H 9250 5600 50  0001 C CNN
 F 3 "~" H 9250 5600 50  0001 C CNN
+F 4 "1:AUD0.529" H 9250 5600 50  0001 C CNN "kicost:AliExpress:pricing"
+F 5 "https://www.aliexpress.com/item/4001252892240.html" H 9250 5600 50  0001 C CNN "kicost:AliExpress:link"
 	1    9250 5600
 	0    1    1    0   
 $EndComp
@@ -318,6 +359,9 @@ F 0 "D94" H 9250 4784 50  0000 C CNN
 F 1 "1N4148" H 9250 4875 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF" H 9250 5000 50  0001 C CNN
 F 3 "~" H 9250 5000 50  0001 C CNN
+F 4 "LL4148" H 9250 5000 50  0001 C CNN "manf#"
+F 5 "https://www.aliexpress.com/item/4000331505052.html" H 9250 5000 50  0001 C CNN "kicost:AliExpress:link"
+F 6 "1:AUD0.0247" H 9250 5000 50  0001 C CNN "kicost:AliExpress:pricing"
 	1    9250 5000
 	0    1    1    0   
 $EndComp
@@ -329,6 +373,8 @@ F 0 "SW94" H 9250 4885 50  0000 C CNN
 F 1 "SW_SPST" H 9250 4794 50  0000 C CNN
 F 2 "MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB" H 9250 4650 50  0001 C CNN
 F 3 "~" H 9250 4650 50  0001 C CNN
+F 4 "1:AUD0.529" H 9250 4650 50  0001 C CNN "kicost:AliExpress:pricing"
+F 5 "https://www.aliexpress.com/item/4001252892240.html" H 9250 4650 50  0001 C CNN "kicost:AliExpress:link"
 	1    9250 4650
 	0    1    1    0   
 $EndComp
@@ -340,6 +386,9 @@ F 0 "D75" H 9250 3834 50  0000 C CNN
 F 1 "1N4148" H 9250 3925 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF" H 9250 4050 50  0001 C CNN
 F 3 "~" H 9250 4050 50  0001 C CNN
+F 4 "LL4148" H 9250 4050 50  0001 C CNN "manf#"
+F 5 "https://www.aliexpress.com/item/4000331505052.html" H 9250 4050 50  0001 C CNN "kicost:AliExpress:link"
+F 6 "1:AUD0.0247" H 9250 4050 50  0001 C CNN "kicost:AliExpress:pricing"
 	1    9250 4050
 	0    1    1    0   
 $EndComp
@@ -351,6 +400,8 @@ F 0 "SW75" H 9250 3935 50  0000 C CNN
 F 1 "SW_SPST" H 9250 3844 50  0000 C CNN
 F 2 "MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB" H 9250 3700 50  0001 C CNN
 F 3 "~" H 9250 3700 50  0001 C CNN
+F 4 "1:AUD0.529" H 9250 3700 50  0001 C CNN "kicost:AliExpress:pricing"
+F 5 "https://www.aliexpress.com/item/4001252892240.html" H 9250 3700 50  0001 C CNN "kicost:AliExpress:link"
 	1    9250 3700
 	0    1    1    0   
 $EndComp
@@ -362,6 +413,9 @@ F 0 "D56" H 9250 2884 50  0000 C CNN
 F 1 "1N4148" H 9250 2975 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF" H 9250 3100 50  0001 C CNN
 F 3 "~" H 9250 3100 50  0001 C CNN
+F 4 "LL4148" H 9250 3100 50  0001 C CNN "manf#"
+F 5 "https://www.aliexpress.com/item/4000331505052.html" H 9250 3100 50  0001 C CNN "kicost:AliExpress:link"
+F 6 "1:AUD0.0247" H 9250 3100 50  0001 C CNN "kicost:AliExpress:pricing"
 	1    9250 3100
 	0    1    1    0   
 $EndComp
@@ -373,6 +427,8 @@ F 0 "SW56" H 9250 2985 50  0000 C CNN
 F 1 "SW_SPST" H 9250 2894 50  0000 C CNN
 F 2 "MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB" H 9250 2750 50  0001 C CNN
 F 3 "~" H 9250 2750 50  0001 C CNN
+F 4 "1:AUD0.529" H 9250 2750 50  0001 C CNN "kicost:AliExpress:pricing"
+F 5 "https://www.aliexpress.com/item/4001252892240.html" H 9250 2750 50  0001 C CNN "kicost:AliExpress:link"
 	1    9250 2750
 	0    1    1    0   
 $EndComp
@@ -384,6 +440,9 @@ F 0 "D37" H 9250 1934 50  0000 C CNN
 F 1 "1N4148" H 9250 2025 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF" H 9250 2150 50  0001 C CNN
 F 3 "~" H 9250 2150 50  0001 C CNN
+F 4 "LL4148" H 9250 2150 50  0001 C CNN "manf#"
+F 5 "https://www.aliexpress.com/item/4000331505052.html" H 9250 2150 50  0001 C CNN "kicost:AliExpress:link"
+F 6 "1:AUD0.0247" H 9250 2150 50  0001 C CNN "kicost:AliExpress:pricing"
 	1    9250 2150
 	0    1    1    0   
 $EndComp
@@ -395,6 +454,8 @@ F 0 "SW37" H 9250 2035 50  0000 C CNN
 F 1 "SW_SPST" H 9250 1944 50  0000 C CNN
 F 2 "MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB" H 9250 1800 50  0001 C CNN
 F 3 "~" H 9250 1800 50  0001 C CNN
+F 4 "1:AUD0.529" H 9250 1800 50  0001 C CNN "kicost:AliExpress:pricing"
+F 5 "https://www.aliexpress.com/item/4001252892240.html" H 9250 1800 50  0001 C CNN "kicost:AliExpress:link"
 	1    9250 1800
 	0    1    1    0   
 $EndComp
@@ -406,6 +467,9 @@ F 0 "D18" H 9250 984 50  0000 C CNN
 F 1 "1N4148" H 9250 1075 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF" H 9250 1200 50  0001 C CNN
 F 3 "~" H 9250 1200 50  0001 C CNN
+F 4 "LL4148" H 9250 1200 50  0001 C CNN "manf#"
+F 5 "https://www.aliexpress.com/item/4000331505052.html" H 9250 1200 50  0001 C CNN "kicost:AliExpress:link"
+F 6 "1:AUD0.0247" H 9250 1200 50  0001 C CNN "kicost:AliExpress:pricing"
 	1    9250 1200
 	0    1    1    0   
 $EndComp
@@ -417,6 +481,8 @@ F 0 "SW18" H 9250 1085 50  0000 C CNN
 F 1 "SW_SPST" H 9250 994 50  0000 C CNN
 F 2 "MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB" H 9250 850 50  0001 C CNN
 F 3 "~" H 9250 850 50  0001 C CNN
+F 4 "1:AUD0.529" H 9250 850 50  0001 C CNN "kicost:AliExpress:pricing"
+F 5 "https://www.aliexpress.com/item/4001252892240.html" H 9250 850 50  0001 C CNN "kicost:AliExpress:link"
 	1    9250 850 
 	0    1    1    0   
 $EndComp
@@ -428,6 +494,9 @@ F 0 "D112" H 8750 5734 50  0000 C CNN
 F 1 "1N4148" H 8750 5825 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF" H 8750 5950 50  0001 C CNN
 F 3 "~" H 8750 5950 50  0001 C CNN
+F 4 "LL4148" H 8750 5950 50  0001 C CNN "manf#"
+F 5 "https://www.aliexpress.com/item/4000331505052.html" H 8750 5950 50  0001 C CNN "kicost:AliExpress:link"
+F 6 "1:AUD0.0247" H 8750 5950 50  0001 C CNN "kicost:AliExpress:pricing"
 	1    8750 5950
 	0    1    1    0   
 $EndComp
@@ -439,6 +508,8 @@ F 0 "SW112" H 8750 5835 50  0000 C CNN
 F 1 "SW_SPST" H 8750 5744 50  0000 C CNN
 F 2 "MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB" H 8750 5600 50  0001 C CNN
 F 3 "~" H 8750 5600 50  0001 C CNN
+F 4 "1:AUD0.529" H 8750 5600 50  0001 C CNN "kicost:AliExpress:pricing"
+F 5 "https://www.aliexpress.com/item/4001252892240.html" H 8750 5600 50  0001 C CNN "kicost:AliExpress:link"
 	1    8750 5600
 	0    1    1    0   
 $EndComp
@@ -450,6 +521,9 @@ F 0 "D93" H 8750 4784 50  0000 C CNN
 F 1 "1N4148" H 8750 4875 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF" H 8750 5000 50  0001 C CNN
 F 3 "~" H 8750 5000 50  0001 C CNN
+F 4 "LL4148" H 8750 5000 50  0001 C CNN "manf#"
+F 5 "https://www.aliexpress.com/item/4000331505052.html" H 8750 5000 50  0001 C CNN "kicost:AliExpress:link"
+F 6 "1:AUD0.0247" H 8750 5000 50  0001 C CNN "kicost:AliExpress:pricing"
 	1    8750 5000
 	0    1    1    0   
 $EndComp
@@ -461,6 +535,8 @@ F 0 "SW93" H 8750 4885 50  0000 C CNN
 F 1 "SW_SPST" H 8750 4794 50  0000 C CNN
 F 2 "MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB" H 8750 4650 50  0001 C CNN
 F 3 "~" H 8750 4650 50  0001 C CNN
+F 4 "1:AUD0.529" H 8750 4650 50  0001 C CNN "kicost:AliExpress:pricing"
+F 5 "https://www.aliexpress.com/item/4001252892240.html" H 8750 4650 50  0001 C CNN "kicost:AliExpress:link"
 	1    8750 4650
 	0    1    1    0   
 $EndComp
@@ -472,6 +548,9 @@ F 0 "D74" H 8750 3834 50  0000 C CNN
 F 1 "1N4148" H 8750 3925 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF" H 8750 4050 50  0001 C CNN
 F 3 "~" H 8750 4050 50  0001 C CNN
+F 4 "LL4148" H 8750 4050 50  0001 C CNN "manf#"
+F 5 "https://www.aliexpress.com/item/4000331505052.html" H 8750 4050 50  0001 C CNN "kicost:AliExpress:link"
+F 6 "1:AUD0.0247" H 8750 4050 50  0001 C CNN "kicost:AliExpress:pricing"
 	1    8750 4050
 	0    1    1    0   
 $EndComp
@@ -483,6 +562,8 @@ F 0 "SW74" H 8750 3935 50  0000 C CNN
 F 1 "SW_SPST" H 8750 3844 50  0000 C CNN
 F 2 "MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB" H 8750 3700 50  0001 C CNN
 F 3 "~" H 8750 3700 50  0001 C CNN
+F 4 "1:AUD0.529" H 8750 3700 50  0001 C CNN "kicost:AliExpress:pricing"
+F 5 "https://www.aliexpress.com/item/4001252892240.html" H 8750 3700 50  0001 C CNN "kicost:AliExpress:link"
 	1    8750 3700
 	0    1    1    0   
 $EndComp
@@ -494,6 +575,9 @@ F 0 "D55" H 8750 2884 50  0000 C CNN
 F 1 "1N4148" H 8750 2975 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF" H 8750 3100 50  0001 C CNN
 F 3 "~" H 8750 3100 50  0001 C CNN
+F 4 "LL4148" H 8750 3100 50  0001 C CNN "manf#"
+F 5 "https://www.aliexpress.com/item/4000331505052.html" H 8750 3100 50  0001 C CNN "kicost:AliExpress:link"
+F 6 "1:AUD0.0247" H 8750 3100 50  0001 C CNN "kicost:AliExpress:pricing"
 	1    8750 3100
 	0    1    1    0   
 $EndComp
@@ -505,6 +589,8 @@ F 0 "SW55" H 8750 2985 50  0000 C CNN
 F 1 "SW_SPST" H 8750 2894 50  0000 C CNN
 F 2 "MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB" H 8750 2750 50  0001 C CNN
 F 3 "~" H 8750 2750 50  0001 C CNN
+F 4 "1:AUD0.529" H 8750 2750 50  0001 C CNN "kicost:AliExpress:pricing"
+F 5 "https://www.aliexpress.com/item/4001252892240.html" H 8750 2750 50  0001 C CNN "kicost:AliExpress:link"
 	1    8750 2750
 	0    1    1    0   
 $EndComp
@@ -516,6 +602,9 @@ F 0 "D36" H 8750 1934 50  0000 C CNN
 F 1 "1N4148" H 8750 2025 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF" H 8750 2150 50  0001 C CNN
 F 3 "~" H 8750 2150 50  0001 C CNN
+F 4 "LL4148" H 8750 2150 50  0001 C CNN "manf#"
+F 5 "https://www.aliexpress.com/item/4000331505052.html" H 8750 2150 50  0001 C CNN "kicost:AliExpress:link"
+F 6 "1:AUD0.0247" H 8750 2150 50  0001 C CNN "kicost:AliExpress:pricing"
 	1    8750 2150
 	0    1    1    0   
 $EndComp
@@ -527,6 +616,8 @@ F 0 "SW36" H 8750 2035 50  0000 C CNN
 F 1 "SW_SPST" H 8750 1944 50  0000 C CNN
 F 2 "MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB" H 8750 1800 50  0001 C CNN
 F 3 "~" H 8750 1800 50  0001 C CNN
+F 4 "1:AUD0.529" H 8750 1800 50  0001 C CNN "kicost:AliExpress:pricing"
+F 5 "https://www.aliexpress.com/item/4001252892240.html" H 8750 1800 50  0001 C CNN "kicost:AliExpress:link"
 	1    8750 1800
 	0    1    1    0   
 $EndComp
@@ -538,6 +629,9 @@ F 0 "D17" H 8750 984 50  0000 C CNN
 F 1 "1N4148" H 8750 1075 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF" H 8750 1200 50  0001 C CNN
 F 3 "~" H 8750 1200 50  0001 C CNN
+F 4 "LL4148" H 8750 1200 50  0001 C CNN "manf#"
+F 5 "https://www.aliexpress.com/item/4000331505052.html" H 8750 1200 50  0001 C CNN "kicost:AliExpress:link"
+F 6 "1:AUD0.0247" H 8750 1200 50  0001 C CNN "kicost:AliExpress:pricing"
 	1    8750 1200
 	0    1    1    0   
 $EndComp
@@ -549,6 +643,8 @@ F 0 "SW17" H 8750 1085 50  0000 C CNN
 F 1 "SW_SPST" H 8750 994 50  0000 C CNN
 F 2 "MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB" H 8750 850 50  0001 C CNN
 F 3 "~" H 8750 850 50  0001 C CNN
+F 4 "1:AUD0.529" H 8750 850 50  0001 C CNN "kicost:AliExpress:pricing"
+F 5 "https://www.aliexpress.com/item/4001252892240.html" H 8750 850 50  0001 C CNN "kicost:AliExpress:link"
 	1    8750 850 
 	0    1    1    0   
 $EndComp
@@ -560,6 +656,9 @@ F 0 "D111" H 8250 5734 50  0000 C CNN
 F 1 "1N4148" H 8250 5825 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF" H 8250 5950 50  0001 C CNN
 F 3 "~" H 8250 5950 50  0001 C CNN
+F 4 "LL4148" H 8250 5950 50  0001 C CNN "manf#"
+F 5 "https://www.aliexpress.com/item/4000331505052.html" H 8250 5950 50  0001 C CNN "kicost:AliExpress:link"
+F 6 "1:AUD0.0247" H 8250 5950 50  0001 C CNN "kicost:AliExpress:pricing"
 	1    8250 5950
 	0    1    1    0   
 $EndComp
@@ -571,6 +670,8 @@ F 0 "SW111" H 8250 5835 50  0000 C CNN
 F 1 "SW_SPST" H 8250 5744 50  0000 C CNN
 F 2 "MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB" H 8250 5600 50  0001 C CNN
 F 3 "~" H 8250 5600 50  0001 C CNN
+F 4 "1:AUD0.529" H 8250 5600 50  0001 C CNN "kicost:AliExpress:pricing"
+F 5 "https://www.aliexpress.com/item/4001252892240.html" H 8250 5600 50  0001 C CNN "kicost:AliExpress:link"
 	1    8250 5600
 	0    1    1    0   
 $EndComp
@@ -582,6 +683,9 @@ F 0 "D92" H 8250 4784 50  0000 C CNN
 F 1 "1N4148" H 8250 4875 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF" H 8250 5000 50  0001 C CNN
 F 3 "~" H 8250 5000 50  0001 C CNN
+F 4 "LL4148" H 8250 5000 50  0001 C CNN "manf#"
+F 5 "https://www.aliexpress.com/item/4000331505052.html" H 8250 5000 50  0001 C CNN "kicost:AliExpress:link"
+F 6 "1:AUD0.0247" H 8250 5000 50  0001 C CNN "kicost:AliExpress:pricing"
 	1    8250 5000
 	0    1    1    0   
 $EndComp
@@ -593,6 +697,8 @@ F 0 "SW92" H 8250 4885 50  0000 C CNN
 F 1 "SW_SPST" H 8250 4794 50  0000 C CNN
 F 2 "MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB" H 8250 4650 50  0001 C CNN
 F 3 "~" H 8250 4650 50  0001 C CNN
+F 4 "1:AUD0.529" H 8250 4650 50  0001 C CNN "kicost:AliExpress:pricing"
+F 5 "https://www.aliexpress.com/item/4001252892240.html" H 8250 4650 50  0001 C CNN "kicost:AliExpress:link"
 	1    8250 4650
 	0    1    1    0   
 $EndComp
@@ -604,6 +710,9 @@ F 0 "D73" H 8250 3834 50  0000 C CNN
 F 1 "1N4148" H 8250 3925 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF" H 8250 4050 50  0001 C CNN
 F 3 "~" H 8250 4050 50  0001 C CNN
+F 4 "LL4148" H 8250 4050 50  0001 C CNN "manf#"
+F 5 "https://www.aliexpress.com/item/4000331505052.html" H 8250 4050 50  0001 C CNN "kicost:AliExpress:link"
+F 6 "1:AUD0.0247" H 8250 4050 50  0001 C CNN "kicost:AliExpress:pricing"
 	1    8250 4050
 	0    1    1    0   
 $EndComp
@@ -615,6 +724,8 @@ F 0 "SW73" H 8250 3935 50  0000 C CNN
 F 1 "SW_SPST" H 8250 3844 50  0000 C CNN
 F 2 "MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB" H 8250 3700 50  0001 C CNN
 F 3 "~" H 8250 3700 50  0001 C CNN
+F 4 "1:AUD0.529" H 8250 3700 50  0001 C CNN "kicost:AliExpress:pricing"
+F 5 "https://www.aliexpress.com/item/4001252892240.html" H 8250 3700 50  0001 C CNN "kicost:AliExpress:link"
 	1    8250 3700
 	0    1    1    0   
 $EndComp
@@ -626,6 +737,9 @@ F 0 "D54" H 8250 2884 50  0000 C CNN
 F 1 "1N4148" H 8250 2975 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF" H 8250 3100 50  0001 C CNN
 F 3 "~" H 8250 3100 50  0001 C CNN
+F 4 "LL4148" H 8250 3100 50  0001 C CNN "manf#"
+F 5 "https://www.aliexpress.com/item/4000331505052.html" H 8250 3100 50  0001 C CNN "kicost:AliExpress:link"
+F 6 "1:AUD0.0247" H 8250 3100 50  0001 C CNN "kicost:AliExpress:pricing"
 	1    8250 3100
 	0    1    1    0   
 $EndComp
@@ -637,6 +751,8 @@ F 0 "SW54" H 8250 2985 50  0000 C CNN
 F 1 "SW_SPST" H 8250 2894 50  0000 C CNN
 F 2 "MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB" H 8250 2750 50  0001 C CNN
 F 3 "~" H 8250 2750 50  0001 C CNN
+F 4 "1:AUD0.529" H 8250 2750 50  0001 C CNN "kicost:AliExpress:pricing"
+F 5 "https://www.aliexpress.com/item/4001252892240.html" H 8250 2750 50  0001 C CNN "kicost:AliExpress:link"
 	1    8250 2750
 	0    1    1    0   
 $EndComp
@@ -648,6 +764,9 @@ F 0 "D35" H 8250 1934 50  0000 C CNN
 F 1 "1N4148" H 8250 2025 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF" H 8250 2150 50  0001 C CNN
 F 3 "~" H 8250 2150 50  0001 C CNN
+F 4 "LL4148" H 8250 2150 50  0001 C CNN "manf#"
+F 5 "https://www.aliexpress.com/item/4000331505052.html" H 8250 2150 50  0001 C CNN "kicost:AliExpress:link"
+F 6 "1:AUD0.0247" H 8250 2150 50  0001 C CNN "kicost:AliExpress:pricing"
 	1    8250 2150
 	0    1    1    0   
 $EndComp
@@ -659,6 +778,8 @@ F 0 "SW35" H 8250 2035 50  0000 C CNN
 F 1 "SW_SPST" H 8250 1944 50  0000 C CNN
 F 2 "MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB" H 8250 1800 50  0001 C CNN
 F 3 "~" H 8250 1800 50  0001 C CNN
+F 4 "1:AUD0.529" H 8250 1800 50  0001 C CNN "kicost:AliExpress:pricing"
+F 5 "https://www.aliexpress.com/item/4001252892240.html" H 8250 1800 50  0001 C CNN "kicost:AliExpress:link"
 	1    8250 1800
 	0    1    1    0   
 $EndComp
@@ -670,6 +791,9 @@ F 0 "D16" H 8250 984 50  0000 C CNN
 F 1 "1N4148" H 8250 1075 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF" H 8250 1200 50  0001 C CNN
 F 3 "~" H 8250 1200 50  0001 C CNN
+F 4 "LL4148" H 8250 1200 50  0001 C CNN "manf#"
+F 5 "https://www.aliexpress.com/item/4000331505052.html" H 8250 1200 50  0001 C CNN "kicost:AliExpress:link"
+F 6 "1:AUD0.0247" H 8250 1200 50  0001 C CNN "kicost:AliExpress:pricing"
 	1    8250 1200
 	0    1    1    0   
 $EndComp
@@ -681,6 +805,8 @@ F 0 "SW16" H 8250 1085 50  0000 C CNN
 F 1 "SW_SPST" H 8250 994 50  0000 C CNN
 F 2 "MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB" H 8250 850 50  0001 C CNN
 F 3 "~" H 8250 850 50  0001 C CNN
+F 4 "1:AUD0.529" H 8250 850 50  0001 C CNN "kicost:AliExpress:pricing"
+F 5 "https://www.aliexpress.com/item/4001252892240.html" H 8250 850 50  0001 C CNN "kicost:AliExpress:link"
 	1    8250 850 
 	0    1    1    0   
 $EndComp
@@ -692,6 +818,9 @@ F 0 "D110" H 7750 5734 50  0000 C CNN
 F 1 "1N4148" H 7750 5825 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF" H 7750 5950 50  0001 C CNN
 F 3 "~" H 7750 5950 50  0001 C CNN
+F 4 "LL4148" H 7750 5950 50  0001 C CNN "manf#"
+F 5 "https://www.aliexpress.com/item/4000331505052.html" H 7750 5950 50  0001 C CNN "kicost:AliExpress:link"
+F 6 "1:AUD0.0247" H 7750 5950 50  0001 C CNN "kicost:AliExpress:pricing"
 	1    7750 5950
 	0    1    1    0   
 $EndComp
@@ -703,6 +832,8 @@ F 0 "SW110" H 7750 5835 50  0000 C CNN
 F 1 "SW_SPST" H 7750 5744 50  0000 C CNN
 F 2 "MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB" H 7750 5600 50  0001 C CNN
 F 3 "~" H 7750 5600 50  0001 C CNN
+F 4 "1:AUD0.529" H 7750 5600 50  0001 C CNN "kicost:AliExpress:pricing"
+F 5 "https://www.aliexpress.com/item/4001252892240.html" H 7750 5600 50  0001 C CNN "kicost:AliExpress:link"
 	1    7750 5600
 	0    1    1    0   
 $EndComp
@@ -714,6 +845,9 @@ F 0 "D91" H 7750 4784 50  0000 C CNN
 F 1 "1N4148" H 7750 4875 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF" H 7750 5000 50  0001 C CNN
 F 3 "~" H 7750 5000 50  0001 C CNN
+F 4 "LL4148" H 7750 5000 50  0001 C CNN "manf#"
+F 5 "https://www.aliexpress.com/item/4000331505052.html" H 7750 5000 50  0001 C CNN "kicost:AliExpress:link"
+F 6 "1:AUD0.0247" H 7750 5000 50  0001 C CNN "kicost:AliExpress:pricing"
 	1    7750 5000
 	0    1    1    0   
 $EndComp
@@ -725,6 +859,8 @@ F 0 "SW91" H 7750 4885 50  0000 C CNN
 F 1 "SW_SPST" H 7750 4794 50  0000 C CNN
 F 2 "MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB" H 7750 4650 50  0001 C CNN
 F 3 "~" H 7750 4650 50  0001 C CNN
+F 4 "1:AUD0.529" H 7750 4650 50  0001 C CNN "kicost:AliExpress:pricing"
+F 5 "https://www.aliexpress.com/item/4001252892240.html" H 7750 4650 50  0001 C CNN "kicost:AliExpress:link"
 	1    7750 4650
 	0    1    1    0   
 $EndComp
@@ -736,6 +872,9 @@ F 0 "D72" H 7750 3834 50  0000 C CNN
 F 1 "1N4148" H 7750 3925 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF" H 7750 4050 50  0001 C CNN
 F 3 "~" H 7750 4050 50  0001 C CNN
+F 4 "LL4148" H 7750 4050 50  0001 C CNN "manf#"
+F 5 "https://www.aliexpress.com/item/4000331505052.html" H 7750 4050 50  0001 C CNN "kicost:AliExpress:link"
+F 6 "1:AUD0.0247" H 7750 4050 50  0001 C CNN "kicost:AliExpress:pricing"
 	1    7750 4050
 	0    1    1    0   
 $EndComp
@@ -747,6 +886,8 @@ F 0 "SW72" H 7750 3935 50  0000 C CNN
 F 1 "SW_SPST" H 7750 3844 50  0000 C CNN
 F 2 "MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB" H 7750 3700 50  0001 C CNN
 F 3 "~" H 7750 3700 50  0001 C CNN
+F 4 "1:AUD0.529" H 7750 3700 50  0001 C CNN "kicost:AliExpress:pricing"
+F 5 "https://www.aliexpress.com/item/4001252892240.html" H 7750 3700 50  0001 C CNN "kicost:AliExpress:link"
 	1    7750 3700
 	0    1    1    0   
 $EndComp
@@ -758,6 +899,9 @@ F 0 "D53" H 7750 2884 50  0000 C CNN
 F 1 "1N4148" H 7750 2975 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF" H 7750 3100 50  0001 C CNN
 F 3 "~" H 7750 3100 50  0001 C CNN
+F 4 "LL4148" H 7750 3100 50  0001 C CNN "manf#"
+F 5 "https://www.aliexpress.com/item/4000331505052.html" H 7750 3100 50  0001 C CNN "kicost:AliExpress:link"
+F 6 "1:AUD0.0247" H 7750 3100 50  0001 C CNN "kicost:AliExpress:pricing"
 	1    7750 3100
 	0    1    1    0   
 $EndComp
@@ -769,6 +913,8 @@ F 0 "SW53" H 7750 2985 50  0000 C CNN
 F 1 "SW_SPST" H 7750 2894 50  0000 C CNN
 F 2 "MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB" H 7750 2750 50  0001 C CNN
 F 3 "~" H 7750 2750 50  0001 C CNN
+F 4 "1:AUD0.529" H 7750 2750 50  0001 C CNN "kicost:AliExpress:pricing"
+F 5 "https://www.aliexpress.com/item/4001252892240.html" H 7750 2750 50  0001 C CNN "kicost:AliExpress:link"
 	1    7750 2750
 	0    1    1    0   
 $EndComp
@@ -780,6 +926,9 @@ F 0 "D34" H 7750 1934 50  0000 C CNN
 F 1 "1N4148" H 7750 2025 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF" H 7750 2150 50  0001 C CNN
 F 3 "~" H 7750 2150 50  0001 C CNN
+F 4 "LL4148" H 7750 2150 50  0001 C CNN "manf#"
+F 5 "https://www.aliexpress.com/item/4000331505052.html" H 7750 2150 50  0001 C CNN "kicost:AliExpress:link"
+F 6 "1:AUD0.0247" H 7750 2150 50  0001 C CNN "kicost:AliExpress:pricing"
 	1    7750 2150
 	0    1    1    0   
 $EndComp
@@ -791,6 +940,8 @@ F 0 "SW34" H 7750 2035 50  0000 C CNN
 F 1 "SW_SPST" H 7750 1944 50  0000 C CNN
 F 2 "MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB" H 7750 1800 50  0001 C CNN
 F 3 "~" H 7750 1800 50  0001 C CNN
+F 4 "1:AUD0.529" H 7750 1800 50  0001 C CNN "kicost:AliExpress:pricing"
+F 5 "https://www.aliexpress.com/item/4001252892240.html" H 7750 1800 50  0001 C CNN "kicost:AliExpress:link"
 	1    7750 1800
 	0    1    1    0   
 $EndComp
@@ -802,6 +953,9 @@ F 0 "D15" H 7750 984 50  0000 C CNN
 F 1 "1N4148" H 7750 1075 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF" H 7750 1200 50  0001 C CNN
 F 3 "~" H 7750 1200 50  0001 C CNN
+F 4 "LL4148" H 7750 1200 50  0001 C CNN "manf#"
+F 5 "https://www.aliexpress.com/item/4000331505052.html" H 7750 1200 50  0001 C CNN "kicost:AliExpress:link"
+F 6 "1:AUD0.0247" H 7750 1200 50  0001 C CNN "kicost:AliExpress:pricing"
 	1    7750 1200
 	0    1    1    0   
 $EndComp
@@ -813,6 +967,8 @@ F 0 "SW15" H 7750 1085 50  0000 C CNN
 F 1 "SW_SPST" H 7750 994 50  0000 C CNN
 F 2 "MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB" H 7750 850 50  0001 C CNN
 F 3 "~" H 7750 850 50  0001 C CNN
+F 4 "1:AUD0.529" H 7750 850 50  0001 C CNN "kicost:AliExpress:pricing"
+F 5 "https://www.aliexpress.com/item/4001252892240.html" H 7750 850 50  0001 C CNN "kicost:AliExpress:link"
 	1    7750 850 
 	0    1    1    0   
 $EndComp
@@ -824,6 +980,9 @@ F 0 "D109" H 7250 5734 50  0000 C CNN
 F 1 "1N4148" H 7250 5825 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF" H 7250 5950 50  0001 C CNN
 F 3 "~" H 7250 5950 50  0001 C CNN
+F 4 "LL4148" H 7250 5950 50  0001 C CNN "manf#"
+F 5 "https://www.aliexpress.com/item/4000331505052.html" H 7250 5950 50  0001 C CNN "kicost:AliExpress:link"
+F 6 "1:AUD0.0247" H 7250 5950 50  0001 C CNN "kicost:AliExpress:pricing"
 	1    7250 5950
 	0    1    1    0   
 $EndComp
@@ -835,6 +994,8 @@ F 0 "SW109" H 7250 5835 50  0000 C CNN
 F 1 "SW_SPST" H 7250 5744 50  0000 C CNN
 F 2 "MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB" H 7250 5600 50  0001 C CNN
 F 3 "~" H 7250 5600 50  0001 C CNN
+F 4 "1:AUD0.529" H 7250 5600 50  0001 C CNN "kicost:AliExpress:pricing"
+F 5 "https://www.aliexpress.com/item/4001252892240.html" H 7250 5600 50  0001 C CNN "kicost:AliExpress:link"
 	1    7250 5600
 	0    1    1    0   
 $EndComp
@@ -846,6 +1007,9 @@ F 0 "D90" H 7250 4784 50  0000 C CNN
 F 1 "1N4148" H 7250 4875 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF" H 7250 5000 50  0001 C CNN
 F 3 "~" H 7250 5000 50  0001 C CNN
+F 4 "LL4148" H 7250 5000 50  0001 C CNN "manf#"
+F 5 "https://www.aliexpress.com/item/4000331505052.html" H 7250 5000 50  0001 C CNN "kicost:AliExpress:link"
+F 6 "1:AUD0.0247" H 7250 5000 50  0001 C CNN "kicost:AliExpress:pricing"
 	1    7250 5000
 	0    1    1    0   
 $EndComp
@@ -857,6 +1021,8 @@ F 0 "SW90" H 7250 4885 50  0000 C CNN
 F 1 "SW_SPST" H 7250 4794 50  0000 C CNN
 F 2 "MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB" H 7250 4650 50  0001 C CNN
 F 3 "~" H 7250 4650 50  0001 C CNN
+F 4 "1:AUD0.529" H 7250 4650 50  0001 C CNN "kicost:AliExpress:pricing"
+F 5 "https://www.aliexpress.com/item/4001252892240.html" H 7250 4650 50  0001 C CNN "kicost:AliExpress:link"
 	1    7250 4650
 	0    1    1    0   
 $EndComp
@@ -868,6 +1034,9 @@ F 0 "D71" H 7250 3834 50  0000 C CNN
 F 1 "1N4148" H 7250 3925 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF" H 7250 4050 50  0001 C CNN
 F 3 "~" H 7250 4050 50  0001 C CNN
+F 4 "LL4148" H 7250 4050 50  0001 C CNN "manf#"
+F 5 "https://www.aliexpress.com/item/4000331505052.html" H 7250 4050 50  0001 C CNN "kicost:AliExpress:link"
+F 6 "1:AUD0.0247" H 7250 4050 50  0001 C CNN "kicost:AliExpress:pricing"
 	1    7250 4050
 	0    1    1    0   
 $EndComp
@@ -879,6 +1048,8 @@ F 0 "SW71" H 7250 3935 50  0000 C CNN
 F 1 "SW_SPST" H 7250 3844 50  0000 C CNN
 F 2 "MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB" H 7250 3700 50  0001 C CNN
 F 3 "~" H 7250 3700 50  0001 C CNN
+F 4 "1:AUD0.529" H 7250 3700 50  0001 C CNN "kicost:AliExpress:pricing"
+F 5 "https://www.aliexpress.com/item/4001252892240.html" H 7250 3700 50  0001 C CNN "kicost:AliExpress:link"
 	1    7250 3700
 	0    1    1    0   
 $EndComp
@@ -890,6 +1061,9 @@ F 0 "D52" H 7250 2884 50  0000 C CNN
 F 1 "1N4148" H 7250 2975 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF" H 7250 3100 50  0001 C CNN
 F 3 "~" H 7250 3100 50  0001 C CNN
+F 4 "LL4148" H 7250 3100 50  0001 C CNN "manf#"
+F 5 "https://www.aliexpress.com/item/4000331505052.html" H 7250 3100 50  0001 C CNN "kicost:AliExpress:link"
+F 6 "1:AUD0.0247" H 7250 3100 50  0001 C CNN "kicost:AliExpress:pricing"
 	1    7250 3100
 	0    1    1    0   
 $EndComp
@@ -901,6 +1075,8 @@ F 0 "SW52" H 7250 2985 50  0000 C CNN
 F 1 "SW_SPST" H 7250 2894 50  0000 C CNN
 F 2 "MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB" H 7250 2750 50  0001 C CNN
 F 3 "~" H 7250 2750 50  0001 C CNN
+F 4 "1:AUD0.529" H 7250 2750 50  0001 C CNN "kicost:AliExpress:pricing"
+F 5 "https://www.aliexpress.com/item/4001252892240.html" H 7250 2750 50  0001 C CNN "kicost:AliExpress:link"
 	1    7250 2750
 	0    1    1    0   
 $EndComp
@@ -912,6 +1088,9 @@ F 0 "D33" H 7250 1934 50  0000 C CNN
 F 1 "1N4148" H 7250 2025 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF" H 7250 2150 50  0001 C CNN
 F 3 "~" H 7250 2150 50  0001 C CNN
+F 4 "LL4148" H 7250 2150 50  0001 C CNN "manf#"
+F 5 "https://www.aliexpress.com/item/4000331505052.html" H 7250 2150 50  0001 C CNN "kicost:AliExpress:link"
+F 6 "1:AUD0.0247" H 7250 2150 50  0001 C CNN "kicost:AliExpress:pricing"
 	1    7250 2150
 	0    1    1    0   
 $EndComp
@@ -923,6 +1102,8 @@ F 0 "SW33" H 7250 2035 50  0000 C CNN
 F 1 "SW_SPST" H 7250 1944 50  0000 C CNN
 F 2 "MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB" H 7250 1800 50  0001 C CNN
 F 3 "~" H 7250 1800 50  0001 C CNN
+F 4 "1:AUD0.529" H 7250 1800 50  0001 C CNN "kicost:AliExpress:pricing"
+F 5 "https://www.aliexpress.com/item/4001252892240.html" H 7250 1800 50  0001 C CNN "kicost:AliExpress:link"
 	1    7250 1800
 	0    1    1    0   
 $EndComp
@@ -934,6 +1115,9 @@ F 0 "D14" H 7250 984 50  0000 C CNN
 F 1 "1N4148" H 7250 1075 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF" H 7250 1200 50  0001 C CNN
 F 3 "~" H 7250 1200 50  0001 C CNN
+F 4 "LL4148" H 7250 1200 50  0001 C CNN "manf#"
+F 5 "https://www.aliexpress.com/item/4000331505052.html" H 7250 1200 50  0001 C CNN "kicost:AliExpress:link"
+F 6 "1:AUD0.0247" H 7250 1200 50  0001 C CNN "kicost:AliExpress:pricing"
 	1    7250 1200
 	0    1    1    0   
 $EndComp
@@ -945,6 +1129,8 @@ F 0 "SW14" H 7250 1085 50  0000 C CNN
 F 1 "SW_SPST" H 7250 994 50  0000 C CNN
 F 2 "MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB" H 7250 850 50  0001 C CNN
 F 3 "~" H 7250 850 50  0001 C CNN
+F 4 "1:AUD0.529" H 7250 850 50  0001 C CNN "kicost:AliExpress:pricing"
+F 5 "https://www.aliexpress.com/item/4001252892240.html" H 7250 850 50  0001 C CNN "kicost:AliExpress:link"
 	1    7250 850 
 	0    1    1    0   
 $EndComp
@@ -956,6 +1142,9 @@ F 0 "D108" H 6750 5734 50  0000 C CNN
 F 1 "1N4148" H 6750 5825 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF" H 6750 5950 50  0001 C CNN
 F 3 "~" H 6750 5950 50  0001 C CNN
+F 4 "LL4148" H 6750 5950 50  0001 C CNN "manf#"
+F 5 "https://www.aliexpress.com/item/4000331505052.html" H 6750 5950 50  0001 C CNN "kicost:AliExpress:link"
+F 6 "1:AUD0.0247" H 6750 5950 50  0001 C CNN "kicost:AliExpress:pricing"
 	1    6750 5950
 	0    1    1    0   
 $EndComp
@@ -967,6 +1156,8 @@ F 0 "SW108" H 6750 5835 50  0000 C CNN
 F 1 "SW_SPST" H 6750 5744 50  0000 C CNN
 F 2 "MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB" H 6750 5600 50  0001 C CNN
 F 3 "~" H 6750 5600 50  0001 C CNN
+F 4 "1:AUD0.529" H 6750 5600 50  0001 C CNN "kicost:AliExpress:pricing"
+F 5 "https://www.aliexpress.com/item/4001252892240.html" H 6750 5600 50  0001 C CNN "kicost:AliExpress:link"
 	1    6750 5600
 	0    1    1    0   
 $EndComp
@@ -978,6 +1169,9 @@ F 0 "D89" H 6750 4784 50  0000 C CNN
 F 1 "1N4148" H 6750 4875 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF" H 6750 5000 50  0001 C CNN
 F 3 "~" H 6750 5000 50  0001 C CNN
+F 4 "LL4148" H 6750 5000 50  0001 C CNN "manf#"
+F 5 "https://www.aliexpress.com/item/4000331505052.html" H 6750 5000 50  0001 C CNN "kicost:AliExpress:link"
+F 6 "1:AUD0.0247" H 6750 5000 50  0001 C CNN "kicost:AliExpress:pricing"
 	1    6750 5000
 	0    1    1    0   
 $EndComp
@@ -989,6 +1183,8 @@ F 0 "SW89" H 6750 4885 50  0000 C CNN
 F 1 "SW_SPST" H 6750 4794 50  0000 C CNN
 F 2 "MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB" H 6750 4650 50  0001 C CNN
 F 3 "~" H 6750 4650 50  0001 C CNN
+F 4 "1:AUD0.529" H 6750 4650 50  0001 C CNN "kicost:AliExpress:pricing"
+F 5 "https://www.aliexpress.com/item/4001252892240.html" H 6750 4650 50  0001 C CNN "kicost:AliExpress:link"
 	1    6750 4650
 	0    1    1    0   
 $EndComp
@@ -1000,6 +1196,9 @@ F 0 "D70" H 6750 3834 50  0000 C CNN
 F 1 "1N4148" H 6750 3925 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF" H 6750 4050 50  0001 C CNN
 F 3 "~" H 6750 4050 50  0001 C CNN
+F 4 "LL4148" H 6750 4050 50  0001 C CNN "manf#"
+F 5 "https://www.aliexpress.com/item/4000331505052.html" H 6750 4050 50  0001 C CNN "kicost:AliExpress:link"
+F 6 "1:AUD0.0247" H 6750 4050 50  0001 C CNN "kicost:AliExpress:pricing"
 	1    6750 4050
 	0    1    1    0   
 $EndComp
@@ -1011,6 +1210,8 @@ F 0 "SW70" H 6750 3935 50  0000 C CNN
 F 1 "SW_SPST" H 6750 3844 50  0000 C CNN
 F 2 "MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB" H 6750 3700 50  0001 C CNN
 F 3 "~" H 6750 3700 50  0001 C CNN
+F 4 "1:AUD0.529" H 6750 3700 50  0001 C CNN "kicost:AliExpress:pricing"
+F 5 "https://www.aliexpress.com/item/4001252892240.html" H 6750 3700 50  0001 C CNN "kicost:AliExpress:link"
 	1    6750 3700
 	0    1    1    0   
 $EndComp
@@ -1022,6 +1223,9 @@ F 0 "D51" H 6750 2884 50  0000 C CNN
 F 1 "1N4148" H 6750 2975 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF" H 6750 3100 50  0001 C CNN
 F 3 "~" H 6750 3100 50  0001 C CNN
+F 4 "LL4148" H 6750 3100 50  0001 C CNN "manf#"
+F 5 "https://www.aliexpress.com/item/4000331505052.html" H 6750 3100 50  0001 C CNN "kicost:AliExpress:link"
+F 6 "1:AUD0.0247" H 6750 3100 50  0001 C CNN "kicost:AliExpress:pricing"
 	1    6750 3100
 	0    1    1    0   
 $EndComp
@@ -1033,6 +1237,8 @@ F 0 "SW51" H 6750 2985 50  0000 C CNN
 F 1 "SW_SPST" H 6750 2894 50  0000 C CNN
 F 2 "MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB" H 6750 2750 50  0001 C CNN
 F 3 "~" H 6750 2750 50  0001 C CNN
+F 4 "1:AUD0.529" H 6750 2750 50  0001 C CNN "kicost:AliExpress:pricing"
+F 5 "https://www.aliexpress.com/item/4001252892240.html" H 6750 2750 50  0001 C CNN "kicost:AliExpress:link"
 	1    6750 2750
 	0    1    1    0   
 $EndComp
@@ -1044,6 +1250,9 @@ F 0 "D32" H 6750 1934 50  0000 C CNN
 F 1 "1N4148" H 6750 2025 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF" H 6750 2150 50  0001 C CNN
 F 3 "~" H 6750 2150 50  0001 C CNN
+F 4 "LL4148" H 6750 2150 50  0001 C CNN "manf#"
+F 5 "https://www.aliexpress.com/item/4000331505052.html" H 6750 2150 50  0001 C CNN "kicost:AliExpress:link"
+F 6 "1:AUD0.0247" H 6750 2150 50  0001 C CNN "kicost:AliExpress:pricing"
 	1    6750 2150
 	0    1    1    0   
 $EndComp
@@ -1055,6 +1264,8 @@ F 0 "SW32" H 6750 2035 50  0000 C CNN
 F 1 "SW_SPST" H 6750 1944 50  0000 C CNN
 F 2 "MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB" H 6750 1800 50  0001 C CNN
 F 3 "~" H 6750 1800 50  0001 C CNN
+F 4 "1:AUD0.529" H 6750 1800 50  0001 C CNN "kicost:AliExpress:pricing"
+F 5 "https://www.aliexpress.com/item/4001252892240.html" H 6750 1800 50  0001 C CNN "kicost:AliExpress:link"
 	1    6750 1800
 	0    1    1    0   
 $EndComp
@@ -1066,6 +1277,9 @@ F 0 "D13" H 6750 984 50  0000 C CNN
 F 1 "1N4148" H 6750 1075 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF" H 6750 1200 50  0001 C CNN
 F 3 "~" H 6750 1200 50  0001 C CNN
+F 4 "LL4148" H 6750 1200 50  0001 C CNN "manf#"
+F 5 "https://www.aliexpress.com/item/4000331505052.html" H 6750 1200 50  0001 C CNN "kicost:AliExpress:link"
+F 6 "1:AUD0.0247" H 6750 1200 50  0001 C CNN "kicost:AliExpress:pricing"
 	1    6750 1200
 	0    1    1    0   
 $EndComp
@@ -1077,6 +1291,8 @@ F 0 "SW13" H 6750 1085 50  0000 C CNN
 F 1 "SW_SPST" H 6750 994 50  0000 C CNN
 F 2 "MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB" H 6750 850 50  0001 C CNN
 F 3 "~" H 6750 850 50  0001 C CNN
+F 4 "1:AUD0.529" H 6750 850 50  0001 C CNN "kicost:AliExpress:pricing"
+F 5 "https://www.aliexpress.com/item/4001252892240.html" H 6750 850 50  0001 C CNN "kicost:AliExpress:link"
 	1    6750 850 
 	0    1    1    0   
 $EndComp
@@ -1088,6 +1304,9 @@ F 0 "D107" H 6250 5734 50  0000 C CNN
 F 1 "1N4148" H 6250 5825 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF" H 6250 5950 50  0001 C CNN
 F 3 "~" H 6250 5950 50  0001 C CNN
+F 4 "LL4148" H 6250 5950 50  0001 C CNN "manf#"
+F 5 "https://www.aliexpress.com/item/4000331505052.html" H 6250 5950 50  0001 C CNN "kicost:AliExpress:link"
+F 6 "1:AUD0.0247" H 6250 5950 50  0001 C CNN "kicost:AliExpress:pricing"
 	1    6250 5950
 	0    1    1    0   
 $EndComp
@@ -1099,6 +1318,8 @@ F 0 "SW107" H 6250 5835 50  0000 C CNN
 F 1 "SW_SPST" H 6250 5744 50  0000 C CNN
 F 2 "MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB" H 6250 5600 50  0001 C CNN
 F 3 "~" H 6250 5600 50  0001 C CNN
+F 4 "1:AUD0.529" H 6250 5600 50  0001 C CNN "kicost:AliExpress:pricing"
+F 5 "https://www.aliexpress.com/item/4001252892240.html" H 6250 5600 50  0001 C CNN "kicost:AliExpress:link"
 	1    6250 5600
 	0    1    1    0   
 $EndComp
@@ -1110,6 +1331,9 @@ F 0 "D88" H 6250 4784 50  0000 C CNN
 F 1 "1N4148" H 6250 4875 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF" H 6250 5000 50  0001 C CNN
 F 3 "~" H 6250 5000 50  0001 C CNN
+F 4 "LL4148" H 6250 5000 50  0001 C CNN "manf#"
+F 5 "https://www.aliexpress.com/item/4000331505052.html" H 6250 5000 50  0001 C CNN "kicost:AliExpress:link"
+F 6 "1:AUD0.0247" H 6250 5000 50  0001 C CNN "kicost:AliExpress:pricing"
 	1    6250 5000
 	0    1    1    0   
 $EndComp
@@ -1121,6 +1345,8 @@ F 0 "SW88" H 6250 4885 50  0000 C CNN
 F 1 "SW_SPST" H 6250 4794 50  0000 C CNN
 F 2 "MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB" H 6250 4650 50  0001 C CNN
 F 3 "~" H 6250 4650 50  0001 C CNN
+F 4 "1:AUD0.529" H 6250 4650 50  0001 C CNN "kicost:AliExpress:pricing"
+F 5 "https://www.aliexpress.com/item/4001252892240.html" H 6250 4650 50  0001 C CNN "kicost:AliExpress:link"
 	1    6250 4650
 	0    1    1    0   
 $EndComp
@@ -1132,6 +1358,9 @@ F 0 "D69" H 6250 3834 50  0000 C CNN
 F 1 "1N4148" H 6250 3925 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF" H 6250 4050 50  0001 C CNN
 F 3 "~" H 6250 4050 50  0001 C CNN
+F 4 "LL4148" H 6250 4050 50  0001 C CNN "manf#"
+F 5 "https://www.aliexpress.com/item/4000331505052.html" H 6250 4050 50  0001 C CNN "kicost:AliExpress:link"
+F 6 "1:AUD0.0247" H 6250 4050 50  0001 C CNN "kicost:AliExpress:pricing"
 	1    6250 4050
 	0    1    1    0   
 $EndComp
@@ -1143,6 +1372,8 @@ F 0 "SW69" H 6250 3935 50  0000 C CNN
 F 1 "SW_SPST" H 6250 3844 50  0000 C CNN
 F 2 "MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB" H 6250 3700 50  0001 C CNN
 F 3 "~" H 6250 3700 50  0001 C CNN
+F 4 "1:AUD0.529" H 6250 3700 50  0001 C CNN "kicost:AliExpress:pricing"
+F 5 "https://www.aliexpress.com/item/4001252892240.html" H 6250 3700 50  0001 C CNN "kicost:AliExpress:link"
 	1    6250 3700
 	0    1    1    0   
 $EndComp
@@ -1154,6 +1385,9 @@ F 0 "D50" H 6250 2884 50  0000 C CNN
 F 1 "1N4148" H 6250 2975 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF" H 6250 3100 50  0001 C CNN
 F 3 "~" H 6250 3100 50  0001 C CNN
+F 4 "LL4148" H 6250 3100 50  0001 C CNN "manf#"
+F 5 "https://www.aliexpress.com/item/4000331505052.html" H 6250 3100 50  0001 C CNN "kicost:AliExpress:link"
+F 6 "1:AUD0.0247" H 6250 3100 50  0001 C CNN "kicost:AliExpress:pricing"
 	1    6250 3100
 	0    1    1    0   
 $EndComp
@@ -1165,6 +1399,8 @@ F 0 "SW50" H 6250 2985 50  0000 C CNN
 F 1 "SW_SPST" H 6250 2894 50  0000 C CNN
 F 2 "MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB" H 6250 2750 50  0001 C CNN
 F 3 "~" H 6250 2750 50  0001 C CNN
+F 4 "1:AUD0.529" H 6250 2750 50  0001 C CNN "kicost:AliExpress:pricing"
+F 5 "https://www.aliexpress.com/item/4001252892240.html" H 6250 2750 50  0001 C CNN "kicost:AliExpress:link"
 	1    6250 2750
 	0    1    1    0   
 $EndComp
@@ -1176,6 +1412,9 @@ F 0 "D31" H 6250 1934 50  0000 C CNN
 F 1 "1N4148" H 6250 2025 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF" H 6250 2150 50  0001 C CNN
 F 3 "~" H 6250 2150 50  0001 C CNN
+F 4 "LL4148" H 6250 2150 50  0001 C CNN "manf#"
+F 5 "https://www.aliexpress.com/item/4000331505052.html" H 6250 2150 50  0001 C CNN "kicost:AliExpress:link"
+F 6 "1:AUD0.0247" H 6250 2150 50  0001 C CNN "kicost:AliExpress:pricing"
 	1    6250 2150
 	0    1    1    0   
 $EndComp
@@ -1187,6 +1426,8 @@ F 0 "SW31" H 6250 2035 50  0000 C CNN
 F 1 "SW_SPST" H 6250 1944 50  0000 C CNN
 F 2 "MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB" H 6250 1800 50  0001 C CNN
 F 3 "~" H 6250 1800 50  0001 C CNN
+F 4 "1:AUD0.529" H 6250 1800 50  0001 C CNN "kicost:AliExpress:pricing"
+F 5 "https://www.aliexpress.com/item/4001252892240.html" H 6250 1800 50  0001 C CNN "kicost:AliExpress:link"
 	1    6250 1800
 	0    1    1    0   
 $EndComp
@@ -1198,6 +1439,9 @@ F 0 "D12" H 6250 984 50  0000 C CNN
 F 1 "1N4148" H 6250 1075 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF" H 6250 1200 50  0001 C CNN
 F 3 "~" H 6250 1200 50  0001 C CNN
+F 4 "LL4148" H 6250 1200 50  0001 C CNN "manf#"
+F 5 "https://www.aliexpress.com/item/4000331505052.html" H 6250 1200 50  0001 C CNN "kicost:AliExpress:link"
+F 6 "1:AUD0.0247" H 6250 1200 50  0001 C CNN "kicost:AliExpress:pricing"
 	1    6250 1200
 	0    1    1    0   
 $EndComp
@@ -1209,6 +1453,8 @@ F 0 "SW12" H 6250 1085 50  0000 C CNN
 F 1 "SW_SPST" H 6250 994 50  0000 C CNN
 F 2 "MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB" H 6250 850 50  0001 C CNN
 F 3 "~" H 6250 850 50  0001 C CNN
+F 4 "1:AUD0.529" H 6250 850 50  0001 C CNN "kicost:AliExpress:pricing"
+F 5 "https://www.aliexpress.com/item/4001252892240.html" H 6250 850 50  0001 C CNN "kicost:AliExpress:link"
 	1    6250 850 
 	0    1    1    0   
 $EndComp
@@ -1220,6 +1466,9 @@ F 0 "D106" H 5750 5734 50  0000 C CNN
 F 1 "1N4148" H 5750 5825 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF" H 5750 5950 50  0001 C CNN
 F 3 "~" H 5750 5950 50  0001 C CNN
+F 4 "LL4148" H 5750 5950 50  0001 C CNN "manf#"
+F 5 "https://www.aliexpress.com/item/4000331505052.html" H 5750 5950 50  0001 C CNN "kicost:AliExpress:link"
+F 6 "1:AUD0.0247" H 5750 5950 50  0001 C CNN "kicost:AliExpress:pricing"
 	1    5750 5950
 	0    1    1    0   
 $EndComp
@@ -1231,6 +1480,8 @@ F 0 "SW106" H 5750 5835 50  0000 C CNN
 F 1 "SW_SPST" H 5750 5744 50  0000 C CNN
 F 2 "MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB" H 5750 5600 50  0001 C CNN
 F 3 "~" H 5750 5600 50  0001 C CNN
+F 4 "1:AUD0.529" H 5750 5600 50  0001 C CNN "kicost:AliExpress:pricing"
+F 5 "https://www.aliexpress.com/item/4001252892240.html" H 5750 5600 50  0001 C CNN "kicost:AliExpress:link"
 	1    5750 5600
 	0    1    1    0   
 $EndComp
@@ -1242,6 +1493,9 @@ F 0 "D87" H 5750 4784 50  0000 C CNN
 F 1 "1N4148" H 5750 4875 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF" H 5750 5000 50  0001 C CNN
 F 3 "~" H 5750 5000 50  0001 C CNN
+F 4 "LL4148" H 5750 5000 50  0001 C CNN "manf#"
+F 5 "https://www.aliexpress.com/item/4000331505052.html" H 5750 5000 50  0001 C CNN "kicost:AliExpress:link"
+F 6 "1:AUD0.0247" H 5750 5000 50  0001 C CNN "kicost:AliExpress:pricing"
 	1    5750 5000
 	0    1    1    0   
 $EndComp
@@ -1253,6 +1507,8 @@ F 0 "SW87" H 5750 4885 50  0000 C CNN
 F 1 "SW_SPST" H 5750 4794 50  0000 C CNN
 F 2 "MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB" H 5750 4650 50  0001 C CNN
 F 3 "~" H 5750 4650 50  0001 C CNN
+F 4 "1:AUD0.529" H 5750 4650 50  0001 C CNN "kicost:AliExpress:pricing"
+F 5 "https://www.aliexpress.com/item/4001252892240.html" H 5750 4650 50  0001 C CNN "kicost:AliExpress:link"
 	1    5750 4650
 	0    1    1    0   
 $EndComp
@@ -1264,6 +1520,9 @@ F 0 "D68" H 5750 3834 50  0000 C CNN
 F 1 "1N4148" H 5750 3925 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF" H 5750 4050 50  0001 C CNN
 F 3 "~" H 5750 4050 50  0001 C CNN
+F 4 "LL4148" H 5750 4050 50  0001 C CNN "manf#"
+F 5 "https://www.aliexpress.com/item/4000331505052.html" H 5750 4050 50  0001 C CNN "kicost:AliExpress:link"
+F 6 "1:AUD0.0247" H 5750 4050 50  0001 C CNN "kicost:AliExpress:pricing"
 	1    5750 4050
 	0    1    1    0   
 $EndComp
@@ -1275,6 +1534,8 @@ F 0 "SW68" H 5750 3935 50  0000 C CNN
 F 1 "SW_SPST" H 5750 3844 50  0000 C CNN
 F 2 "MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB" H 5750 3700 50  0001 C CNN
 F 3 "~" H 5750 3700 50  0001 C CNN
+F 4 "1:AUD0.529" H 5750 3700 50  0001 C CNN "kicost:AliExpress:pricing"
+F 5 "https://www.aliexpress.com/item/4001252892240.html" H 5750 3700 50  0001 C CNN "kicost:AliExpress:link"
 	1    5750 3700
 	0    1    1    0   
 $EndComp
@@ -1286,6 +1547,9 @@ F 0 "D49" H 5750 2884 50  0000 C CNN
 F 1 "1N4148" H 5750 2975 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF" H 5750 3100 50  0001 C CNN
 F 3 "~" H 5750 3100 50  0001 C CNN
+F 4 "LL4148" H 5750 3100 50  0001 C CNN "manf#"
+F 5 "https://www.aliexpress.com/item/4000331505052.html" H 5750 3100 50  0001 C CNN "kicost:AliExpress:link"
+F 6 "1:AUD0.0247" H 5750 3100 50  0001 C CNN "kicost:AliExpress:pricing"
 	1    5750 3100
 	0    1    1    0   
 $EndComp
@@ -1297,6 +1561,8 @@ F 0 "SW49" H 5750 2985 50  0000 C CNN
 F 1 "SW_SPST" H 5750 2894 50  0000 C CNN
 F 2 "MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB" H 5750 2750 50  0001 C CNN
 F 3 "~" H 5750 2750 50  0001 C CNN
+F 4 "1:AUD0.529" H 5750 2750 50  0001 C CNN "kicost:AliExpress:pricing"
+F 5 "https://www.aliexpress.com/item/4001252892240.html" H 5750 2750 50  0001 C CNN "kicost:AliExpress:link"
 	1    5750 2750
 	0    1    1    0   
 $EndComp
@@ -1308,6 +1574,9 @@ F 0 "D30" H 5750 1934 50  0000 C CNN
 F 1 "1N4148" H 5750 2025 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF" H 5750 2150 50  0001 C CNN
 F 3 "~" H 5750 2150 50  0001 C CNN
+F 4 "LL4148" H 5750 2150 50  0001 C CNN "manf#"
+F 5 "https://www.aliexpress.com/item/4000331505052.html" H 5750 2150 50  0001 C CNN "kicost:AliExpress:link"
+F 6 "1:AUD0.0247" H 5750 2150 50  0001 C CNN "kicost:AliExpress:pricing"
 	1    5750 2150
 	0    1    1    0   
 $EndComp
@@ -1319,6 +1588,8 @@ F 0 "SW30" H 5750 2035 50  0000 C CNN
 F 1 "SW_SPST" H 5750 1944 50  0000 C CNN
 F 2 "MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB" H 5750 1800 50  0001 C CNN
 F 3 "~" H 5750 1800 50  0001 C CNN
+F 4 "1:AUD0.529" H 5750 1800 50  0001 C CNN "kicost:AliExpress:pricing"
+F 5 "https://www.aliexpress.com/item/4001252892240.html" H 5750 1800 50  0001 C CNN "kicost:AliExpress:link"
 	1    5750 1800
 	0    1    1    0   
 $EndComp
@@ -1330,6 +1601,9 @@ F 0 "D11" H 5750 984 50  0000 C CNN
 F 1 "1N4148" H 5750 1075 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF" H 5750 1200 50  0001 C CNN
 F 3 "~" H 5750 1200 50  0001 C CNN
+F 4 "LL4148" H 5750 1200 50  0001 C CNN "manf#"
+F 5 "https://www.aliexpress.com/item/4000331505052.html" H 5750 1200 50  0001 C CNN "kicost:AliExpress:link"
+F 6 "1:AUD0.0247" H 5750 1200 50  0001 C CNN "kicost:AliExpress:pricing"
 	1    5750 1200
 	0    1    1    0   
 $EndComp
@@ -1341,6 +1615,8 @@ F 0 "SW11" H 5750 1085 50  0000 C CNN
 F 1 "SW_SPST" H 5750 994 50  0000 C CNN
 F 2 "MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB" H 5750 850 50  0001 C CNN
 F 3 "~" H 5750 850 50  0001 C CNN
+F 4 "1:AUD0.529" H 5750 850 50  0001 C CNN "kicost:AliExpress:pricing"
+F 5 "https://www.aliexpress.com/item/4001252892240.html" H 5750 850 50  0001 C CNN "kicost:AliExpress:link"
 	1    5750 850 
 	0    1    1    0   
 $EndComp
@@ -1352,6 +1628,9 @@ F 0 "D105" H 5250 5734 50  0000 C CNN
 F 1 "1N4148" H 5250 5825 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF" H 5250 5950 50  0001 C CNN
 F 3 "~" H 5250 5950 50  0001 C CNN
+F 4 "LL4148" H 5250 5950 50  0001 C CNN "manf#"
+F 5 "https://www.aliexpress.com/item/4000331505052.html" H 5250 5950 50  0001 C CNN "kicost:AliExpress:link"
+F 6 "1:AUD0.0247" H 5250 5950 50  0001 C CNN "kicost:AliExpress:pricing"
 	1    5250 5950
 	0    1    1    0   
 $EndComp
@@ -1363,6 +1642,8 @@ F 0 "SW105" H 5250 5835 50  0000 C CNN
 F 1 "SW_SPST" H 5250 5744 50  0000 C CNN
 F 2 "MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB" H 5250 5600 50  0001 C CNN
 F 3 "~" H 5250 5600 50  0001 C CNN
+F 4 "1:AUD0.529" H 5250 5600 50  0001 C CNN "kicost:AliExpress:pricing"
+F 5 "https://www.aliexpress.com/item/4001252892240.html" H 5250 5600 50  0001 C CNN "kicost:AliExpress:link"
 	1    5250 5600
 	0    1    1    0   
 $EndComp
@@ -1374,6 +1655,9 @@ F 0 "D86" H 5250 4784 50  0000 C CNN
 F 1 "1N4148" H 5250 4875 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF" H 5250 5000 50  0001 C CNN
 F 3 "~" H 5250 5000 50  0001 C CNN
+F 4 "LL4148" H 5250 5000 50  0001 C CNN "manf#"
+F 5 "https://www.aliexpress.com/item/4000331505052.html" H 5250 5000 50  0001 C CNN "kicost:AliExpress:link"
+F 6 "1:AUD0.0247" H 5250 5000 50  0001 C CNN "kicost:AliExpress:pricing"
 	1    5250 5000
 	0    1    1    0   
 $EndComp
@@ -1385,6 +1669,8 @@ F 0 "SW86" H 5250 4885 50  0000 C CNN
 F 1 "SW_SPST" H 5250 4794 50  0000 C CNN
 F 2 "MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB" H 5250 4650 50  0001 C CNN
 F 3 "~" H 5250 4650 50  0001 C CNN
+F 4 "1:AUD0.529" H 5250 4650 50  0001 C CNN "kicost:AliExpress:pricing"
+F 5 "https://www.aliexpress.com/item/4001252892240.html" H 5250 4650 50  0001 C CNN "kicost:AliExpress:link"
 	1    5250 4650
 	0    1    1    0   
 $EndComp
@@ -1396,6 +1682,9 @@ F 0 "D67" H 5250 3834 50  0000 C CNN
 F 1 "1N4148" H 5250 3925 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF" H 5250 4050 50  0001 C CNN
 F 3 "~" H 5250 4050 50  0001 C CNN
+F 4 "LL4148" H 5250 4050 50  0001 C CNN "manf#"
+F 5 "https://www.aliexpress.com/item/4000331505052.html" H 5250 4050 50  0001 C CNN "kicost:AliExpress:link"
+F 6 "1:AUD0.0247" H 5250 4050 50  0001 C CNN "kicost:AliExpress:pricing"
 	1    5250 4050
 	0    1    1    0   
 $EndComp
@@ -1407,6 +1696,8 @@ F 0 "SW67" H 5250 3935 50  0000 C CNN
 F 1 "SW_SPST" H 5250 3844 50  0000 C CNN
 F 2 "MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB" H 5250 3700 50  0001 C CNN
 F 3 "~" H 5250 3700 50  0001 C CNN
+F 4 "1:AUD0.529" H 5250 3700 50  0001 C CNN "kicost:AliExpress:pricing"
+F 5 "https://www.aliexpress.com/item/4001252892240.html" H 5250 3700 50  0001 C CNN "kicost:AliExpress:link"
 	1    5250 3700
 	0    1    1    0   
 $EndComp
@@ -1418,6 +1709,9 @@ F 0 "D48" H 5250 2884 50  0000 C CNN
 F 1 "1N4148" H 5250 2975 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF" H 5250 3100 50  0001 C CNN
 F 3 "~" H 5250 3100 50  0001 C CNN
+F 4 "LL4148" H 5250 3100 50  0001 C CNN "manf#"
+F 5 "https://www.aliexpress.com/item/4000331505052.html" H 5250 3100 50  0001 C CNN "kicost:AliExpress:link"
+F 6 "1:AUD0.0247" H 5250 3100 50  0001 C CNN "kicost:AliExpress:pricing"
 	1    5250 3100
 	0    1    1    0   
 $EndComp
@@ -1429,6 +1723,8 @@ F 0 "SW48" H 5250 2985 50  0000 C CNN
 F 1 "SW_SPST" H 5250 2894 50  0000 C CNN
 F 2 "MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB" H 5250 2750 50  0001 C CNN
 F 3 "~" H 5250 2750 50  0001 C CNN
+F 4 "1:AUD0.529" H 5250 2750 50  0001 C CNN "kicost:AliExpress:pricing"
+F 5 "https://www.aliexpress.com/item/4001252892240.html" H 5250 2750 50  0001 C CNN "kicost:AliExpress:link"
 	1    5250 2750
 	0    1    1    0   
 $EndComp
@@ -1440,6 +1736,9 @@ F 0 "D29" H 5250 1934 50  0000 C CNN
 F 1 "1N4148" H 5250 2025 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF" H 5250 2150 50  0001 C CNN
 F 3 "~" H 5250 2150 50  0001 C CNN
+F 4 "LL4148" H 5250 2150 50  0001 C CNN "manf#"
+F 5 "https://www.aliexpress.com/item/4000331505052.html" H 5250 2150 50  0001 C CNN "kicost:AliExpress:link"
+F 6 "1:AUD0.0247" H 5250 2150 50  0001 C CNN "kicost:AliExpress:pricing"
 	1    5250 2150
 	0    1    1    0   
 $EndComp
@@ -1451,6 +1750,8 @@ F 0 "SW29" H 5250 2035 50  0000 C CNN
 F 1 "SW_SPST" H 5250 1944 50  0000 C CNN
 F 2 "MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB" H 5250 1800 50  0001 C CNN
 F 3 "~" H 5250 1800 50  0001 C CNN
+F 4 "1:AUD0.529" H 5250 1800 50  0001 C CNN "kicost:AliExpress:pricing"
+F 5 "https://www.aliexpress.com/item/4001252892240.html" H 5250 1800 50  0001 C CNN "kicost:AliExpress:link"
 	1    5250 1800
 	0    1    1    0   
 $EndComp
@@ -1462,6 +1763,9 @@ F 0 "D10" H 5250 984 50  0000 C CNN
 F 1 "1N4148" H 5250 1075 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF" H 5250 1200 50  0001 C CNN
 F 3 "~" H 5250 1200 50  0001 C CNN
+F 4 "LL4148" H 5250 1200 50  0001 C CNN "manf#"
+F 5 "https://www.aliexpress.com/item/4000331505052.html" H 5250 1200 50  0001 C CNN "kicost:AliExpress:link"
+F 6 "1:AUD0.0247" H 5250 1200 50  0001 C CNN "kicost:AliExpress:pricing"
 	1    5250 1200
 	0    1    1    0   
 $EndComp
@@ -1473,6 +1777,8 @@ F 0 "SW10" H 5250 1085 50  0000 C CNN
 F 1 "SW_SPST" H 5250 994 50  0000 C CNN
 F 2 "MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB" H 5250 850 50  0001 C CNN
 F 3 "~" H 5250 850 50  0001 C CNN
+F 4 "1:AUD0.529" H 5250 850 50  0001 C CNN "kicost:AliExpress:pricing"
+F 5 "https://www.aliexpress.com/item/4001252892240.html" H 5250 850 50  0001 C CNN "kicost:AliExpress:link"
 	1    5250 850 
 	0    1    1    0   
 $EndComp
@@ -1484,6 +1790,9 @@ F 0 "D104" H 4750 5734 50  0000 C CNN
 F 1 "1N4148" H 4750 5825 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF" H 4750 5950 50  0001 C CNN
 F 3 "~" H 4750 5950 50  0001 C CNN
+F 4 "LL4148" H 4750 5950 50  0001 C CNN "manf#"
+F 5 "https://www.aliexpress.com/item/4000331505052.html" H 4750 5950 50  0001 C CNN "kicost:AliExpress:link"
+F 6 "1:AUD0.0247" H 4750 5950 50  0001 C CNN "kicost:AliExpress:pricing"
 	1    4750 5950
 	0    1    1    0   
 $EndComp
@@ -1495,6 +1804,8 @@ F 0 "SW104" H 4750 5835 50  0000 C CNN
 F 1 "SW_SPST" H 4750 5744 50  0000 C CNN
 F 2 "MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB" H 4750 5600 50  0001 C CNN
 F 3 "~" H 4750 5600 50  0001 C CNN
+F 4 "1:AUD0.529" H 4750 5600 50  0001 C CNN "kicost:AliExpress:pricing"
+F 5 "https://www.aliexpress.com/item/4001252892240.html" H 4750 5600 50  0001 C CNN "kicost:AliExpress:link"
 	1    4750 5600
 	0    1    1    0   
 $EndComp
@@ -1506,6 +1817,9 @@ F 0 "D85" H 4750 4784 50  0000 C CNN
 F 1 "1N4148" H 4750 4875 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF" H 4750 5000 50  0001 C CNN
 F 3 "~" H 4750 5000 50  0001 C CNN
+F 4 "LL4148" H 4750 5000 50  0001 C CNN "manf#"
+F 5 "https://www.aliexpress.com/item/4000331505052.html" H 4750 5000 50  0001 C CNN "kicost:AliExpress:link"
+F 6 "1:AUD0.0247" H 4750 5000 50  0001 C CNN "kicost:AliExpress:pricing"
 	1    4750 5000
 	0    1    1    0   
 $EndComp
@@ -1517,6 +1831,8 @@ F 0 "SW85" H 4750 4885 50  0000 C CNN
 F 1 "SW_SPST" H 4750 4794 50  0000 C CNN
 F 2 "MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB" H 4750 4650 50  0001 C CNN
 F 3 "~" H 4750 4650 50  0001 C CNN
+F 4 "1:AUD0.529" H 4750 4650 50  0001 C CNN "kicost:AliExpress:pricing"
+F 5 "https://www.aliexpress.com/item/4001252892240.html" H 4750 4650 50  0001 C CNN "kicost:AliExpress:link"
 	1    4750 4650
 	0    1    1    0   
 $EndComp
@@ -1528,6 +1844,9 @@ F 0 "D66" H 4750 3834 50  0000 C CNN
 F 1 "1N4148" H 4750 3925 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF" H 4750 4050 50  0001 C CNN
 F 3 "~" H 4750 4050 50  0001 C CNN
+F 4 "LL4148" H 4750 4050 50  0001 C CNN "manf#"
+F 5 "https://www.aliexpress.com/item/4000331505052.html" H 4750 4050 50  0001 C CNN "kicost:AliExpress:link"
+F 6 "1:AUD0.0247" H 4750 4050 50  0001 C CNN "kicost:AliExpress:pricing"
 	1    4750 4050
 	0    1    1    0   
 $EndComp
@@ -1539,6 +1858,8 @@ F 0 "SW66" H 4750 3935 50  0000 C CNN
 F 1 "SW_SPST" H 4750 3844 50  0000 C CNN
 F 2 "MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB" H 4750 3700 50  0001 C CNN
 F 3 "~" H 4750 3700 50  0001 C CNN
+F 4 "1:AUD0.529" H 4750 3700 50  0001 C CNN "kicost:AliExpress:pricing"
+F 5 "https://www.aliexpress.com/item/4001252892240.html" H 4750 3700 50  0001 C CNN "kicost:AliExpress:link"
 	1    4750 3700
 	0    1    1    0   
 $EndComp
@@ -1550,6 +1871,9 @@ F 0 "D47" H 4750 2884 50  0000 C CNN
 F 1 "1N4148" H 4750 2975 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF" H 4750 3100 50  0001 C CNN
 F 3 "~" H 4750 3100 50  0001 C CNN
+F 4 "LL4148" H 4750 3100 50  0001 C CNN "manf#"
+F 5 "https://www.aliexpress.com/item/4000331505052.html" H 4750 3100 50  0001 C CNN "kicost:AliExpress:link"
+F 6 "1:AUD0.0247" H 4750 3100 50  0001 C CNN "kicost:AliExpress:pricing"
 	1    4750 3100
 	0    1    1    0   
 $EndComp
@@ -1561,6 +1885,8 @@ F 0 "SW47" H 4750 2985 50  0000 C CNN
 F 1 "SW_SPST" H 4750 2894 50  0000 C CNN
 F 2 "MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB" H 4750 2750 50  0001 C CNN
 F 3 "~" H 4750 2750 50  0001 C CNN
+F 4 "1:AUD0.529" H 4750 2750 50  0001 C CNN "kicost:AliExpress:pricing"
+F 5 "https://www.aliexpress.com/item/4001252892240.html" H 4750 2750 50  0001 C CNN "kicost:AliExpress:link"
 	1    4750 2750
 	0    1    1    0   
 $EndComp
@@ -1572,6 +1898,9 @@ F 0 "D28" H 4750 1934 50  0000 C CNN
 F 1 "1N4148" H 4750 2025 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF" H 4750 2150 50  0001 C CNN
 F 3 "~" H 4750 2150 50  0001 C CNN
+F 4 "LL4148" H 4750 2150 50  0001 C CNN "manf#"
+F 5 "https://www.aliexpress.com/item/4000331505052.html" H 4750 2150 50  0001 C CNN "kicost:AliExpress:link"
+F 6 "1:AUD0.0247" H 4750 2150 50  0001 C CNN "kicost:AliExpress:pricing"
 	1    4750 2150
 	0    1    1    0   
 $EndComp
@@ -1583,6 +1912,8 @@ F 0 "SW28" H 4750 2035 50  0000 C CNN
 F 1 "SW_SPST" H 4750 1944 50  0000 C CNN
 F 2 "MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB" H 4750 1800 50  0001 C CNN
 F 3 "~" H 4750 1800 50  0001 C CNN
+F 4 "1:AUD0.529" H 4750 1800 50  0001 C CNN "kicost:AliExpress:pricing"
+F 5 "https://www.aliexpress.com/item/4001252892240.html" H 4750 1800 50  0001 C CNN "kicost:AliExpress:link"
 	1    4750 1800
 	0    1    1    0   
 $EndComp
@@ -1594,6 +1925,9 @@ F 0 "D9" H 4750 984 50  0000 C CNN
 F 1 "1N4148" H 4750 1075 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF" H 4750 1200 50  0001 C CNN
 F 3 "~" H 4750 1200 50  0001 C CNN
+F 4 "LL4148" H 4750 1200 50  0001 C CNN "manf#"
+F 5 "https://www.aliexpress.com/item/4000331505052.html" H 4750 1200 50  0001 C CNN "kicost:AliExpress:link"
+F 6 "1:AUD0.0247" H 4750 1200 50  0001 C CNN "kicost:AliExpress:pricing"
 	1    4750 1200
 	0    1    1    0   
 $EndComp
@@ -1605,6 +1939,8 @@ F 0 "SW9" H 4750 1085 50  0000 C CNN
 F 1 "SW_SPST" H 4750 994 50  0000 C CNN
 F 2 "MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB" H 4750 850 50  0001 C CNN
 F 3 "~" H 4750 850 50  0001 C CNN
+F 4 "1:AUD0.529" H 4750 850 50  0001 C CNN "kicost:AliExpress:pricing"
+F 5 "https://www.aliexpress.com/item/4001252892240.html" H 4750 850 50  0001 C CNN "kicost:AliExpress:link"
 	1    4750 850 
 	0    1    1    0   
 $EndComp
@@ -1616,6 +1952,9 @@ F 0 "D103" H 4250 5734 50  0000 C CNN
 F 1 "1N4148" H 4250 5825 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF" H 4250 5950 50  0001 C CNN
 F 3 "~" H 4250 5950 50  0001 C CNN
+F 4 "LL4148" H 4250 5950 50  0001 C CNN "manf#"
+F 5 "https://www.aliexpress.com/item/4000331505052.html" H 4250 5950 50  0001 C CNN "kicost:AliExpress:link"
+F 6 "1:AUD0.0247" H 4250 5950 50  0001 C CNN "kicost:AliExpress:pricing"
 	1    4250 5950
 	0    1    1    0   
 $EndComp
@@ -1627,6 +1966,8 @@ F 0 "SW103" H 4250 5835 50  0000 C CNN
 F 1 "SW_SPST" H 4250 5744 50  0000 C CNN
 F 2 "MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB" H 4250 5600 50  0001 C CNN
 F 3 "~" H 4250 5600 50  0001 C CNN
+F 4 "1:AUD0.529" H 4250 5600 50  0001 C CNN "kicost:AliExpress:pricing"
+F 5 "https://www.aliexpress.com/item/4001252892240.html" H 4250 5600 50  0001 C CNN "kicost:AliExpress:link"
 	1    4250 5600
 	0    1    1    0   
 $EndComp
@@ -1638,6 +1979,9 @@ F 0 "D84" H 4250 4784 50  0000 C CNN
 F 1 "1N4148" H 4250 4875 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF" H 4250 5000 50  0001 C CNN
 F 3 "~" H 4250 5000 50  0001 C CNN
+F 4 "LL4148" H 4250 5000 50  0001 C CNN "manf#"
+F 5 "https://www.aliexpress.com/item/4000331505052.html" H 4250 5000 50  0001 C CNN "kicost:AliExpress:link"
+F 6 "1:AUD0.0247" H 4250 5000 50  0001 C CNN "kicost:AliExpress:pricing"
 	1    4250 5000
 	0    1    1    0   
 $EndComp
@@ -1649,6 +1993,8 @@ F 0 "SW84" H 4250 4885 50  0000 C CNN
 F 1 "SW_SPST" H 4250 4794 50  0000 C CNN
 F 2 "MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB" H 4250 4650 50  0001 C CNN
 F 3 "~" H 4250 4650 50  0001 C CNN
+F 4 "1:AUD0.529" H 4250 4650 50  0001 C CNN "kicost:AliExpress:pricing"
+F 5 "https://www.aliexpress.com/item/4001252892240.html" H 4250 4650 50  0001 C CNN "kicost:AliExpress:link"
 	1    4250 4650
 	0    1    1    0   
 $EndComp
@@ -1660,6 +2006,9 @@ F 0 "D65" H 4250 3834 50  0000 C CNN
 F 1 "1N4148" H 4250 3925 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF" H 4250 4050 50  0001 C CNN
 F 3 "~" H 4250 4050 50  0001 C CNN
+F 4 "LL4148" H 4250 4050 50  0001 C CNN "manf#"
+F 5 "https://www.aliexpress.com/item/4000331505052.html" H 4250 4050 50  0001 C CNN "kicost:AliExpress:link"
+F 6 "1:AUD0.0247" H 4250 4050 50  0001 C CNN "kicost:AliExpress:pricing"
 	1    4250 4050
 	0    1    1    0   
 $EndComp
@@ -1671,6 +2020,8 @@ F 0 "SW65" H 4250 3935 50  0000 C CNN
 F 1 "SW_SPST" H 4250 3844 50  0000 C CNN
 F 2 "MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB" H 4250 3700 50  0001 C CNN
 F 3 "~" H 4250 3700 50  0001 C CNN
+F 4 "1:AUD0.529" H 4250 3700 50  0001 C CNN "kicost:AliExpress:pricing"
+F 5 "https://www.aliexpress.com/item/4001252892240.html" H 4250 3700 50  0001 C CNN "kicost:AliExpress:link"
 	1    4250 3700
 	0    1    1    0   
 $EndComp
@@ -1682,6 +2033,9 @@ F 0 "D46" H 4250 2884 50  0000 C CNN
 F 1 "1N4148" H 4250 2975 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF" H 4250 3100 50  0001 C CNN
 F 3 "~" H 4250 3100 50  0001 C CNN
+F 4 "LL4148" H 4250 3100 50  0001 C CNN "manf#"
+F 5 "https://www.aliexpress.com/item/4000331505052.html" H 4250 3100 50  0001 C CNN "kicost:AliExpress:link"
+F 6 "1:AUD0.0247" H 4250 3100 50  0001 C CNN "kicost:AliExpress:pricing"
 	1    4250 3100
 	0    1    1    0   
 $EndComp
@@ -1693,6 +2047,8 @@ F 0 "SW46" H 4250 2985 50  0000 C CNN
 F 1 "SW_SPST" H 4250 2894 50  0000 C CNN
 F 2 "MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB" H 4250 2750 50  0001 C CNN
 F 3 "~" H 4250 2750 50  0001 C CNN
+F 4 "1:AUD0.529" H 4250 2750 50  0001 C CNN "kicost:AliExpress:pricing"
+F 5 "https://www.aliexpress.com/item/4001252892240.html" H 4250 2750 50  0001 C CNN "kicost:AliExpress:link"
 	1    4250 2750
 	0    1    1    0   
 $EndComp
@@ -1704,6 +2060,9 @@ F 0 "D27" H 4250 1934 50  0000 C CNN
 F 1 "1N4148" H 4250 2025 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF" H 4250 2150 50  0001 C CNN
 F 3 "~" H 4250 2150 50  0001 C CNN
+F 4 "LL4148" H 4250 2150 50  0001 C CNN "manf#"
+F 5 "https://www.aliexpress.com/item/4000331505052.html" H 4250 2150 50  0001 C CNN "kicost:AliExpress:link"
+F 6 "1:AUD0.0247" H 4250 2150 50  0001 C CNN "kicost:AliExpress:pricing"
 	1    4250 2150
 	0    1    1    0   
 $EndComp
@@ -1715,6 +2074,8 @@ F 0 "SW27" H 4250 2035 50  0000 C CNN
 F 1 "SW_SPST" H 4250 1944 50  0000 C CNN
 F 2 "MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB" H 4250 1800 50  0001 C CNN
 F 3 "~" H 4250 1800 50  0001 C CNN
+F 4 "1:AUD0.529" H 4250 1800 50  0001 C CNN "kicost:AliExpress:pricing"
+F 5 "https://www.aliexpress.com/item/4001252892240.html" H 4250 1800 50  0001 C CNN "kicost:AliExpress:link"
 	1    4250 1800
 	0    1    1    0   
 $EndComp
@@ -1726,6 +2087,9 @@ F 0 "D8" H 4250 984 50  0000 C CNN
 F 1 "1N4148" H 4250 1075 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF" H 4250 1200 50  0001 C CNN
 F 3 "~" H 4250 1200 50  0001 C CNN
+F 4 "LL4148" H 4250 1200 50  0001 C CNN "manf#"
+F 5 "https://www.aliexpress.com/item/4000331505052.html" H 4250 1200 50  0001 C CNN "kicost:AliExpress:link"
+F 6 "1:AUD0.0247" H 4250 1200 50  0001 C CNN "kicost:AliExpress:pricing"
 	1    4250 1200
 	0    1    1    0   
 $EndComp
@@ -1737,6 +2101,8 @@ F 0 "SW8" H 4250 1085 50  0000 C CNN
 F 1 "SW_SPST" H 4250 994 50  0000 C CNN
 F 2 "MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB" H 4250 850 50  0001 C CNN
 F 3 "~" H 4250 850 50  0001 C CNN
+F 4 "1:AUD0.529" H 4250 850 50  0001 C CNN "kicost:AliExpress:pricing"
+F 5 "https://www.aliexpress.com/item/4001252892240.html" H 4250 850 50  0001 C CNN "kicost:AliExpress:link"
 	1    4250 850 
 	0    1    1    0   
 $EndComp
@@ -1748,6 +2114,9 @@ F 0 "D102" H 3750 5734 50  0000 C CNN
 F 1 "1N4148" H 3750 5825 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF" H 3750 5950 50  0001 C CNN
 F 3 "~" H 3750 5950 50  0001 C CNN
+F 4 "LL4148" H 3750 5950 50  0001 C CNN "manf#"
+F 5 "https://www.aliexpress.com/item/4000331505052.html" H 3750 5950 50  0001 C CNN "kicost:AliExpress:link"
+F 6 "1:AUD0.0247" H 3750 5950 50  0001 C CNN "kicost:AliExpress:pricing"
 	1    3750 5950
 	0    1    1    0   
 $EndComp
@@ -1759,6 +2128,8 @@ F 0 "SW102" H 3750 5835 50  0000 C CNN
 F 1 "SW_SPST" H 3750 5744 50  0000 C CNN
 F 2 "MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB" H 3750 5600 50  0001 C CNN
 F 3 "~" H 3750 5600 50  0001 C CNN
+F 4 "1:AUD0.529" H 3750 5600 50  0001 C CNN "kicost:AliExpress:pricing"
+F 5 "https://www.aliexpress.com/item/4001252892240.html" H 3750 5600 50  0001 C CNN "kicost:AliExpress:link"
 	1    3750 5600
 	0    1    1    0   
 $EndComp
@@ -1770,6 +2141,9 @@ F 0 "D83" H 3750 4784 50  0000 C CNN
 F 1 "1N4148" H 3750 4875 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF" H 3750 5000 50  0001 C CNN
 F 3 "~" H 3750 5000 50  0001 C CNN
+F 4 "LL4148" H 3750 5000 50  0001 C CNN "manf#"
+F 5 "https://www.aliexpress.com/item/4000331505052.html" H 3750 5000 50  0001 C CNN "kicost:AliExpress:link"
+F 6 "1:AUD0.0247" H 3750 5000 50  0001 C CNN "kicost:AliExpress:pricing"
 	1    3750 5000
 	0    1    1    0   
 $EndComp
@@ -1781,6 +2155,8 @@ F 0 "SW83" H 3750 4885 50  0000 C CNN
 F 1 "SW_SPST" H 3750 4794 50  0000 C CNN
 F 2 "MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB" H 3750 4650 50  0001 C CNN
 F 3 "~" H 3750 4650 50  0001 C CNN
+F 4 "1:AUD0.529" H 3750 4650 50  0001 C CNN "kicost:AliExpress:pricing"
+F 5 "https://www.aliexpress.com/item/4001252892240.html" H 3750 4650 50  0001 C CNN "kicost:AliExpress:link"
 	1    3750 4650
 	0    1    1    0   
 $EndComp
@@ -1792,6 +2168,9 @@ F 0 "D64" H 3750 3834 50  0000 C CNN
 F 1 "1N4148" H 3750 3925 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF" H 3750 4050 50  0001 C CNN
 F 3 "~" H 3750 4050 50  0001 C CNN
+F 4 "LL4148" H 3750 4050 50  0001 C CNN "manf#"
+F 5 "https://www.aliexpress.com/item/4000331505052.html" H 3750 4050 50  0001 C CNN "kicost:AliExpress:link"
+F 6 "1:AUD0.0247" H 3750 4050 50  0001 C CNN "kicost:AliExpress:pricing"
 	1    3750 4050
 	0    1    1    0   
 $EndComp
@@ -1803,6 +2182,8 @@ F 0 "SW64" H 3750 3935 50  0000 C CNN
 F 1 "SW_SPST" H 3750 3844 50  0000 C CNN
 F 2 "MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB" H 3750 3700 50  0001 C CNN
 F 3 "~" H 3750 3700 50  0001 C CNN
+F 4 "1:AUD0.529" H 3750 3700 50  0001 C CNN "kicost:AliExpress:pricing"
+F 5 "https://www.aliexpress.com/item/4001252892240.html" H 3750 3700 50  0001 C CNN "kicost:AliExpress:link"
 	1    3750 3700
 	0    1    1    0   
 $EndComp
@@ -1814,6 +2195,9 @@ F 0 "D45" H 3750 2884 50  0000 C CNN
 F 1 "1N4148" H 3750 2975 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF" H 3750 3100 50  0001 C CNN
 F 3 "~" H 3750 3100 50  0001 C CNN
+F 4 "LL4148" H 3750 3100 50  0001 C CNN "manf#"
+F 5 "https://www.aliexpress.com/item/4000331505052.html" H 3750 3100 50  0001 C CNN "kicost:AliExpress:link"
+F 6 "1:AUD0.0247" H 3750 3100 50  0001 C CNN "kicost:AliExpress:pricing"
 	1    3750 3100
 	0    1    1    0   
 $EndComp
@@ -1825,6 +2209,8 @@ F 0 "SW45" H 3750 2985 50  0000 C CNN
 F 1 "SW_SPST" H 3750 2894 50  0000 C CNN
 F 2 "MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB" H 3750 2750 50  0001 C CNN
 F 3 "~" H 3750 2750 50  0001 C CNN
+F 4 "1:AUD0.529" H 3750 2750 50  0001 C CNN "kicost:AliExpress:pricing"
+F 5 "https://www.aliexpress.com/item/4001252892240.html" H 3750 2750 50  0001 C CNN "kicost:AliExpress:link"
 	1    3750 2750
 	0    1    1    0   
 $EndComp
@@ -1836,6 +2222,9 @@ F 0 "D26" H 3750 1934 50  0000 C CNN
 F 1 "1N4148" H 3750 2025 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF" H 3750 2150 50  0001 C CNN
 F 3 "~" H 3750 2150 50  0001 C CNN
+F 4 "LL4148" H 3750 2150 50  0001 C CNN "manf#"
+F 5 "https://www.aliexpress.com/item/4000331505052.html" H 3750 2150 50  0001 C CNN "kicost:AliExpress:link"
+F 6 "1:AUD0.0247" H 3750 2150 50  0001 C CNN "kicost:AliExpress:pricing"
 	1    3750 2150
 	0    1    1    0   
 $EndComp
@@ -1847,6 +2236,8 @@ F 0 "SW26" H 3750 2035 50  0000 C CNN
 F 1 "SW_SPST" H 3750 1944 50  0000 C CNN
 F 2 "MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB" H 3750 1800 50  0001 C CNN
 F 3 "~" H 3750 1800 50  0001 C CNN
+F 4 "1:AUD0.529" H 3750 1800 50  0001 C CNN "kicost:AliExpress:pricing"
+F 5 "https://www.aliexpress.com/item/4001252892240.html" H 3750 1800 50  0001 C CNN "kicost:AliExpress:link"
 	1    3750 1800
 	0    1    1    0   
 $EndComp
@@ -1858,6 +2249,9 @@ F 0 "D7" H 3750 984 50  0000 C CNN
 F 1 "1N4148" H 3750 1075 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF" H 3750 1200 50  0001 C CNN
 F 3 "~" H 3750 1200 50  0001 C CNN
+F 4 "LL4148" H 3750 1200 50  0001 C CNN "manf#"
+F 5 "https://www.aliexpress.com/item/4000331505052.html" H 3750 1200 50  0001 C CNN "kicost:AliExpress:link"
+F 6 "1:AUD0.0247" H 3750 1200 50  0001 C CNN "kicost:AliExpress:pricing"
 	1    3750 1200
 	0    1    1    0   
 $EndComp
@@ -1869,6 +2263,8 @@ F 0 "SW7" H 3750 1085 50  0000 C CNN
 F 1 "SW_SPST" H 3750 994 50  0000 C CNN
 F 2 "MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB" H 3750 850 50  0001 C CNN
 F 3 "~" H 3750 850 50  0001 C CNN
+F 4 "1:AUD0.529" H 3750 850 50  0001 C CNN "kicost:AliExpress:pricing"
+F 5 "https://www.aliexpress.com/item/4001252892240.html" H 3750 850 50  0001 C CNN "kicost:AliExpress:link"
 	1    3750 850 
 	0    1    1    0   
 $EndComp
@@ -1880,6 +2276,9 @@ F 0 "D101" H 3250 5734 50  0000 C CNN
 F 1 "1N4148" H 3250 5825 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF" H 3250 5950 50  0001 C CNN
 F 3 "~" H 3250 5950 50  0001 C CNN
+F 4 "LL4148" H 3250 5950 50  0001 C CNN "manf#"
+F 5 "https://www.aliexpress.com/item/4000331505052.html" H 3250 5950 50  0001 C CNN "kicost:AliExpress:link"
+F 6 "1:AUD0.0247" H 3250 5950 50  0001 C CNN "kicost:AliExpress:pricing"
 	1    3250 5950
 	0    1    1    0   
 $EndComp
@@ -1891,6 +2290,8 @@ F 0 "SW101" H 3250 5835 50  0000 C CNN
 F 1 "SW_SPST" H 3250 5744 50  0000 C CNN
 F 2 "MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB" H 3250 5600 50  0001 C CNN
 F 3 "~" H 3250 5600 50  0001 C CNN
+F 4 "1:AUD0.529" H 3250 5600 50  0001 C CNN "kicost:AliExpress:pricing"
+F 5 "https://www.aliexpress.com/item/4001252892240.html" H 3250 5600 50  0001 C CNN "kicost:AliExpress:link"
 	1    3250 5600
 	0    1    1    0   
 $EndComp
@@ -1902,6 +2303,9 @@ F 0 "D82" H 3250 4784 50  0000 C CNN
 F 1 "1N4148" H 3250 4875 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF" H 3250 5000 50  0001 C CNN
 F 3 "~" H 3250 5000 50  0001 C CNN
+F 4 "LL4148" H 3250 5000 50  0001 C CNN "manf#"
+F 5 "https://www.aliexpress.com/item/4000331505052.html" H 3250 5000 50  0001 C CNN "kicost:AliExpress:link"
+F 6 "1:AUD0.0247" H 3250 5000 50  0001 C CNN "kicost:AliExpress:pricing"
 	1    3250 5000
 	0    1    1    0   
 $EndComp
@@ -1913,6 +2317,8 @@ F 0 "SW82" H 3250 4885 50  0000 C CNN
 F 1 "SW_SPST" H 3250 4794 50  0000 C CNN
 F 2 "MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB" H 3250 4650 50  0001 C CNN
 F 3 "~" H 3250 4650 50  0001 C CNN
+F 4 "1:AUD0.529" H 3250 4650 50  0001 C CNN "kicost:AliExpress:pricing"
+F 5 "https://www.aliexpress.com/item/4001252892240.html" H 3250 4650 50  0001 C CNN "kicost:AliExpress:link"
 	1    3250 4650
 	0    1    1    0   
 $EndComp
@@ -1924,6 +2330,9 @@ F 0 "D63" H 3250 3834 50  0000 C CNN
 F 1 "1N4148" H 3250 3925 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF" H 3250 4050 50  0001 C CNN
 F 3 "~" H 3250 4050 50  0001 C CNN
+F 4 "LL4148" H 3250 4050 50  0001 C CNN "manf#"
+F 5 "https://www.aliexpress.com/item/4000331505052.html" H 3250 4050 50  0001 C CNN "kicost:AliExpress:link"
+F 6 "1:AUD0.0247" H 3250 4050 50  0001 C CNN "kicost:AliExpress:pricing"
 	1    3250 4050
 	0    1    1    0   
 $EndComp
@@ -1935,6 +2344,8 @@ F 0 "SW63" H 3250 3935 50  0000 C CNN
 F 1 "SW_SPST" H 3250 3844 50  0000 C CNN
 F 2 "MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB" H 3250 3700 50  0001 C CNN
 F 3 "~" H 3250 3700 50  0001 C CNN
+F 4 "1:AUD0.529" H 3250 3700 50  0001 C CNN "kicost:AliExpress:pricing"
+F 5 "https://www.aliexpress.com/item/4001252892240.html" H 3250 3700 50  0001 C CNN "kicost:AliExpress:link"
 	1    3250 3700
 	0    1    1    0   
 $EndComp
@@ -1946,6 +2357,9 @@ F 0 "D44" H 3250 2884 50  0000 C CNN
 F 1 "1N4148" H 3250 2975 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF" H 3250 3100 50  0001 C CNN
 F 3 "~" H 3250 3100 50  0001 C CNN
+F 4 "LL4148" H 3250 3100 50  0001 C CNN "manf#"
+F 5 "https://www.aliexpress.com/item/4000331505052.html" H 3250 3100 50  0001 C CNN "kicost:AliExpress:link"
+F 6 "1:AUD0.0247" H 3250 3100 50  0001 C CNN "kicost:AliExpress:pricing"
 	1    3250 3100
 	0    1    1    0   
 $EndComp
@@ -1957,6 +2371,8 @@ F 0 "SW44" H 3250 2985 50  0000 C CNN
 F 1 "SW_SPST" H 3250 2894 50  0000 C CNN
 F 2 "MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB" H 3250 2750 50  0001 C CNN
 F 3 "~" H 3250 2750 50  0001 C CNN
+F 4 "1:AUD0.529" H 3250 2750 50  0001 C CNN "kicost:AliExpress:pricing"
+F 5 "https://www.aliexpress.com/item/4001252892240.html" H 3250 2750 50  0001 C CNN "kicost:AliExpress:link"
 	1    3250 2750
 	0    1    1    0   
 $EndComp
@@ -1968,6 +2384,9 @@ F 0 "D25" H 3250 1934 50  0000 C CNN
 F 1 "1N4148" H 3250 2025 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF" H 3250 2150 50  0001 C CNN
 F 3 "~" H 3250 2150 50  0001 C CNN
+F 4 "LL4148" H 3250 2150 50  0001 C CNN "manf#"
+F 5 "https://www.aliexpress.com/item/4000331505052.html" H 3250 2150 50  0001 C CNN "kicost:AliExpress:link"
+F 6 "1:AUD0.0247" H 3250 2150 50  0001 C CNN "kicost:AliExpress:pricing"
 	1    3250 2150
 	0    1    1    0   
 $EndComp
@@ -1979,6 +2398,8 @@ F 0 "SW25" H 3250 2035 50  0000 C CNN
 F 1 "SW_SPST" H 3250 1944 50  0000 C CNN
 F 2 "MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB" H 3250 1800 50  0001 C CNN
 F 3 "~" H 3250 1800 50  0001 C CNN
+F 4 "1:AUD0.529" H 3250 1800 50  0001 C CNN "kicost:AliExpress:pricing"
+F 5 "https://www.aliexpress.com/item/4001252892240.html" H 3250 1800 50  0001 C CNN "kicost:AliExpress:link"
 	1    3250 1800
 	0    1    1    0   
 $EndComp
@@ -1990,6 +2411,9 @@ F 0 "D6" H 3250 984 50  0000 C CNN
 F 1 "1N4148" H 3250 1075 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF" H 3250 1200 50  0001 C CNN
 F 3 "~" H 3250 1200 50  0001 C CNN
+F 4 "LL4148" H 3250 1200 50  0001 C CNN "manf#"
+F 5 "https://www.aliexpress.com/item/4000331505052.html" H 3250 1200 50  0001 C CNN "kicost:AliExpress:link"
+F 6 "1:AUD0.0247" H 3250 1200 50  0001 C CNN "kicost:AliExpress:pricing"
 	1    3250 1200
 	0    1    1    0   
 $EndComp
@@ -2001,6 +2425,8 @@ F 0 "SW6" H 3250 1085 50  0000 C CNN
 F 1 "SW_SPST" H 3250 994 50  0000 C CNN
 F 2 "MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB" H 3250 850 50  0001 C CNN
 F 3 "~" H 3250 850 50  0001 C CNN
+F 4 "1:AUD0.529" H 3250 850 50  0001 C CNN "kicost:AliExpress:pricing"
+F 5 "https://www.aliexpress.com/item/4001252892240.html" H 3250 850 50  0001 C CNN "kicost:AliExpress:link"
 	1    3250 850 
 	0    1    1    0   
 $EndComp
@@ -2012,6 +2438,9 @@ F 0 "D100" H 2750 5734 50  0000 C CNN
 F 1 "1N4148" H 2750 5825 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF" H 2750 5950 50  0001 C CNN
 F 3 "~" H 2750 5950 50  0001 C CNN
+F 4 "LL4148" H 2750 5950 50  0001 C CNN "manf#"
+F 5 "https://www.aliexpress.com/item/4000331505052.html" H 2750 5950 50  0001 C CNN "kicost:AliExpress:link"
+F 6 "1:AUD0.0247" H 2750 5950 50  0001 C CNN "kicost:AliExpress:pricing"
 	1    2750 5950
 	0    1    1    0   
 $EndComp
@@ -2023,6 +2452,8 @@ F 0 "SW100" H 2750 5835 50  0000 C CNN
 F 1 "SW_SPST" H 2750 5744 50  0000 C CNN
 F 2 "MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB" H 2750 5600 50  0001 C CNN
 F 3 "~" H 2750 5600 50  0001 C CNN
+F 4 "1:AUD0.529" H 2750 5600 50  0001 C CNN "kicost:AliExpress:pricing"
+F 5 "https://www.aliexpress.com/item/4001252892240.html" H 2750 5600 50  0001 C CNN "kicost:AliExpress:link"
 	1    2750 5600
 	0    1    1    0   
 $EndComp
@@ -2034,6 +2465,9 @@ F 0 "D81" H 2750 4784 50  0000 C CNN
 F 1 "1N4148" H 2750 4875 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF" H 2750 5000 50  0001 C CNN
 F 3 "~" H 2750 5000 50  0001 C CNN
+F 4 "LL4148" H 2750 5000 50  0001 C CNN "manf#"
+F 5 "https://www.aliexpress.com/item/4000331505052.html" H 2750 5000 50  0001 C CNN "kicost:AliExpress:link"
+F 6 "1:AUD0.0247" H 2750 5000 50  0001 C CNN "kicost:AliExpress:pricing"
 	1    2750 5000
 	0    1    1    0   
 $EndComp
@@ -2045,6 +2479,8 @@ F 0 "SW81" H 2750 4885 50  0000 C CNN
 F 1 "SW_SPST" H 2750 4794 50  0000 C CNN
 F 2 "MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB" H 2750 4650 50  0001 C CNN
 F 3 "~" H 2750 4650 50  0001 C CNN
+F 4 "1:AUD0.529" H 2750 4650 50  0001 C CNN "kicost:AliExpress:pricing"
+F 5 "https://www.aliexpress.com/item/4001252892240.html" H 2750 4650 50  0001 C CNN "kicost:AliExpress:link"
 	1    2750 4650
 	0    1    1    0   
 $EndComp
@@ -2056,6 +2492,9 @@ F 0 "D62" H 2750 3834 50  0000 C CNN
 F 1 "1N4148" H 2750 3925 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF" H 2750 4050 50  0001 C CNN
 F 3 "~" H 2750 4050 50  0001 C CNN
+F 4 "LL4148" H 2750 4050 50  0001 C CNN "manf#"
+F 5 "https://www.aliexpress.com/item/4000331505052.html" H 2750 4050 50  0001 C CNN "kicost:AliExpress:link"
+F 6 "1:AUD0.0247" H 2750 4050 50  0001 C CNN "kicost:AliExpress:pricing"
 	1    2750 4050
 	0    1    1    0   
 $EndComp
@@ -2067,6 +2506,8 @@ F 0 "SW62" H 2750 3935 50  0000 C CNN
 F 1 "SW_SPST" H 2750 3844 50  0000 C CNN
 F 2 "MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB" H 2750 3700 50  0001 C CNN
 F 3 "~" H 2750 3700 50  0001 C CNN
+F 4 "1:AUD0.529" H 2750 3700 50  0001 C CNN "kicost:AliExpress:pricing"
+F 5 "https://www.aliexpress.com/item/4001252892240.html" H 2750 3700 50  0001 C CNN "kicost:AliExpress:link"
 	1    2750 3700
 	0    1    1    0   
 $EndComp
@@ -2078,6 +2519,9 @@ F 0 "D43" H 2750 2884 50  0000 C CNN
 F 1 "1N4148" H 2750 2975 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF" H 2750 3100 50  0001 C CNN
 F 3 "~" H 2750 3100 50  0001 C CNN
+F 4 "LL4148" H 2750 3100 50  0001 C CNN "manf#"
+F 5 "https://www.aliexpress.com/item/4000331505052.html" H 2750 3100 50  0001 C CNN "kicost:AliExpress:link"
+F 6 "1:AUD0.0247" H 2750 3100 50  0001 C CNN "kicost:AliExpress:pricing"
 	1    2750 3100
 	0    1    1    0   
 $EndComp
@@ -2089,6 +2533,8 @@ F 0 "SW43" H 2750 2985 50  0000 C CNN
 F 1 "SW_SPST" H 2750 2894 50  0000 C CNN
 F 2 "MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB" H 2750 2750 50  0001 C CNN
 F 3 "~" H 2750 2750 50  0001 C CNN
+F 4 "1:AUD0.529" H 2750 2750 50  0001 C CNN "kicost:AliExpress:pricing"
+F 5 "https://www.aliexpress.com/item/4001252892240.html" H 2750 2750 50  0001 C CNN "kicost:AliExpress:link"
 	1    2750 2750
 	0    1    1    0   
 $EndComp
@@ -2100,6 +2546,9 @@ F 0 "D24" H 2750 1934 50  0000 C CNN
 F 1 "1N4148" H 2750 2025 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF" H 2750 2150 50  0001 C CNN
 F 3 "~" H 2750 2150 50  0001 C CNN
+F 4 "LL4148" H 2750 2150 50  0001 C CNN "manf#"
+F 5 "https://www.aliexpress.com/item/4000331505052.html" H 2750 2150 50  0001 C CNN "kicost:AliExpress:link"
+F 6 "1:AUD0.0247" H 2750 2150 50  0001 C CNN "kicost:AliExpress:pricing"
 	1    2750 2150
 	0    1    1    0   
 $EndComp
@@ -2111,6 +2560,8 @@ F 0 "SW24" H 2750 2035 50  0000 C CNN
 F 1 "SW_SPST" H 2750 1944 50  0000 C CNN
 F 2 "MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB" H 2750 1800 50  0001 C CNN
 F 3 "~" H 2750 1800 50  0001 C CNN
+F 4 "1:AUD0.529" H 2750 1800 50  0001 C CNN "kicost:AliExpress:pricing"
+F 5 "https://www.aliexpress.com/item/4001252892240.html" H 2750 1800 50  0001 C CNN "kicost:AliExpress:link"
 	1    2750 1800
 	0    1    1    0   
 $EndComp
@@ -2122,6 +2573,9 @@ F 0 "D5" H 2750 984 50  0000 C CNN
 F 1 "1N4148" H 2750 1075 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF" H 2750 1200 50  0001 C CNN
 F 3 "~" H 2750 1200 50  0001 C CNN
+F 4 "LL4148" H 2750 1200 50  0001 C CNN "manf#"
+F 5 "https://www.aliexpress.com/item/4000331505052.html" H 2750 1200 50  0001 C CNN "kicost:AliExpress:link"
+F 6 "1:AUD0.0247" H 2750 1200 50  0001 C CNN "kicost:AliExpress:pricing"
 	1    2750 1200
 	0    1    1    0   
 $EndComp
@@ -2133,6 +2587,8 @@ F 0 "SW5" H 2750 1085 50  0000 C CNN
 F 1 "SW_SPST" H 2750 994 50  0000 C CNN
 F 2 "MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB" H 2750 850 50  0001 C CNN
 F 3 "~" H 2750 850 50  0001 C CNN
+F 4 "1:AUD0.529" H 2750 850 50  0001 C CNN "kicost:AliExpress:pricing"
+F 5 "https://www.aliexpress.com/item/4001252892240.html" H 2750 850 50  0001 C CNN "kicost:AliExpress:link"
 	1    2750 850 
 	0    1    1    0   
 $EndComp
@@ -2144,6 +2600,9 @@ F 0 "D99" H 2250 5734 50  0000 C CNN
 F 1 "1N4148" H 2250 5825 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF" H 2250 5950 50  0001 C CNN
 F 3 "~" H 2250 5950 50  0001 C CNN
+F 4 "LL4148" H 2250 5950 50  0001 C CNN "manf#"
+F 5 "https://www.aliexpress.com/item/4000331505052.html" H 2250 5950 50  0001 C CNN "kicost:AliExpress:link"
+F 6 "1:AUD0.0247" H 2250 5950 50  0001 C CNN "kicost:AliExpress:pricing"
 	1    2250 5950
 	0    1    1    0   
 $EndComp
@@ -2155,6 +2614,8 @@ F 0 "SW99" H 2250 5835 50  0000 C CNN
 F 1 "SW_SPST" H 2250 5744 50  0000 C CNN
 F 2 "MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB" H 2250 5600 50  0001 C CNN
 F 3 "~" H 2250 5600 50  0001 C CNN
+F 4 "1:AUD0.529" H 2250 5600 50  0001 C CNN "kicost:AliExpress:pricing"
+F 5 "https://www.aliexpress.com/item/4001252892240.html" H 2250 5600 50  0001 C CNN "kicost:AliExpress:link"
 	1    2250 5600
 	0    1    1    0   
 $EndComp
@@ -2166,6 +2627,9 @@ F 0 "D80" H 2250 4784 50  0000 C CNN
 F 1 "1N4148" H 2250 4875 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF" H 2250 5000 50  0001 C CNN
 F 3 "~" H 2250 5000 50  0001 C CNN
+F 4 "LL4148" H 2250 5000 50  0001 C CNN "manf#"
+F 5 "https://www.aliexpress.com/item/4000331505052.html" H 2250 5000 50  0001 C CNN "kicost:AliExpress:link"
+F 6 "1:AUD0.0247" H 2250 5000 50  0001 C CNN "kicost:AliExpress:pricing"
 	1    2250 5000
 	0    1    1    0   
 $EndComp
@@ -2177,6 +2641,8 @@ F 0 "SW80" H 2250 4885 50  0000 C CNN
 F 1 "SW_SPST" H 2250 4794 50  0000 C CNN
 F 2 "MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB" H 2250 4650 50  0001 C CNN
 F 3 "~" H 2250 4650 50  0001 C CNN
+F 4 "1:AUD0.529" H 2250 4650 50  0001 C CNN "kicost:AliExpress:pricing"
+F 5 "https://www.aliexpress.com/item/4001252892240.html" H 2250 4650 50  0001 C CNN "kicost:AliExpress:link"
 	1    2250 4650
 	0    1    1    0   
 $EndComp
@@ -2188,6 +2654,9 @@ F 0 "D61" H 2250 3834 50  0000 C CNN
 F 1 "1N4148" H 2250 3925 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF" H 2250 4050 50  0001 C CNN
 F 3 "~" H 2250 4050 50  0001 C CNN
+F 4 "LL4148" H 2250 4050 50  0001 C CNN "manf#"
+F 5 "https://www.aliexpress.com/item/4000331505052.html" H 2250 4050 50  0001 C CNN "kicost:AliExpress:link"
+F 6 "1:AUD0.0247" H 2250 4050 50  0001 C CNN "kicost:AliExpress:pricing"
 	1    2250 4050
 	0    1    1    0   
 $EndComp
@@ -2199,6 +2668,8 @@ F 0 "SW61" H 2250 3935 50  0000 C CNN
 F 1 "SW_SPST" H 2250 3844 50  0000 C CNN
 F 2 "MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB" H 2250 3700 50  0001 C CNN
 F 3 "~" H 2250 3700 50  0001 C CNN
+F 4 "1:AUD0.529" H 2250 3700 50  0001 C CNN "kicost:AliExpress:pricing"
+F 5 "https://www.aliexpress.com/item/4001252892240.html" H 2250 3700 50  0001 C CNN "kicost:AliExpress:link"
 	1    2250 3700
 	0    1    1    0   
 $EndComp
@@ -2210,6 +2681,9 @@ F 0 "D42" H 2250 2884 50  0000 C CNN
 F 1 "1N4148" H 2250 2975 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF" H 2250 3100 50  0001 C CNN
 F 3 "~" H 2250 3100 50  0001 C CNN
+F 4 "LL4148" H 2250 3100 50  0001 C CNN "manf#"
+F 5 "https://www.aliexpress.com/item/4000331505052.html" H 2250 3100 50  0001 C CNN "kicost:AliExpress:link"
+F 6 "1:AUD0.0247" H 2250 3100 50  0001 C CNN "kicost:AliExpress:pricing"
 	1    2250 3100
 	0    1    1    0   
 $EndComp
@@ -2221,6 +2695,8 @@ F 0 "SW42" H 2250 2985 50  0000 C CNN
 F 1 "SW_SPST" H 2250 2894 50  0000 C CNN
 F 2 "MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB" H 2250 2750 50  0001 C CNN
 F 3 "~" H 2250 2750 50  0001 C CNN
+F 4 "1:AUD0.529" H 2250 2750 50  0001 C CNN "kicost:AliExpress:pricing"
+F 5 "https://www.aliexpress.com/item/4001252892240.html" H 2250 2750 50  0001 C CNN "kicost:AliExpress:link"
 	1    2250 2750
 	0    1    1    0   
 $EndComp
@@ -2232,6 +2708,9 @@ F 0 "D23" H 2250 1934 50  0000 C CNN
 F 1 "1N4148" H 2250 2025 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF" H 2250 2150 50  0001 C CNN
 F 3 "~" H 2250 2150 50  0001 C CNN
+F 4 "LL4148" H 2250 2150 50  0001 C CNN "manf#"
+F 5 "https://www.aliexpress.com/item/4000331505052.html" H 2250 2150 50  0001 C CNN "kicost:AliExpress:link"
+F 6 "1:AUD0.0247" H 2250 2150 50  0001 C CNN "kicost:AliExpress:pricing"
 	1    2250 2150
 	0    1    1    0   
 $EndComp
@@ -2243,6 +2722,8 @@ F 0 "SW23" H 2250 2035 50  0000 C CNN
 F 1 "SW_SPST" H 2250 1944 50  0000 C CNN
 F 2 "MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB" H 2250 1800 50  0001 C CNN
 F 3 "~" H 2250 1800 50  0001 C CNN
+F 4 "1:AUD0.529" H 2250 1800 50  0001 C CNN "kicost:AliExpress:pricing"
+F 5 "https://www.aliexpress.com/item/4001252892240.html" H 2250 1800 50  0001 C CNN "kicost:AliExpress:link"
 	1    2250 1800
 	0    1    1    0   
 $EndComp
@@ -2254,6 +2735,9 @@ F 0 "D4" H 2250 984 50  0000 C CNN
 F 1 "1N4148" H 2250 1075 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF" H 2250 1200 50  0001 C CNN
 F 3 "~" H 2250 1200 50  0001 C CNN
+F 4 "LL4148" H 2250 1200 50  0001 C CNN "manf#"
+F 5 "https://www.aliexpress.com/item/4000331505052.html" H 2250 1200 50  0001 C CNN "kicost:AliExpress:link"
+F 6 "1:AUD0.0247" H 2250 1200 50  0001 C CNN "kicost:AliExpress:pricing"
 	1    2250 1200
 	0    1    1    0   
 $EndComp
@@ -2265,6 +2749,8 @@ F 0 "SW4" H 2250 1085 50  0000 C CNN
 F 1 "SW_SPST" H 2250 994 50  0000 C CNN
 F 2 "MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB" H 2250 850 50  0001 C CNN
 F 3 "~" H 2250 850 50  0001 C CNN
+F 4 "1:AUD0.529" H 2250 850 50  0001 C CNN "kicost:AliExpress:pricing"
+F 5 "https://www.aliexpress.com/item/4001252892240.html" H 2250 850 50  0001 C CNN "kicost:AliExpress:link"
 	1    2250 850 
 	0    1    1    0   
 $EndComp
@@ -2276,6 +2762,9 @@ F 0 "D98" H 1750 5734 50  0000 C CNN
 F 1 "1N4148" H 1750 5825 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF" H 1750 5950 50  0001 C CNN
 F 3 "~" H 1750 5950 50  0001 C CNN
+F 4 "LL4148" H 1750 5950 50  0001 C CNN "manf#"
+F 5 "https://www.aliexpress.com/item/4000331505052.html" H 1750 5950 50  0001 C CNN "kicost:AliExpress:link"
+F 6 "1:AUD0.0247" H 1750 5950 50  0001 C CNN "kicost:AliExpress:pricing"
 	1    1750 5950
 	0    1    1    0   
 $EndComp
@@ -2287,6 +2776,8 @@ F 0 "SW98" H 1750 5835 50  0000 C CNN
 F 1 "SW_SPST" H 1750 5744 50  0000 C CNN
 F 2 "MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB" H 1750 5600 50  0001 C CNN
 F 3 "~" H 1750 5600 50  0001 C CNN
+F 4 "1:AUD0.529" H 1750 5600 50  0001 C CNN "kicost:AliExpress:pricing"
+F 5 "https://www.aliexpress.com/item/4001252892240.html" H 1750 5600 50  0001 C CNN "kicost:AliExpress:link"
 	1    1750 5600
 	0    1    1    0   
 $EndComp
@@ -2298,6 +2789,9 @@ F 0 "D79" H 1750 4784 50  0000 C CNN
 F 1 "1N4148" H 1750 4875 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF" H 1750 5000 50  0001 C CNN
 F 3 "~" H 1750 5000 50  0001 C CNN
+F 4 "LL4148" H 1750 5000 50  0001 C CNN "manf#"
+F 5 "https://www.aliexpress.com/item/4000331505052.html" H 1750 5000 50  0001 C CNN "kicost:AliExpress:link"
+F 6 "1:AUD0.0247" H 1750 5000 50  0001 C CNN "kicost:AliExpress:pricing"
 	1    1750 5000
 	0    1    1    0   
 $EndComp
@@ -2309,6 +2803,8 @@ F 0 "SW79" H 1750 4885 50  0000 C CNN
 F 1 "SW_SPST" H 1750 4794 50  0000 C CNN
 F 2 "MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB" H 1750 4650 50  0001 C CNN
 F 3 "~" H 1750 4650 50  0001 C CNN
+F 4 "1:AUD0.529" H 1750 4650 50  0001 C CNN "kicost:AliExpress:pricing"
+F 5 "https://www.aliexpress.com/item/4001252892240.html" H 1750 4650 50  0001 C CNN "kicost:AliExpress:link"
 	1    1750 4650
 	0    1    1    0   
 $EndComp
@@ -2320,6 +2816,9 @@ F 0 "D60" H 1750 3834 50  0000 C CNN
 F 1 "1N4148" H 1750 3925 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF" H 1750 4050 50  0001 C CNN
 F 3 "~" H 1750 4050 50  0001 C CNN
+F 4 "LL4148" H 1750 4050 50  0001 C CNN "manf#"
+F 5 "https://www.aliexpress.com/item/4000331505052.html" H 1750 4050 50  0001 C CNN "kicost:AliExpress:link"
+F 6 "1:AUD0.0247" H 1750 4050 50  0001 C CNN "kicost:AliExpress:pricing"
 	1    1750 4050
 	0    1    1    0   
 $EndComp
@@ -2331,6 +2830,8 @@ F 0 "SW60" H 1750 3935 50  0000 C CNN
 F 1 "SW_SPST" H 1750 3844 50  0000 C CNN
 F 2 "MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB" H 1750 3700 50  0001 C CNN
 F 3 "~" H 1750 3700 50  0001 C CNN
+F 4 "1:AUD0.529" H 1750 3700 50  0001 C CNN "kicost:AliExpress:pricing"
+F 5 "https://www.aliexpress.com/item/4001252892240.html" H 1750 3700 50  0001 C CNN "kicost:AliExpress:link"
 	1    1750 3700
 	0    1    1    0   
 $EndComp
@@ -2342,6 +2843,9 @@ F 0 "D41" H 1750 2884 50  0000 C CNN
 F 1 "1N4148" H 1750 2975 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF" H 1750 3100 50  0001 C CNN
 F 3 "~" H 1750 3100 50  0001 C CNN
+F 4 "LL4148" H 1750 3100 50  0001 C CNN "manf#"
+F 5 "https://www.aliexpress.com/item/4000331505052.html" H 1750 3100 50  0001 C CNN "kicost:AliExpress:link"
+F 6 "1:AUD0.0247" H 1750 3100 50  0001 C CNN "kicost:AliExpress:pricing"
 	1    1750 3100
 	0    1    1    0   
 $EndComp
@@ -2353,6 +2857,8 @@ F 0 "SW41" H 1750 2985 50  0000 C CNN
 F 1 "SW_SPST" H 1750 2894 50  0000 C CNN
 F 2 "MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB" H 1750 2750 50  0001 C CNN
 F 3 "~" H 1750 2750 50  0001 C CNN
+F 4 "1:AUD0.529" H 1750 2750 50  0001 C CNN "kicost:AliExpress:pricing"
+F 5 "https://www.aliexpress.com/item/4001252892240.html" H 1750 2750 50  0001 C CNN "kicost:AliExpress:link"
 	1    1750 2750
 	0    1    1    0   
 $EndComp
@@ -2364,6 +2870,9 @@ F 0 "D22" H 1750 1934 50  0000 C CNN
 F 1 "1N4148" H 1750 2025 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF" H 1750 2150 50  0001 C CNN
 F 3 "~" H 1750 2150 50  0001 C CNN
+F 4 "LL4148" H 1750 2150 50  0001 C CNN "manf#"
+F 5 "https://www.aliexpress.com/item/4000331505052.html" H 1750 2150 50  0001 C CNN "kicost:AliExpress:link"
+F 6 "1:AUD0.0247" H 1750 2150 50  0001 C CNN "kicost:AliExpress:pricing"
 	1    1750 2150
 	0    1    1    0   
 $EndComp
@@ -2375,6 +2884,8 @@ F 0 "SW22" H 1750 2035 50  0000 C CNN
 F 1 "SW_SPST" H 1750 1944 50  0000 C CNN
 F 2 "MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB" H 1750 1800 50  0001 C CNN
 F 3 "~" H 1750 1800 50  0001 C CNN
+F 4 "1:AUD0.529" H 1750 1800 50  0001 C CNN "kicost:AliExpress:pricing"
+F 5 "https://www.aliexpress.com/item/4001252892240.html" H 1750 1800 50  0001 C CNN "kicost:AliExpress:link"
 	1    1750 1800
 	0    1    1    0   
 $EndComp
@@ -2386,6 +2897,9 @@ F 0 "D3" H 1750 984 50  0000 C CNN
 F 1 "1N4148" H 1750 1075 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF" H 1750 1200 50  0001 C CNN
 F 3 "~" H 1750 1200 50  0001 C CNN
+F 4 "LL4148" H 1750 1200 50  0001 C CNN "manf#"
+F 5 "https://www.aliexpress.com/item/4000331505052.html" H 1750 1200 50  0001 C CNN "kicost:AliExpress:link"
+F 6 "1:AUD0.0247" H 1750 1200 50  0001 C CNN "kicost:AliExpress:pricing"
 	1    1750 1200
 	0    1    1    0   
 $EndComp
@@ -2397,6 +2911,8 @@ F 0 "SW3" H 1750 1085 50  0000 C CNN
 F 1 "SW_SPST" H 1750 994 50  0000 C CNN
 F 2 "MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB" H 1750 850 50  0001 C CNN
 F 3 "~" H 1750 850 50  0001 C CNN
+F 4 "1:AUD0.529" H 1750 850 50  0001 C CNN "kicost:AliExpress:pricing"
+F 5 "https://www.aliexpress.com/item/4001252892240.html" H 1750 850 50  0001 C CNN "kicost:AliExpress:link"
 	1    1750 850 
 	0    1    1    0   
 $EndComp
@@ -2408,6 +2924,9 @@ F 0 "D97" H 1250 5734 50  0000 C CNN
 F 1 "1N4148" H 1250 5825 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF" H 1250 5950 50  0001 C CNN
 F 3 "~" H 1250 5950 50  0001 C CNN
+F 4 "LL4148" H 1250 5950 50  0001 C CNN "manf#"
+F 5 "https://www.aliexpress.com/item/4000331505052.html" H 1250 5950 50  0001 C CNN "kicost:AliExpress:link"
+F 6 "1:AUD0.0247" H 1250 5950 50  0001 C CNN "kicost:AliExpress:pricing"
 	1    1250 5950
 	0    1    1    0   
 $EndComp
@@ -2419,6 +2938,8 @@ F 0 "SW97" H 1250 5835 50  0000 C CNN
 F 1 "SW_SPST" H 1250 5744 50  0000 C CNN
 F 2 "MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB" H 1250 5600 50  0001 C CNN
 F 3 "~" H 1250 5600 50  0001 C CNN
+F 4 "1:AUD0.529" H 1250 5600 50  0001 C CNN "kicost:AliExpress:pricing"
+F 5 "https://www.aliexpress.com/item/4001252892240.html" H 1250 5600 50  0001 C CNN "kicost:AliExpress:link"
 	1    1250 5600
 	0    1    1    0   
 $EndComp
@@ -2430,6 +2951,8 @@ F 0 "SW78" H 1250 4885 50  0000 C CNN
 F 1 "SW_SPST" H 1250 4794 50  0000 C CNN
 F 2 "MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB" H 1250 4650 50  0001 C CNN
 F 3 "~" H 1250 4650 50  0001 C CNN
+F 4 "1:AUD0.529" H 1250 4650 50  0001 C CNN "kicost:AliExpress:pricing"
+F 5 "https://www.aliexpress.com/item/4001252892240.html" H 1250 4650 50  0001 C CNN "kicost:AliExpress:link"
 	1    1250 4650
 	0    1    1    0   
 $EndComp
@@ -2441,6 +2964,9 @@ F 0 "D59" H 1250 3834 50  0000 C CNN
 F 1 "1N4148" H 1250 3925 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF" H 1250 4050 50  0001 C CNN
 F 3 "~" H 1250 4050 50  0001 C CNN
+F 4 "LL4148" H 1250 4050 50  0001 C CNN "manf#"
+F 5 "https://www.aliexpress.com/item/4000331505052.html" H 1250 4050 50  0001 C CNN "kicost:AliExpress:link"
+F 6 "1:AUD0.0247" H 1250 4050 50  0001 C CNN "kicost:AliExpress:pricing"
 	1    1250 4050
 	0    1    1    0   
 $EndComp
@@ -2452,6 +2978,8 @@ F 0 "SW59" H 1250 3935 50  0000 C CNN
 F 1 "SW_SPST" H 1250 3844 50  0000 C CNN
 F 2 "MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB" H 1250 3700 50  0001 C CNN
 F 3 "~" H 1250 3700 50  0001 C CNN
+F 4 "1:AUD0.529" H 1250 3700 50  0001 C CNN "kicost:AliExpress:pricing"
+F 5 "https://www.aliexpress.com/item/4001252892240.html" H 1250 3700 50  0001 C CNN "kicost:AliExpress:link"
 	1    1250 3700
 	0    1    1    0   
 $EndComp
@@ -2463,6 +2991,9 @@ F 0 "D40" H 1250 2884 50  0000 C CNN
 F 1 "1N4148" H 1250 2975 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF" H 1250 3100 50  0001 C CNN
 F 3 "~" H 1250 3100 50  0001 C CNN
+F 4 "LL4148" H 1250 3100 50  0001 C CNN "manf#"
+F 5 "https://www.aliexpress.com/item/4000331505052.html" H 1250 3100 50  0001 C CNN "kicost:AliExpress:link"
+F 6 "1:AUD0.0247" H 1250 3100 50  0001 C CNN "kicost:AliExpress:pricing"
 	1    1250 3100
 	0    1    1    0   
 $EndComp
@@ -2474,6 +3005,8 @@ F 0 "SW40" H 1250 2985 50  0000 C CNN
 F 1 "SW_SPST" H 1250 2894 50  0000 C CNN
 F 2 "MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB" H 1250 2750 50  0001 C CNN
 F 3 "~" H 1250 2750 50  0001 C CNN
+F 4 "1:AUD0.529" H 1250 2750 50  0001 C CNN "kicost:AliExpress:pricing"
+F 5 "https://www.aliexpress.com/item/4001252892240.html" H 1250 2750 50  0001 C CNN "kicost:AliExpress:link"
 	1    1250 2750
 	0    1    1    0   
 $EndComp
@@ -2485,6 +3018,9 @@ F 0 "D21" H 1250 1934 50  0000 C CNN
 F 1 "1N4148" H 1250 2025 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF" H 1250 2150 50  0001 C CNN
 F 3 "~" H 1250 2150 50  0001 C CNN
+F 4 "LL4148" H 1250 2150 50  0001 C CNN "manf#"
+F 5 "https://www.aliexpress.com/item/4000331505052.html" H 1250 2150 50  0001 C CNN "kicost:AliExpress:link"
+F 6 "1:AUD0.0247" H 1250 2150 50  0001 C CNN "kicost:AliExpress:pricing"
 	1    1250 2150
 	0    1    1    0   
 $EndComp
@@ -2496,6 +3032,8 @@ F 0 "SW21" H 1250 2035 50  0000 C CNN
 F 1 "SW_SPST" H 1250 1944 50  0000 C CNN
 F 2 "MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB" H 1250 1800 50  0001 C CNN
 F 3 "~" H 1250 1800 50  0001 C CNN
+F 4 "1:AUD0.529" H 1250 1800 50  0001 C CNN "kicost:AliExpress:pricing"
+F 5 "https://www.aliexpress.com/item/4001252892240.html" H 1250 1800 50  0001 C CNN "kicost:AliExpress:link"
 	1    1250 1800
 	0    1    1    0   
 $EndComp
@@ -2507,6 +3045,9 @@ F 0 "D2" H 1250 984 50  0000 C CNN
 F 1 "1N4148" H 1250 1075 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF" H 1250 1200 50  0001 C CNN
 F 3 "~" H 1250 1200 50  0001 C CNN
+F 4 "LL4148" H 1250 1200 50  0001 C CNN "manf#"
+F 5 "https://www.aliexpress.com/item/4000331505052.html" H 1250 1200 50  0001 C CNN "kicost:AliExpress:link"
+F 6 "1:AUD0.0247" H 1250 1200 50  0001 C CNN "kicost:AliExpress:pricing"
 	1    1250 1200
 	0    1    1    0   
 $EndComp
@@ -2518,6 +3059,8 @@ F 0 "SW2" H 1250 1085 50  0000 C CNN
 F 1 "SW_SPST" H 1250 994 50  0000 C CNN
 F 2 "MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB" H 1250 850 50  0001 C CNN
 F 3 "~" H 1250 850 50  0001 C CNN
+F 4 "1:AUD0.529" H 1250 850 50  0001 C CNN "kicost:AliExpress:pricing"
+F 5 "https://www.aliexpress.com/item/4001252892240.html" H 1250 850 50  0001 C CNN "kicost:AliExpress:link"
 	1    1250 850 
 	0    1    1    0   
 $EndComp
@@ -2529,6 +3072,8 @@ F 0 "SW96" H 750 5835 50  0000 C CNN
 F 1 "SW_SPST" H 750 5744 50  0000 C CNN
 F 2 "MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB" H 750 5600 50  0001 C CNN
 F 3 "~" H 750 5600 50  0001 C CNN
+F 4 "1:AUD0.529" H 750 5600 50  0001 C CNN "kicost:AliExpress:pricing"
+F 5 "https://www.aliexpress.com/item/4001252892240.html" H 750 5600 50  0001 C CNN "kicost:AliExpress:link"
 	1    750  5600
 	0    1    1    0   
 $EndComp
@@ -2540,6 +3085,9 @@ F 0 "D77" H 750 4784 50  0000 C CNN
 F 1 "1N4148" H 750 4875 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF" H 750 5000 50  0001 C CNN
 F 3 "~" H 750 5000 50  0001 C CNN
+F 4 "LL4148" H 750 5000 50  0001 C CNN "manf#"
+F 5 "https://www.aliexpress.com/item/4000331505052.html" H 750 5000 50  0001 C CNN "kicost:AliExpress:link"
+F 6 "1:AUD0.0247" H 750 5000 50  0001 C CNN "kicost:AliExpress:pricing"
 	1    750  5000
 	0    1    1    0   
 $EndComp
@@ -2551,6 +3099,8 @@ F 0 "SW77" H 750 4885 50  0000 C CNN
 F 1 "SW_SPST" H 750 4794 50  0000 C CNN
 F 2 "MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB" H 750 4650 50  0001 C CNN
 F 3 "~" H 750 4650 50  0001 C CNN
+F 4 "1:AUD0.529" H 750 4650 50  0001 C CNN "kicost:AliExpress:pricing"
+F 5 "https://www.aliexpress.com/item/4001252892240.html" H 750 4650 50  0001 C CNN "kicost:AliExpress:link"
 	1    750  4650
 	0    1    1    0   
 $EndComp
@@ -2562,6 +3112,9 @@ F 0 "D58" H 750 3834 50  0000 C CNN
 F 1 "1N4148" H 750 3925 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF" H 750 4050 50  0001 C CNN
 F 3 "~" H 750 4050 50  0001 C CNN
+F 4 "LL4148" H 750 4050 50  0001 C CNN "manf#"
+F 5 "https://www.aliexpress.com/item/4000331505052.html" H 750 4050 50  0001 C CNN "kicost:AliExpress:link"
+F 6 "1:AUD0.0247" H 750 4050 50  0001 C CNN "kicost:AliExpress:pricing"
 	1    750  4050
 	0    1    1    0   
 $EndComp
@@ -2573,6 +3126,8 @@ F 0 "SW58" H 750 3935 50  0000 C CNN
 F 1 "SW_SPST" H 750 3844 50  0000 C CNN
 F 2 "MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB" H 750 3700 50  0001 C CNN
 F 3 "~" H 750 3700 50  0001 C CNN
+F 4 "1:AUD0.529" H 750 3700 50  0001 C CNN "kicost:AliExpress:pricing"
+F 5 "https://www.aliexpress.com/item/4001252892240.html" H 750 3700 50  0001 C CNN "kicost:AliExpress:link"
 	1    750  3700
 	0    1    1    0   
 $EndComp
@@ -2584,6 +3139,9 @@ F 0 "D39" H 750 2884 50  0000 C CNN
 F 1 "1N4148" H 750 2975 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF" H 750 3100 50  0001 C CNN
 F 3 "~" H 750 3100 50  0001 C CNN
+F 4 "LL4148" H 750 3100 50  0001 C CNN "manf#"
+F 5 "https://www.aliexpress.com/item/4000331505052.html" H 750 3100 50  0001 C CNN "kicost:AliExpress:link"
+F 6 "1:AUD0.0247" H 750 3100 50  0001 C CNN "kicost:AliExpress:pricing"
 	1    750  3100
 	0    1    1    0   
 $EndComp
@@ -2595,6 +3153,8 @@ F 0 "SW39" H 750 2985 50  0000 C CNN
 F 1 "SW_SPST" H 750 2894 50  0000 C CNN
 F 2 "MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB" H 750 2750 50  0001 C CNN
 F 3 "~" H 750 2750 50  0001 C CNN
+F 4 "1:AUD0.529" H 750 2750 50  0001 C CNN "kicost:AliExpress:pricing"
+F 5 "https://www.aliexpress.com/item/4001252892240.html" H 750 2750 50  0001 C CNN "kicost:AliExpress:link"
 	1    750  2750
 	0    1    1    0   
 $EndComp
@@ -2606,6 +3166,9 @@ F 0 "D20" H 750 1934 50  0000 C CNN
 F 1 "1N4148" H 750 2025 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF" H 750 2150 50  0001 C CNN
 F 3 "~" H 750 2150 50  0001 C CNN
+F 4 "LL4148" H 750 2150 50  0001 C CNN "manf#"
+F 5 "https://www.aliexpress.com/item/4000331505052.html" H 750 2150 50  0001 C CNN "kicost:AliExpress:link"
+F 6 "1:AUD0.0247" H 750 2150 50  0001 C CNN "kicost:AliExpress:pricing"
 	1    750  2150
 	0    1    1    0   
 $EndComp
@@ -2617,6 +3180,8 @@ F 0 "SW20" H 750 2035 50  0000 C CNN
 F 1 "SW_SPST" H 750 1944 50  0000 C CNN
 F 2 "MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB" H 750 1800 50  0001 C CNN
 F 3 "~" H 750 1800 50  0001 C CNN
+F 4 "1:AUD0.529" H 750 1800 50  0001 C CNN "kicost:AliExpress:pricing"
+F 5 "https://www.aliexpress.com/item/4001252892240.html" H 750 1800 50  0001 C CNN "kicost:AliExpress:link"
 	1    750  1800
 	0    1    1    0   
 $EndComp
@@ -2628,6 +3193,9 @@ F 0 "D1" H 750 984 50  0000 C CNN
 F 1 "1N4148" H 750 1075 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF" H 750 1200 50  0001 C CNN
 F 3 "~" H 750 1200 50  0001 C CNN
+F 4 "LL4148" H 750 1200 50  0001 C CNN "manf#"
+F 5 "https://www.aliexpress.com/item/4000331505052.html" H 750 1200 50  0001 C CNN "kicost:AliExpress:link"
+F 6 "1:AUD0.0247" H 750 1200 50  0001 C CNN "kicost:AliExpress:pricing"
 	1    750  1200
 	0    1    1    0   
 $EndComp
@@ -2639,6 +3207,8 @@ F 0 "SW1" H 750 1085 50  0000 C CNN
 F 1 "SW_SPST" H 750 994 50  0000 C CNN
 F 2 "MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB" H 750 850 50  0001 C CNN
 F 3 "~" H 750 850 50  0001 C CNN
+F 4 "1:AUD0.529" H 750 850 50  0001 C CNN "kicost:AliExpress:pricing"
+F 5 "https://www.aliexpress.com/item/4001252892240.html" H 750 850 50  0001 C CNN "kicost:AliExpress:link"
 	1    750  850 
 	0    1    1    0   
 $EndComp
@@ -2656,6 +3226,9 @@ F 0 "R116" H 7970 11046 50  0000 L CNN
 F 1 "2.26k" H 7970 10955 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 7830 11000 50  0001 C CNN
 F 3 "~" H 7900 11000 50  0001 C CNN
+F 4 "2446941" H 7900 11000 50  0001 C CNN "manf#"
+F 5 "https://www.aliexpress.com/item/32868991875.html" H 7900 11000 50  0001 C CNN "kicost:AliExpress:link"
+F 6 "1:AUD0.0146" H 7900 11000 50  0001 C CNN "kicost:AliExpress:pricing"
 	1    7900 11000
 	1    0    0    -1  
 $EndComp
@@ -2666,7 +3239,8 @@ P 7900 11300
 F 0 "D228" V 7939 11183 50  0000 R CNN
 F 1 "LED" V 7848 11183 50  0000 R CNN
 F 2 "MyOwnKeyboard:158301250" H 7900 11300 50  0001 C CNN
-F 3 "~" H 7900 11300 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/158301250.pdf" H 7900 11300 50  0001 C CNN
+F 4 "158301250" H 7900 11300 50  0001 C CNN "manf#"
 	1    7900 11300
 	0    -1   -1   0   
 $EndComp
@@ -2678,6 +3252,9 @@ F 0 "R97" H 7970 10196 50  0000 L CNN
 F 1 "2.26k" H 7970 10105 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 7830 10150 50  0001 C CNN
 F 3 "~" H 7900 10150 50  0001 C CNN
+F 4 "2446941" H 7900 10150 50  0001 C CNN "manf#"
+F 5 "https://www.aliexpress.com/item/32868991875.html" H 7900 10150 50  0001 C CNN "kicost:AliExpress:link"
+F 6 "1:AUD0.0146" H 7900 10150 50  0001 C CNN "kicost:AliExpress:pricing"
 	1    7900 10150
 	1    0    0    -1  
 $EndComp
@@ -2688,7 +3265,8 @@ P 7900 10450
 F 0 "D209" V 7939 10333 50  0000 R CNN
 F 1 "LED" V 7848 10333 50  0000 R CNN
 F 2 "MyOwnKeyboard:158301250" H 7900 10450 50  0001 C CNN
-F 3 "~" H 7900 10450 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/158301250.pdf" H 7900 10450 50  0001 C CNN
+F 4 "158301250" H 7900 10450 50  0001 C CNN "manf#"
 	1    7900 10450
 	0    -1   -1   0   
 $EndComp
@@ -2700,6 +3278,9 @@ F 0 "R78" H 7970 9346 50  0000 L CNN
 F 1 "2.26k" H 7970 9255 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 7830 9300 50  0001 C CNN
 F 3 "~" H 7900 9300 50  0001 C CNN
+F 4 "2446941" H 7900 9300 50  0001 C CNN "manf#"
+F 5 "https://www.aliexpress.com/item/32868991875.html" H 7900 9300 50  0001 C CNN "kicost:AliExpress:link"
+F 6 "1:AUD0.0146" H 7900 9300 50  0001 C CNN "kicost:AliExpress:pricing"
 	1    7900 9300
 	1    0    0    -1  
 $EndComp
@@ -2710,7 +3291,8 @@ P 7900 9600
 F 0 "D190" V 7939 9483 50  0000 R CNN
 F 1 "LED" V 7848 9483 50  0000 R CNN
 F 2 "MyOwnKeyboard:158301250" H 7900 9600 50  0001 C CNN
-F 3 "~" H 7900 9600 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/158301250.pdf" H 7900 9600 50  0001 C CNN
+F 4 "158301250" H 7900 9600 50  0001 C CNN "manf#"
 	1    7900 9600
 	0    -1   -1   0   
 $EndComp
@@ -2722,6 +3304,9 @@ F 0 "R59" H 7970 8496 50  0000 L CNN
 F 1 "2.26k" H 7970 8405 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 7830 8450 50  0001 C CNN
 F 3 "~" H 7900 8450 50  0001 C CNN
+F 4 "2446941" H 7900 8450 50  0001 C CNN "manf#"
+F 5 "https://www.aliexpress.com/item/32868991875.html" H 7900 8450 50  0001 C CNN "kicost:AliExpress:link"
+F 6 "1:AUD0.0146" H 7900 8450 50  0001 C CNN "kicost:AliExpress:pricing"
 	1    7900 8450
 	1    0    0    -1  
 $EndComp
@@ -2732,7 +3317,8 @@ P 7900 8750
 F 0 "D171" V 7939 8633 50  0000 R CNN
 F 1 "LED" V 7848 8633 50  0000 R CNN
 F 2 "MyOwnKeyboard:158301250" H 7900 8750 50  0001 C CNN
-F 3 "~" H 7900 8750 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/158301250.pdf" H 7900 8750 50  0001 C CNN
+F 4 "158301250" H 7900 8750 50  0001 C CNN "manf#"
 	1    7900 8750
 	0    -1   -1   0   
 $EndComp
@@ -2744,6 +3330,9 @@ F 0 "R40" H 7970 7646 50  0000 L CNN
 F 1 "2.26k" H 7970 7555 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 7830 7600 50  0001 C CNN
 F 3 "~" H 7900 7600 50  0001 C CNN
+F 4 "2446941" H 7900 7600 50  0001 C CNN "manf#"
+F 5 "https://www.aliexpress.com/item/32868991875.html" H 7900 7600 50  0001 C CNN "kicost:AliExpress:link"
+F 6 "1:AUD0.0146" H 7900 7600 50  0001 C CNN "kicost:AliExpress:pricing"
 	1    7900 7600
 	1    0    0    -1  
 $EndComp
@@ -2754,7 +3343,8 @@ P 7900 7900
 F 0 "D152" V 7939 7783 50  0000 R CNN
 F 1 "LED" V 7848 7783 50  0000 R CNN
 F 2 "MyOwnKeyboard:158301250" H 7900 7900 50  0001 C CNN
-F 3 "~" H 7900 7900 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/158301250.pdf" H 7900 7900 50  0001 C CNN
+F 4 "158301250" H 7900 7900 50  0001 C CNN "manf#"
 	1    7900 7900
 	0    -1   -1   0   
 $EndComp
@@ -2766,6 +3356,9 @@ F 0 "R21" H 7970 6796 50  0000 L CNN
 F 1 "2.26k" H 7970 6705 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 7830 6750 50  0001 C CNN
 F 3 "~" H 7900 6750 50  0001 C CNN
+F 4 "2446941" H 7900 6750 50  0001 C CNN "manf#"
+F 5 "https://www.aliexpress.com/item/32868991875.html" H 7900 6750 50  0001 C CNN "kicost:AliExpress:link"
+F 6 "1:AUD0.0146" H 7900 6750 50  0001 C CNN "kicost:AliExpress:pricing"
 	1    7900 6750
 	1    0    0    -1  
 $EndComp
@@ -2776,7 +3369,8 @@ P 7900 7050
 F 0 "D133" V 7939 6933 50  0000 R CNN
 F 1 "LED" V 7848 6933 50  0000 R CNN
 F 2 "MyOwnKeyboard:158301250" H 7900 7050 50  0001 C CNN
-F 3 "~" H 7900 7050 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/158301250.pdf" H 7900 7050 50  0001 C CNN
+F 4 "158301250" H 7900 7050 50  0001 C CNN "manf#"
 	1    7900 7050
 	0    -1   -1   0   
 $EndComp
@@ -2788,6 +3382,9 @@ F 0 "R115" H 7570 11046 50  0000 L CNN
 F 1 "2.26k" H 7570 10955 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 7430 11000 50  0001 C CNN
 F 3 "~" H 7500 11000 50  0001 C CNN
+F 4 "2446941" H 7500 11000 50  0001 C CNN "manf#"
+F 5 "https://www.aliexpress.com/item/32868991875.html" H 7500 11000 50  0001 C CNN "kicost:AliExpress:link"
+F 6 "1:AUD0.0146" H 7500 11000 50  0001 C CNN "kicost:AliExpress:pricing"
 	1    7500 11000
 	1    0    0    -1  
 $EndComp
@@ -2798,7 +3395,8 @@ P 7500 11300
 F 0 "D227" V 7539 11183 50  0000 R CNN
 F 1 "LED" V 7448 11183 50  0000 R CNN
 F 2 "MyOwnKeyboard:158301250" H 7500 11300 50  0001 C CNN
-F 3 "~" H 7500 11300 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/158301250.pdf" H 7500 11300 50  0001 C CNN
+F 4 "158301250" H 7500 11300 50  0001 C CNN "manf#"
 	1    7500 11300
 	0    -1   -1   0   
 $EndComp
@@ -2810,6 +3408,9 @@ F 0 "R96" H 7570 10196 50  0000 L CNN
 F 1 "2.26k" H 7570 10105 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 7430 10150 50  0001 C CNN
 F 3 "~" H 7500 10150 50  0001 C CNN
+F 4 "2446941" H 7500 10150 50  0001 C CNN "manf#"
+F 5 "https://www.aliexpress.com/item/32868991875.html" H 7500 10150 50  0001 C CNN "kicost:AliExpress:link"
+F 6 "1:AUD0.0146" H 7500 10150 50  0001 C CNN "kicost:AliExpress:pricing"
 	1    7500 10150
 	1    0    0    -1  
 $EndComp
@@ -2820,7 +3421,8 @@ P 7500 10450
 F 0 "D208" V 7539 10333 50  0000 R CNN
 F 1 "LED" V 7448 10333 50  0000 R CNN
 F 2 "MyOwnKeyboard:158301250" H 7500 10450 50  0001 C CNN
-F 3 "~" H 7500 10450 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/158301250.pdf" H 7500 10450 50  0001 C CNN
+F 4 "158301250" H 7500 10450 50  0001 C CNN "manf#"
 	1    7500 10450
 	0    -1   -1   0   
 $EndComp
@@ -2832,6 +3434,9 @@ F 0 "R77" H 7570 9346 50  0000 L CNN
 F 1 "2.26k" H 7570 9255 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 7430 9300 50  0001 C CNN
 F 3 "~" H 7500 9300 50  0001 C CNN
+F 4 "2446941" H 7500 9300 50  0001 C CNN "manf#"
+F 5 "https://www.aliexpress.com/item/32868991875.html" H 7500 9300 50  0001 C CNN "kicost:AliExpress:link"
+F 6 "1:AUD0.0146" H 7500 9300 50  0001 C CNN "kicost:AliExpress:pricing"
 	1    7500 9300
 	1    0    0    -1  
 $EndComp
@@ -2842,7 +3447,8 @@ P 7500 9600
 F 0 "D189" V 7539 9483 50  0000 R CNN
 F 1 "LED" V 7448 9483 50  0000 R CNN
 F 2 "MyOwnKeyboard:158301250" H 7500 9600 50  0001 C CNN
-F 3 "~" H 7500 9600 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/158301250.pdf" H 7500 9600 50  0001 C CNN
+F 4 "158301250" H 7500 9600 50  0001 C CNN "manf#"
 	1    7500 9600
 	0    -1   -1   0   
 $EndComp
@@ -2854,6 +3460,9 @@ F 0 "R58" H 7570 8496 50  0000 L CNN
 F 1 "2.26k" H 7570 8405 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 7430 8450 50  0001 C CNN
 F 3 "~" H 7500 8450 50  0001 C CNN
+F 4 "2446941" H 7500 8450 50  0001 C CNN "manf#"
+F 5 "https://www.aliexpress.com/item/32868991875.html" H 7500 8450 50  0001 C CNN "kicost:AliExpress:link"
+F 6 "1:AUD0.0146" H 7500 8450 50  0001 C CNN "kicost:AliExpress:pricing"
 	1    7500 8450
 	1    0    0    -1  
 $EndComp
@@ -2864,7 +3473,8 @@ P 7500 8750
 F 0 "D170" V 7539 8633 50  0000 R CNN
 F 1 "LED" V 7448 8633 50  0000 R CNN
 F 2 "MyOwnKeyboard:158301250" H 7500 8750 50  0001 C CNN
-F 3 "~" H 7500 8750 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/158301250.pdf" H 7500 8750 50  0001 C CNN
+F 4 "158301250" H 7500 8750 50  0001 C CNN "manf#"
 	1    7500 8750
 	0    -1   -1   0   
 $EndComp
@@ -2876,6 +3486,9 @@ F 0 "R39" H 7570 7646 50  0000 L CNN
 F 1 "2.26k" H 7570 7555 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 7430 7600 50  0001 C CNN
 F 3 "~" H 7500 7600 50  0001 C CNN
+F 4 "2446941" H 7500 7600 50  0001 C CNN "manf#"
+F 5 "https://www.aliexpress.com/item/32868991875.html" H 7500 7600 50  0001 C CNN "kicost:AliExpress:link"
+F 6 "1:AUD0.0146" H 7500 7600 50  0001 C CNN "kicost:AliExpress:pricing"
 	1    7500 7600
 	1    0    0    -1  
 $EndComp
@@ -2886,7 +3499,8 @@ P 7500 7900
 F 0 "D151" V 7539 7783 50  0000 R CNN
 F 1 "LED" V 7448 7783 50  0000 R CNN
 F 2 "MyOwnKeyboard:158301250" H 7500 7900 50  0001 C CNN
-F 3 "~" H 7500 7900 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/158301250.pdf" H 7500 7900 50  0001 C CNN
+F 4 "158301250" H 7500 7900 50  0001 C CNN "manf#"
 	1    7500 7900
 	0    -1   -1   0   
 $EndComp
@@ -2898,6 +3512,9 @@ F 0 "R20" H 7570 6796 50  0000 L CNN
 F 1 "2.26k" H 7570 6705 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 7430 6750 50  0001 C CNN
 F 3 "~" H 7500 6750 50  0001 C CNN
+F 4 "2446941" H 7500 6750 50  0001 C CNN "manf#"
+F 5 "https://www.aliexpress.com/item/32868991875.html" H 7500 6750 50  0001 C CNN "kicost:AliExpress:link"
+F 6 "1:AUD0.0146" H 7500 6750 50  0001 C CNN "kicost:AliExpress:pricing"
 	1    7500 6750
 	1    0    0    -1  
 $EndComp
@@ -2908,7 +3525,8 @@ P 7500 7050
 F 0 "D132" V 7539 6933 50  0000 R CNN
 F 1 "LED" V 7448 6933 50  0000 R CNN
 F 2 "MyOwnKeyboard:158301250" H 7500 7050 50  0001 C CNN
-F 3 "~" H 7500 7050 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/158301250.pdf" H 7500 7050 50  0001 C CNN
+F 4 "158301250" H 7500 7050 50  0001 C CNN "manf#"
 	1    7500 7050
 	0    -1   -1   0   
 $EndComp
@@ -2920,6 +3538,9 @@ F 0 "R114" H 7170 11046 50  0000 L CNN
 F 1 "2.26k" H 7170 10955 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 7030 11000 50  0001 C CNN
 F 3 "~" H 7100 11000 50  0001 C CNN
+F 4 "2446941" H 7100 11000 50  0001 C CNN "manf#"
+F 5 "https://www.aliexpress.com/item/32868991875.html" H 7100 11000 50  0001 C CNN "kicost:AliExpress:link"
+F 6 "1:AUD0.0146" H 7100 11000 50  0001 C CNN "kicost:AliExpress:pricing"
 	1    7100 11000
 	1    0    0    -1  
 $EndComp
@@ -2930,7 +3551,8 @@ P 7100 11300
 F 0 "D226" V 7139 11183 50  0000 R CNN
 F 1 "LED" V 7048 11183 50  0000 R CNN
 F 2 "MyOwnKeyboard:158301250" H 7100 11300 50  0001 C CNN
-F 3 "~" H 7100 11300 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/158301250.pdf" H 7100 11300 50  0001 C CNN
+F 4 "158301250" H 7100 11300 50  0001 C CNN "manf#"
 	1    7100 11300
 	0    -1   -1   0   
 $EndComp
@@ -2942,6 +3564,9 @@ F 0 "R95" H 7170 10196 50  0000 L CNN
 F 1 "2.26k" H 7170 10105 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 7030 10150 50  0001 C CNN
 F 3 "~" H 7100 10150 50  0001 C CNN
+F 4 "2446941" H 7100 10150 50  0001 C CNN "manf#"
+F 5 "https://www.aliexpress.com/item/32868991875.html" H 7100 10150 50  0001 C CNN "kicost:AliExpress:link"
+F 6 "1:AUD0.0146" H 7100 10150 50  0001 C CNN "kicost:AliExpress:pricing"
 	1    7100 10150
 	1    0    0    -1  
 $EndComp
@@ -2952,7 +3577,8 @@ P 7100 10450
 F 0 "D207" V 7139 10333 50  0000 R CNN
 F 1 "LED" V 7048 10333 50  0000 R CNN
 F 2 "MyOwnKeyboard:158301250" H 7100 10450 50  0001 C CNN
-F 3 "~" H 7100 10450 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/158301250.pdf" H 7100 10450 50  0001 C CNN
+F 4 "158301250" H 7100 10450 50  0001 C CNN "manf#"
 	1    7100 10450
 	0    -1   -1   0   
 $EndComp
@@ -2964,6 +3590,9 @@ F 0 "R76" H 7170 9346 50  0000 L CNN
 F 1 "2.26k" H 7170 9255 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 7030 9300 50  0001 C CNN
 F 3 "~" H 7100 9300 50  0001 C CNN
+F 4 "2446941" H 7100 9300 50  0001 C CNN "manf#"
+F 5 "https://www.aliexpress.com/item/32868991875.html" H 7100 9300 50  0001 C CNN "kicost:AliExpress:link"
+F 6 "1:AUD0.0146" H 7100 9300 50  0001 C CNN "kicost:AliExpress:pricing"
 	1    7100 9300
 	1    0    0    -1  
 $EndComp
@@ -2974,7 +3603,8 @@ P 7100 9600
 F 0 "D188" V 7139 9483 50  0000 R CNN
 F 1 "LED" V 7048 9483 50  0000 R CNN
 F 2 "MyOwnKeyboard:158301250" H 7100 9600 50  0001 C CNN
-F 3 "~" H 7100 9600 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/158301250.pdf" H 7100 9600 50  0001 C CNN
+F 4 "158301250" H 7100 9600 50  0001 C CNN "manf#"
 	1    7100 9600
 	0    -1   -1   0   
 $EndComp
@@ -2986,6 +3616,9 @@ F 0 "R57" H 7170 8496 50  0000 L CNN
 F 1 "2.26k" H 7170 8405 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 7030 8450 50  0001 C CNN
 F 3 "~" H 7100 8450 50  0001 C CNN
+F 4 "2446941" H 7100 8450 50  0001 C CNN "manf#"
+F 5 "https://www.aliexpress.com/item/32868991875.html" H 7100 8450 50  0001 C CNN "kicost:AliExpress:link"
+F 6 "1:AUD0.0146" H 7100 8450 50  0001 C CNN "kicost:AliExpress:pricing"
 	1    7100 8450
 	1    0    0    -1  
 $EndComp
@@ -2996,7 +3629,8 @@ P 7100 8750
 F 0 "D169" V 7139 8633 50  0000 R CNN
 F 1 "LED" V 7048 8633 50  0000 R CNN
 F 2 "MyOwnKeyboard:158301250" H 7100 8750 50  0001 C CNN
-F 3 "~" H 7100 8750 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/158301250.pdf" H 7100 8750 50  0001 C CNN
+F 4 "158301250" H 7100 8750 50  0001 C CNN "manf#"
 	1    7100 8750
 	0    -1   -1   0   
 $EndComp
@@ -3008,6 +3642,9 @@ F 0 "R38" H 7170 7646 50  0000 L CNN
 F 1 "2.26k" H 7170 7555 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 7030 7600 50  0001 C CNN
 F 3 "~" H 7100 7600 50  0001 C CNN
+F 4 "2446941" H 7100 7600 50  0001 C CNN "manf#"
+F 5 "https://www.aliexpress.com/item/32868991875.html" H 7100 7600 50  0001 C CNN "kicost:AliExpress:link"
+F 6 "1:AUD0.0146" H 7100 7600 50  0001 C CNN "kicost:AliExpress:pricing"
 	1    7100 7600
 	1    0    0    -1  
 $EndComp
@@ -3018,7 +3655,8 @@ P 7100 7900
 F 0 "D150" V 7139 7783 50  0000 R CNN
 F 1 "LED" V 7048 7783 50  0000 R CNN
 F 2 "MyOwnKeyboard:158301250" H 7100 7900 50  0001 C CNN
-F 3 "~" H 7100 7900 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/158301250.pdf" H 7100 7900 50  0001 C CNN
+F 4 "158301250" H 7100 7900 50  0001 C CNN "manf#"
 	1    7100 7900
 	0    -1   -1   0   
 $EndComp
@@ -3030,6 +3668,9 @@ F 0 "R19" H 7170 6796 50  0000 L CNN
 F 1 "2.26k" H 7170 6705 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 7030 6750 50  0001 C CNN
 F 3 "~" H 7100 6750 50  0001 C CNN
+F 4 "2446941" H 7100 6750 50  0001 C CNN "manf#"
+F 5 "https://www.aliexpress.com/item/32868991875.html" H 7100 6750 50  0001 C CNN "kicost:AliExpress:link"
+F 6 "1:AUD0.0146" H 7100 6750 50  0001 C CNN "kicost:AliExpress:pricing"
 	1    7100 6750
 	1    0    0    -1  
 $EndComp
@@ -3040,7 +3681,8 @@ P 7100 7050
 F 0 "D131" V 7139 6933 50  0000 R CNN
 F 1 "LED" V 7048 6933 50  0000 R CNN
 F 2 "MyOwnKeyboard:158301250" H 7100 7050 50  0001 C CNN
-F 3 "~" H 7100 7050 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/158301250.pdf" H 7100 7050 50  0001 C CNN
+F 4 "158301250" H 7100 7050 50  0001 C CNN "manf#"
 	1    7100 7050
 	0    -1   -1   0   
 $EndComp
@@ -3052,6 +3694,9 @@ F 0 "R113" H 6770 11046 50  0000 L CNN
 F 1 "2.26k" H 6770 10955 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 6630 11000 50  0001 C CNN
 F 3 "~" H 6700 11000 50  0001 C CNN
+F 4 "2446941" H 6700 11000 50  0001 C CNN "manf#"
+F 5 "https://www.aliexpress.com/item/32868991875.html" H 6700 11000 50  0001 C CNN "kicost:AliExpress:link"
+F 6 "1:AUD0.0146" H 6700 11000 50  0001 C CNN "kicost:AliExpress:pricing"
 	1    6700 11000
 	1    0    0    -1  
 $EndComp
@@ -3062,7 +3707,8 @@ P 6700 11300
 F 0 "D225" V 6739 11183 50  0000 R CNN
 F 1 "LED" V 6648 11183 50  0000 R CNN
 F 2 "MyOwnKeyboard:158301250" H 6700 11300 50  0001 C CNN
-F 3 "~" H 6700 11300 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/158301250.pdf" H 6700 11300 50  0001 C CNN
+F 4 "158301250" H 6700 11300 50  0001 C CNN "manf#"
 	1    6700 11300
 	0    -1   -1   0   
 $EndComp
@@ -3074,6 +3720,9 @@ F 0 "R94" H 6770 10196 50  0000 L CNN
 F 1 "2.26k" H 6770 10105 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 6630 10150 50  0001 C CNN
 F 3 "~" H 6700 10150 50  0001 C CNN
+F 4 "2446941" H 6700 10150 50  0001 C CNN "manf#"
+F 5 "https://www.aliexpress.com/item/32868991875.html" H 6700 10150 50  0001 C CNN "kicost:AliExpress:link"
+F 6 "1:AUD0.0146" H 6700 10150 50  0001 C CNN "kicost:AliExpress:pricing"
 	1    6700 10150
 	1    0    0    -1  
 $EndComp
@@ -3084,7 +3733,8 @@ P 6700 10450
 F 0 "D206" V 6739 10333 50  0000 R CNN
 F 1 "LED" V 6648 10333 50  0000 R CNN
 F 2 "MyOwnKeyboard:158301250" H 6700 10450 50  0001 C CNN
-F 3 "~" H 6700 10450 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/158301250.pdf" H 6700 10450 50  0001 C CNN
+F 4 "158301250" H 6700 10450 50  0001 C CNN "manf#"
 	1    6700 10450
 	0    -1   -1   0   
 $EndComp
@@ -3096,6 +3746,9 @@ F 0 "R75" H 6770 9346 50  0000 L CNN
 F 1 "2.26k" H 6770 9255 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 6630 9300 50  0001 C CNN
 F 3 "~" H 6700 9300 50  0001 C CNN
+F 4 "2446941" H 6700 9300 50  0001 C CNN "manf#"
+F 5 "https://www.aliexpress.com/item/32868991875.html" H 6700 9300 50  0001 C CNN "kicost:AliExpress:link"
+F 6 "1:AUD0.0146" H 6700 9300 50  0001 C CNN "kicost:AliExpress:pricing"
 	1    6700 9300
 	1    0    0    -1  
 $EndComp
@@ -3106,7 +3759,8 @@ P 6700 9600
 F 0 "D187" V 6739 9483 50  0000 R CNN
 F 1 "LED" V 6648 9483 50  0000 R CNN
 F 2 "MyOwnKeyboard:158301250" H 6700 9600 50  0001 C CNN
-F 3 "~" H 6700 9600 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/158301250.pdf" H 6700 9600 50  0001 C CNN
+F 4 "158301250" H 6700 9600 50  0001 C CNN "manf#"
 	1    6700 9600
 	0    -1   -1   0   
 $EndComp
@@ -3118,6 +3772,9 @@ F 0 "R56" H 6770 8496 50  0000 L CNN
 F 1 "2.26k" H 6770 8405 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 6630 8450 50  0001 C CNN
 F 3 "~" H 6700 8450 50  0001 C CNN
+F 4 "2446941" H 6700 8450 50  0001 C CNN "manf#"
+F 5 "https://www.aliexpress.com/item/32868991875.html" H 6700 8450 50  0001 C CNN "kicost:AliExpress:link"
+F 6 "1:AUD0.0146" H 6700 8450 50  0001 C CNN "kicost:AliExpress:pricing"
 	1    6700 8450
 	1    0    0    -1  
 $EndComp
@@ -3128,7 +3785,8 @@ P 6700 8750
 F 0 "D168" V 6739 8633 50  0000 R CNN
 F 1 "LED" V 6648 8633 50  0000 R CNN
 F 2 "MyOwnKeyboard:158301250" H 6700 8750 50  0001 C CNN
-F 3 "~" H 6700 8750 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/158301250.pdf" H 6700 8750 50  0001 C CNN
+F 4 "158301250" H 6700 8750 50  0001 C CNN "manf#"
 	1    6700 8750
 	0    -1   -1   0   
 $EndComp
@@ -3140,6 +3798,9 @@ F 0 "R37" H 6770 7646 50  0000 L CNN
 F 1 "2.26k" H 6770 7555 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 6630 7600 50  0001 C CNN
 F 3 "~" H 6700 7600 50  0001 C CNN
+F 4 "2446941" H 6700 7600 50  0001 C CNN "manf#"
+F 5 "https://www.aliexpress.com/item/32868991875.html" H 6700 7600 50  0001 C CNN "kicost:AliExpress:link"
+F 6 "1:AUD0.0146" H 6700 7600 50  0001 C CNN "kicost:AliExpress:pricing"
 	1    6700 7600
 	1    0    0    -1  
 $EndComp
@@ -3150,7 +3811,8 @@ P 6700 7900
 F 0 "D149" V 6739 7783 50  0000 R CNN
 F 1 "LED" V 6648 7783 50  0000 R CNN
 F 2 "MyOwnKeyboard:158301250" H 6700 7900 50  0001 C CNN
-F 3 "~" H 6700 7900 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/158301250.pdf" H 6700 7900 50  0001 C CNN
+F 4 "158301250" H 6700 7900 50  0001 C CNN "manf#"
 	1    6700 7900
 	0    -1   -1   0   
 $EndComp
@@ -3162,6 +3824,9 @@ F 0 "R18" H 6770 6796 50  0000 L CNN
 F 1 "2.26k" H 6770 6705 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 6630 6750 50  0001 C CNN
 F 3 "~" H 6700 6750 50  0001 C CNN
+F 4 "2446941" H 6700 6750 50  0001 C CNN "manf#"
+F 5 "https://www.aliexpress.com/item/32868991875.html" H 6700 6750 50  0001 C CNN "kicost:AliExpress:link"
+F 6 "1:AUD0.0146" H 6700 6750 50  0001 C CNN "kicost:AliExpress:pricing"
 	1    6700 6750
 	1    0    0    -1  
 $EndComp
@@ -3172,7 +3837,8 @@ P 6700 7050
 F 0 "D130" V 6739 6933 50  0000 R CNN
 F 1 "LED" V 6648 6933 50  0000 R CNN
 F 2 "MyOwnKeyboard:158301250" H 6700 7050 50  0001 C CNN
-F 3 "~" H 6700 7050 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/158301250.pdf" H 6700 7050 50  0001 C CNN
+F 4 "158301250" H 6700 7050 50  0001 C CNN "manf#"
 	1    6700 7050
 	0    -1   -1   0   
 $EndComp
@@ -3184,6 +3850,9 @@ F 0 "R112" H 6370 11046 50  0000 L CNN
 F 1 "2.26k" H 6370 10955 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 6230 11000 50  0001 C CNN
 F 3 "~" H 6300 11000 50  0001 C CNN
+F 4 "2446941" H 6300 11000 50  0001 C CNN "manf#"
+F 5 "https://www.aliexpress.com/item/32868991875.html" H 6300 11000 50  0001 C CNN "kicost:AliExpress:link"
+F 6 "1:AUD0.0146" H 6300 11000 50  0001 C CNN "kicost:AliExpress:pricing"
 	1    6300 11000
 	1    0    0    -1  
 $EndComp
@@ -3194,7 +3863,8 @@ P 6300 11300
 F 0 "D224" V 6339 11183 50  0000 R CNN
 F 1 "LED" V 6248 11183 50  0000 R CNN
 F 2 "MyOwnKeyboard:158301250" H 6300 11300 50  0001 C CNN
-F 3 "~" H 6300 11300 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/158301250.pdf" H 6300 11300 50  0001 C CNN
+F 4 "158301250" H 6300 11300 50  0001 C CNN "manf#"
 	1    6300 11300
 	0    -1   -1   0   
 $EndComp
@@ -3206,6 +3876,9 @@ F 0 "R93" H 6370 10196 50  0000 L CNN
 F 1 "2.26k" H 6370 10105 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 6230 10150 50  0001 C CNN
 F 3 "~" H 6300 10150 50  0001 C CNN
+F 4 "2446941" H 6300 10150 50  0001 C CNN "manf#"
+F 5 "https://www.aliexpress.com/item/32868991875.html" H 6300 10150 50  0001 C CNN "kicost:AliExpress:link"
+F 6 "1:AUD0.0146" H 6300 10150 50  0001 C CNN "kicost:AliExpress:pricing"
 	1    6300 10150
 	1    0    0    -1  
 $EndComp
@@ -3216,7 +3889,8 @@ P 6300 10450
 F 0 "D205" V 6339 10333 50  0000 R CNN
 F 1 "LED" V 6248 10333 50  0000 R CNN
 F 2 "MyOwnKeyboard:158301250" H 6300 10450 50  0001 C CNN
-F 3 "~" H 6300 10450 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/158301250.pdf" H 6300 10450 50  0001 C CNN
+F 4 "158301250" H 6300 10450 50  0001 C CNN "manf#"
 	1    6300 10450
 	0    -1   -1   0   
 $EndComp
@@ -3228,6 +3902,9 @@ F 0 "R74" H 6370 9346 50  0000 L CNN
 F 1 "2.26k" H 6370 9255 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 6230 9300 50  0001 C CNN
 F 3 "~" H 6300 9300 50  0001 C CNN
+F 4 "2446941" H 6300 9300 50  0001 C CNN "manf#"
+F 5 "https://www.aliexpress.com/item/32868991875.html" H 6300 9300 50  0001 C CNN "kicost:AliExpress:link"
+F 6 "1:AUD0.0146" H 6300 9300 50  0001 C CNN "kicost:AliExpress:pricing"
 	1    6300 9300
 	1    0    0    -1  
 $EndComp
@@ -3238,7 +3915,8 @@ P 6300 9600
 F 0 "D186" V 6339 9483 50  0000 R CNN
 F 1 "LED" V 6248 9483 50  0000 R CNN
 F 2 "MyOwnKeyboard:158301250" H 6300 9600 50  0001 C CNN
-F 3 "~" H 6300 9600 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/158301250.pdf" H 6300 9600 50  0001 C CNN
+F 4 "158301250" H 6300 9600 50  0001 C CNN "manf#"
 	1    6300 9600
 	0    -1   -1   0   
 $EndComp
@@ -3250,6 +3928,9 @@ F 0 "R55" H 6370 8496 50  0000 L CNN
 F 1 "2.26k" H 6370 8405 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 6230 8450 50  0001 C CNN
 F 3 "~" H 6300 8450 50  0001 C CNN
+F 4 "2446941" H 6300 8450 50  0001 C CNN "manf#"
+F 5 "https://www.aliexpress.com/item/32868991875.html" H 6300 8450 50  0001 C CNN "kicost:AliExpress:link"
+F 6 "1:AUD0.0146" H 6300 8450 50  0001 C CNN "kicost:AliExpress:pricing"
 	1    6300 8450
 	1    0    0    -1  
 $EndComp
@@ -3260,7 +3941,8 @@ P 6300 8750
 F 0 "D167" V 6339 8633 50  0000 R CNN
 F 1 "LED" V 6248 8633 50  0000 R CNN
 F 2 "MyOwnKeyboard:158301250" H 6300 8750 50  0001 C CNN
-F 3 "~" H 6300 8750 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/158301250.pdf" H 6300 8750 50  0001 C CNN
+F 4 "158301250" H 6300 8750 50  0001 C CNN "manf#"
 	1    6300 8750
 	0    -1   -1   0   
 $EndComp
@@ -3272,6 +3954,9 @@ F 0 "R36" H 6370 7646 50  0000 L CNN
 F 1 "2.26k" H 6370 7555 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 6230 7600 50  0001 C CNN
 F 3 "~" H 6300 7600 50  0001 C CNN
+F 4 "2446941" H 6300 7600 50  0001 C CNN "manf#"
+F 5 "https://www.aliexpress.com/item/32868991875.html" H 6300 7600 50  0001 C CNN "kicost:AliExpress:link"
+F 6 "1:AUD0.0146" H 6300 7600 50  0001 C CNN "kicost:AliExpress:pricing"
 	1    6300 7600
 	1    0    0    -1  
 $EndComp
@@ -3282,7 +3967,8 @@ P 6300 7900
 F 0 "D148" V 6339 7783 50  0000 R CNN
 F 1 "LED" V 6248 7783 50  0000 R CNN
 F 2 "MyOwnKeyboard:158301250" H 6300 7900 50  0001 C CNN
-F 3 "~" H 6300 7900 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/158301250.pdf" H 6300 7900 50  0001 C CNN
+F 4 "158301250" H 6300 7900 50  0001 C CNN "manf#"
 	1    6300 7900
 	0    -1   -1   0   
 $EndComp
@@ -3294,6 +3980,9 @@ F 0 "R17" H 6370 6796 50  0000 L CNN
 F 1 "2.26k" H 6370 6705 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 6230 6750 50  0001 C CNN
 F 3 "~" H 6300 6750 50  0001 C CNN
+F 4 "2446941" H 6300 6750 50  0001 C CNN "manf#"
+F 5 "https://www.aliexpress.com/item/32868991875.html" H 6300 6750 50  0001 C CNN "kicost:AliExpress:link"
+F 6 "1:AUD0.0146" H 6300 6750 50  0001 C CNN "kicost:AliExpress:pricing"
 	1    6300 6750
 	1    0    0    -1  
 $EndComp
@@ -3304,7 +3993,8 @@ P 6300 7050
 F 0 "D129" V 6339 6933 50  0000 R CNN
 F 1 "LED" V 6248 6933 50  0000 R CNN
 F 2 "MyOwnKeyboard:158301250" H 6300 7050 50  0001 C CNN
-F 3 "~" H 6300 7050 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/158301250.pdf" H 6300 7050 50  0001 C CNN
+F 4 "158301250" H 6300 7050 50  0001 C CNN "manf#"
 	1    6300 7050
 	0    -1   -1   0   
 $EndComp
@@ -3316,6 +4006,9 @@ F 0 "R111" H 5970 11046 50  0000 L CNN
 F 1 "2.26k" H 5970 10955 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 5830 11000 50  0001 C CNN
 F 3 "~" H 5900 11000 50  0001 C CNN
+F 4 "2446941" H 5900 11000 50  0001 C CNN "manf#"
+F 5 "https://www.aliexpress.com/item/32868991875.html" H 5900 11000 50  0001 C CNN "kicost:AliExpress:link"
+F 6 "1:AUD0.0146" H 5900 11000 50  0001 C CNN "kicost:AliExpress:pricing"
 	1    5900 11000
 	1    0    0    -1  
 $EndComp
@@ -3326,7 +4019,8 @@ P 5900 11300
 F 0 "D223" V 5939 11183 50  0000 R CNN
 F 1 "LED" V 5848 11183 50  0000 R CNN
 F 2 "MyOwnKeyboard:158301250" H 5900 11300 50  0001 C CNN
-F 3 "~" H 5900 11300 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/158301250.pdf" H 5900 11300 50  0001 C CNN
+F 4 "158301250" H 5900 11300 50  0001 C CNN "manf#"
 	1    5900 11300
 	0    -1   -1   0   
 $EndComp
@@ -3338,6 +4032,9 @@ F 0 "R92" H 5970 10196 50  0000 L CNN
 F 1 "2.26k" H 5970 10105 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 5830 10150 50  0001 C CNN
 F 3 "~" H 5900 10150 50  0001 C CNN
+F 4 "2446941" H 5900 10150 50  0001 C CNN "manf#"
+F 5 "https://www.aliexpress.com/item/32868991875.html" H 5900 10150 50  0001 C CNN "kicost:AliExpress:link"
+F 6 "1:AUD0.0146" H 5900 10150 50  0001 C CNN "kicost:AliExpress:pricing"
 	1    5900 10150
 	1    0    0    -1  
 $EndComp
@@ -3348,7 +4045,8 @@ P 5900 10450
 F 0 "D204" V 5939 10333 50  0000 R CNN
 F 1 "LED" V 5848 10333 50  0000 R CNN
 F 2 "MyOwnKeyboard:158301250" H 5900 10450 50  0001 C CNN
-F 3 "~" H 5900 10450 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/158301250.pdf" H 5900 10450 50  0001 C CNN
+F 4 "158301250" H 5900 10450 50  0001 C CNN "manf#"
 	1    5900 10450
 	0    -1   -1   0   
 $EndComp
@@ -3360,6 +4058,9 @@ F 0 "R73" H 5970 9346 50  0000 L CNN
 F 1 "2.26k" H 5970 9255 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 5830 9300 50  0001 C CNN
 F 3 "~" H 5900 9300 50  0001 C CNN
+F 4 "2446941" H 5900 9300 50  0001 C CNN "manf#"
+F 5 "https://www.aliexpress.com/item/32868991875.html" H 5900 9300 50  0001 C CNN "kicost:AliExpress:link"
+F 6 "1:AUD0.0146" H 5900 9300 50  0001 C CNN "kicost:AliExpress:pricing"
 	1    5900 9300
 	1    0    0    -1  
 $EndComp
@@ -3370,7 +4071,8 @@ P 5900 9600
 F 0 "D185" V 5939 9483 50  0000 R CNN
 F 1 "LED" V 5848 9483 50  0000 R CNN
 F 2 "MyOwnKeyboard:158301250" H 5900 9600 50  0001 C CNN
-F 3 "~" H 5900 9600 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/158301250.pdf" H 5900 9600 50  0001 C CNN
+F 4 "158301250" H 5900 9600 50  0001 C CNN "manf#"
 	1    5900 9600
 	0    -1   -1   0   
 $EndComp
@@ -3382,6 +4084,9 @@ F 0 "R54" H 5970 8496 50  0000 L CNN
 F 1 "2.26k" H 5970 8405 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 5830 8450 50  0001 C CNN
 F 3 "~" H 5900 8450 50  0001 C CNN
+F 4 "2446941" H 5900 8450 50  0001 C CNN "manf#"
+F 5 "https://www.aliexpress.com/item/32868991875.html" H 5900 8450 50  0001 C CNN "kicost:AliExpress:link"
+F 6 "1:AUD0.0146" H 5900 8450 50  0001 C CNN "kicost:AliExpress:pricing"
 	1    5900 8450
 	1    0    0    -1  
 $EndComp
@@ -3392,7 +4097,8 @@ P 5900 8750
 F 0 "D166" V 5939 8633 50  0000 R CNN
 F 1 "LED" V 5848 8633 50  0000 R CNN
 F 2 "MyOwnKeyboard:158301250" H 5900 8750 50  0001 C CNN
-F 3 "~" H 5900 8750 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/158301250.pdf" H 5900 8750 50  0001 C CNN
+F 4 "158301250" H 5900 8750 50  0001 C CNN "manf#"
 	1    5900 8750
 	0    -1   -1   0   
 $EndComp
@@ -3404,6 +4110,9 @@ F 0 "R35" H 5970 7646 50  0000 L CNN
 F 1 "2.26k" H 5970 7555 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 5830 7600 50  0001 C CNN
 F 3 "~" H 5900 7600 50  0001 C CNN
+F 4 "2446941" H 5900 7600 50  0001 C CNN "manf#"
+F 5 "https://www.aliexpress.com/item/32868991875.html" H 5900 7600 50  0001 C CNN "kicost:AliExpress:link"
+F 6 "1:AUD0.0146" H 5900 7600 50  0001 C CNN "kicost:AliExpress:pricing"
 	1    5900 7600
 	1    0    0    -1  
 $EndComp
@@ -3414,7 +4123,8 @@ P 5900 7900
 F 0 "D147" V 5939 7783 50  0000 R CNN
 F 1 "LED" V 5848 7783 50  0000 R CNN
 F 2 "MyOwnKeyboard:158301250" H 5900 7900 50  0001 C CNN
-F 3 "~" H 5900 7900 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/158301250.pdf" H 5900 7900 50  0001 C CNN
+F 4 "158301250" H 5900 7900 50  0001 C CNN "manf#"
 	1    5900 7900
 	0    -1   -1   0   
 $EndComp
@@ -3426,6 +4136,9 @@ F 0 "R16" H 5970 6796 50  0000 L CNN
 F 1 "2.26k" H 5970 6705 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 5830 6750 50  0001 C CNN
 F 3 "~" H 5900 6750 50  0001 C CNN
+F 4 "2446941" H 5900 6750 50  0001 C CNN "manf#"
+F 5 "https://www.aliexpress.com/item/32868991875.html" H 5900 6750 50  0001 C CNN "kicost:AliExpress:link"
+F 6 "1:AUD0.0146" H 5900 6750 50  0001 C CNN "kicost:AliExpress:pricing"
 	1    5900 6750
 	1    0    0    -1  
 $EndComp
@@ -3436,7 +4149,8 @@ P 5900 7050
 F 0 "D128" V 5939 6933 50  0000 R CNN
 F 1 "LED" V 5848 6933 50  0000 R CNN
 F 2 "MyOwnKeyboard:158301250" H 5900 7050 50  0001 C CNN
-F 3 "~" H 5900 7050 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/158301250.pdf" H 5900 7050 50  0001 C CNN
+F 4 "158301250" H 5900 7050 50  0001 C CNN "manf#"
 	1    5900 7050
 	0    -1   -1   0   
 $EndComp
@@ -3448,6 +4162,9 @@ F 0 "R110" H 5570 11046 50  0000 L CNN
 F 1 "2.26k" H 5570 10955 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 5430 11000 50  0001 C CNN
 F 3 "~" H 5500 11000 50  0001 C CNN
+F 4 "2446941" H 5500 11000 50  0001 C CNN "manf#"
+F 5 "https://www.aliexpress.com/item/32868991875.html" H 5500 11000 50  0001 C CNN "kicost:AliExpress:link"
+F 6 "1:AUD0.0146" H 5500 11000 50  0001 C CNN "kicost:AliExpress:pricing"
 	1    5500 11000
 	1    0    0    -1  
 $EndComp
@@ -3458,7 +4175,8 @@ P 5500 11300
 F 0 "D222" V 5539 11183 50  0000 R CNN
 F 1 "LED" V 5448 11183 50  0000 R CNN
 F 2 "MyOwnKeyboard:158301250" H 5500 11300 50  0001 C CNN
-F 3 "~" H 5500 11300 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/158301250.pdf" H 5500 11300 50  0001 C CNN
+F 4 "158301250" H 5500 11300 50  0001 C CNN "manf#"
 	1    5500 11300
 	0    -1   -1   0   
 $EndComp
@@ -3470,6 +4188,9 @@ F 0 "R91" H 5570 10196 50  0000 L CNN
 F 1 "2.26k" H 5570 10105 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 5430 10150 50  0001 C CNN
 F 3 "~" H 5500 10150 50  0001 C CNN
+F 4 "2446941" H 5500 10150 50  0001 C CNN "manf#"
+F 5 "https://www.aliexpress.com/item/32868991875.html" H 5500 10150 50  0001 C CNN "kicost:AliExpress:link"
+F 6 "1:AUD0.0146" H 5500 10150 50  0001 C CNN "kicost:AliExpress:pricing"
 	1    5500 10150
 	1    0    0    -1  
 $EndComp
@@ -3480,7 +4201,8 @@ P 5500 10450
 F 0 "D203" V 5539 10333 50  0000 R CNN
 F 1 "LED" V 5448 10333 50  0000 R CNN
 F 2 "MyOwnKeyboard:158301250" H 5500 10450 50  0001 C CNN
-F 3 "~" H 5500 10450 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/158301250.pdf" H 5500 10450 50  0001 C CNN
+F 4 "158301250" H 5500 10450 50  0001 C CNN "manf#"
 	1    5500 10450
 	0    -1   -1   0   
 $EndComp
@@ -3492,6 +4214,9 @@ F 0 "R72" H 5570 9346 50  0000 L CNN
 F 1 "2.26k" H 5570 9255 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 5430 9300 50  0001 C CNN
 F 3 "~" H 5500 9300 50  0001 C CNN
+F 4 "2446941" H 5500 9300 50  0001 C CNN "manf#"
+F 5 "https://www.aliexpress.com/item/32868991875.html" H 5500 9300 50  0001 C CNN "kicost:AliExpress:link"
+F 6 "1:AUD0.0146" H 5500 9300 50  0001 C CNN "kicost:AliExpress:pricing"
 	1    5500 9300
 	1    0    0    -1  
 $EndComp
@@ -3502,7 +4227,8 @@ P 5500 9600
 F 0 "D184" V 5539 9483 50  0000 R CNN
 F 1 "LED" V 5448 9483 50  0000 R CNN
 F 2 "MyOwnKeyboard:158301250" H 5500 9600 50  0001 C CNN
-F 3 "~" H 5500 9600 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/158301250.pdf" H 5500 9600 50  0001 C CNN
+F 4 "158301250" H 5500 9600 50  0001 C CNN "manf#"
 	1    5500 9600
 	0    -1   -1   0   
 $EndComp
@@ -3514,6 +4240,9 @@ F 0 "R53" H 5570 8496 50  0000 L CNN
 F 1 "2.26k" H 5570 8405 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 5430 8450 50  0001 C CNN
 F 3 "~" H 5500 8450 50  0001 C CNN
+F 4 "2446941" H 5500 8450 50  0001 C CNN "manf#"
+F 5 "https://www.aliexpress.com/item/32868991875.html" H 5500 8450 50  0001 C CNN "kicost:AliExpress:link"
+F 6 "1:AUD0.0146" H 5500 8450 50  0001 C CNN "kicost:AliExpress:pricing"
 	1    5500 8450
 	1    0    0    -1  
 $EndComp
@@ -3524,7 +4253,8 @@ P 5500 8750
 F 0 "D165" V 5539 8633 50  0000 R CNN
 F 1 "LED" V 5448 8633 50  0000 R CNN
 F 2 "MyOwnKeyboard:158301250" H 5500 8750 50  0001 C CNN
-F 3 "~" H 5500 8750 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/158301250.pdf" H 5500 8750 50  0001 C CNN
+F 4 "158301250" H 5500 8750 50  0001 C CNN "manf#"
 	1    5500 8750
 	0    -1   -1   0   
 $EndComp
@@ -3536,6 +4266,9 @@ F 0 "R34" H 5570 7646 50  0000 L CNN
 F 1 "2.26k" H 5570 7555 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 5430 7600 50  0001 C CNN
 F 3 "~" H 5500 7600 50  0001 C CNN
+F 4 "2446941" H 5500 7600 50  0001 C CNN "manf#"
+F 5 "https://www.aliexpress.com/item/32868991875.html" H 5500 7600 50  0001 C CNN "kicost:AliExpress:link"
+F 6 "1:AUD0.0146" H 5500 7600 50  0001 C CNN "kicost:AliExpress:pricing"
 	1    5500 7600
 	1    0    0    -1  
 $EndComp
@@ -3546,7 +4279,8 @@ P 5500 7900
 F 0 "D146" V 5539 7783 50  0000 R CNN
 F 1 "LED" V 5448 7783 50  0000 R CNN
 F 2 "MyOwnKeyboard:158301250" H 5500 7900 50  0001 C CNN
-F 3 "~" H 5500 7900 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/158301250.pdf" H 5500 7900 50  0001 C CNN
+F 4 "158301250" H 5500 7900 50  0001 C CNN "manf#"
 	1    5500 7900
 	0    -1   -1   0   
 $EndComp
@@ -3558,6 +4292,9 @@ F 0 "R15" H 5570 6796 50  0000 L CNN
 F 1 "2.26k" H 5570 6705 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 5430 6750 50  0001 C CNN
 F 3 "~" H 5500 6750 50  0001 C CNN
+F 4 "2446941" H 5500 6750 50  0001 C CNN "manf#"
+F 5 "https://www.aliexpress.com/item/32868991875.html" H 5500 6750 50  0001 C CNN "kicost:AliExpress:link"
+F 6 "1:AUD0.0146" H 5500 6750 50  0001 C CNN "kicost:AliExpress:pricing"
 	1    5500 6750
 	1    0    0    -1  
 $EndComp
@@ -3568,7 +4305,8 @@ P 5500 7050
 F 0 "D127" V 5539 6933 50  0000 R CNN
 F 1 "LED" V 5448 6933 50  0000 R CNN
 F 2 "MyOwnKeyboard:158301250" H 5500 7050 50  0001 C CNN
-F 3 "~" H 5500 7050 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/158301250.pdf" H 5500 7050 50  0001 C CNN
+F 4 "158301250" H 5500 7050 50  0001 C CNN "manf#"
 	1    5500 7050
 	0    -1   -1   0   
 $EndComp
@@ -3580,6 +4318,9 @@ F 0 "R109" H 5170 11046 50  0000 L CNN
 F 1 "2.26k" H 5170 10955 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 5030 11000 50  0001 C CNN
 F 3 "~" H 5100 11000 50  0001 C CNN
+F 4 "2446941" H 5100 11000 50  0001 C CNN "manf#"
+F 5 "https://www.aliexpress.com/item/32868991875.html" H 5100 11000 50  0001 C CNN "kicost:AliExpress:link"
+F 6 "1:AUD0.0146" H 5100 11000 50  0001 C CNN "kicost:AliExpress:pricing"
 	1    5100 11000
 	1    0    0    -1  
 $EndComp
@@ -3590,7 +4331,8 @@ P 5100 11300
 F 0 "D221" V 5139 11183 50  0000 R CNN
 F 1 "LED" V 5048 11183 50  0000 R CNN
 F 2 "MyOwnKeyboard:158301250" H 5100 11300 50  0001 C CNN
-F 3 "~" H 5100 11300 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/158301250.pdf" H 5100 11300 50  0001 C CNN
+F 4 "158301250" H 5100 11300 50  0001 C CNN "manf#"
 	1    5100 11300
 	0    -1   -1   0   
 $EndComp
@@ -3602,6 +4344,9 @@ F 0 "R90" H 5170 10196 50  0000 L CNN
 F 1 "2.26k" H 5170 10105 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 5030 10150 50  0001 C CNN
 F 3 "~" H 5100 10150 50  0001 C CNN
+F 4 "2446941" H 5100 10150 50  0001 C CNN "manf#"
+F 5 "https://www.aliexpress.com/item/32868991875.html" H 5100 10150 50  0001 C CNN "kicost:AliExpress:link"
+F 6 "1:AUD0.0146" H 5100 10150 50  0001 C CNN "kicost:AliExpress:pricing"
 	1    5100 10150
 	1    0    0    -1  
 $EndComp
@@ -3612,7 +4357,8 @@ P 5100 10450
 F 0 "D202" V 5139 10333 50  0000 R CNN
 F 1 "LED" V 5048 10333 50  0000 R CNN
 F 2 "MyOwnKeyboard:158301250" H 5100 10450 50  0001 C CNN
-F 3 "~" H 5100 10450 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/158301250.pdf" H 5100 10450 50  0001 C CNN
+F 4 "158301250" H 5100 10450 50  0001 C CNN "manf#"
 	1    5100 10450
 	0    -1   -1   0   
 $EndComp
@@ -3624,6 +4370,9 @@ F 0 "R71" H 5170 9346 50  0000 L CNN
 F 1 "2.26k" H 5170 9255 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 5030 9300 50  0001 C CNN
 F 3 "~" H 5100 9300 50  0001 C CNN
+F 4 "2446941" H 5100 9300 50  0001 C CNN "manf#"
+F 5 "https://www.aliexpress.com/item/32868991875.html" H 5100 9300 50  0001 C CNN "kicost:AliExpress:link"
+F 6 "1:AUD0.0146" H 5100 9300 50  0001 C CNN "kicost:AliExpress:pricing"
 	1    5100 9300
 	1    0    0    -1  
 $EndComp
@@ -3634,7 +4383,8 @@ P 5100 9600
 F 0 "D183" V 5139 9483 50  0000 R CNN
 F 1 "LED" V 5048 9483 50  0000 R CNN
 F 2 "MyOwnKeyboard:158301250" H 5100 9600 50  0001 C CNN
-F 3 "~" H 5100 9600 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/158301250.pdf" H 5100 9600 50  0001 C CNN
+F 4 "158301250" H 5100 9600 50  0001 C CNN "manf#"
 	1    5100 9600
 	0    -1   -1   0   
 $EndComp
@@ -3646,6 +4396,9 @@ F 0 "R52" H 5170 8496 50  0000 L CNN
 F 1 "2.26k" H 5170 8405 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 5030 8450 50  0001 C CNN
 F 3 "~" H 5100 8450 50  0001 C CNN
+F 4 "2446941" H 5100 8450 50  0001 C CNN "manf#"
+F 5 "https://www.aliexpress.com/item/32868991875.html" H 5100 8450 50  0001 C CNN "kicost:AliExpress:link"
+F 6 "1:AUD0.0146" H 5100 8450 50  0001 C CNN "kicost:AliExpress:pricing"
 	1    5100 8450
 	1    0    0    -1  
 $EndComp
@@ -3656,7 +4409,8 @@ P 5100 8750
 F 0 "D164" V 5139 8633 50  0000 R CNN
 F 1 "LED" V 5048 8633 50  0000 R CNN
 F 2 "MyOwnKeyboard:158301250" H 5100 8750 50  0001 C CNN
-F 3 "~" H 5100 8750 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/158301250.pdf" H 5100 8750 50  0001 C CNN
+F 4 "158301250" H 5100 8750 50  0001 C CNN "manf#"
 	1    5100 8750
 	0    -1   -1   0   
 $EndComp
@@ -3668,6 +4422,9 @@ F 0 "R33" H 5170 7646 50  0000 L CNN
 F 1 "2.26k" H 5170 7555 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 5030 7600 50  0001 C CNN
 F 3 "~" H 5100 7600 50  0001 C CNN
+F 4 "2446941" H 5100 7600 50  0001 C CNN "manf#"
+F 5 "https://www.aliexpress.com/item/32868991875.html" H 5100 7600 50  0001 C CNN "kicost:AliExpress:link"
+F 6 "1:AUD0.0146" H 5100 7600 50  0001 C CNN "kicost:AliExpress:pricing"
 	1    5100 7600
 	1    0    0    -1  
 $EndComp
@@ -3678,7 +4435,8 @@ P 5100 7900
 F 0 "D145" V 5139 7783 50  0000 R CNN
 F 1 "LED" V 5048 7783 50  0000 R CNN
 F 2 "MyOwnKeyboard:158301250" H 5100 7900 50  0001 C CNN
-F 3 "~" H 5100 7900 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/158301250.pdf" H 5100 7900 50  0001 C CNN
+F 4 "158301250" H 5100 7900 50  0001 C CNN "manf#"
 	1    5100 7900
 	0    -1   -1   0   
 $EndComp
@@ -3690,6 +4448,9 @@ F 0 "R14" H 5170 6796 50  0000 L CNN
 F 1 "2.26k" H 5170 6705 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 5030 6750 50  0001 C CNN
 F 3 "~" H 5100 6750 50  0001 C CNN
+F 4 "2446941" H 5100 6750 50  0001 C CNN "manf#"
+F 5 "https://www.aliexpress.com/item/32868991875.html" H 5100 6750 50  0001 C CNN "kicost:AliExpress:link"
+F 6 "1:AUD0.0146" H 5100 6750 50  0001 C CNN "kicost:AliExpress:pricing"
 	1    5100 6750
 	1    0    0    -1  
 $EndComp
@@ -3700,7 +4461,8 @@ P 5100 7050
 F 0 "D126" V 5139 6933 50  0000 R CNN
 F 1 "LED" V 5048 6933 50  0000 R CNN
 F 2 "MyOwnKeyboard:158301250" H 5100 7050 50  0001 C CNN
-F 3 "~" H 5100 7050 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/158301250.pdf" H 5100 7050 50  0001 C CNN
+F 4 "158301250" H 5100 7050 50  0001 C CNN "manf#"
 	1    5100 7050
 	0    -1   -1   0   
 $EndComp
@@ -3712,6 +4474,9 @@ F 0 "R108" H 4770 11046 50  0000 L CNN
 F 1 "2.26k" H 4770 10955 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4630 11000 50  0001 C CNN
 F 3 "~" H 4700 11000 50  0001 C CNN
+F 4 "2446941" H 4700 11000 50  0001 C CNN "manf#"
+F 5 "https://www.aliexpress.com/item/32868991875.html" H 4700 11000 50  0001 C CNN "kicost:AliExpress:link"
+F 6 "1:AUD0.0146" H 4700 11000 50  0001 C CNN "kicost:AliExpress:pricing"
 	1    4700 11000
 	1    0    0    -1  
 $EndComp
@@ -3722,7 +4487,8 @@ P 4700 11300
 F 0 "D220" V 4739 11183 50  0000 R CNN
 F 1 "LED" V 4648 11183 50  0000 R CNN
 F 2 "MyOwnKeyboard:158301250" H 4700 11300 50  0001 C CNN
-F 3 "~" H 4700 11300 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/158301250.pdf" H 4700 11300 50  0001 C CNN
+F 4 "158301250" H 4700 11300 50  0001 C CNN "manf#"
 	1    4700 11300
 	0    -1   -1   0   
 $EndComp
@@ -3734,6 +4500,9 @@ F 0 "R89" H 4770 10196 50  0000 L CNN
 F 1 "2.26k" H 4770 10105 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4630 10150 50  0001 C CNN
 F 3 "~" H 4700 10150 50  0001 C CNN
+F 4 "2446941" H 4700 10150 50  0001 C CNN "manf#"
+F 5 "https://www.aliexpress.com/item/32868991875.html" H 4700 10150 50  0001 C CNN "kicost:AliExpress:link"
+F 6 "1:AUD0.0146" H 4700 10150 50  0001 C CNN "kicost:AliExpress:pricing"
 	1    4700 10150
 	1    0    0    -1  
 $EndComp
@@ -3744,7 +4513,8 @@ P 4700 10450
 F 0 "D201" V 4739 10333 50  0000 R CNN
 F 1 "LED" V 4648 10333 50  0000 R CNN
 F 2 "MyOwnKeyboard:158301250" H 4700 10450 50  0001 C CNN
-F 3 "~" H 4700 10450 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/158301250.pdf" H 4700 10450 50  0001 C CNN
+F 4 "158301250" H 4700 10450 50  0001 C CNN "manf#"
 	1    4700 10450
 	0    -1   -1   0   
 $EndComp
@@ -3756,6 +4526,9 @@ F 0 "R70" H 4770 9346 50  0000 L CNN
 F 1 "2.26k" H 4770 9255 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4630 9300 50  0001 C CNN
 F 3 "~" H 4700 9300 50  0001 C CNN
+F 4 "2446941" H 4700 9300 50  0001 C CNN "manf#"
+F 5 "https://www.aliexpress.com/item/32868991875.html" H 4700 9300 50  0001 C CNN "kicost:AliExpress:link"
+F 6 "1:AUD0.0146" H 4700 9300 50  0001 C CNN "kicost:AliExpress:pricing"
 	1    4700 9300
 	1    0    0    -1  
 $EndComp
@@ -3766,7 +4539,8 @@ P 4700 9600
 F 0 "D182" V 4739 9483 50  0000 R CNN
 F 1 "LED" V 4648 9483 50  0000 R CNN
 F 2 "MyOwnKeyboard:158301250" H 4700 9600 50  0001 C CNN
-F 3 "~" H 4700 9600 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/158301250.pdf" H 4700 9600 50  0001 C CNN
+F 4 "158301250" H 4700 9600 50  0001 C CNN "manf#"
 	1    4700 9600
 	0    -1   -1   0   
 $EndComp
@@ -3778,6 +4552,9 @@ F 0 "R51" H 4770 8496 50  0000 L CNN
 F 1 "2.26k" H 4770 8405 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4630 8450 50  0001 C CNN
 F 3 "~" H 4700 8450 50  0001 C CNN
+F 4 "2446941" H 4700 8450 50  0001 C CNN "manf#"
+F 5 "https://www.aliexpress.com/item/32868991875.html" H 4700 8450 50  0001 C CNN "kicost:AliExpress:link"
+F 6 "1:AUD0.0146" H 4700 8450 50  0001 C CNN "kicost:AliExpress:pricing"
 	1    4700 8450
 	1    0    0    -1  
 $EndComp
@@ -3788,7 +4565,8 @@ P 4700 8750
 F 0 "D163" V 4739 8633 50  0000 R CNN
 F 1 "LED" V 4648 8633 50  0000 R CNN
 F 2 "MyOwnKeyboard:158301250" H 4700 8750 50  0001 C CNN
-F 3 "~" H 4700 8750 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/158301250.pdf" H 4700 8750 50  0001 C CNN
+F 4 "158301250" H 4700 8750 50  0001 C CNN "manf#"
 	1    4700 8750
 	0    -1   -1   0   
 $EndComp
@@ -3800,6 +4578,9 @@ F 0 "R32" H 4770 7646 50  0000 L CNN
 F 1 "2.26k" H 4770 7555 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4630 7600 50  0001 C CNN
 F 3 "~" H 4700 7600 50  0001 C CNN
+F 4 "2446941" H 4700 7600 50  0001 C CNN "manf#"
+F 5 "https://www.aliexpress.com/item/32868991875.html" H 4700 7600 50  0001 C CNN "kicost:AliExpress:link"
+F 6 "1:AUD0.0146" H 4700 7600 50  0001 C CNN "kicost:AliExpress:pricing"
 	1    4700 7600
 	1    0    0    -1  
 $EndComp
@@ -3810,7 +4591,8 @@ P 4700 7900
 F 0 "D144" V 4739 7783 50  0000 R CNN
 F 1 "LED" V 4648 7783 50  0000 R CNN
 F 2 "MyOwnKeyboard:158301250" H 4700 7900 50  0001 C CNN
-F 3 "~" H 4700 7900 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/158301250.pdf" H 4700 7900 50  0001 C CNN
+F 4 "158301250" H 4700 7900 50  0001 C CNN "manf#"
 	1    4700 7900
 	0    -1   -1   0   
 $EndComp
@@ -3822,6 +4604,9 @@ F 0 "R13" H 4770 6796 50  0000 L CNN
 F 1 "2.26k" H 4770 6705 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4630 6750 50  0001 C CNN
 F 3 "~" H 4700 6750 50  0001 C CNN
+F 4 "2446941" H 4700 6750 50  0001 C CNN "manf#"
+F 5 "https://www.aliexpress.com/item/32868991875.html" H 4700 6750 50  0001 C CNN "kicost:AliExpress:link"
+F 6 "1:AUD0.0146" H 4700 6750 50  0001 C CNN "kicost:AliExpress:pricing"
 	1    4700 6750
 	1    0    0    -1  
 $EndComp
@@ -3832,7 +4617,8 @@ P 4700 7050
 F 0 "D125" V 4739 6933 50  0000 R CNN
 F 1 "LED" V 4648 6933 50  0000 R CNN
 F 2 "MyOwnKeyboard:158301250" H 4700 7050 50  0001 C CNN
-F 3 "~" H 4700 7050 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/158301250.pdf" H 4700 7050 50  0001 C CNN
+F 4 "158301250" H 4700 7050 50  0001 C CNN "manf#"
 	1    4700 7050
 	0    -1   -1   0   
 $EndComp
@@ -3844,6 +4630,9 @@ F 0 "R107" H 4370 11046 50  0000 L CNN
 F 1 "2.26k" H 4370 10955 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4230 11000 50  0001 C CNN
 F 3 "~" H 4300 11000 50  0001 C CNN
+F 4 "2446941" H 4300 11000 50  0001 C CNN "manf#"
+F 5 "https://www.aliexpress.com/item/32868991875.html" H 4300 11000 50  0001 C CNN "kicost:AliExpress:link"
+F 6 "1:AUD0.0146" H 4300 11000 50  0001 C CNN "kicost:AliExpress:pricing"
 	1    4300 11000
 	1    0    0    -1  
 $EndComp
@@ -3854,7 +4643,8 @@ P 4300 11300
 F 0 "D219" V 4339 11183 50  0000 R CNN
 F 1 "LED" V 4248 11183 50  0000 R CNN
 F 2 "MyOwnKeyboard:158301250" H 4300 11300 50  0001 C CNN
-F 3 "~" H 4300 11300 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/158301250.pdf" H 4300 11300 50  0001 C CNN
+F 4 "158301250" H 4300 11300 50  0001 C CNN "manf#"
 	1    4300 11300
 	0    -1   -1   0   
 $EndComp
@@ -3866,6 +4656,9 @@ F 0 "R88" H 4370 10196 50  0000 L CNN
 F 1 "2.26k" H 4370 10105 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4230 10150 50  0001 C CNN
 F 3 "~" H 4300 10150 50  0001 C CNN
+F 4 "2446941" H 4300 10150 50  0001 C CNN "manf#"
+F 5 "https://www.aliexpress.com/item/32868991875.html" H 4300 10150 50  0001 C CNN "kicost:AliExpress:link"
+F 6 "1:AUD0.0146" H 4300 10150 50  0001 C CNN "kicost:AliExpress:pricing"
 	1    4300 10150
 	1    0    0    -1  
 $EndComp
@@ -3876,7 +4669,8 @@ P 4300 10450
 F 0 "D200" V 4339 10333 50  0000 R CNN
 F 1 "LED" V 4248 10333 50  0000 R CNN
 F 2 "MyOwnKeyboard:158301250" H 4300 10450 50  0001 C CNN
-F 3 "~" H 4300 10450 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/158301250.pdf" H 4300 10450 50  0001 C CNN
+F 4 "158301250" H 4300 10450 50  0001 C CNN "manf#"
 	1    4300 10450
 	0    -1   -1   0   
 $EndComp
@@ -3888,6 +4682,9 @@ F 0 "R69" H 4370 9346 50  0000 L CNN
 F 1 "2.26k" H 4370 9255 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4230 9300 50  0001 C CNN
 F 3 "~" H 4300 9300 50  0001 C CNN
+F 4 "2446941" H 4300 9300 50  0001 C CNN "manf#"
+F 5 "https://www.aliexpress.com/item/32868991875.html" H 4300 9300 50  0001 C CNN "kicost:AliExpress:link"
+F 6 "1:AUD0.0146" H 4300 9300 50  0001 C CNN "kicost:AliExpress:pricing"
 	1    4300 9300
 	1    0    0    -1  
 $EndComp
@@ -3898,7 +4695,8 @@ P 4300 9600
 F 0 "D181" V 4339 9483 50  0000 R CNN
 F 1 "LED" V 4248 9483 50  0000 R CNN
 F 2 "MyOwnKeyboard:158301250" H 4300 9600 50  0001 C CNN
-F 3 "~" H 4300 9600 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/158301250.pdf" H 4300 9600 50  0001 C CNN
+F 4 "158301250" H 4300 9600 50  0001 C CNN "manf#"
 	1    4300 9600
 	0    -1   -1   0   
 $EndComp
@@ -3910,6 +4708,9 @@ F 0 "R50" H 4370 8496 50  0000 L CNN
 F 1 "2.26k" H 4370 8405 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4230 8450 50  0001 C CNN
 F 3 "~" H 4300 8450 50  0001 C CNN
+F 4 "2446941" H 4300 8450 50  0001 C CNN "manf#"
+F 5 "https://www.aliexpress.com/item/32868991875.html" H 4300 8450 50  0001 C CNN "kicost:AliExpress:link"
+F 6 "1:AUD0.0146" H 4300 8450 50  0001 C CNN "kicost:AliExpress:pricing"
 	1    4300 8450
 	1    0    0    -1  
 $EndComp
@@ -3920,7 +4721,8 @@ P 4300 8750
 F 0 "D162" V 4339 8633 50  0000 R CNN
 F 1 "LED" V 4248 8633 50  0000 R CNN
 F 2 "MyOwnKeyboard:158301250" H 4300 8750 50  0001 C CNN
-F 3 "~" H 4300 8750 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/158301250.pdf" H 4300 8750 50  0001 C CNN
+F 4 "158301250" H 4300 8750 50  0001 C CNN "manf#"
 	1    4300 8750
 	0    -1   -1   0   
 $EndComp
@@ -3932,6 +4734,9 @@ F 0 "R31" H 4370 7646 50  0000 L CNN
 F 1 "2.26k" H 4370 7555 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4230 7600 50  0001 C CNN
 F 3 "~" H 4300 7600 50  0001 C CNN
+F 4 "2446941" H 4300 7600 50  0001 C CNN "manf#"
+F 5 "https://www.aliexpress.com/item/32868991875.html" H 4300 7600 50  0001 C CNN "kicost:AliExpress:link"
+F 6 "1:AUD0.0146" H 4300 7600 50  0001 C CNN "kicost:AliExpress:pricing"
 	1    4300 7600
 	1    0    0    -1  
 $EndComp
@@ -3942,7 +4747,8 @@ P 4300 7900
 F 0 "D143" V 4339 7783 50  0000 R CNN
 F 1 "LED" V 4248 7783 50  0000 R CNN
 F 2 "MyOwnKeyboard:158301250" H 4300 7900 50  0001 C CNN
-F 3 "~" H 4300 7900 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/158301250.pdf" H 4300 7900 50  0001 C CNN
+F 4 "158301250" H 4300 7900 50  0001 C CNN "manf#"
 	1    4300 7900
 	0    -1   -1   0   
 $EndComp
@@ -3954,6 +4760,9 @@ F 0 "R12" H 4370 6796 50  0000 L CNN
 F 1 "2.26k" H 4370 6705 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4230 6750 50  0001 C CNN
 F 3 "~" H 4300 6750 50  0001 C CNN
+F 4 "2446941" H 4300 6750 50  0001 C CNN "manf#"
+F 5 "https://www.aliexpress.com/item/32868991875.html" H 4300 6750 50  0001 C CNN "kicost:AliExpress:link"
+F 6 "1:AUD0.0146" H 4300 6750 50  0001 C CNN "kicost:AliExpress:pricing"
 	1    4300 6750
 	1    0    0    -1  
 $EndComp
@@ -3964,7 +4773,8 @@ P 4300 7050
 F 0 "D124" V 4339 6933 50  0000 R CNN
 F 1 "LED" V 4248 6933 50  0000 R CNN
 F 2 "MyOwnKeyboard:158301250" H 4300 7050 50  0001 C CNN
-F 3 "~" H 4300 7050 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/158301250.pdf" H 4300 7050 50  0001 C CNN
+F 4 "158301250" H 4300 7050 50  0001 C CNN "manf#"
 	1    4300 7050
 	0    -1   -1   0   
 $EndComp
@@ -3976,6 +4786,9 @@ F 0 "R106" H 3970 11046 50  0000 L CNN
 F 1 "2.26k" H 3970 10955 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 3830 11000 50  0001 C CNN
 F 3 "~" H 3900 11000 50  0001 C CNN
+F 4 "2446941" H 3900 11000 50  0001 C CNN "manf#"
+F 5 "https://www.aliexpress.com/item/32868991875.html" H 3900 11000 50  0001 C CNN "kicost:AliExpress:link"
+F 6 "1:AUD0.0146" H 3900 11000 50  0001 C CNN "kicost:AliExpress:pricing"
 	1    3900 11000
 	1    0    0    -1  
 $EndComp
@@ -3986,7 +4799,8 @@ P 3900 11300
 F 0 "D218" V 3939 11183 50  0000 R CNN
 F 1 "LED" V 3848 11183 50  0000 R CNN
 F 2 "MyOwnKeyboard:158301250" H 3900 11300 50  0001 C CNN
-F 3 "~" H 3900 11300 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/158301250.pdf" H 3900 11300 50  0001 C CNN
+F 4 "158301250" H 3900 11300 50  0001 C CNN "manf#"
 	1    3900 11300
 	0    -1   -1   0   
 $EndComp
@@ -3998,6 +4812,9 @@ F 0 "R87" H 3970 10196 50  0000 L CNN
 F 1 "2.26k" H 3970 10105 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 3830 10150 50  0001 C CNN
 F 3 "~" H 3900 10150 50  0001 C CNN
+F 4 "2446941" H 3900 10150 50  0001 C CNN "manf#"
+F 5 "https://www.aliexpress.com/item/32868991875.html" H 3900 10150 50  0001 C CNN "kicost:AliExpress:link"
+F 6 "1:AUD0.0146" H 3900 10150 50  0001 C CNN "kicost:AliExpress:pricing"
 	1    3900 10150
 	1    0    0    -1  
 $EndComp
@@ -4008,7 +4825,8 @@ P 3900 10450
 F 0 "D199" V 3939 10333 50  0000 R CNN
 F 1 "LED" V 3848 10333 50  0000 R CNN
 F 2 "MyOwnKeyboard:158301250" H 3900 10450 50  0001 C CNN
-F 3 "~" H 3900 10450 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/158301250.pdf" H 3900 10450 50  0001 C CNN
+F 4 "158301250" H 3900 10450 50  0001 C CNN "manf#"
 	1    3900 10450
 	0    -1   -1   0   
 $EndComp
@@ -4020,6 +4838,9 @@ F 0 "R68" H 3970 9346 50  0000 L CNN
 F 1 "2.26k" H 3970 9255 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 3830 9300 50  0001 C CNN
 F 3 "~" H 3900 9300 50  0001 C CNN
+F 4 "2446941" H 3900 9300 50  0001 C CNN "manf#"
+F 5 "https://www.aliexpress.com/item/32868991875.html" H 3900 9300 50  0001 C CNN "kicost:AliExpress:link"
+F 6 "1:AUD0.0146" H 3900 9300 50  0001 C CNN "kicost:AliExpress:pricing"
 	1    3900 9300
 	1    0    0    -1  
 $EndComp
@@ -4030,7 +4851,8 @@ P 3900 9600
 F 0 "D180" V 3939 9483 50  0000 R CNN
 F 1 "LED" V 3848 9483 50  0000 R CNN
 F 2 "MyOwnKeyboard:158301250" H 3900 9600 50  0001 C CNN
-F 3 "~" H 3900 9600 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/158301250.pdf" H 3900 9600 50  0001 C CNN
+F 4 "158301250" H 3900 9600 50  0001 C CNN "manf#"
 	1    3900 9600
 	0    -1   -1   0   
 $EndComp
@@ -4042,6 +4864,9 @@ F 0 "R49" H 3970 8496 50  0000 L CNN
 F 1 "2.26k" H 3970 8405 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 3830 8450 50  0001 C CNN
 F 3 "~" H 3900 8450 50  0001 C CNN
+F 4 "2446941" H 3900 8450 50  0001 C CNN "manf#"
+F 5 "https://www.aliexpress.com/item/32868991875.html" H 3900 8450 50  0001 C CNN "kicost:AliExpress:link"
+F 6 "1:AUD0.0146" H 3900 8450 50  0001 C CNN "kicost:AliExpress:pricing"
 	1    3900 8450
 	1    0    0    -1  
 $EndComp
@@ -4052,7 +4877,8 @@ P 3900 8750
 F 0 "D161" V 3939 8633 50  0000 R CNN
 F 1 "LED" V 3848 8633 50  0000 R CNN
 F 2 "MyOwnKeyboard:158301250" H 3900 8750 50  0001 C CNN
-F 3 "~" H 3900 8750 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/158301250.pdf" H 3900 8750 50  0001 C CNN
+F 4 "158301250" H 3900 8750 50  0001 C CNN "manf#"
 	1    3900 8750
 	0    -1   -1   0   
 $EndComp
@@ -4064,6 +4890,9 @@ F 0 "R30" H 3970 7646 50  0000 L CNN
 F 1 "2.26k" H 3970 7555 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 3830 7600 50  0001 C CNN
 F 3 "~" H 3900 7600 50  0001 C CNN
+F 4 "2446941" H 3900 7600 50  0001 C CNN "manf#"
+F 5 "https://www.aliexpress.com/item/32868991875.html" H 3900 7600 50  0001 C CNN "kicost:AliExpress:link"
+F 6 "1:AUD0.0146" H 3900 7600 50  0001 C CNN "kicost:AliExpress:pricing"
 	1    3900 7600
 	1    0    0    -1  
 $EndComp
@@ -4074,7 +4903,8 @@ P 3900 7900
 F 0 "D142" V 3939 7783 50  0000 R CNN
 F 1 "LED" V 3848 7783 50  0000 R CNN
 F 2 "MyOwnKeyboard:158301250" H 3900 7900 50  0001 C CNN
-F 3 "~" H 3900 7900 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/158301250.pdf" H 3900 7900 50  0001 C CNN
+F 4 "158301250" H 3900 7900 50  0001 C CNN "manf#"
 	1    3900 7900
 	0    -1   -1   0   
 $EndComp
@@ -4086,6 +4916,9 @@ F 0 "R11" H 3970 6796 50  0000 L CNN
 F 1 "2.26k" H 3970 6705 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 3830 6750 50  0001 C CNN
 F 3 "~" H 3900 6750 50  0001 C CNN
+F 4 "2446941" H 3900 6750 50  0001 C CNN "manf#"
+F 5 "https://www.aliexpress.com/item/32868991875.html" H 3900 6750 50  0001 C CNN "kicost:AliExpress:link"
+F 6 "1:AUD0.0146" H 3900 6750 50  0001 C CNN "kicost:AliExpress:pricing"
 	1    3900 6750
 	1    0    0    -1  
 $EndComp
@@ -4096,7 +4929,8 @@ P 3900 7050
 F 0 "D123" V 3939 6933 50  0000 R CNN
 F 1 "LED" V 3848 6933 50  0000 R CNN
 F 2 "MyOwnKeyboard:158301250" H 3900 7050 50  0001 C CNN
-F 3 "~" H 3900 7050 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/158301250.pdf" H 3900 7050 50  0001 C CNN
+F 4 "158301250" H 3900 7050 50  0001 C CNN "manf#"
 	1    3900 7050
 	0    -1   -1   0   
 $EndComp
@@ -4108,6 +4942,9 @@ F 0 "R105" H 3570 11046 50  0000 L CNN
 F 1 "2.26k" H 3570 10955 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 3430 11000 50  0001 C CNN
 F 3 "~" H 3500 11000 50  0001 C CNN
+F 4 "2446941" H 3500 11000 50  0001 C CNN "manf#"
+F 5 "https://www.aliexpress.com/item/32868991875.html" H 3500 11000 50  0001 C CNN "kicost:AliExpress:link"
+F 6 "1:AUD0.0146" H 3500 11000 50  0001 C CNN "kicost:AliExpress:pricing"
 	1    3500 11000
 	1    0    0    -1  
 $EndComp
@@ -4118,7 +4955,8 @@ P 3500 11300
 F 0 "D217" V 3539 11183 50  0000 R CNN
 F 1 "LED" V 3448 11183 50  0000 R CNN
 F 2 "MyOwnKeyboard:158301250" H 3500 11300 50  0001 C CNN
-F 3 "~" H 3500 11300 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/158301250.pdf" H 3500 11300 50  0001 C CNN
+F 4 "158301250" H 3500 11300 50  0001 C CNN "manf#"
 	1    3500 11300
 	0    -1   -1   0   
 $EndComp
@@ -4130,6 +4968,9 @@ F 0 "R86" H 3570 10196 50  0000 L CNN
 F 1 "2.26k" H 3570 10105 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 3430 10150 50  0001 C CNN
 F 3 "~" H 3500 10150 50  0001 C CNN
+F 4 "2446941" H 3500 10150 50  0001 C CNN "manf#"
+F 5 "https://www.aliexpress.com/item/32868991875.html" H 3500 10150 50  0001 C CNN "kicost:AliExpress:link"
+F 6 "1:AUD0.0146" H 3500 10150 50  0001 C CNN "kicost:AliExpress:pricing"
 	1    3500 10150
 	1    0    0    -1  
 $EndComp
@@ -4140,7 +4981,8 @@ P 3500 10450
 F 0 "D198" V 3539 10333 50  0000 R CNN
 F 1 "LED" V 3448 10333 50  0000 R CNN
 F 2 "MyOwnKeyboard:158301250" H 3500 10450 50  0001 C CNN
-F 3 "~" H 3500 10450 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/158301250.pdf" H 3500 10450 50  0001 C CNN
+F 4 "158301250" H 3500 10450 50  0001 C CNN "manf#"
 	1    3500 10450
 	0    -1   -1   0   
 $EndComp
@@ -4152,6 +4994,9 @@ F 0 "R67" H 3570 9346 50  0000 L CNN
 F 1 "2.26k" H 3570 9255 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 3430 9300 50  0001 C CNN
 F 3 "~" H 3500 9300 50  0001 C CNN
+F 4 "2446941" H 3500 9300 50  0001 C CNN "manf#"
+F 5 "https://www.aliexpress.com/item/32868991875.html" H 3500 9300 50  0001 C CNN "kicost:AliExpress:link"
+F 6 "1:AUD0.0146" H 3500 9300 50  0001 C CNN "kicost:AliExpress:pricing"
 	1    3500 9300
 	1    0    0    -1  
 $EndComp
@@ -4162,7 +5007,8 @@ P 3500 9600
 F 0 "D179" V 3539 9483 50  0000 R CNN
 F 1 "LED" V 3448 9483 50  0000 R CNN
 F 2 "MyOwnKeyboard:158301250" H 3500 9600 50  0001 C CNN
-F 3 "~" H 3500 9600 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/158301250.pdf" H 3500 9600 50  0001 C CNN
+F 4 "158301250" H 3500 9600 50  0001 C CNN "manf#"
 	1    3500 9600
 	0    -1   -1   0   
 $EndComp
@@ -4174,6 +5020,9 @@ F 0 "R48" H 3570 8496 50  0000 L CNN
 F 1 "2.26k" H 3570 8405 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 3430 8450 50  0001 C CNN
 F 3 "~" H 3500 8450 50  0001 C CNN
+F 4 "2446941" H 3500 8450 50  0001 C CNN "manf#"
+F 5 "https://www.aliexpress.com/item/32868991875.html" H 3500 8450 50  0001 C CNN "kicost:AliExpress:link"
+F 6 "1:AUD0.0146" H 3500 8450 50  0001 C CNN "kicost:AliExpress:pricing"
 	1    3500 8450
 	1    0    0    -1  
 $EndComp
@@ -4184,7 +5033,8 @@ P 3500 8750
 F 0 "D160" V 3539 8633 50  0000 R CNN
 F 1 "LED" V 3448 8633 50  0000 R CNN
 F 2 "MyOwnKeyboard:158301250" H 3500 8750 50  0001 C CNN
-F 3 "~" H 3500 8750 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/158301250.pdf" H 3500 8750 50  0001 C CNN
+F 4 "158301250" H 3500 8750 50  0001 C CNN "manf#"
 	1    3500 8750
 	0    -1   -1   0   
 $EndComp
@@ -4196,6 +5046,9 @@ F 0 "R29" H 3570 7646 50  0000 L CNN
 F 1 "2.26k" H 3570 7555 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 3430 7600 50  0001 C CNN
 F 3 "~" H 3500 7600 50  0001 C CNN
+F 4 "2446941" H 3500 7600 50  0001 C CNN "manf#"
+F 5 "https://www.aliexpress.com/item/32868991875.html" H 3500 7600 50  0001 C CNN "kicost:AliExpress:link"
+F 6 "1:AUD0.0146" H 3500 7600 50  0001 C CNN "kicost:AliExpress:pricing"
 	1    3500 7600
 	1    0    0    -1  
 $EndComp
@@ -4206,7 +5059,8 @@ P 3500 7900
 F 0 "D141" V 3539 7783 50  0000 R CNN
 F 1 "LED" V 3448 7783 50  0000 R CNN
 F 2 "MyOwnKeyboard:158301250" H 3500 7900 50  0001 C CNN
-F 3 "~" H 3500 7900 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/158301250.pdf" H 3500 7900 50  0001 C CNN
+F 4 "158301250" H 3500 7900 50  0001 C CNN "manf#"
 	1    3500 7900
 	0    -1   -1   0   
 $EndComp
@@ -4218,6 +5072,9 @@ F 0 "R10" H 3570 6796 50  0000 L CNN
 F 1 "2.26k" H 3570 6705 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 3430 6750 50  0001 C CNN
 F 3 "~" H 3500 6750 50  0001 C CNN
+F 4 "2446941" H 3500 6750 50  0001 C CNN "manf#"
+F 5 "https://www.aliexpress.com/item/32868991875.html" H 3500 6750 50  0001 C CNN "kicost:AliExpress:link"
+F 6 "1:AUD0.0146" H 3500 6750 50  0001 C CNN "kicost:AliExpress:pricing"
 	1    3500 6750
 	1    0    0    -1  
 $EndComp
@@ -4228,7 +5085,8 @@ P 3500 7050
 F 0 "D122" V 3539 6933 50  0000 R CNN
 F 1 "LED" V 3448 6933 50  0000 R CNN
 F 2 "MyOwnKeyboard:158301250" H 3500 7050 50  0001 C CNN
-F 3 "~" H 3500 7050 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/158301250.pdf" H 3500 7050 50  0001 C CNN
+F 4 "158301250" H 3500 7050 50  0001 C CNN "manf#"
 	1    3500 7050
 	0    -1   -1   0   
 $EndComp
@@ -4240,6 +5098,9 @@ F 0 "R104" H 3170 11046 50  0000 L CNN
 F 1 "2.26k" H 3170 10955 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 3030 11000 50  0001 C CNN
 F 3 "~" H 3100 11000 50  0001 C CNN
+F 4 "2446941" H 3100 11000 50  0001 C CNN "manf#"
+F 5 "https://www.aliexpress.com/item/32868991875.html" H 3100 11000 50  0001 C CNN "kicost:AliExpress:link"
+F 6 "1:AUD0.0146" H 3100 11000 50  0001 C CNN "kicost:AliExpress:pricing"
 	1    3100 11000
 	1    0    0    -1  
 $EndComp
@@ -4250,7 +5111,8 @@ P 3100 11300
 F 0 "D216" V 3139 11183 50  0000 R CNN
 F 1 "LED" V 3048 11183 50  0000 R CNN
 F 2 "MyOwnKeyboard:158301250" H 3100 11300 50  0001 C CNN
-F 3 "~" H 3100 11300 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/158301250.pdf" H 3100 11300 50  0001 C CNN
+F 4 "158301250" H 3100 11300 50  0001 C CNN "manf#"
 	1    3100 11300
 	0    -1   -1   0   
 $EndComp
@@ -4262,6 +5124,9 @@ F 0 "R85" H 3170 10196 50  0000 L CNN
 F 1 "2.26k" H 3170 10105 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 3030 10150 50  0001 C CNN
 F 3 "~" H 3100 10150 50  0001 C CNN
+F 4 "2446941" H 3100 10150 50  0001 C CNN "manf#"
+F 5 "https://www.aliexpress.com/item/32868991875.html" H 3100 10150 50  0001 C CNN "kicost:AliExpress:link"
+F 6 "1:AUD0.0146" H 3100 10150 50  0001 C CNN "kicost:AliExpress:pricing"
 	1    3100 10150
 	1    0    0    -1  
 $EndComp
@@ -4272,7 +5137,8 @@ P 3100 10450
 F 0 "D197" V 3139 10333 50  0000 R CNN
 F 1 "LED" V 3048 10333 50  0000 R CNN
 F 2 "MyOwnKeyboard:158301250" H 3100 10450 50  0001 C CNN
-F 3 "~" H 3100 10450 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/158301250.pdf" H 3100 10450 50  0001 C CNN
+F 4 "158301250" H 3100 10450 50  0001 C CNN "manf#"
 	1    3100 10450
 	0    -1   -1   0   
 $EndComp
@@ -4284,6 +5150,9 @@ F 0 "R66" H 3170 9346 50  0000 L CNN
 F 1 "2.26k" H 3170 9255 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 3030 9300 50  0001 C CNN
 F 3 "~" H 3100 9300 50  0001 C CNN
+F 4 "2446941" H 3100 9300 50  0001 C CNN "manf#"
+F 5 "https://www.aliexpress.com/item/32868991875.html" H 3100 9300 50  0001 C CNN "kicost:AliExpress:link"
+F 6 "1:AUD0.0146" H 3100 9300 50  0001 C CNN "kicost:AliExpress:pricing"
 	1    3100 9300
 	1    0    0    -1  
 $EndComp
@@ -4294,7 +5163,8 @@ P 3100 9600
 F 0 "D178" V 3139 9483 50  0000 R CNN
 F 1 "LED" V 3048 9483 50  0000 R CNN
 F 2 "MyOwnKeyboard:158301250" H 3100 9600 50  0001 C CNN
-F 3 "~" H 3100 9600 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/158301250.pdf" H 3100 9600 50  0001 C CNN
+F 4 "158301250" H 3100 9600 50  0001 C CNN "manf#"
 	1    3100 9600
 	0    -1   -1   0   
 $EndComp
@@ -4306,6 +5176,9 @@ F 0 "R47" H 3170 8496 50  0000 L CNN
 F 1 "2.26k" H 3170 8405 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 3030 8450 50  0001 C CNN
 F 3 "~" H 3100 8450 50  0001 C CNN
+F 4 "2446941" H 3100 8450 50  0001 C CNN "manf#"
+F 5 "https://www.aliexpress.com/item/32868991875.html" H 3100 8450 50  0001 C CNN "kicost:AliExpress:link"
+F 6 "1:AUD0.0146" H 3100 8450 50  0001 C CNN "kicost:AliExpress:pricing"
 	1    3100 8450
 	1    0    0    -1  
 $EndComp
@@ -4316,7 +5189,8 @@ P 3100 8750
 F 0 "D159" V 3139 8633 50  0000 R CNN
 F 1 "LED" V 3048 8633 50  0000 R CNN
 F 2 "MyOwnKeyboard:158301250" H 3100 8750 50  0001 C CNN
-F 3 "~" H 3100 8750 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/158301250.pdf" H 3100 8750 50  0001 C CNN
+F 4 "158301250" H 3100 8750 50  0001 C CNN "manf#"
 	1    3100 8750
 	0    -1   -1   0   
 $EndComp
@@ -4328,6 +5202,9 @@ F 0 "R28" H 3170 7646 50  0000 L CNN
 F 1 "2.26k" H 3170 7555 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 3030 7600 50  0001 C CNN
 F 3 "~" H 3100 7600 50  0001 C CNN
+F 4 "2446941" H 3100 7600 50  0001 C CNN "manf#"
+F 5 "https://www.aliexpress.com/item/32868991875.html" H 3100 7600 50  0001 C CNN "kicost:AliExpress:link"
+F 6 "1:AUD0.0146" H 3100 7600 50  0001 C CNN "kicost:AliExpress:pricing"
 	1    3100 7600
 	1    0    0    -1  
 $EndComp
@@ -4338,7 +5215,8 @@ P 3100 7900
 F 0 "D140" V 3139 7783 50  0000 R CNN
 F 1 "LED" V 3048 7783 50  0000 R CNN
 F 2 "MyOwnKeyboard:158301250" H 3100 7900 50  0001 C CNN
-F 3 "~" H 3100 7900 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/158301250.pdf" H 3100 7900 50  0001 C CNN
+F 4 "158301250" H 3100 7900 50  0001 C CNN "manf#"
 	1    3100 7900
 	0    -1   -1   0   
 $EndComp
@@ -4350,6 +5228,9 @@ F 0 "R9" H 3170 6796 50  0000 L CNN
 F 1 "2.26k" H 3170 6705 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 3030 6750 50  0001 C CNN
 F 3 "~" H 3100 6750 50  0001 C CNN
+F 4 "2446941" H 3100 6750 50  0001 C CNN "manf#"
+F 5 "https://www.aliexpress.com/item/32868991875.html" H 3100 6750 50  0001 C CNN "kicost:AliExpress:link"
+F 6 "1:AUD0.0146" H 3100 6750 50  0001 C CNN "kicost:AliExpress:pricing"
 	1    3100 6750
 	1    0    0    -1  
 $EndComp
@@ -4360,7 +5241,8 @@ P 3100 7050
 F 0 "D121" V 3139 6933 50  0000 R CNN
 F 1 "LED" V 3048 6933 50  0000 R CNN
 F 2 "MyOwnKeyboard:158301250" H 3100 7050 50  0001 C CNN
-F 3 "~" H 3100 7050 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/158301250.pdf" H 3100 7050 50  0001 C CNN
+F 4 "158301250" H 3100 7050 50  0001 C CNN "manf#"
 	1    3100 7050
 	0    -1   -1   0   
 $EndComp
@@ -4372,6 +5254,9 @@ F 0 "R103" H 2770 11046 50  0000 L CNN
 F 1 "2.26k" H 2770 10955 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 2630 11000 50  0001 C CNN
 F 3 "~" H 2700 11000 50  0001 C CNN
+F 4 "2446941" H 2700 11000 50  0001 C CNN "manf#"
+F 5 "https://www.aliexpress.com/item/32868991875.html" H 2700 11000 50  0001 C CNN "kicost:AliExpress:link"
+F 6 "1:AUD0.0146" H 2700 11000 50  0001 C CNN "kicost:AliExpress:pricing"
 	1    2700 11000
 	1    0    0    -1  
 $EndComp
@@ -4382,7 +5267,8 @@ P 2700 11300
 F 0 "D215" V 2739 11183 50  0000 R CNN
 F 1 "LED" V 2648 11183 50  0000 R CNN
 F 2 "MyOwnKeyboard:158301250" H 2700 11300 50  0001 C CNN
-F 3 "~" H 2700 11300 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/158301250.pdf" H 2700 11300 50  0001 C CNN
+F 4 "158301250" H 2700 11300 50  0001 C CNN "manf#"
 	1    2700 11300
 	0    -1   -1   0   
 $EndComp
@@ -4394,6 +5280,9 @@ F 0 "R84" H 2770 10196 50  0000 L CNN
 F 1 "2.26k" H 2770 10105 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 2630 10150 50  0001 C CNN
 F 3 "~" H 2700 10150 50  0001 C CNN
+F 4 "2446941" H 2700 10150 50  0001 C CNN "manf#"
+F 5 "https://www.aliexpress.com/item/32868991875.html" H 2700 10150 50  0001 C CNN "kicost:AliExpress:link"
+F 6 "1:AUD0.0146" H 2700 10150 50  0001 C CNN "kicost:AliExpress:pricing"
 	1    2700 10150
 	1    0    0    -1  
 $EndComp
@@ -4404,7 +5293,8 @@ P 2700 10450
 F 0 "D196" V 2739 10333 50  0000 R CNN
 F 1 "LED" V 2648 10333 50  0000 R CNN
 F 2 "MyOwnKeyboard:158301250" H 2700 10450 50  0001 C CNN
-F 3 "~" H 2700 10450 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/158301250.pdf" H 2700 10450 50  0001 C CNN
+F 4 "158301250" H 2700 10450 50  0001 C CNN "manf#"
 	1    2700 10450
 	0    -1   -1   0   
 $EndComp
@@ -4416,6 +5306,9 @@ F 0 "R65" H 2770 9346 50  0000 L CNN
 F 1 "2.26k" H 2770 9255 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 2630 9300 50  0001 C CNN
 F 3 "~" H 2700 9300 50  0001 C CNN
+F 4 "2446941" H 2700 9300 50  0001 C CNN "manf#"
+F 5 "https://www.aliexpress.com/item/32868991875.html" H 2700 9300 50  0001 C CNN "kicost:AliExpress:link"
+F 6 "1:AUD0.0146" H 2700 9300 50  0001 C CNN "kicost:AliExpress:pricing"
 	1    2700 9300
 	1    0    0    -1  
 $EndComp
@@ -4426,7 +5319,8 @@ P 2700 9600
 F 0 "D177" V 2739 9483 50  0000 R CNN
 F 1 "LED" V 2648 9483 50  0000 R CNN
 F 2 "MyOwnKeyboard:158301250" H 2700 9600 50  0001 C CNN
-F 3 "~" H 2700 9600 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/158301250.pdf" H 2700 9600 50  0001 C CNN
+F 4 "158301250" H 2700 9600 50  0001 C CNN "manf#"
 	1    2700 9600
 	0    -1   -1   0   
 $EndComp
@@ -4438,6 +5332,9 @@ F 0 "R46" H 2770 8496 50  0000 L CNN
 F 1 "2.26k" H 2770 8405 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 2630 8450 50  0001 C CNN
 F 3 "~" H 2700 8450 50  0001 C CNN
+F 4 "2446941" H 2700 8450 50  0001 C CNN "manf#"
+F 5 "https://www.aliexpress.com/item/32868991875.html" H 2700 8450 50  0001 C CNN "kicost:AliExpress:link"
+F 6 "1:AUD0.0146" H 2700 8450 50  0001 C CNN "kicost:AliExpress:pricing"
 	1    2700 8450
 	1    0    0    -1  
 $EndComp
@@ -4448,7 +5345,8 @@ P 2700 8750
 F 0 "D158" V 2739 8633 50  0000 R CNN
 F 1 "LED" V 2648 8633 50  0000 R CNN
 F 2 "MyOwnKeyboard:158301250" H 2700 8750 50  0001 C CNN
-F 3 "~" H 2700 8750 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/158301250.pdf" H 2700 8750 50  0001 C CNN
+F 4 "158301250" H 2700 8750 50  0001 C CNN "manf#"
 	1    2700 8750
 	0    -1   -1   0   
 $EndComp
@@ -4460,6 +5358,9 @@ F 0 "R27" H 2770 7646 50  0000 L CNN
 F 1 "2.26k" H 2770 7555 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 2630 7600 50  0001 C CNN
 F 3 "~" H 2700 7600 50  0001 C CNN
+F 4 "2446941" H 2700 7600 50  0001 C CNN "manf#"
+F 5 "https://www.aliexpress.com/item/32868991875.html" H 2700 7600 50  0001 C CNN "kicost:AliExpress:link"
+F 6 "1:AUD0.0146" H 2700 7600 50  0001 C CNN "kicost:AliExpress:pricing"
 	1    2700 7600
 	1    0    0    -1  
 $EndComp
@@ -4470,7 +5371,8 @@ P 2700 7900
 F 0 "D139" V 2739 7783 50  0000 R CNN
 F 1 "LED" V 2648 7783 50  0000 R CNN
 F 2 "MyOwnKeyboard:158301250" H 2700 7900 50  0001 C CNN
-F 3 "~" H 2700 7900 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/158301250.pdf" H 2700 7900 50  0001 C CNN
+F 4 "158301250" H 2700 7900 50  0001 C CNN "manf#"
 	1    2700 7900
 	0    -1   -1   0   
 $EndComp
@@ -4482,6 +5384,9 @@ F 0 "R8" H 2770 6796 50  0000 L CNN
 F 1 "2.26k" H 2770 6705 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 2630 6750 50  0001 C CNN
 F 3 "~" H 2700 6750 50  0001 C CNN
+F 4 "2446941" H 2700 6750 50  0001 C CNN "manf#"
+F 5 "https://www.aliexpress.com/item/32868991875.html" H 2700 6750 50  0001 C CNN "kicost:AliExpress:link"
+F 6 "1:AUD0.0146" H 2700 6750 50  0001 C CNN "kicost:AliExpress:pricing"
 	1    2700 6750
 	1    0    0    -1  
 $EndComp
@@ -4492,7 +5397,8 @@ P 2700 7050
 F 0 "D120" V 2739 6933 50  0000 R CNN
 F 1 "LED" V 2648 6933 50  0000 R CNN
 F 2 "MyOwnKeyboard:158301250" H 2700 7050 50  0001 C CNN
-F 3 "~" H 2700 7050 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/158301250.pdf" H 2700 7050 50  0001 C CNN
+F 4 "158301250" H 2700 7050 50  0001 C CNN "manf#"
 	1    2700 7050
 	0    -1   -1   0   
 $EndComp
@@ -4504,6 +5410,9 @@ F 0 "R102" H 2370 11046 50  0000 L CNN
 F 1 "2.26k" H 2370 10955 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 2230 11000 50  0001 C CNN
 F 3 "~" H 2300 11000 50  0001 C CNN
+F 4 "2446941" H 2300 11000 50  0001 C CNN "manf#"
+F 5 "https://www.aliexpress.com/item/32868991875.html" H 2300 11000 50  0001 C CNN "kicost:AliExpress:link"
+F 6 "1:AUD0.0146" H 2300 11000 50  0001 C CNN "kicost:AliExpress:pricing"
 	1    2300 11000
 	1    0    0    -1  
 $EndComp
@@ -4514,7 +5423,8 @@ P 2300 11300
 F 0 "D214" V 2339 11183 50  0000 R CNN
 F 1 "LED" V 2248 11183 50  0000 R CNN
 F 2 "MyOwnKeyboard:158301250" H 2300 11300 50  0001 C CNN
-F 3 "~" H 2300 11300 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/158301250.pdf" H 2300 11300 50  0001 C CNN
+F 4 "158301250" H 2300 11300 50  0001 C CNN "manf#"
 	1    2300 11300
 	0    -1   -1   0   
 $EndComp
@@ -4526,6 +5436,9 @@ F 0 "R83" H 2370 10196 50  0000 L CNN
 F 1 "2.26k" H 2370 10105 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 2230 10150 50  0001 C CNN
 F 3 "~" H 2300 10150 50  0001 C CNN
+F 4 "2446941" H 2300 10150 50  0001 C CNN "manf#"
+F 5 "https://www.aliexpress.com/item/32868991875.html" H 2300 10150 50  0001 C CNN "kicost:AliExpress:link"
+F 6 "1:AUD0.0146" H 2300 10150 50  0001 C CNN "kicost:AliExpress:pricing"
 	1    2300 10150
 	1    0    0    -1  
 $EndComp
@@ -4536,7 +5449,8 @@ P 2300 10450
 F 0 "D195" V 2339 10333 50  0000 R CNN
 F 1 "LED" V 2248 10333 50  0000 R CNN
 F 2 "MyOwnKeyboard:158301250" H 2300 10450 50  0001 C CNN
-F 3 "~" H 2300 10450 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/158301250.pdf" H 2300 10450 50  0001 C CNN
+F 4 "158301250" H 2300 10450 50  0001 C CNN "manf#"
 	1    2300 10450
 	0    -1   -1   0   
 $EndComp
@@ -4548,6 +5462,9 @@ F 0 "R64" H 2370 9346 50  0000 L CNN
 F 1 "2.26k" H 2370 9255 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 2230 9300 50  0001 C CNN
 F 3 "~" H 2300 9300 50  0001 C CNN
+F 4 "2446941" H 2300 9300 50  0001 C CNN "manf#"
+F 5 "https://www.aliexpress.com/item/32868991875.html" H 2300 9300 50  0001 C CNN "kicost:AliExpress:link"
+F 6 "1:AUD0.0146" H 2300 9300 50  0001 C CNN "kicost:AliExpress:pricing"
 	1    2300 9300
 	1    0    0    -1  
 $EndComp
@@ -4558,7 +5475,8 @@ P 2300 9600
 F 0 "D176" V 2339 9483 50  0000 R CNN
 F 1 "LED" V 2248 9483 50  0000 R CNN
 F 2 "MyOwnKeyboard:158301250" H 2300 9600 50  0001 C CNN
-F 3 "~" H 2300 9600 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/158301250.pdf" H 2300 9600 50  0001 C CNN
+F 4 "158301250" H 2300 9600 50  0001 C CNN "manf#"
 	1    2300 9600
 	0    -1   -1   0   
 $EndComp
@@ -4570,6 +5488,9 @@ F 0 "R45" H 2370 8496 50  0000 L CNN
 F 1 "2.26k" H 2370 8405 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 2230 8450 50  0001 C CNN
 F 3 "~" H 2300 8450 50  0001 C CNN
+F 4 "2446941" H 2300 8450 50  0001 C CNN "manf#"
+F 5 "https://www.aliexpress.com/item/32868991875.html" H 2300 8450 50  0001 C CNN "kicost:AliExpress:link"
+F 6 "1:AUD0.0146" H 2300 8450 50  0001 C CNN "kicost:AliExpress:pricing"
 	1    2300 8450
 	1    0    0    -1  
 $EndComp
@@ -4580,7 +5501,8 @@ P 2300 8750
 F 0 "D157" V 2339 8633 50  0000 R CNN
 F 1 "LED" V 2248 8633 50  0000 R CNN
 F 2 "MyOwnKeyboard:158301250" H 2300 8750 50  0001 C CNN
-F 3 "~" H 2300 8750 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/158301250.pdf" H 2300 8750 50  0001 C CNN
+F 4 "158301250" H 2300 8750 50  0001 C CNN "manf#"
 	1    2300 8750
 	0    -1   -1   0   
 $EndComp
@@ -4592,6 +5514,9 @@ F 0 "R26" H 2370 7646 50  0000 L CNN
 F 1 "2.26k" H 2370 7555 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 2230 7600 50  0001 C CNN
 F 3 "~" H 2300 7600 50  0001 C CNN
+F 4 "2446941" H 2300 7600 50  0001 C CNN "manf#"
+F 5 "https://www.aliexpress.com/item/32868991875.html" H 2300 7600 50  0001 C CNN "kicost:AliExpress:link"
+F 6 "1:AUD0.0146" H 2300 7600 50  0001 C CNN "kicost:AliExpress:pricing"
 	1    2300 7600
 	1    0    0    -1  
 $EndComp
@@ -4602,7 +5527,8 @@ P 2300 7900
 F 0 "D138" V 2339 7783 50  0000 R CNN
 F 1 "LED" V 2248 7783 50  0000 R CNN
 F 2 "MyOwnKeyboard:158301250" H 2300 7900 50  0001 C CNN
-F 3 "~" H 2300 7900 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/158301250.pdf" H 2300 7900 50  0001 C CNN
+F 4 "158301250" H 2300 7900 50  0001 C CNN "manf#"
 	1    2300 7900
 	0    -1   -1   0   
 $EndComp
@@ -4614,6 +5540,9 @@ F 0 "R7" H 2370 6796 50  0000 L CNN
 F 1 "2.26k" H 2370 6705 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 2230 6750 50  0001 C CNN
 F 3 "~" H 2300 6750 50  0001 C CNN
+F 4 "2446941" H 2300 6750 50  0001 C CNN "manf#"
+F 5 "https://www.aliexpress.com/item/32868991875.html" H 2300 6750 50  0001 C CNN "kicost:AliExpress:link"
+F 6 "1:AUD0.0146" H 2300 6750 50  0001 C CNN "kicost:AliExpress:pricing"
 	1    2300 6750
 	1    0    0    -1  
 $EndComp
@@ -4624,7 +5553,8 @@ P 2300 7050
 F 0 "D119" V 2339 6933 50  0000 R CNN
 F 1 "LED" V 2248 6933 50  0000 R CNN
 F 2 "MyOwnKeyboard:158301250" H 2300 7050 50  0001 C CNN
-F 3 "~" H 2300 7050 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/158301250.pdf" H 2300 7050 50  0001 C CNN
+F 4 "158301250" H 2300 7050 50  0001 C CNN "manf#"
 	1    2300 7050
 	0    -1   -1   0   
 $EndComp
@@ -4636,6 +5566,9 @@ F 0 "R101" H 1970 11046 50  0000 L CNN
 F 1 "2.26k" H 1970 10955 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 1830 11000 50  0001 C CNN
 F 3 "~" H 1900 11000 50  0001 C CNN
+F 4 "2446941" H 1900 11000 50  0001 C CNN "manf#"
+F 5 "https://www.aliexpress.com/item/32868991875.html" H 1900 11000 50  0001 C CNN "kicost:AliExpress:link"
+F 6 "1:AUD0.0146" H 1900 11000 50  0001 C CNN "kicost:AliExpress:pricing"
 	1    1900 11000
 	1    0    0    -1  
 $EndComp
@@ -4646,7 +5579,8 @@ P 1900 11300
 F 0 "D213" V 1939 11183 50  0000 R CNN
 F 1 "LED" V 1848 11183 50  0000 R CNN
 F 2 "MyOwnKeyboard:158301250" H 1900 11300 50  0001 C CNN
-F 3 "~" H 1900 11300 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/158301250.pdf" H 1900 11300 50  0001 C CNN
+F 4 "158301250" H 1900 11300 50  0001 C CNN "manf#"
 	1    1900 11300
 	0    -1   -1   0   
 $EndComp
@@ -4658,6 +5592,9 @@ F 0 "R82" H 1970 10196 50  0000 L CNN
 F 1 "2.26k" H 1970 10105 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 1830 10150 50  0001 C CNN
 F 3 "~" H 1900 10150 50  0001 C CNN
+F 4 "2446941" H 1900 10150 50  0001 C CNN "manf#"
+F 5 "https://www.aliexpress.com/item/32868991875.html" H 1900 10150 50  0001 C CNN "kicost:AliExpress:link"
+F 6 "1:AUD0.0146" H 1900 10150 50  0001 C CNN "kicost:AliExpress:pricing"
 	1    1900 10150
 	1    0    0    -1  
 $EndComp
@@ -4668,7 +5605,8 @@ P 1900 10450
 F 0 "D194" V 1939 10333 50  0000 R CNN
 F 1 "LED" V 1848 10333 50  0000 R CNN
 F 2 "MyOwnKeyboard:158301250" H 1900 10450 50  0001 C CNN
-F 3 "~" H 1900 10450 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/158301250.pdf" H 1900 10450 50  0001 C CNN
+F 4 "158301250" H 1900 10450 50  0001 C CNN "manf#"
 	1    1900 10450
 	0    -1   -1   0   
 $EndComp
@@ -4680,6 +5618,9 @@ F 0 "R63" H 1970 9346 50  0000 L CNN
 F 1 "2.26k" H 1970 9255 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 1830 9300 50  0001 C CNN
 F 3 "~" H 1900 9300 50  0001 C CNN
+F 4 "2446941" H 1900 9300 50  0001 C CNN "manf#"
+F 5 "https://www.aliexpress.com/item/32868991875.html" H 1900 9300 50  0001 C CNN "kicost:AliExpress:link"
+F 6 "1:AUD0.0146" H 1900 9300 50  0001 C CNN "kicost:AliExpress:pricing"
 	1    1900 9300
 	1    0    0    -1  
 $EndComp
@@ -4690,7 +5631,8 @@ P 1900 9600
 F 0 "D175" V 1939 9483 50  0000 R CNN
 F 1 "LED" V 1848 9483 50  0000 R CNN
 F 2 "MyOwnKeyboard:158301250" H 1900 9600 50  0001 C CNN
-F 3 "~" H 1900 9600 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/158301250.pdf" H 1900 9600 50  0001 C CNN
+F 4 "158301250" H 1900 9600 50  0001 C CNN "manf#"
 	1    1900 9600
 	0    -1   -1   0   
 $EndComp
@@ -4702,6 +5644,9 @@ F 0 "R44" H 1970 8496 50  0000 L CNN
 F 1 "2.26k" H 1970 8405 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 1830 8450 50  0001 C CNN
 F 3 "~" H 1900 8450 50  0001 C CNN
+F 4 "2446941" H 1900 8450 50  0001 C CNN "manf#"
+F 5 "https://www.aliexpress.com/item/32868991875.html" H 1900 8450 50  0001 C CNN "kicost:AliExpress:link"
+F 6 "1:AUD0.0146" H 1900 8450 50  0001 C CNN "kicost:AliExpress:pricing"
 	1    1900 8450
 	1    0    0    -1  
 $EndComp
@@ -4712,7 +5657,8 @@ P 1900 8750
 F 0 "D156" V 1939 8633 50  0000 R CNN
 F 1 "LED" V 1848 8633 50  0000 R CNN
 F 2 "MyOwnKeyboard:158301250" H 1900 8750 50  0001 C CNN
-F 3 "~" H 1900 8750 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/158301250.pdf" H 1900 8750 50  0001 C CNN
+F 4 "158301250" H 1900 8750 50  0001 C CNN "manf#"
 	1    1900 8750
 	0    -1   -1   0   
 $EndComp
@@ -4724,6 +5670,9 @@ F 0 "R25" H 1970 7646 50  0000 L CNN
 F 1 "2.26k" H 1970 7555 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 1830 7600 50  0001 C CNN
 F 3 "~" H 1900 7600 50  0001 C CNN
+F 4 "2446941" H 1900 7600 50  0001 C CNN "manf#"
+F 5 "https://www.aliexpress.com/item/32868991875.html" H 1900 7600 50  0001 C CNN "kicost:AliExpress:link"
+F 6 "1:AUD0.0146" H 1900 7600 50  0001 C CNN "kicost:AliExpress:pricing"
 	1    1900 7600
 	1    0    0    -1  
 $EndComp
@@ -4734,7 +5683,8 @@ P 1900 7900
 F 0 "D137" V 1939 7783 50  0000 R CNN
 F 1 "LED" V 1848 7783 50  0000 R CNN
 F 2 "MyOwnKeyboard:158301250" H 1900 7900 50  0001 C CNN
-F 3 "~" H 1900 7900 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/158301250.pdf" H 1900 7900 50  0001 C CNN
+F 4 "158301250" H 1900 7900 50  0001 C CNN "manf#"
 	1    1900 7900
 	0    -1   -1   0   
 $EndComp
@@ -4746,6 +5696,9 @@ F 0 "R6" H 1970 6796 50  0000 L CNN
 F 1 "2.26k" H 1970 6705 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 1830 6750 50  0001 C CNN
 F 3 "~" H 1900 6750 50  0001 C CNN
+F 4 "2446941" H 1900 6750 50  0001 C CNN "manf#"
+F 5 "https://www.aliexpress.com/item/32868991875.html" H 1900 6750 50  0001 C CNN "kicost:AliExpress:link"
+F 6 "1:AUD0.0146" H 1900 6750 50  0001 C CNN "kicost:AliExpress:pricing"
 	1    1900 6750
 	1    0    0    -1  
 $EndComp
@@ -4756,7 +5709,8 @@ P 1900 7050
 F 0 "D118" V 1939 6933 50  0000 R CNN
 F 1 "LED" V 1848 6933 50  0000 R CNN
 F 2 "MyOwnKeyboard:158301250" H 1900 7050 50  0001 C CNN
-F 3 "~" H 1900 7050 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/158301250.pdf" H 1900 7050 50  0001 C CNN
+F 4 "158301250" H 1900 7050 50  0001 C CNN "manf#"
 	1    1900 7050
 	0    -1   -1   0   
 $EndComp
@@ -4768,6 +5722,9 @@ F 0 "R100" H 1570 11046 50  0000 L CNN
 F 1 "2.26k" H 1570 10955 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 1430 11000 50  0001 C CNN
 F 3 "~" H 1500 11000 50  0001 C CNN
+F 4 "2446941" H 1500 11000 50  0001 C CNN "manf#"
+F 5 "https://www.aliexpress.com/item/32868991875.html" H 1500 11000 50  0001 C CNN "kicost:AliExpress:link"
+F 6 "1:AUD0.0146" H 1500 11000 50  0001 C CNN "kicost:AliExpress:pricing"
 	1    1500 11000
 	1    0    0    -1  
 $EndComp
@@ -4778,7 +5735,8 @@ P 1500 11300
 F 0 "D212" V 1539 11183 50  0000 R CNN
 F 1 "LED" V 1448 11183 50  0000 R CNN
 F 2 "MyOwnKeyboard:158301250" H 1500 11300 50  0001 C CNN
-F 3 "~" H 1500 11300 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/158301250.pdf" H 1500 11300 50  0001 C CNN
+F 4 "158301250" H 1500 11300 50  0001 C CNN "manf#"
 	1    1500 11300
 	0    -1   -1   0   
 $EndComp
@@ -4790,6 +5748,9 @@ F 0 "R81" H 1570 10196 50  0000 L CNN
 F 1 "2.26k" H 1570 10105 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 1430 10150 50  0001 C CNN
 F 3 "~" H 1500 10150 50  0001 C CNN
+F 4 "2446941" H 1500 10150 50  0001 C CNN "manf#"
+F 5 "https://www.aliexpress.com/item/32868991875.html" H 1500 10150 50  0001 C CNN "kicost:AliExpress:link"
+F 6 "1:AUD0.0146" H 1500 10150 50  0001 C CNN "kicost:AliExpress:pricing"
 	1    1500 10150
 	1    0    0    -1  
 $EndComp
@@ -4800,7 +5761,8 @@ P 1500 10450
 F 0 "D193" V 1539 10333 50  0000 R CNN
 F 1 "LED" V 1448 10333 50  0000 R CNN
 F 2 "MyOwnKeyboard:158301250" H 1500 10450 50  0001 C CNN
-F 3 "~" H 1500 10450 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/158301250.pdf" H 1500 10450 50  0001 C CNN
+F 4 "158301250" H 1500 10450 50  0001 C CNN "manf#"
 	1    1500 10450
 	0    -1   -1   0   
 $EndComp
@@ -4812,6 +5774,9 @@ F 0 "R62" H 1570 9346 50  0000 L CNN
 F 1 "2.26k" H 1570 9255 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 1430 9300 50  0001 C CNN
 F 3 "~" H 1500 9300 50  0001 C CNN
+F 4 "2446941" H 1500 9300 50  0001 C CNN "manf#"
+F 5 "https://www.aliexpress.com/item/32868991875.html" H 1500 9300 50  0001 C CNN "kicost:AliExpress:link"
+F 6 "1:AUD0.0146" H 1500 9300 50  0001 C CNN "kicost:AliExpress:pricing"
 	1    1500 9300
 	1    0    0    -1  
 $EndComp
@@ -4822,7 +5787,8 @@ P 1500 9600
 F 0 "D174" V 1539 9483 50  0000 R CNN
 F 1 "LED" V 1448 9483 50  0000 R CNN
 F 2 "MyOwnKeyboard:158301250" H 1500 9600 50  0001 C CNN
-F 3 "~" H 1500 9600 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/158301250.pdf" H 1500 9600 50  0001 C CNN
+F 4 "158301250" H 1500 9600 50  0001 C CNN "manf#"
 	1    1500 9600
 	0    -1   -1   0   
 $EndComp
@@ -4834,6 +5800,9 @@ F 0 "R43" H 1570 8496 50  0000 L CNN
 F 1 "2.26k" H 1570 8405 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 1430 8450 50  0001 C CNN
 F 3 "~" H 1500 8450 50  0001 C CNN
+F 4 "2446941" H 1500 8450 50  0001 C CNN "manf#"
+F 5 "https://www.aliexpress.com/item/32868991875.html" H 1500 8450 50  0001 C CNN "kicost:AliExpress:link"
+F 6 "1:AUD0.0146" H 1500 8450 50  0001 C CNN "kicost:AliExpress:pricing"
 	1    1500 8450
 	1    0    0    -1  
 $EndComp
@@ -4844,7 +5813,8 @@ P 1500 8750
 F 0 "D155" V 1539 8633 50  0000 R CNN
 F 1 "LED" V 1448 8633 50  0000 R CNN
 F 2 "MyOwnKeyboard:158301250" H 1500 8750 50  0001 C CNN
-F 3 "~" H 1500 8750 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/158301250.pdf" H 1500 8750 50  0001 C CNN
+F 4 "158301250" H 1500 8750 50  0001 C CNN "manf#"
 	1    1500 8750
 	0    -1   -1   0   
 $EndComp
@@ -4856,6 +5826,9 @@ F 0 "R24" H 1570 7646 50  0000 L CNN
 F 1 "2.26k" H 1570 7555 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 1430 7600 50  0001 C CNN
 F 3 "~" H 1500 7600 50  0001 C CNN
+F 4 "2446941" H 1500 7600 50  0001 C CNN "manf#"
+F 5 "https://www.aliexpress.com/item/32868991875.html" H 1500 7600 50  0001 C CNN "kicost:AliExpress:link"
+F 6 "1:AUD0.0146" H 1500 7600 50  0001 C CNN "kicost:AliExpress:pricing"
 	1    1500 7600
 	1    0    0    -1  
 $EndComp
@@ -4866,7 +5839,8 @@ P 1500 7900
 F 0 "D136" V 1539 7783 50  0000 R CNN
 F 1 "LED" V 1448 7783 50  0000 R CNN
 F 2 "MyOwnKeyboard:158301250" H 1500 7900 50  0001 C CNN
-F 3 "~" H 1500 7900 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/158301250.pdf" H 1500 7900 50  0001 C CNN
+F 4 "158301250" H 1500 7900 50  0001 C CNN "manf#"
 	1    1500 7900
 	0    -1   -1   0   
 $EndComp
@@ -4878,6 +5852,9 @@ F 0 "R5" H 1570 6796 50  0000 L CNN
 F 1 "2.26k" H 1570 6705 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 1430 6750 50  0001 C CNN
 F 3 "~" H 1500 6750 50  0001 C CNN
+F 4 "2446941" H 1500 6750 50  0001 C CNN "manf#"
+F 5 "https://www.aliexpress.com/item/32868991875.html" H 1500 6750 50  0001 C CNN "kicost:AliExpress:link"
+F 6 "1:AUD0.0146" H 1500 6750 50  0001 C CNN "kicost:AliExpress:pricing"
 	1    1500 6750
 	1    0    0    -1  
 $EndComp
@@ -4888,7 +5865,8 @@ P 1500 7050
 F 0 "D117" V 1539 6933 50  0000 R CNN
 F 1 "LED" V 1448 6933 50  0000 R CNN
 F 2 "MyOwnKeyboard:158301250" H 1500 7050 50  0001 C CNN
-F 3 "~" H 1500 7050 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/158301250.pdf" H 1500 7050 50  0001 C CNN
+F 4 "158301250" H 1500 7050 50  0001 C CNN "manf#"
 	1    1500 7050
 	0    -1   -1   0   
 $EndComp
@@ -4900,6 +5878,9 @@ F 0 "R99" H 1170 11046 50  0000 L CNN
 F 1 "2.26k" H 1170 10955 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 1030 11000 50  0001 C CNN
 F 3 "~" H 1100 11000 50  0001 C CNN
+F 4 "2446941" H 1100 11000 50  0001 C CNN "manf#"
+F 5 "https://www.aliexpress.com/item/32868991875.html" H 1100 11000 50  0001 C CNN "kicost:AliExpress:link"
+F 6 "1:AUD0.0146" H 1100 11000 50  0001 C CNN "kicost:AliExpress:pricing"
 	1    1100 11000
 	1    0    0    -1  
 $EndComp
@@ -4910,7 +5891,8 @@ P 1100 11300
 F 0 "D211" V 1139 11183 50  0000 R CNN
 F 1 "LED" V 1048 11183 50  0000 R CNN
 F 2 "MyOwnKeyboard:158301250" H 1100 11300 50  0001 C CNN
-F 3 "~" H 1100 11300 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/158301250.pdf" H 1100 11300 50  0001 C CNN
+F 4 "158301250" H 1100 11300 50  0001 C CNN "manf#"
 	1    1100 11300
 	0    -1   -1   0   
 $EndComp
@@ -4922,6 +5904,9 @@ F 0 "R80" H 1170 10196 50  0000 L CNN
 F 1 "2.26k" H 1170 10105 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 1030 10150 50  0001 C CNN
 F 3 "~" H 1100 10150 50  0001 C CNN
+F 4 "2446941" H 1100 10150 50  0001 C CNN "manf#"
+F 5 "https://www.aliexpress.com/item/32868991875.html" H 1100 10150 50  0001 C CNN "kicost:AliExpress:link"
+F 6 "1:AUD0.0146" H 1100 10150 50  0001 C CNN "kicost:AliExpress:pricing"
 	1    1100 10150
 	1    0    0    -1  
 $EndComp
@@ -4932,7 +5917,8 @@ P 1100 10450
 F 0 "D192" V 1139 10333 50  0000 R CNN
 F 1 "LED" V 1048 10333 50  0000 R CNN
 F 2 "MyOwnKeyboard:158301250" H 1100 10450 50  0001 C CNN
-F 3 "~" H 1100 10450 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/158301250.pdf" H 1100 10450 50  0001 C CNN
+F 4 "158301250" H 1100 10450 50  0001 C CNN "manf#"
 	1    1100 10450
 	0    -1   -1   0   
 $EndComp
@@ -4944,6 +5930,9 @@ F 0 "R61" H 1170 9346 50  0000 L CNN
 F 1 "2.26k" H 1170 9255 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 1030 9300 50  0001 C CNN
 F 3 "~" H 1100 9300 50  0001 C CNN
+F 4 "2446941" H 1100 9300 50  0001 C CNN "manf#"
+F 5 "https://www.aliexpress.com/item/32868991875.html" H 1100 9300 50  0001 C CNN "kicost:AliExpress:link"
+F 6 "1:AUD0.0146" H 1100 9300 50  0001 C CNN "kicost:AliExpress:pricing"
 	1    1100 9300
 	1    0    0    -1  
 $EndComp
@@ -4954,7 +5943,8 @@ P 1100 9600
 F 0 "D173" V 1139 9483 50  0000 R CNN
 F 1 "LED" V 1048 9483 50  0000 R CNN
 F 2 "MyOwnKeyboard:158301250" H 1100 9600 50  0001 C CNN
-F 3 "~" H 1100 9600 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/158301250.pdf" H 1100 9600 50  0001 C CNN
+F 4 "158301250" H 1100 9600 50  0001 C CNN "manf#"
 	1    1100 9600
 	0    -1   -1   0   
 $EndComp
@@ -4966,6 +5956,9 @@ F 0 "R42" H 1170 8496 50  0000 L CNN
 F 1 "2.26k" H 1170 8405 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 1030 8450 50  0001 C CNN
 F 3 "~" H 1100 8450 50  0001 C CNN
+F 4 "2446941" H 1100 8450 50  0001 C CNN "manf#"
+F 5 "https://www.aliexpress.com/item/32868991875.html" H 1100 8450 50  0001 C CNN "kicost:AliExpress:link"
+F 6 "1:AUD0.0146" H 1100 8450 50  0001 C CNN "kicost:AliExpress:pricing"
 	1    1100 8450
 	1    0    0    -1  
 $EndComp
@@ -4976,7 +5969,8 @@ P 1100 8750
 F 0 "D154" V 1139 8633 50  0000 R CNN
 F 1 "LED" V 1048 8633 50  0000 R CNN
 F 2 "MyOwnKeyboard:158301250" H 1100 8750 50  0001 C CNN
-F 3 "~" H 1100 8750 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/158301250.pdf" H 1100 8750 50  0001 C CNN
+F 4 "158301250" H 1100 8750 50  0001 C CNN "manf#"
 	1    1100 8750
 	0    -1   -1   0   
 $EndComp
@@ -4988,6 +5982,9 @@ F 0 "R23" H 1170 7646 50  0000 L CNN
 F 1 "2.26k" H 1170 7555 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 1030 7600 50  0001 C CNN
 F 3 "~" H 1100 7600 50  0001 C CNN
+F 4 "2446941" H 1100 7600 50  0001 C CNN "manf#"
+F 5 "https://www.aliexpress.com/item/32868991875.html" H 1100 7600 50  0001 C CNN "kicost:AliExpress:link"
+F 6 "1:AUD0.0146" H 1100 7600 50  0001 C CNN "kicost:AliExpress:pricing"
 	1    1100 7600
 	1    0    0    -1  
 $EndComp
@@ -4998,7 +5995,8 @@ P 1100 7900
 F 0 "D135" V 1139 7783 50  0000 R CNN
 F 1 "LED" V 1048 7783 50  0000 R CNN
 F 2 "MyOwnKeyboard:158301250" H 1100 7900 50  0001 C CNN
-F 3 "~" H 1100 7900 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/158301250.pdf" H 1100 7900 50  0001 C CNN
+F 4 "158301250" H 1100 7900 50  0001 C CNN "manf#"
 	1    1100 7900
 	0    -1   -1   0   
 $EndComp
@@ -5010,6 +6008,9 @@ F 0 "R4" H 1170 6796 50  0000 L CNN
 F 1 "2.26k" H 1170 6705 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 1030 6750 50  0001 C CNN
 F 3 "~" H 1100 6750 50  0001 C CNN
+F 4 "2446941" H 1100 6750 50  0001 C CNN "manf#"
+F 5 "https://www.aliexpress.com/item/32868991875.html" H 1100 6750 50  0001 C CNN "kicost:AliExpress:link"
+F 6 "1:AUD0.0146" H 1100 6750 50  0001 C CNN "kicost:AliExpress:pricing"
 	1    1100 6750
 	1    0    0    -1  
 $EndComp
@@ -5020,7 +6021,8 @@ P 1100 7050
 F 0 "D116" V 1139 6933 50  0000 R CNN
 F 1 "LED" V 1048 6933 50  0000 R CNN
 F 2 "MyOwnKeyboard:158301250" H 1100 7050 50  0001 C CNN
-F 3 "~" H 1100 7050 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/158301250.pdf" H 1100 7050 50  0001 C CNN
+F 4 "158301250" H 1100 7050 50  0001 C CNN "manf#"
 	1    1100 7050
 	0    -1   -1   0   
 $EndComp
@@ -5032,6 +6034,9 @@ F 0 "R98" H 770 11046 50  0000 L CNN
 F 1 "2.26k" H 770 10955 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 630 11000 50  0001 C CNN
 F 3 "~" H 700 11000 50  0001 C CNN
+F 4 "2446941" H 700 11000 50  0001 C CNN "manf#"
+F 5 "https://www.aliexpress.com/item/32868991875.html" H 700 11000 50  0001 C CNN "kicost:AliExpress:link"
+F 6 "1:AUD0.0146" H 700 11000 50  0001 C CNN "kicost:AliExpress:pricing"
 	1    700  11000
 	1    0    0    -1  
 $EndComp
@@ -5042,7 +6047,8 @@ P 700 11300
 F 0 "D210" V 739 11183 50  0000 R CNN
 F 1 "LED" V 648 11183 50  0000 R CNN
 F 2 "MyOwnKeyboard:158301250" H 700 11300 50  0001 C CNN
-F 3 "~" H 700 11300 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/158301250.pdf" H 700 11300 50  0001 C CNN
+F 4 "158301250" H 700 11300 50  0001 C CNN "manf#"
 	1    700  11300
 	0    -1   -1   0   
 $EndComp
@@ -5054,6 +6060,9 @@ F 0 "R79" H 770 10196 50  0000 L CNN
 F 1 "2.26k" H 770 10105 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 630 10150 50  0001 C CNN
 F 3 "~" H 700 10150 50  0001 C CNN
+F 4 "2446941" H 700 10150 50  0001 C CNN "manf#"
+F 5 "https://www.aliexpress.com/item/32868991875.html" H 700 10150 50  0001 C CNN "kicost:AliExpress:link"
+F 6 "1:AUD0.0146" H 700 10150 50  0001 C CNN "kicost:AliExpress:pricing"
 	1    700  10150
 	1    0    0    -1  
 $EndComp
@@ -5064,7 +6073,8 @@ P 700 10450
 F 0 "D191" V 739 10333 50  0000 R CNN
 F 1 "LED" V 648 10333 50  0000 R CNN
 F 2 "MyOwnKeyboard:158301250" H 700 10450 50  0001 C CNN
-F 3 "~" H 700 10450 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/158301250.pdf" H 700 10450 50  0001 C CNN
+F 4 "158301250" H 700 10450 50  0001 C CNN "manf#"
 	1    700  10450
 	0    -1   -1   0   
 $EndComp
@@ -5076,6 +6086,9 @@ F 0 "R60" H 770 9346 50  0000 L CNN
 F 1 "2.26k" H 770 9255 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 630 9300 50  0001 C CNN
 F 3 "~" H 700 9300 50  0001 C CNN
+F 4 "2446941" H 700 9300 50  0001 C CNN "manf#"
+F 5 "https://www.aliexpress.com/item/32868991875.html" H 700 9300 50  0001 C CNN "kicost:AliExpress:link"
+F 6 "1:AUD0.0146" H 700 9300 50  0001 C CNN "kicost:AliExpress:pricing"
 	1    700  9300
 	1    0    0    -1  
 $EndComp
@@ -5086,7 +6099,8 @@ P 700 9600
 F 0 "D172" V 739 9483 50  0000 R CNN
 F 1 "LED" V 648 9483 50  0000 R CNN
 F 2 "MyOwnKeyboard:158301250" H 700 9600 50  0001 C CNN
-F 3 "~" H 700 9600 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/158301250.pdf" H 700 9600 50  0001 C CNN
+F 4 "158301250" H 700 9600 50  0001 C CNN "manf#"
 	1    700  9600
 	0    -1   -1   0   
 $EndComp
@@ -5098,6 +6112,9 @@ F 0 "R41" H 770 8496 50  0000 L CNN
 F 1 "2.26k" H 770 8405 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 630 8450 50  0001 C CNN
 F 3 "~" H 700 8450 50  0001 C CNN
+F 4 "2446941" H 700 8450 50  0001 C CNN "manf#"
+F 5 "https://www.aliexpress.com/item/32868991875.html" H 700 8450 50  0001 C CNN "kicost:AliExpress:link"
+F 6 "1:AUD0.0146" H 700 8450 50  0001 C CNN "kicost:AliExpress:pricing"
 	1    700  8450
 	1    0    0    -1  
 $EndComp
@@ -5108,7 +6125,8 @@ P 700 8750
 F 0 "D153" V 739 8633 50  0000 R CNN
 F 1 "LED" V 648 8633 50  0000 R CNN
 F 2 "MyOwnKeyboard:158301250" H 700 8750 50  0001 C CNN
-F 3 "~" H 700 8750 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/158301250.pdf" H 700 8750 50  0001 C CNN
+F 4 "158301250" H 700 8750 50  0001 C CNN "manf#"
 	1    700  8750
 	0    -1   -1   0   
 $EndComp
@@ -5120,6 +6138,9 @@ F 0 "R22" H 770 7646 50  0000 L CNN
 F 1 "2.26k" H 770 7555 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 630 7600 50  0001 C CNN
 F 3 "~" H 700 7600 50  0001 C CNN
+F 4 "2446941" H 700 7600 50  0001 C CNN "manf#"
+F 5 "https://www.aliexpress.com/item/32868991875.html" H 700 7600 50  0001 C CNN "kicost:AliExpress:link"
+F 6 "1:AUD0.0146" H 700 7600 50  0001 C CNN "kicost:AliExpress:pricing"
 	1    700  7600
 	1    0    0    -1  
 $EndComp
@@ -5130,7 +6151,8 @@ P 700 7900
 F 0 "D134" V 739 7783 50  0000 R CNN
 F 1 "LED" V 648 7783 50  0000 R CNN
 F 2 "MyOwnKeyboard:158301250" H 700 7900 50  0001 C CNN
-F 3 "~" H 700 7900 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/158301250.pdf" H 700 7900 50  0001 C CNN
+F 4 "158301250" H 700 7900 50  0001 C CNN "manf#"
 	1    700  7900
 	0    -1   -1   0   
 $EndComp
@@ -5142,6 +6164,9 @@ F 0 "R3" H 770 6796 50  0000 L CNN
 F 1 "2.26k" H 770 6705 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 630 6750 50  0001 C CNN
 F 3 "~" H 700 6750 50  0001 C CNN
+F 4 "2446941" H 700 6750 50  0001 C CNN "manf#"
+F 5 "https://www.aliexpress.com/item/32868991875.html" H 700 6750 50  0001 C CNN "kicost:AliExpress:link"
+F 6 "1:AUD0.0146" H 700 6750 50  0001 C CNN "kicost:AliExpress:pricing"
 	1    700  6750
 	1    0    0    -1  
 $EndComp
@@ -5152,7 +6177,8 @@ P 700 7050
 F 0 "D115" V 739 6933 50  0000 R CNN
 F 1 "LED" V 648 6933 50  0000 R CNN
 F 2 "MyOwnKeyboard:158301250" H 700 7050 50  0001 C CNN
-F 3 "~" H 700 7050 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/158301250.pdf" H 700 7050 50  0001 C CNN
+F 4 "158301250" H 700 7050 50  0001 C CNN "manf#"
 	1    700  7050
 	0    -1   -1   0   
 $EndComp
@@ -5164,6 +6190,9 @@ F 0 "R2" H 4250 15400 50  0000 L CNN
 F 1 "100k" H 4250 15300 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4130 15350 50  0001 C CNN
 F 3 "~" H 4200 15350 50  0001 C CNN
+F 4 "2446868" H 4200 15350 50  0001 C CNN "manf#"
+F 5 "https://www.aliexpress.com/item/32868987725.html" H 4200 15350 50  0001 C CNN "kicost:AliExpress:link"
+F 6 "1:AUD0.01" H 4200 15350 50  0001 C CNN "kicost:AliExpress:pricing"
 	1    4200 15350
 	1    0    0    -1  
 $EndComp
@@ -5174,7 +6203,8 @@ P 3500 14500
 F 0 "D229" H 3650 14350 50  0000 C CNN
 F 1 "NUMLOCK" H 3325 14350 50  0000 C CNN
 F 2 "MyOwnKeyboard:158301250" H 3500 14500 50  0001 C CNN
-F 3 "~" H 3500 14500 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/158301250.pdf" H 3500 14500 50  0001 C CNN
+F 4 "158301250" H 3500 14500 50  0001 C CNN "manf#"
 	1    3500 14500
 	1    0    0    1   
 $EndComp
@@ -5185,7 +6215,8 @@ P 3500 14800
 F 0 "D230" H 3650 14900 50  0000 C CNN
 F 1 "CAPSLOCK" H 3325 14900 50  0000 C CNN
 F 2 "MyOwnKeyboard:158301250" H 3500 14800 50  0001 C CNN
-F 3 "~" H 3500 14800 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/158301250.pdf" H 3500 14800 50  0001 C CNN
+F 4 "158301250" H 3500 14800 50  0001 C CNN "manf#"
 	1    3500 14800
 	1    0    0    1   
 $EndComp
@@ -5197,6 +6228,9 @@ F 0 "R117" V 2825 14500 50  0000 C CNN
 F 1 "2.26k" V 2900 14500 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 2930 14500 50  0001 C CNN
 F 3 "~" H 3000 14500 50  0001 C CNN
+F 4 "2446941" H 3000 14500 50  0001 C CNN "manf#"
+F 5 "https://www.aliexpress.com/item/32868991875.html" H 3000 14500 50  0001 C CNN "kicost:AliExpress:link"
+F 6 "1:AUD0.0146" H 3000 14500 50  0001 C CNN "kicost:AliExpress:pricing"
 	1    3000 14500
 	0    -1   1    0   
 $EndComp
@@ -5208,6 +6242,9 @@ F 0 "R118" V 2825 14800 50  0000 C CNN
 F 1 "2.26k" V 2900 14800 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 2930 14800 50  0001 C CNN
 F 3 "~" H 3000 14800 50  0001 C CNN
+F 4 "2446941" H 3000 14800 50  0001 C CNN "manf#"
+F 5 "https://www.aliexpress.com/item/32868991875.html" H 3000 14800 50  0001 C CNN "kicost:AliExpress:link"
+F 6 "1:AUD0.0146" H 3000 14800 50  0001 C CNN "kicost:AliExpress:pricing"
 	1    3000 14800
 	0    -1   1    0   
 $EndComp
@@ -5232,6 +6269,7 @@ F 0 "U1" H 1250 15900 50  0000 C CNN
 F 1 "ATmega8535-16PU" H 2250 15900 50  0000 C CNN
 F 2 "Package_DIP:DIP-40_W15.24mm" H 1700 13900 50  0001 C CIN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/doc2502.pdf" H 1700 13900 50  0001 C CNN
+F 4 "ATmega8535-16PU" H 1700 13900 50  0001 C CNN "manf#"
 	1    1700 13900
 	1    0    0    -1  
 $EndComp
@@ -8135,6 +9173,7 @@ F 0 "J2" H 4000 12150 50  0000 R CNN
 F 1 "ISP Header" H 3950 12250 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" H 3750 12650 50  0001 C CNN
 F 3 "~" H 3750 12650 50  0001 C CNN
+F 4 "67996-406HLF" H 3750 12650 50  0001 C CNN "manf#"
 	1    3750 12650
 	-1   0    0    1   
 $EndComp
@@ -8185,6 +9224,9 @@ F 0 "D96" H 750 5734 50  0000 C CNN
 F 1 "1N4148" H 750 5825 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF" H 750 5950 50  0001 C CNN
 F 3 "~" H 750 5950 50  0001 C CNN
+F 4 "LL4148" H 750 5950 50  0001 C CNN "manf#"
+F 5 "https://www.aliexpress.com/item/4000331505052.html" H 750 5950 50  0001 C CNN "kicost:AliExpress:link"
+F 6 "1:AUD0.0247" H 750 5950 50  0001 C CNN "kicost:AliExpress:pricing"
 	1    750  5950
 	0    1    1    0   
 $EndComp
@@ -8196,6 +9238,9 @@ F 0 "D78" H 1250 4784 50  0000 C CNN
 F 1 "1N4148" H 1250 4875 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF" H 1250 5000 50  0001 C CNN
 F 3 "~" H 1250 5000 50  0001 C CNN
+F 4 "LL4148" H 1250 5000 50  0001 C CNN "manf#"
+F 5 "https://www.aliexpress.com/item/4000331505052.html" H 1250 5000 50  0001 C CNN "kicost:AliExpress:link"
+F 6 "1:AUD0.0247" H 1250 5000 50  0001 C CNN "kicost:AliExpress:pricing"
 	1    1250 5000
 	0    1    1    0   
 $EndComp
