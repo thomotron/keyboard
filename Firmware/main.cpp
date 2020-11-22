@@ -43,6 +43,7 @@ typedef struct key {
     unsigned char code;
     bool special;
     bool lastPressedState;
+    bool isBouncing;
 } key;
 
 /// Status LEDs states (i.e. numlock, capslock, etc.)
@@ -65,10 +66,10 @@ bool fnPressed = false;
 
 /// Table containing character codes for each key in the keyboard layout.
 key kbmap[MATRIX_HEIGHT][MATRIX_WIDTH] = {
-    {{0x6C, false, false},{0x75, false, false},{0x7D, false, false},{0x77, false, false}},
-    {{0x6B, false, false},{0x73, false, false},{0x74, false, false},{0x79, false, false}},
-    {{0x69, false, false},{0x72, false, false},{0x7A, false, false},{0x7B, false, false}},
-    {{0x01, false, false},{0x70, false, false},{0x71, false, false},{0x5A, true, false}}
+    {{0x6C, false, false, false},{0x75, false, false, false},{0x7D, false, false, false},{0x77, false, false, false}},
+    {{0x6B, false, false, false},{0x73, false, false, false},{0x74, false, false, false},{0x79, false, false, false}},
+    {{0x69, false, false, false},{0x72, false, false, false},{0x7A, false, false, false},{0x7B, false, false, false}},
+    {{0x00, false, false, false},{0x70, false, false, false},{0x71, false, false, false},{0x5A, true, false, false}}
 };
 
 /// Timer0 matching comparison interrupt
@@ -197,6 +198,18 @@ void handleKeypress(key* key, bool value)
     // Only update the key if the state has changed
     if (key->lastPressedState != value)
     {
+        // Update the state and ignore it
+        key->lastPressedState = value;
+        key->isBouncing = true;
+        return;
+    }
+
+    // Has the key previously been ignored and is still the same value?
+    // i.e. is it stable?
+    if (key->isBouncing && key->lastPressedState == value)
+    {
+        // Reset the debounce flag and handle the keypress normally
+        key->isBouncing = false;
         key->lastPressedState = value;
         if (value == High)
         {
