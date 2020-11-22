@@ -19,9 +19,9 @@
 //
 #define MATRIX_WIDTH 4
 #define MATRIX_HEIGHT 4
-#define MATRIX_SINK_PORT PORTA // Port of the pins that will sink to allow reading
+#define MATRIX_SINK_PORT PORTD // Port of the pins that will sink to allow reading
 #define MATRIX_SINK_PIN_OFFSET 0 // First pin index to pull low
-#define MATRIX_READ (PIND) // Macro used to read each column state
+#define MATRIX_READ (PINA) // Macro used to read each column state
 
 //
 // Other definitions
@@ -101,10 +101,10 @@ void init()
     cli();
 
     // Set port directions
-    DDRA = 0b00001111;
+    DDRA = 0;
     DDRB = 0;
     DDRC = 0;
-    DDRD = 0;
+    DDRD = 0b00001111;
     PinMode(BACKLIGHT, Output);
     PinMode(CLK, Input);
     PinMode(DATA, Input);
@@ -117,7 +117,7 @@ void init()
     DigitalWrite(NUMLOCK, High);
     DigitalWrite(CAPSLOCK, High);
     PORTA = 0b00001111;
-    PORTD = 0b00111111;
+    PORTD = 0b00001111;
 
     // Set up Timer0 to check for host communication periodically
     TCCR0 |= (1 << WGM01); // Count up and reset when matched
@@ -160,23 +160,23 @@ inline void readMatrix()
 {
     // Scan the matrix and store each key's state
     bool keyStates[MATRIX_HEIGHT][MATRIX_WIDTH];
-    for (int col = 0; col < MATRIX_WIDTH; col++)
+    for (int row = 0; row < MATRIX_HEIGHT; row++)
     {
         // Allow the column to sink
-        BitClear(MATRIX_SINK_PORT, (col + MATRIX_SINK_PIN_OFFSET));
+        BitClear(MATRIX_SINK_PORT, (row + MATRIX_SINK_PIN_OFFSET));
         nop;
 
-        // Get each row's data
+        // Get each column's data
         uint32_t rowData = MATRIX_READ;
 
         // Fill in keyStates with this column's data
-        for (int row = 0; row < MATRIX_HEIGHT; row++)
+        for (int col = 0; col < MATRIX_WIDTH; col++)
         {
-            keyStates[row][col] = !(rowData & (1 << row));
+            keyStates[row][col] = !(rowData & (1 << col));
         }
 
         // Bring the column back high
-        BitSet(MATRIX_SINK_PORT, (col + MATRIX_SINK_PIN_OFFSET));
+        BitSet(MATRIX_SINK_PORT, (row + MATRIX_SINK_PIN_OFFSET));
     }
 
     // Handle any state changes of the keys we just sampled
