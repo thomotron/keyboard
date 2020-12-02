@@ -62,14 +62,23 @@ void disableBacklight();
 
 PS2dev ps2;
 
-bool fnPressed = false;
+/// Keyboard layer
+uint8_t layer = 0;
 
 /// Table containing character codes for each key in the keyboard layout.
-key kbmap[MATRIX_HEIGHT][MATRIX_WIDTH] = {
-    {{0x6C, false, false, false},{0x75, false, false, false},{0x7D, false, false, false},{0x77, false, false, false}},
-    {{0x6B, false, false, false},{0x73, false, false, false},{0x74, false, false, false},{0x79, false, false, false}},
-    {{0x69, false, false, false},{0x72, false, false, false},{0x7A, false, false, false},{0x7B, false, false, false}},
-    {{0x00, false, false, false},{0x70, false, false, false},{0x71, false, false, false},{0x5A, true, false, false}}
+key kbmap[2][MATRIX_HEIGHT][MATRIX_WIDTH] = {
+    {
+        {{0x6C, false, false, false},{0x75, false, false, false},{0x7D, false, false, false},{0x77, false, false, false}},
+        {{0x6B, false, false, false},{0x73, false, false, false},{0x74, false, false, false},{0x79, false, false, false}},
+        {{0x69, false, false, false},{0x72, false, false, false},{0x7A, false, false, false},{0x7B, false, false, false}},
+        {{0x01, false, false, false},{0x70, false, false, false},{0x71, false, false, false},{0x5A, true, false, false}}
+    },
+    {
+        {{0x15, true, false, false},{0x3B, true, false, false},{0x34, true, false, false},{0x4D, true, false, false}},
+        {{0x48, true, false, false},{0x50, true, false, false},{0x2B, true, false, false},{0x32, true, false, false}},
+        {{0x3A, true, false, false},{0x10, true, false, false},{0x23, true, false, false},{0x21, true, false, false}},
+        {{0x01, false, false, false},{0x5E, true, false, false},{0x5F, true, false, false},{0x63, true, false, false}}
+    }
 };
 
 /// Timer0 matching comparison interrupt
@@ -185,7 +194,7 @@ inline void readMatrix()
         for (int col = 0; col < MATRIX_WIDTH; col++)
         {
             // Handle any change to the key
-            handleKeypress(&kbmap[row][col], keyStates[row][col]);
+            handleKeypress(&kbmap[layer][row][col], keyStates[row][col]);
         }
     }
 }
@@ -219,32 +228,9 @@ void handleKeypress(key* key, bool value)
                     // Don't do anything for blank keys (this shouldn't even happen)
                     break;
                 case 0x01:
-                    fnPressed = true;
-                    break;
-                case 0x79: // Plus
-                    // Check if the Fn key is pressed
-                    if (fnPressed)
-                        // Increment the backlight
-                        incrementBacklight();
-                    else
-                        // Handle the key change normally
-                        goto normal_keypress;
-                    break;
-                case 0x7b: // Minus
-                    // Check if the Fn key is pressed
-                    if (fnPressed)
-                        // Decrement the backlight
-                        decrementBacklight();
-                    else
-                        // Handle the key change normally
-                        goto normal_keypress;
+                    layer = 1;
                     break;
                 default:
-                    normal_keypress:
-
-                    // Don't handle key presses while holding Fn
-                    if (fnPressed) break;
-
 #ifndef DISABLE_PS2
                     // Handle the key change normally
                     cli();
@@ -262,12 +248,9 @@ void handleKeypress(key* key, bool value)
                     // Don't do anything for blank keys (this shouldn't even happen)
                     break;
                 case 0x01:
-                    fnPressed = false;
+                    layer = 0;
                     break;
                 default:
-                    // Don't handle key presses while holding Fn
-                    if (fnPressed) break;
-
 #ifndef DISABLE_PS2
                     // Handle the key change normally
                     cli();
