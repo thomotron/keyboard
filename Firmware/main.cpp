@@ -28,6 +28,7 @@
 //
 #define BACKLIGHT_PRESCALER 0b110
 #define BACKLIGHT_INCREMENT 32 // Backlight range is 0-255
+#define LAYERS 2
 //#define DISABLE_PS2
 
 // The PS/2 protocol requires that the CLK line be checked by the device at
@@ -37,6 +38,12 @@
 // by setting the prescaler to /256 and counting to 156 before resetting.
 #define HOSTCOM_PRESCALER 0b100
 #define HOSTCOM_TOP 156
+
+//
+// EEPROM address definitions
+//
+#define EE_BACKLIGHT ((uint8_t *) 0) // Backlight level (offset up to +3 for additional layers)
+#define EE_ACTIVE_LAYER ((uint8_t *) 4) // Active layer
 
 /// A single key on the keyboard.
 typedef struct key {
@@ -66,7 +73,7 @@ PS2dev ps2;
 uint8_t layer = 0;
 
 /// Table containing character codes for each key in the keyboard layout.
-key kbmap[2][MATRIX_HEIGHT][MATRIX_WIDTH] = {
+key kbmap[LAYERS][MATRIX_HEIGHT][MATRIX_WIDTH] = {
     {
         {{0x6C, false, false, false},{0x75, false, false, false},{0x7D, false, false, false},{0x77, false, false, false}},
         {{0x6B, false, false, false},{0x73, false, false, false},{0x74, false, false, false},{0x79, false, false, false}},
@@ -80,6 +87,9 @@ key kbmap[2][MATRIX_HEIGHT][MATRIX_WIDTH] = {
         {{0x01, false, false, false},{0x5E, true, false, false},{0x5F, true, false, false},{0x63, true, false, false}}
     }
 };
+
+/// Backlight levels per keyboard layer.
+uint8_t backlight_profile[LAYERS] = {255, 255};
 
 /// Timer0 matching comparison interrupt
 ISR(TIMER0_COMP_vect)
@@ -138,11 +148,23 @@ void init()
     TCCR2 |= (1 << WGM21) | (1 << WGM20); // Use fast PWM mode
     TCCR2 |= (1 << COM21) | (0 << COM20); // Toggle the output pin when matched
     TCCR2 |= (BACKLIGHT_PRESCALER & 0b100 << CS22) | (BACKLIGHT_PRESCALER & 0b10 << CS21) | (BACKLIGHT_PRESCALER & 0b1 << CS20);
+    
+    // Set the active layer and validate it
+    layer = eeprom_read_byte(EE_ACTIVE_LAYER);
+    if (layer >= LAYERS)
+    {
+        // Use the highest layer instead and write it to EEPROM
+        layer = LAYERS - 1;
+        eeprom_write_byte(EE_ACTIVE_LAYER, layer);
+    }
 
     // Load the backlight setting from EEPROM
-    uint8_t saved_backlight = eeprom_read_byte((uint8_t *) 0);
-    OCR2 = saved_backlight;
-    saved_backlight ? enableBacklight() : disableBacklight();
+    for (uint8_t i = 0; i < LAYERS; i++)
+    {
+        backlight_profile[i] = eeprom_read_byte(EE_BACKLIGHT + i);
+    }
+    OCR2 = backlight_profile[layer];
+    OCR2 ? enableBacklight() : disableBacklight();
 
     // Initialise our PS2dev instance and tell the host that we exist
     ps2 = PS2dev();
@@ -281,7 +303,7 @@ void incrementBacklight()
     }
 
     // Save the backlight value to EEPROM
-    eeprom_write_byte((uint8_t *) 0, OCR2);
+    eeprom_write_byte(EE_BACKLIGHT + layer, OCR2);
 }
 
 /// Decrements the backlight brightness by one step as defined by
@@ -301,7 +323,15 @@ void decrementBacklight()
     }
 
     // Save the backlight value to EEPROM
-    eeprom_write_byte((uint8_t *) 0, OCR2);
+    eeprom_write_byte(EE_BACKLIGHT + layer, OCR2);
+}
+
+/// Sets the backlight brightness.
+inline void setBacklight(uint8_t level)
+{
+    OCR2 = level;
+    OCR2 ? enableBacklight() : disableBacklight();
+    eeprom_write_byte(EE_BACKLIGHT + layer, OCR2);
 }
 
 /// Enables the backlight by starting the PWM timer.
@@ -315,4 +345,18 @@ inline void disableBacklight()
 {
     TCCR2 &= ~((1 << COM21) | (1 << COM20)); // Disable OC2 pin output but leave the timer running
     DigitalWrite(BACKLIGHT, Low);
+}
+    
+/// Sets the active layer and applies any necessary changes
+void setLayer(uint8_t new_layer)
+{
+    // Cap the layer to LAYERS
+    if (new_layer >= LAYERS) new_layer = LAYERS - 1;
+    
+    // Set the layer and save it to EEPROM
+    layer = new_layer;
+    eeprom_write_byte(EE_ACTIVE_LAYER, layer)
+    
+    // Set the backlight level
+    setBacklight(backlight_profile[layer]);
 }
