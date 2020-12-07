@@ -72,6 +72,9 @@ PS2dev ps2;
 /// Keyboard layer
 uint8_t layer = 0;
 
+/// Function-lock
+bool fn_lock = false;
+
 /// Table containing character codes for each key in the keyboard layout.
 key kbmap[LAYERS][MATRIX_HEIGHT][MATRIX_WIDTH] = {
     {
@@ -250,7 +253,11 @@ void handleKeypress(key* key, bool value)
                     // Don't do anything for blank keys (this shouldn't even happen)
                     break;
                 case 0x01:
+                    fn_lock ? layer = 0 : layer = 1;
+                    break;
+                case 0x02:
                     layer = 1;
+                    fn_lock = true;
                     break;
                 default:
 #ifndef DISABLE_PS2
@@ -270,8 +277,11 @@ void handleKeypress(key* key, bool value)
                     // Don't do anything for blank keys (this shouldn't even happen)
                     break;
                 case 0x01:
-                    layer = 0;
+                    fn_lock ? layer = 0 : layer = 1;
                     break;
+                case 0x02:
+                    layer = 0;
+                    fn_lock = false;
                 default:
 #ifndef DISABLE_PS2
                     // Handle the key change normally
@@ -355,7 +365,7 @@ void setLayer(uint8_t new_layer)
     
     // Set the layer and save it to EEPROM
     layer = new_layer;
-    eeprom_write_byte(EE_ACTIVE_LAYER, layer)
+    eeprom_write_byte(EE_ACTIVE_LAYER, layer);
     
     // Set the backlight level
     setBacklight(backlight_profile[layer]);
