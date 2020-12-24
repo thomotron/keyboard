@@ -172,12 +172,14 @@ class PS2dev
 		int keyboard_handle(unsigned char *leds);
 		int keyboard_mkbrk(unsigned char code);
 		int keyboard_special_mkbrk(unsigned char code);
+		void (*handle_cmd)(unsigned char argc, unsigned char *argv);
 	private:
 		void clkhi();
 		void clklo();
 		void datahi();
 		void datalo();
 		void ack();
+		void read_multiarg_cmd(unsigned char cmd);
 };
 
 #endif /* ps2dev_h */

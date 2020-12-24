@@ -66,6 +66,7 @@ void incrementBacklight();
 void decrementBacklight();
 void enableBacklight();
 void disableBacklight();
+void handle_cmd(uint8_t argc, uint8_t *argv);
 
 PS2dev ps2;
 
@@ -171,6 +172,7 @@ void init()
 
     // Initialise our PS2dev instance and tell the host that we exist
     ps2 = PS2dev();
+    ps2.handle_cmd = handle_cmd;
     ps2.keyboard_init();
 
     // Enable interrupts
@@ -369,4 +371,27 @@ void setLayer(uint8_t new_layer)
     
     // Set the backlight level
     setBacklight(backlight_profile[layer]);
+}
+
+/// Handles incoming arbitrary bytes of data
+void handle_cmd(uint8_t argc, uint8_t* argv)
+{
+    uint8_t cmd = argv[0];
+    switch (cmd)
+    {
+        case 0x00: // Set backlight
+            setBacklight(argv[1]);
+            break;
+        case 0x01: // Remap key
+            uint8_t layer, y, x, new_scancode, is_special;
+            layer = argv[1];
+            x = argv[2];
+            y = argv[3];
+            new_scancode = argv[4];
+            is_special = argv[5];
+
+            kbmap[layer][y][x].code = new_scancode;
+            kbmap[layer][y][x].special = is_special;
+            break;
+    }
 }

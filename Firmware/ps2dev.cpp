@@ -308,8 +308,30 @@ int PS2dev::keyboard_reply(unsigned char cmd, unsigned char *leds)
 #endif
     return 1;
     break;
+  default:
+    if ((cmd & 0xC0) == 0xC0) read_multiarg_cmd(cmd); //multiarg commands
+    break;
   }
   return 0;
+}
+
+// Dynamically reads a multi-byte command based on how many parameters are specified.
+void PS2dev::read_multiarg_cmd(unsigned char cmd) {
+    unsigned char num_args = cmd & 0b1111; // Lower 4 bits contain arg count
+    unsigned char args[num_args];
+
+    // Don't accept zero-arg commands
+    if (num_args == 0) return;
+
+    // Read the incoming args
+    for (unsigned char i = 0; i < num_args; i++)
+    {
+        // Read the next byte
+        if (!read(&args[i])) ack();
+    }
+
+    // Call the handler function
+    handle_cmd(num_args, args);
 }
 
 // Handles incoming messages from the host (if any) and sets the LEDs.
