@@ -597,7 +597,7 @@
     (add_net Earth)
   )
 
-  (module MyOwnKeyboard:SW_Cherry_MX_2.00u_Vertical_PCB (layer F.Cu) (tedit 6014DAA6) (tstamp 5EAE6830)
+  (module MyOwnKeyboard:SW_Cherry_MX_2.00u_Vertical_PCB (layer F.Cu) (tedit 60160A4A) (tstamp 5EAE6830)
     (at 99.75 237.5 180)
     (descr "Cherry MX keyswitch, 2.00u, vertical, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
     (tags "Cherry MX keyswitch 2.00u vertical PCB")
@@ -638,14 +638,14 @@
       (net 193 "Net-(D61-Pad1)"))
     (pad 1 thru_hole circle (at 2.54 -5.08 180) (size 2.2 2.2) (drill 1.5) (layers *.Cu *.Mask)
       (net 138 4))
-    (model "../libs/MyOwnKeyboard.pretty/Cherry MX.wrl"
+    (model ../libs/MyOwnKeyboard.pretty/SW_Cherry_MX_2.00u_Vertical_PCB.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module MyOwnKeyboard:158301250_Face_Down (layer B.Cu) (tedit 5FCB95DD) (tstamp 5FCD7211)
+  (module MyOwnKeyboard:158301250_Face_Down (layer B.Cu) (tedit 60160B1E) (tstamp 5FCD7211)
     (at 105.79 185.485)
     (descr "Würth Elektronik WL-SWTP SMT White Top view")
     (path /5EE7CE59)
@@ -665,6 +665,11 @@
       (net 126 "Net-(D229-Pad1)"))
     (pad 2 smd rect (at -2 0) (size 1.5 1) (layers B.Cu B.Paste B.Mask)
       (net 22 5v))
+    (model ../libs/MyOwnKeyboard.pretty/158301250.wrl
+      (offset (xyz 0 0 0.8))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 180 0 0))
+    )
   )
 
   (module MountingHole:MountingHole_2.7mm_M2.5_Pad_Via (layer F.Cu) (tedit 56DDBBFF) (tstamp 5FCCE32C)
@@ -1315,7 +1320,7 @@
     (pad 1 thru_hole circle (at 0 0) (size 5.4 5.4) (drill 2.7) (layers *.Cu *.Mask))
   )
 
-  (module MyOwnKeyboard:158301250_Face_Down (layer B.Cu) (tedit 5FCB95DD) (tstamp 5EB15988)
+  (module MyOwnKeyboard:158301250_Face_Down (layer B.Cu) (tedit 60160B1E) (tstamp 5EB15988)
     (at 104.89 189.775)
     (descr "Würth Elektronik WL-SWTP SMT White Top view")
     (path /5EE8076E)
@@ -1335,6 +1340,11 @@
       (net 127 "Net-(D230-Pad1)"))
     (pad 2 smd rect (at -2 0) (size 1.5 1) (layers B.Cu B.Paste B.Mask)
       (net 22 5v))
+    (model ../libs/MyOwnKeyboard.pretty/158301250.wrl
+      (offset (xyz 0 0 0.8))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 180 0 0))
+    )
   )
 
   (module Package_DIP:DIP-40_W15.24mm_Socket (layer F.Cu) (tedit 5A02E8C5) (tstamp 5EAF3EB6)
@@ -1457,7 +1467,7 @@
     )
   )
 
-  (module MyOwnKeyboard:SW_Cherry_MX_1.50u_PCB (layer F.Cu) (tedit 6014DA8D) (tstamp 5EAE66B0)
+  (module MyOwnKeyboard:SW_Cherry_MX_1.50u_PCB (layer F.Cu) (tedit 60160A1F) (tstamp 5EAE66B0)
     (at 190 228 180)
     (descr "Cherry MX keyswitch, 1.50u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
     (tags "Cherry MX keyswitch 1.50u PCB")
@@ -1494,14 +1504,14 @@
       (net 178 "Net-(D45-Pad1)"))
     (pad 1 thru_hole circle (at 2.54 -5.08 180) (size 2.2 2.2) (drill 1.5) (layers *.Cu *.Mask)
       (net 137 3))
-    (model "../libs/MyOwnKeyboard.pretty/Cherry MX.wrl"
+    (model ../libs/MyOwnKeyboard.pretty/SW_Cherry_MX_1.50u_PCB.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module MyOwnKeyboard:SW_Cherry_MX_2.00u_PCB (layer F.Cu) (tedit 6014DA9C) (tstamp 5EAE6980)
+  (module MyOwnKeyboard:SW_Cherry_MX_2.00u_PCB (layer F.Cu) (tedit 60160A3D) (tstamp 5EAE6980)
     (at 441.75 209 180)
     (descr "Cherry MX keyswitch, 2.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
     (tags "Cherry MX keyswitch 2.00u PCB")
@@ -1542,14 +1552,14 @@
       (net 207 "Net-(D75-Pad1)"))
     (pad 1 thru_hole circle (at 2.54 -5.08 180) (size 2.2 2.2) (drill 1.5) (layers *.Cu *.Mask)
       (net 138 4))
-    (model "../libs/MyOwnKeyboard.pretty/Cherry MX.wrl"
+    (model ../libs/MyOwnKeyboard.pretty/SW_Cherry_MX_2.00u_PCB.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module MyOwnKeyboard:SW_Cherry_MX_1.50u_PCB (layer F.Cu) (tedit 6014DA8D) (tstamp 5EAE6B48)
+  (module MyOwnKeyboard:SW_Cherry_MX_1.50u_PCB (layer F.Cu) (tedit 60160A1F) (tstamp 5EAE6B48)
     (at 446.5 228 180)
     (descr "Cherry MX keyswitch, 1.50u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
     (tags "Cherry MX keyswitch 1.50u PCB")
@@ -1586,14 +1596,14 @@
       (net 224 "Net-(D94-Pad1)"))
     (pad 1 thru_hole circle (at 2.54 -5.08 180) (size 2.2 2.2) (drill 1.5) (layers *.Cu *.Mask)
       (net 139 5))
-    (model "../libs/MyOwnKeyboard.pretty/Cherry MX.wrl"
+    (model ../libs/MyOwnKeyboard.pretty/SW_Cherry_MX_1.50u_PCB.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module MyOwnKeyboard:SW_Cherry_MX_2.25u_PCB (layer F.Cu) (tedit 6014DAAC) (tstamp 5FD2CAFF)
+  (module MyOwnKeyboard:SW_Cherry_MX_2.25u_PCB (layer F.Cu) (tedit 60160A56) (tstamp 5FD2CAFF)
     (at 439.375 247 180)
     (descr "Cherry MX keyswitch, 2.25u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
     (tags "Cherry MX keyswitch 2.25u PCB")
@@ -1634,14 +1644,14 @@
       (net 241 "Net-(D114-Pad1)"))
     (pad 1 thru_hole circle (at 2.54 -5.08 180) (size 2.2 2.2) (drill 1.5) (layers *.Cu *.Mask)
       (net 140 6))
-    (model "../libs/MyOwnKeyboard.pretty/Cherry MX.wrl"
+    (model ../libs/MyOwnKeyboard.pretty/SW_Cherry_MX_2.25u_PCB.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module MyOwnKeyboard:SW_Cherry_MX_1.75u_PCB (layer F.Cu) (tedit 6014DA95) (tstamp 5EAE6860)
+  (module MyOwnKeyboard:SW_Cherry_MX_1.75u_PCB (layer F.Cu) (tedit 60160A2F) (tstamp 5EAE6860)
     (at 192.375 247 180)
     (descr "Cherry MX keyswitch, 1.75u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
     (tags "Cherry MX keyswitch 1.75u PCB")
@@ -1678,14 +1688,14 @@
       (net 195 "Net-(D63-Pad1)"))
     (pad 1 thru_hole circle (at 2.54 -5.08 180) (size 2.2 2.2) (drill 1.5) (layers *.Cu *.Mask)
       (net 138 4))
-    (model "../libs/MyOwnKeyboard.pretty/Cherry MX.wrl"
+    (model ../libs/MyOwnKeyboard.pretty/SW_Cherry_MX_1.75u_PCB.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module MyOwnKeyboard:SW_Cherry_MX_2.75u_PCB (layer F.Cu) (tedit 6014DAB2) (tstamp 5EAE6B18)
+  (module MyOwnKeyboard:SW_Cherry_MX_2.75u_PCB (layer F.Cu) (tedit 60160A63) (tstamp 5EAE6B18)
     (at 434.625 266 180)
     (descr "Cherry MX keyswitch, 2.75u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
     (tags "Cherry MX keyswitch 2.75u PCB")
@@ -1726,14 +1736,14 @@
       (net 223 "Net-(D92-Pad1)"))
     (pad 1 thru_hole circle (at 2.54 -5.08 180) (size 2.2 2.2) (drill 1.5) (layers *.Cu *.Mask)
       (net 139 5))
-    (model "../libs/MyOwnKeyboard.pretty/Cherry MX.wrl"
+    (model ../libs/MyOwnKeyboard.pretty/SW_Cherry_MX_2.75u_PCB.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module MyOwnKeyboard:SW_Cherry_MX_2.25u_PCB (layer F.Cu) (tedit 6014DAAC) (tstamp 5EAE6A28)
+  (module MyOwnKeyboard:SW_Cherry_MX_2.25u_PCB (layer F.Cu) (tedit 60160A56) (tstamp 5EAE6A28)
     (at 197.125 266 180)
     (descr "Cherry MX keyswitch, 2.25u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
     (tags "Cherry MX keyswitch 2.25u PCB")
@@ -1774,14 +1784,14 @@
       (net 213 "Net-(D82-Pad1)"))
     (pad 1 thru_hole circle (at 2.54 -5.08 180) (size 2.2 2.2) (drill 1.5) (layers *.Cu *.Mask)
       (net 139 5))
-    (model "../libs/MyOwnKeyboard.pretty/Cherry MX.wrl"
+    (model ../libs/MyOwnKeyboard.pretty/SW_Cherry_MX_2.25u_PCB.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module MyOwnKeyboard:SW_Cherry_MX_2.00u_Vertical_PCB (layer F.Cu) (tedit 6014DAA6) (tstamp 5EAE69F8)
+  (module MyOwnKeyboard:SW_Cherry_MX_2.00u_Vertical_PCB (layer F.Cu) (tedit 60160A4A) (tstamp 5EAE69F8)
     (at 99.75 275.5 180)
     (descr "Cherry MX keyswitch, 2.00u, vertical, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
     (tags "Cherry MX keyswitch 2.00u vertical PCB")
@@ -1822,14 +1832,14 @@
       (net 211 "Net-(D80-Pad1)"))
     (pad 1 thru_hole circle (at 2.54 -5.08 180) (size 2.2 2.2) (drill 1.5) (layers *.Cu *.Mask)
       (net 139 5))
-    (model "../libs/MyOwnKeyboard.pretty/Cherry MX.wrl"
+    (model ../libs/MyOwnKeyboard.pretty/SW_Cherry_MX_2.00u_Vertical_PCB.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module MyOwnKeyboard:SW_Cherry_MX_1.25u_PCB (layer F.Cu) (tedit 6014DA7C) (tstamp 5FD2CB95)
+  (module MyOwnKeyboard:SW_Cherry_MX_1.25u_PCB (layer F.Cu) (tedit 60160A0F) (tstamp 5FD2CB95)
     (at 448.875 285 180)
     (descr "Cherry MX keyswitch, 1.25u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
     (tags "Cherry MX keyswitch 1.25u PCB")
@@ -1866,14 +1876,14 @@
       (net 240 "Net-(D113-Pad1)"))
     (pad 1 thru_hole circle (at 2.54 -5.08 180) (size 2.2 2.2) (drill 1.5) (layers *.Cu *.Mask)
       (net 140 6))
-    (model "../libs/MyOwnKeyboard.pretty/Cherry MX.wrl"
+    (model ../libs/MyOwnKeyboard.pretty/SW_Cherry_MX_1.25u_PCB.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module MyOwnKeyboard:SW_Cherry_MX_1.25u_PCB (layer F.Cu) (tedit 6014DA7C) (tstamp 5FD2CB4A)
+  (module MyOwnKeyboard:SW_Cherry_MX_1.25u_PCB (layer F.Cu) (tedit 60160A0F) (tstamp 5FD2CB4A)
     (at 425.125 285 180)
     (descr "Cherry MX keyswitch, 1.25u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
     (tags "Cherry MX keyswitch 1.25u PCB")
@@ -1910,14 +1920,14 @@
       (net 239 "Net-(D112-Pad1)"))
     (pad 1 thru_hole circle (at 2.54 -5.08 180) (size 2.2 2.2) (drill 1.5) (layers *.Cu *.Mask)
       (net 140 6))
-    (model "../libs/MyOwnKeyboard.pretty/Cherry MX.wrl"
+    (model ../libs/MyOwnKeyboard.pretty/SW_Cherry_MX_1.25u_PCB.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module MyOwnKeyboard:SW_Cherry_MX_1.25u_PCB (layer F.Cu) (tedit 6014DA7C) (tstamp 5FD2CBE0)
+  (module MyOwnKeyboard:SW_Cherry_MX_1.25u_PCB (layer F.Cu) (tedit 60160A0F) (tstamp 5FD2CBE0)
     (at 401.375 285 180)
     (descr "Cherry MX keyswitch, 1.25u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
     (tags "Cherry MX keyswitch 1.25u PCB")
@@ -1954,14 +1964,14 @@
       (net 238 "Net-(D111-Pad1)"))
     (pad 1 thru_hole circle (at 2.54 -5.08 180) (size 2.2 2.2) (drill 1.5) (layers *.Cu *.Mask)
       (net 140 6))
-    (model "../libs/MyOwnKeyboard.pretty/Cherry MX.wrl"
+    (model ../libs/MyOwnKeyboard.pretty/SW_Cherry_MX_1.25u_PCB.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module MyOwnKeyboard:SW_Cherry_MX_7.00u_PCB (layer F.Cu) (tedit 6014DAB8) (tstamp 5EAE6C98)
+  (module MyOwnKeyboard:SW_Cherry_MX_7.00u_PCB (layer F.Cu) (tedit 60160ADE) (tstamp 5EAE6C98)
     (at 318.25 285 180)
     (descr "Cherry MX keyswitch, 6.25u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
     (tags "Cherry MX keyswitch 6.25u PCB")
@@ -2002,14 +2012,14 @@
       (net 235 "Net-(D108-Pad1)"))
     (pad 1 thru_hole circle (at 2.54 -5.08 180) (size 2.2 2.2) (drill 1.5) (layers *.Cu *.Mask)
       (net 140 6))
-    (model "../libs/MyOwnKeyboard.pretty/Cherry MX.wrl"
+    (model ../libs/MyOwnKeyboard.pretty/SW_Cherry_MX_7.00u_PCB.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB (layer F.Cu) (tedit 6014DA5E) (tstamp 5EAE6C68)
+  (module MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB (layer F.Cu) (tedit 60160A00) (tstamp 5EAE6C68)
     (at 285 266 180)
     (descr "Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
     (tags "Cherry MX keyswitch 1.00u PCB")
@@ -2046,14 +2056,14 @@
     (pad "" np_thru_hole circle (at 0 0 180) (size 4 4) (drill 4) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at -5.08 0 180) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at 5.08 0 180) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask))
-    (model "../libs/MyOwnKeyboard.pretty/Cherry MX.wrl"
+    (model ../libs/MyOwnKeyboard.pretty/SW_Cherry_MX_1.00u_PCB.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module MyOwnKeyboard:SW_Cherry_MX_1.25u_PCB (layer F.Cu) (tedit 6014DA7C) (tstamp 5EAE6C20)
+  (module MyOwnKeyboard:SW_Cherry_MX_1.25u_PCB (layer F.Cu) (tedit 60160A0F) (tstamp 5EAE6C20)
     (at 235.125 285 180)
     (descr "Cherry MX keyswitch, 1.25u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
     (tags "Cherry MX keyswitch 1.25u PCB")
@@ -2090,14 +2100,14 @@
       (net 232 "Net-(D103-Pad1)"))
     (pad 1 thru_hole circle (at 2.54 -5.08 180) (size 2.2 2.2) (drill 1.5) (layers *.Cu *.Mask)
       (net 140 6))
-    (model "../libs/MyOwnKeyboard.pretty/Cherry MX.wrl"
+    (model ../libs/MyOwnKeyboard.pretty/SW_Cherry_MX_1.25u_PCB.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module MyOwnKeyboard:SW_Cherry_MX_1.25u_PCB (layer F.Cu) (tedit 6014DA7C) (tstamp 5EAE6C08)
+  (module MyOwnKeyboard:SW_Cherry_MX_1.25u_PCB (layer F.Cu) (tedit 60160A0F) (tstamp 5EAE6C08)
     (at 211.375 285 180)
     (descr "Cherry MX keyswitch, 1.25u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
     (tags "Cherry MX keyswitch 1.25u PCB")
@@ -2134,14 +2144,14 @@
       (net 231 "Net-(D102-Pad1)"))
     (pad 1 thru_hole circle (at 2.54 -5.08 180) (size 2.2 2.2) (drill 1.5) (layers *.Cu *.Mask)
       (net 140 6))
-    (model "../libs/MyOwnKeyboard.pretty/Cherry MX.wrl"
+    (model ../libs/MyOwnKeyboard.pretty/SW_Cherry_MX_1.25u_PCB.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module MyOwnKeyboard:SW_Cherry_MX_1.25u_PCB (layer F.Cu) (tedit 6014DA7C) (tstamp 5EAE6BF0)
+  (module MyOwnKeyboard:SW_Cherry_MX_1.25u_PCB (layer F.Cu) (tedit 60160A0F) (tstamp 5EAE6BF0)
     (at 187.625 285 180)
     (descr "Cherry MX keyswitch, 1.25u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
     (tags "Cherry MX keyswitch 1.25u PCB")
@@ -2178,7 +2188,7 @@
       (net 230 "Net-(D101-Pad1)"))
     (pad 1 thru_hole circle (at 2.54 -5.08 180) (size 2.2 2.2) (drill 1.5) (layers *.Cu *.Mask)
       (net 140 6))
-    (model "../libs/MyOwnKeyboard.pretty/Cherry MX.wrl"
+    (model ../libs/MyOwnKeyboard.pretty/SW_Cherry_MX_1.25u_PCB.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2257,7 +2267,7 @@
     )
   )
 
-  (module MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB (layer F.Cu) (tedit 6014DA5E) (tstamp 5EAE6A40)
+  (module MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB (layer F.Cu) (tedit 60160A00) (tstamp 5EAE6A40)
     (at 228 266 180)
     (descr "Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
     (tags "Cherry MX keyswitch 1.00u PCB")
@@ -2294,14 +2304,14 @@
     (pad "" np_thru_hole circle (at 0 0 180) (size 4 4) (drill 4) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at -5.08 0 180) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at 5.08 0 180) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask))
-    (model "../libs/MyOwnKeyboard.pretty/Cherry MX.wrl"
+    (model ../libs/MyOwnKeyboard.pretty/SW_Cherry_MX_1.00u_PCB.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB (layer F.Cu) (tedit 6014DA5E) (tstamp 5EAE6A10)
+  (module MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB (layer F.Cu) (tedit 60160A00) (tstamp 5EAE6A10)
     (at 142.5 285 180)
     (descr "Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
     (tags "Cherry MX keyswitch 1.00u PCB")
@@ -2338,7 +2348,7 @@
     (pad "" np_thru_hole circle (at 0 0 180) (size 4 4) (drill 4) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at -5.08 0 180) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at 5.08 0 180) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask))
-    (model "../libs/MyOwnKeyboard.pretty/Cherry MX.wrl"
+    (model ../libs/MyOwnKeyboard.pretty/SW_Cherry_MX_1.00u_PCB.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2593,7 +2603,7 @@
     )
   )
 
-  (module MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB (layer F.Cu) (tedit 6014DA5E) (tstamp 5EAE6878)
+  (module MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB (layer F.Cu) (tedit 60160A00) (tstamp 5EAE6878)
     (at 218.5 247 180)
     (descr "Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
     (tags "Cherry MX keyswitch 1.00u PCB")
@@ -2630,14 +2640,14 @@
     (pad "" np_thru_hole circle (at 0 0 180) (size 4 4) (drill 4) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at -5.08 0 180) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at 5.08 0 180) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask))
-    (model "../libs/MyOwnKeyboard.pretty/Cherry MX.wrl"
+    (model ../libs/MyOwnKeyboard.pretty/SW_Cherry_MX_1.00u_PCB.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB (layer F.Cu) (tedit 6014DA5E) (tstamp 5EAE6848)
+  (module MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB (layer F.Cu) (tedit 60160A00) (tstamp 5EAE6848)
     (at 142.5 266 180)
     (descr "Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
     (tags "Cherry MX keyswitch 1.00u PCB")
@@ -2674,7 +2684,7 @@
     (pad "" np_thru_hole circle (at 0 0 180) (size 4 4) (drill 4) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at -5.08 0 180) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at 5.08 0 180) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask))
-    (model "../libs/MyOwnKeyboard.pretty/Cherry MX.wrl"
+    (model ../libs/MyOwnKeyboard.pretty/SW_Cherry_MX_1.00u_PCB.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3209,7 +3219,7 @@
     )
   )
 
-  (module MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB (layer F.Cu) (tedit 6014DA5E) (tstamp 5EAE6308)
+  (module MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB (layer F.Cu) (tedit 60160A00) (tstamp 5EAE6308)
     (at 185.25 180.5 180)
     (descr "Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
     (tags "Cherry MX keyswitch 1.00u PCB")
@@ -3246,14 +3256,14 @@
     (pad "" np_thru_hole circle (at 0 0 180) (size 4 4) (drill 4) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at -5.08 0 180) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at 5.08 0 180) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask))
-    (model "../libs/MyOwnKeyboard.pretty/Cherry MX.wrl"
+    (model ../libs/MyOwnKeyboard.pretty/SW_Cherry_MX_1.00u_PCB.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB (layer F.Cu) (tedit 6014DA5E) (tstamp 5EAE62F0)
+  (module MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB (layer F.Cu) (tedit 60160A00) (tstamp 5EAE62F0)
     (at 142.5 209 180)
     (descr "Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
     (tags "Cherry MX keyswitch 1.00u PCB")
@@ -3290,14 +3300,14 @@
     (pad "" np_thru_hole circle (at 0 0 180) (size 4 4) (drill 4) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at -5.08 0 180) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at 5.08 0 180) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask))
-    (model "../libs/MyOwnKeyboard.pretty/Cherry MX.wrl"
+    (model ../libs/MyOwnKeyboard.pretty/SW_Cherry_MX_1.00u_PCB.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB (layer F.Cu) (tedit 6014DA5E) (tstamp 5EAE6320)
+  (module MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB (layer F.Cu) (tedit 60160A00) (tstamp 5EAE6320)
     (at 223.25 180.5 180)
     (descr "Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
     (tags "Cherry MX keyswitch 1.00u PCB")
@@ -3334,14 +3344,14 @@
     (pad "" np_thru_hole circle (at 0 0 180) (size 4 4) (drill 4) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at -5.08 0 180) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at 5.08 0 180) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask))
-    (model "../libs/MyOwnKeyboard.pretty/Cherry MX.wrl"
+    (model ../libs/MyOwnKeyboard.pretty/SW_Cherry_MX_1.00u_PCB.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB (layer F.Cu) (tedit 6014DA5E) (tstamp 5EAE6BC0)
+  (module MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB (layer F.Cu) (tedit 60160A00) (tstamp 5EAE6BC0)
     (at 123.5 285 180)
     (descr "Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
     (tags "Cherry MX keyswitch 1.00u PCB")
@@ -3378,7 +3388,7 @@
     (pad "" np_thru_hole circle (at 0 0 180) (size 4 4) (drill 4) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at -5.08 0 180) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at 5.08 0 180) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask))
-    (model "../libs/MyOwnKeyboard.pretty/Cherry MX.wrl"
+    (model ../libs/MyOwnKeyboard.pretty/SW_Cherry_MX_1.00u_PCB.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3623,7 +3633,7 @@
     )
   )
 
-  (module MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB (layer F.Cu) (tedit 6014DA5E) (tstamp 5EAE6680)
+  (module MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB (layer F.Cu) (tedit 60160A00) (tstamp 5EAE6680)
     (at 123.5 228 180)
     (descr "Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
     (tags "Cherry MX keyswitch 1.00u PCB")
@@ -3660,14 +3670,14 @@
     (pad "" np_thru_hole circle (at 0 0 180) (size 4 4) (drill 4) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at -5.08 0 180) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at 5.08 0 180) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask))
-    (model "../libs/MyOwnKeyboard.pretty/Cherry MX.wrl"
+    (model ../libs/MyOwnKeyboard.pretty/SW_Cherry_MX_1.00u_PCB.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB (layer F.Cu) (tedit 6014DA5E) (tstamp 5EAE6698)
+  (module MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB (layer F.Cu) (tedit 60160A00) (tstamp 5EAE6698)
     (at 161.5 228 180)
     (descr "Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
     (tags "Cherry MX keyswitch 1.00u PCB")
@@ -3704,7 +3714,7 @@
     (pad "" np_thru_hole circle (at 0 0 180) (size 4 4) (drill 4) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at -5.08 0 180) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at 5.08 0 180) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask))
-    (model "../libs/MyOwnKeyboard.pretty/Cherry MX.wrl"
+    (model ../libs/MyOwnKeyboard.pretty/SW_Cherry_MX_1.00u_PCB.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -7813,7 +7823,7 @@
     )
   )
 
-  (module MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB (layer F.Cu) (tedit 6014DA5E) (tstamp 5FD2CC76)
+  (module MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB (layer F.Cu) (tedit 60160A00) (tstamp 5FD2CC76)
     (at 380 266 180)
     (descr "Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
     (tags "Cherry MX keyswitch 1.00u PCB")
@@ -7850,14 +7860,14 @@
     (pad "" np_thru_hole circle (at 0 0 180) (size 4 4) (drill 4) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at -5.08 0 180) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at 5.08 0 180) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask))
-    (model "../libs/MyOwnKeyboard.pretty/Cherry MX.wrl"
+    (model ../libs/MyOwnKeyboard.pretty/SW_Cherry_MX_1.00u_PCB.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB (layer F.Cu) (tedit 6014DA5E) (tstamp 5FD2CC2B)
+  (module MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB (layer F.Cu) (tedit 60160A00) (tstamp 5FD2CC2B)
     (at 361 266 180)
     (descr "Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
     (tags "Cherry MX keyswitch 1.00u PCB")
@@ -7894,14 +7904,14 @@
     (pad "" np_thru_hole circle (at 0 0 180) (size 4 4) (drill 4) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at -5.08 0 180) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at 5.08 0 180) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask))
-    (model "../libs/MyOwnKeyboard.pretty/Cherry MX.wrl"
+    (model ../libs/MyOwnKeyboard.pretty/SW_Cherry_MX_1.00u_PCB.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB (layer F.Cu) (tedit 6014DA5E) (tstamp 5EAE6C80)
+  (module MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB (layer F.Cu) (tedit 60160A00) (tstamp 5EAE6C80)
     (at 304 266 180)
     (descr "Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
     (tags "Cherry MX keyswitch 1.00u PCB")
@@ -7938,14 +7948,14 @@
     (pad "" np_thru_hole circle (at 0 0 180) (size 4 4) (drill 4) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at -5.08 0 180) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at 5.08 0 180) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask))
-    (model "../libs/MyOwnKeyboard.pretty/Cherry MX.wrl"
+    (model ../libs/MyOwnKeyboard.pretty/SW_Cherry_MX_1.00u_PCB.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB (layer F.Cu) (tedit 6014DA5E) (tstamp 5EAE6BD8)
+  (module MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB (layer F.Cu) (tedit 60160A00) (tstamp 5EAE6BD8)
     (at 161.5 285 180)
     (descr "Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
     (tags "Cherry MX keyswitch 1.00u PCB")
@@ -7982,14 +7992,14 @@
     (pad "" np_thru_hole circle (at 0 0 180) (size 4 4) (drill 4) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at -5.08 0 180) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at 5.08 0 180) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask))
-    (model "../libs/MyOwnKeyboard.pretty/Cherry MX.wrl"
+    (model ../libs/MyOwnKeyboard.pretty/SW_Cherry_MX_1.00u_PCB.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB (layer F.Cu) (tedit 6014DA5E) (tstamp 5EAE6BA8)
+  (module MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB (layer F.Cu) (tedit 60160A00) (tstamp 5EAE6BA8)
     (at 80.75 285 180)
     (descr "Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
     (tags "Cherry MX keyswitch 1.00u PCB")
@@ -8026,14 +8036,14 @@
     (pad "" np_thru_hole circle (at 0 0 180) (size 4 4) (drill 4) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at -5.08 0 180) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at 5.08 0 180) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask))
-    (model "../libs/MyOwnKeyboard.pretty/Cherry MX.wrl"
+    (model ../libs/MyOwnKeyboard.pretty/SW_Cherry_MX_1.00u_PCB.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB (layer F.Cu) (tedit 6014DA5E) (tstamp 5EAE6B90)
+  (module MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB (layer F.Cu) (tedit 60160A00) (tstamp 5EAE6B90)
     (at 61.75 285 180)
     (descr "Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
     (tags "Cherry MX keyswitch 1.00u PCB")
@@ -8070,14 +8080,14 @@
     (pad "" np_thru_hole circle (at 0 0 180) (size 4 4) (drill 4) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at -5.08 0 180) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at 5.08 0 180) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask))
-    (model "../libs/MyOwnKeyboard.pretty/Cherry MX.wrl"
+    (model ../libs/MyOwnKeyboard.pretty/SW_Cherry_MX_1.00u_PCB.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB (layer F.Cu) (tedit 6014DA5E) (tstamp 5EAE6B78)
+  (module MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB (layer F.Cu) (tedit 60160A00) (tstamp 5EAE6B78)
     (at 42.75 285 180)
     (descr "Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
     (tags "Cherry MX keyswitch 1.00u PCB")
@@ -8114,14 +8124,14 @@
     (pad "" np_thru_hole circle (at 0 0 180) (size 4 4) (drill 4) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at -5.08 0 180) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at 5.08 0 180) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask))
-    (model "../libs/MyOwnKeyboard.pretty/Cherry MX.wrl"
+    (model ../libs/MyOwnKeyboard.pretty/SW_Cherry_MX_1.00u_PCB.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB (layer F.Cu) (tedit 6014DA5E) (tstamp 5EAE6B00)
+  (module MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB (layer F.Cu) (tedit 60160A00) (tstamp 5EAE6B00)
     (at 399 266 180)
     (descr "Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
     (tags "Cherry MX keyswitch 1.00u PCB")
@@ -8158,14 +8168,14 @@
     (pad "" np_thru_hole circle (at 0 0 180) (size 4 4) (drill 4) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at -5.08 0 180) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at 5.08 0 180) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask))
-    (model "../libs/MyOwnKeyboard.pretty/Cherry MX.wrl"
+    (model ../libs/MyOwnKeyboard.pretty/SW_Cherry_MX_1.00u_PCB.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB (layer F.Cu) (tedit 6014DA5E) (tstamp 5EAE6AE8)
+  (module MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB (layer F.Cu) (tedit 60160A00) (tstamp 5EAE6AE8)
     (at 370.5 247 180)
     (descr "Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
     (tags "Cherry MX keyswitch 1.00u PCB")
@@ -8202,14 +8212,14 @@
     (pad "" np_thru_hole circle (at 0 0 180) (size 4 4) (drill 4) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at -5.08 0 180) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at 5.08 0 180) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask))
-    (model "../libs/MyOwnKeyboard.pretty/Cherry MX.wrl"
+    (model ../libs/MyOwnKeyboard.pretty/SW_Cherry_MX_1.00u_PCB.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB (layer F.Cu) (tedit 6014DA5E) (tstamp 5EAE6AD0)
+  (module MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB (layer F.Cu) (tedit 60160A00) (tstamp 5EAE6AD0)
     (at 342 266 180)
     (descr "Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
     (tags "Cherry MX keyswitch 1.00u PCB")
@@ -8246,14 +8256,14 @@
     (pad "" np_thru_hole circle (at 0 0 180) (size 4 4) (drill 4) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at -5.08 0 180) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at 5.08 0 180) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask))
-    (model "../libs/MyOwnKeyboard.pretty/Cherry MX.wrl"
+    (model ../libs/MyOwnKeyboard.pretty/SW_Cherry_MX_1.00u_PCB.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB (layer F.Cu) (tedit 6014DA5E) (tstamp 5EAE6AB8)
+  (module MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB (layer F.Cu) (tedit 60160A00) (tstamp 5EAE6AB8)
     (at 323 266 180)
     (descr "Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
     (tags "Cherry MX keyswitch 1.00u PCB")
@@ -8290,14 +8300,14 @@
     (pad "" np_thru_hole circle (at 0 0 180) (size 4 4) (drill 4) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at -5.08 0 180) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at 5.08 0 180) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask))
-    (model "../libs/MyOwnKeyboard.pretty/Cherry MX.wrl"
+    (model ../libs/MyOwnKeyboard.pretty/SW_Cherry_MX_1.00u_PCB.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB (layer F.Cu) (tedit 6014DA5E) (tstamp 5EAE6AA0)
+  (module MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB (layer F.Cu) (tedit 60160A00) (tstamp 5EAE6AA0)
     (at 294.5 247 180)
     (descr "Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
     (tags "Cherry MX keyswitch 1.00u PCB")
@@ -8334,14 +8344,14 @@
     (pad "" np_thru_hole circle (at 0 0 180) (size 4 4) (drill 4) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at -5.08 0 180) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at 5.08 0 180) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask))
-    (model "../libs/MyOwnKeyboard.pretty/Cherry MX.wrl"
+    (model ../libs/MyOwnKeyboard.pretty/SW_Cherry_MX_1.00u_PCB.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB (layer F.Cu) (tedit 6014DA5E) (tstamp 5EAE6A88)
+  (module MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB (layer F.Cu) (tedit 60160A00) (tstamp 5EAE6A88)
     (at 275.5 247 180)
     (descr "Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
     (tags "Cherry MX keyswitch 1.00u PCB")
@@ -8378,14 +8388,14 @@
     (pad "" np_thru_hole circle (at 0 0 180) (size 4 4) (drill 4) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at -5.08 0 180) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at 5.08 0 180) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask))
-    (model "../libs/MyOwnKeyboard.pretty/Cherry MX.wrl"
+    (model ../libs/MyOwnKeyboard.pretty/SW_Cherry_MX_1.00u_PCB.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB (layer F.Cu) (tedit 6014DA5E) (tstamp 5EAE6A70)
+  (module MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB (layer F.Cu) (tedit 60160A00) (tstamp 5EAE6A70)
     (at 266 266 180)
     (descr "Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
     (tags "Cherry MX keyswitch 1.00u PCB")
@@ -8422,14 +8432,14 @@
     (pad "" np_thru_hole circle (at 0 0 180) (size 4 4) (drill 4) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at -5.08 0 180) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at 5.08 0 180) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask))
-    (model "../libs/MyOwnKeyboard.pretty/Cherry MX.wrl"
+    (model ../libs/MyOwnKeyboard.pretty/SW_Cherry_MX_1.00u_PCB.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB (layer F.Cu) (tedit 6014DA5E) (tstamp 5EAE6A58)
+  (module MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB (layer F.Cu) (tedit 60160A00) (tstamp 5EAE6A58)
     (at 247 266 180)
     (descr "Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
     (tags "Cherry MX keyswitch 1.00u PCB")
@@ -8466,14 +8476,14 @@
     (pad "" np_thru_hole circle (at 0 0 180) (size 4 4) (drill 4) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at -5.08 0 180) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at 5.08 0 180) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask))
-    (model "../libs/MyOwnKeyboard.pretty/Cherry MX.wrl"
+    (model ../libs/MyOwnKeyboard.pretty/SW_Cherry_MX_1.00u_PCB.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB (layer F.Cu) (tedit 6014DA5E) (tstamp 5EAE69E0)
+  (module MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB (layer F.Cu) (tedit 60160A00) (tstamp 5EAE69E0)
     (at 80.75 266 180)
     (descr "Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
     (tags "Cherry MX keyswitch 1.00u PCB")
@@ -8510,14 +8520,14 @@
     (pad "" np_thru_hole circle (at 0 0 180) (size 4 4) (drill 4) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at -5.08 0 180) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at 5.08 0 180) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask))
-    (model "../libs/MyOwnKeyboard.pretty/Cherry MX.wrl"
+    (model ../libs/MyOwnKeyboard.pretty/SW_Cherry_MX_1.00u_PCB.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB (layer F.Cu) (tedit 6014DA5E) (tstamp 5EAE69C8)
+  (module MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB (layer F.Cu) (tedit 60160A00) (tstamp 5EAE69C8)
     (at 61.75 266 180)
     (descr "Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
     (tags "Cherry MX keyswitch 1.00u PCB")
@@ -8554,14 +8564,14 @@
     (pad "" np_thru_hole circle (at 0 0 180) (size 4 4) (drill 4) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at -5.08 0 180) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at 5.08 0 180) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask))
-    (model "../libs/MyOwnKeyboard.pretty/Cherry MX.wrl"
+    (model ../libs/MyOwnKeyboard.pretty/SW_Cherry_MX_1.00u_PCB.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB (layer F.Cu) (tedit 6014DA5E) (tstamp 5EAE69B0)
+  (module MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB (layer F.Cu) (tedit 60160A00) (tstamp 5EAE69B0)
     (at 42.75 266 180)
     (descr "Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
     (tags "Cherry MX keyswitch 1.00u PCB")
@@ -8598,14 +8608,14 @@
     (pad "" np_thru_hole circle (at 0 0 180) (size 4 4) (drill 4) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at -5.08 0 180) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at 5.08 0 180) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask))
-    (model "../libs/MyOwnKeyboard.pretty/Cherry MX.wrl"
+    (model ../libs/MyOwnKeyboard.pretty/SW_Cherry_MX_1.00u_PCB.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB (layer F.Cu) (tedit 6014DA5E) (tstamp 5EAE6968)
+  (module MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB (layer F.Cu) (tedit 60160A00) (tstamp 5EAE6968)
     (at 422.75 228 180)
     (descr "Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
     (tags "Cherry MX keyswitch 1.00u PCB")
@@ -8642,14 +8652,14 @@
     (pad "" np_thru_hole circle (at 0 0 180) (size 4 4) (drill 4) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at -5.08 0 180) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at 5.08 0 180) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask))
-    (model "../libs/MyOwnKeyboard.pretty/Cherry MX.wrl"
+    (model ../libs/MyOwnKeyboard.pretty/SW_Cherry_MX_1.00u_PCB.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB (layer F.Cu) (tedit 6014DA5E) (tstamp 5EAE6950)
+  (module MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB (layer F.Cu) (tedit 60160A00) (tstamp 5EAE6950)
     (at 408.5 247 180)
     (descr "Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
     (tags "Cherry MX keyswitch 1.00u PCB")
@@ -8686,14 +8696,14 @@
     (pad "" np_thru_hole circle (at 0 0 180) (size 4 4) (drill 4) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at -5.08 0 180) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at 5.08 0 180) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask))
-    (model "../libs/MyOwnKeyboard.pretty/Cherry MX.wrl"
+    (model ../libs/MyOwnKeyboard.pretty/SW_Cherry_MX_1.00u_PCB.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB (layer F.Cu) (tedit 6014DA5E) (tstamp 5EAE6938)
+  (module MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB (layer F.Cu) (tedit 60160A00) (tstamp 5EAE6938)
     (at 389.5 247 180)
     (descr "Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
     (tags "Cherry MX keyswitch 1.00u PCB")
@@ -8730,14 +8740,14 @@
     (pad "" np_thru_hole circle (at 0 0 180) (size 4 4) (drill 4) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at -5.08 0 180) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at 5.08 0 180) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask))
-    (model "../libs/MyOwnKeyboard.pretty/Cherry MX.wrl"
+    (model ../libs/MyOwnKeyboard.pretty/SW_Cherry_MX_1.00u_PCB.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB (layer F.Cu) (tedit 6014DA5E) (tstamp 5EAE6920)
+  (module MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB (layer F.Cu) (tedit 60160A00) (tstamp 5EAE6920)
     (at 351.5 247 180)
     (descr "Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
     (tags "Cherry MX keyswitch 1.00u PCB")
@@ -8774,14 +8784,14 @@
     (pad "" np_thru_hole circle (at 0 0 180) (size 4 4) (drill 4) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at -5.08 0 180) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at 5.08 0 180) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask))
-    (model "../libs/MyOwnKeyboard.pretty/Cherry MX.wrl"
+    (model ../libs/MyOwnKeyboard.pretty/SW_Cherry_MX_1.00u_PCB.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB (layer F.Cu) (tedit 6014DA5E) (tstamp 5EAE6908)
+  (module MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB (layer F.Cu) (tedit 60160A00) (tstamp 5EAE6908)
     (at 332.5 247 180)
     (descr "Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
     (tags "Cherry MX keyswitch 1.00u PCB")
@@ -8818,14 +8828,14 @@
     (pad "" np_thru_hole circle (at 0 0 180) (size 4 4) (drill 4) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at -5.08 0 180) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at 5.08 0 180) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask))
-    (model "../libs/MyOwnKeyboard.pretty/Cherry MX.wrl"
+    (model ../libs/MyOwnKeyboard.pretty/SW_Cherry_MX_1.00u_PCB.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB (layer F.Cu) (tedit 6014DA5E) (tstamp 5EAE68F0)
+  (module MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB (layer F.Cu) (tedit 60160A00) (tstamp 5EAE68F0)
     (at 313.5 247 180)
     (descr "Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
     (tags "Cherry MX keyswitch 1.00u PCB")
@@ -8862,14 +8872,14 @@
     (pad "" np_thru_hole circle (at 0 0 180) (size 4 4) (drill 4) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at -5.08 0 180) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at 5.08 0 180) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask))
-    (model "../libs/MyOwnKeyboard.pretty/Cherry MX.wrl"
+    (model ../libs/MyOwnKeyboard.pretty/SW_Cherry_MX_1.00u_PCB.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB (layer F.Cu) (tedit 6014DA5E) (tstamp 5EAE68D8)
+  (module MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB (layer F.Cu) (tedit 60160A00) (tstamp 5EAE68D8)
     (at 289.75 228 180)
     (descr "Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
     (tags "Cherry MX keyswitch 1.00u PCB")
@@ -8906,14 +8916,14 @@
     (pad "" np_thru_hole circle (at 0 0 180) (size 4 4) (drill 4) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at -5.08 0 180) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at 5.08 0 180) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask))
-    (model "../libs/MyOwnKeyboard.pretty/Cherry MX.wrl"
+    (model ../libs/MyOwnKeyboard.pretty/SW_Cherry_MX_1.00u_PCB.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB (layer F.Cu) (tedit 6014DA5E) (tstamp 5EAE68C0)
+  (module MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB (layer F.Cu) (tedit 60160A00) (tstamp 5EAE68C0)
     (at 251.75 228 180)
     (descr "Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
     (tags "Cherry MX keyswitch 1.00u PCB")
@@ -8950,14 +8960,14 @@
     (pad "" np_thru_hole circle (at 0 0 180) (size 4 4) (drill 4) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at -5.08 0 180) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at 5.08 0 180) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask))
-    (model "../libs/MyOwnKeyboard.pretty/Cherry MX.wrl"
+    (model ../libs/MyOwnKeyboard.pretty/SW_Cherry_MX_1.00u_PCB.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB (layer F.Cu) (tedit 6014DA5E) (tstamp 5EAE68A8)
+  (module MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB (layer F.Cu) (tedit 60160A00) (tstamp 5EAE68A8)
     (at 256.5 247 180)
     (descr "Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
     (tags "Cherry MX keyswitch 1.00u PCB")
@@ -8994,14 +9004,14 @@
     (pad "" np_thru_hole circle (at 0 0 180) (size 4 4) (drill 4) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at -5.08 0 180) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at 5.08 0 180) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask))
-    (model "../libs/MyOwnKeyboard.pretty/Cherry MX.wrl"
+    (model ../libs/MyOwnKeyboard.pretty/SW_Cherry_MX_1.00u_PCB.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB (layer F.Cu) (tedit 6014DA5E) (tstamp 5EAE6890)
+  (module MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB (layer F.Cu) (tedit 60160A00) (tstamp 5EAE6890)
     (at 237.5 247 180)
     (descr "Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
     (tags "Cherry MX keyswitch 1.00u PCB")
@@ -9038,14 +9048,14 @@
     (pad "" np_thru_hole circle (at 0 0 180) (size 4 4) (drill 4) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at -5.08 0 180) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at 5.08 0 180) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask))
-    (model "../libs/MyOwnKeyboard.pretty/Cherry MX.wrl"
+    (model ../libs/MyOwnKeyboard.pretty/SW_Cherry_MX_1.00u_PCB.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB (layer F.Cu) (tedit 6014DA5E) (tstamp 5EAE6818)
+  (module MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB (layer F.Cu) (tedit 60160A00) (tstamp 5EAE6818)
     (at 80.75 247 180)
     (descr "Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
     (tags "Cherry MX keyswitch 1.00u PCB")
@@ -9082,14 +9092,14 @@
     (pad "" np_thru_hole circle (at 0 0 180) (size 4 4) (drill 4) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at -5.08 0 180) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at 5.08 0 180) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask))
-    (model "../libs/MyOwnKeyboard.pretty/Cherry MX.wrl"
+    (model ../libs/MyOwnKeyboard.pretty/SW_Cherry_MX_1.00u_PCB.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB (layer F.Cu) (tedit 6014DA5E) (tstamp 5EAE6800)
+  (module MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB (layer F.Cu) (tedit 60160A00) (tstamp 5EAE6800)
     (at 61.75 247 180)
     (descr "Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
     (tags "Cherry MX keyswitch 1.00u PCB")
@@ -9126,14 +9136,14 @@
     (pad "" np_thru_hole circle (at 0 0 180) (size 4 4) (drill 4) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at -5.08 0 180) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at 5.08 0 180) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask))
-    (model "../libs/MyOwnKeyboard.pretty/Cherry MX.wrl"
+    (model ../libs/MyOwnKeyboard.pretty/SW_Cherry_MX_1.00u_PCB.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB (layer F.Cu) (tedit 6014DA5E) (tstamp 5EAE67E8)
+  (module MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB (layer F.Cu) (tedit 60160A00) (tstamp 5EAE67E8)
     (at 42.75 247 180)
     (descr "Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
     (tags "Cherry MX keyswitch 1.00u PCB")
@@ -9170,14 +9180,14 @@
     (pad "" np_thru_hole circle (at 0 0 180) (size 4 4) (drill 4) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at -5.08 0 180) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at 5.08 0 180) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask))
-    (model "../libs/MyOwnKeyboard.pretty/Cherry MX.wrl"
+    (model ../libs/MyOwnKeyboard.pretty/SW_Cherry_MX_1.00u_PCB.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB (layer F.Cu) (tedit 6014DA5E) (tstamp 5EAE67B8)
+  (module MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB (layer F.Cu) (tedit 60160A00) (tstamp 5EAE67B8)
     (at 413.25 209 180)
     (descr "Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
     (tags "Cherry MX keyswitch 1.00u PCB")
@@ -9214,14 +9224,14 @@
     (pad "" np_thru_hole circle (at 0 0 180) (size 4 4) (drill 4) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at -5.08 0 180) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at 5.08 0 180) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask))
-    (model "../libs/MyOwnKeyboard.pretty/Cherry MX.wrl"
+    (model ../libs/MyOwnKeyboard.pretty/SW_Cherry_MX_1.00u_PCB.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB (layer F.Cu) (tedit 6014DA5E) (tstamp 5EAE67A0)
+  (module MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB (layer F.Cu) (tedit 60160A00) (tstamp 5EAE67A0)
     (at 403.75 228 180)
     (descr "Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
     (tags "Cherry MX keyswitch 1.00u PCB")
@@ -9258,14 +9268,14 @@
     (pad "" np_thru_hole circle (at 0 0 180) (size 4 4) (drill 4) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at -5.08 0 180) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at 5.08 0 180) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask))
-    (model "../libs/MyOwnKeyboard.pretty/Cherry MX.wrl"
+    (model ../libs/MyOwnKeyboard.pretty/SW_Cherry_MX_1.00u_PCB.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB (layer F.Cu) (tedit 6014DA5E) (tstamp 5EAE6788)
+  (module MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB (layer F.Cu) (tedit 60160A00) (tstamp 5EAE6788)
     (at 384.75 228 180)
     (descr "Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
     (tags "Cherry MX keyswitch 1.00u PCB")
@@ -9302,14 +9312,14 @@
     (pad "" np_thru_hole circle (at 0 0 180) (size 4 4) (drill 4) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at -5.08 0 180) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at 5.08 0 180) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask))
-    (model "../libs/MyOwnKeyboard.pretty/Cherry MX.wrl"
+    (model ../libs/MyOwnKeyboard.pretty/SW_Cherry_MX_1.00u_PCB.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB (layer F.Cu) (tedit 6014DA5E) (tstamp 5EAE6770)
+  (module MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB (layer F.Cu) (tedit 60160A00) (tstamp 5EAE6770)
     (at 365.75 228 180)
     (descr "Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
     (tags "Cherry MX keyswitch 1.00u PCB")
@@ -9346,14 +9356,14 @@
     (pad "" np_thru_hole circle (at 0 0 180) (size 4 4) (drill 4) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at -5.08 0 180) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at 5.08 0 180) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask))
-    (model "../libs/MyOwnKeyboard.pretty/Cherry MX.wrl"
+    (model ../libs/MyOwnKeyboard.pretty/SW_Cherry_MX_1.00u_PCB.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB (layer F.Cu) (tedit 6014DA5E) (tstamp 5EAE6758)
+  (module MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB (layer F.Cu) (tedit 60160A00) (tstamp 5EAE6758)
     (at 346.75 228 180)
     (descr "Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
     (tags "Cherry MX keyswitch 1.00u PCB")
@@ -9390,14 +9400,14 @@
     (pad "" np_thru_hole circle (at 0 0 180) (size 4 4) (drill 4) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at -5.08 0 180) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at 5.08 0 180) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask))
-    (model "../libs/MyOwnKeyboard.pretty/Cherry MX.wrl"
+    (model ../libs/MyOwnKeyboard.pretty/SW_Cherry_MX_1.00u_PCB.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB (layer F.Cu) (tedit 6014DA5E) (tstamp 5EAE6740)
+  (module MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB (layer F.Cu) (tedit 60160A00) (tstamp 5EAE6740)
     (at 327.75 228 180)
     (descr "Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
     (tags "Cherry MX keyswitch 1.00u PCB")
@@ -9434,14 +9444,14 @@
     (pad "" np_thru_hole circle (at 0 0 180) (size 4 4) (drill 4) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at -5.08 0 180) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at 5.08 0 180) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask))
-    (model "../libs/MyOwnKeyboard.pretty/Cherry MX.wrl"
+    (model ../libs/MyOwnKeyboard.pretty/SW_Cherry_MX_1.00u_PCB.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB (layer F.Cu) (tedit 6014DA5E) (tstamp 5EAE6728)
+  (module MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB (layer F.Cu) (tedit 60160A00) (tstamp 5EAE6728)
     (at 308.75 228 180)
     (descr "Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
     (tags "Cherry MX keyswitch 1.00u PCB")
@@ -9478,14 +9488,14 @@
     (pad "" np_thru_hole circle (at 0 0 180) (size 4 4) (drill 4) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at -5.08 0 180) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at 5.08 0 180) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask))
-    (model "../libs/MyOwnKeyboard.pretty/Cherry MX.wrl"
+    (model ../libs/MyOwnKeyboard.pretty/SW_Cherry_MX_1.00u_PCB.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB (layer F.Cu) (tedit 6014DA5E) (tstamp 5EAE6710)
+  (module MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB (layer F.Cu) (tedit 60160A00) (tstamp 5EAE6710)
     (at 270.75 228 180)
     (descr "Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
     (tags "Cherry MX keyswitch 1.00u PCB")
@@ -9522,14 +9532,14 @@
     (pad "" np_thru_hole circle (at 0 0 180) (size 4 4) (drill 4) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at -5.08 0 180) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at 5.08 0 180) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask))
-    (model "../libs/MyOwnKeyboard.pretty/Cherry MX.wrl"
+    (model ../libs/MyOwnKeyboard.pretty/SW_Cherry_MX_1.00u_PCB.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB (layer F.Cu) (tedit 6014DA5E) (tstamp 5EAE66F8)
+  (module MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB (layer F.Cu) (tedit 60160A00) (tstamp 5EAE66F8)
     (at 242.25 209 180)
     (descr "Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
     (tags "Cherry MX keyswitch 1.00u PCB")
@@ -9566,14 +9576,14 @@
     (pad "" np_thru_hole circle (at 0 0 180) (size 4 4) (drill 4) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at -5.08 0 180) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at 5.08 0 180) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask))
-    (model "../libs/MyOwnKeyboard.pretty/Cherry MX.wrl"
+    (model ../libs/MyOwnKeyboard.pretty/SW_Cherry_MX_1.00u_PCB.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB (layer F.Cu) (tedit 6014DA5E) (tstamp 5EAE66E0)
+  (module MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB (layer F.Cu) (tedit 60160A00) (tstamp 5EAE66E0)
     (at 232.75 228 180)
     (descr "Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
     (tags "Cherry MX keyswitch 1.00u PCB")
@@ -9610,14 +9620,14 @@
     (pad "" np_thru_hole circle (at 0 0 180) (size 4 4) (drill 4) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at -5.08 0 180) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at 5.08 0 180) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask))
-    (model "../libs/MyOwnKeyboard.pretty/Cherry MX.wrl"
+    (model ../libs/MyOwnKeyboard.pretty/SW_Cherry_MX_1.00u_PCB.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB (layer F.Cu) (tedit 6014DA5E) (tstamp 5EAE66C8)
+  (module MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB (layer F.Cu) (tedit 60160A00) (tstamp 5EAE66C8)
     (at 213.75 228 180)
     (descr "Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
     (tags "Cherry MX keyswitch 1.00u PCB")
@@ -9654,14 +9664,14 @@
     (pad "" np_thru_hole circle (at 0 0 180) (size 4 4) (drill 4) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at -5.08 0 180) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at 5.08 0 180) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask))
-    (model "../libs/MyOwnKeyboard.pretty/Cherry MX.wrl"
+    (model ../libs/MyOwnKeyboard.pretty/SW_Cherry_MX_1.00u_PCB.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB (layer F.Cu) (tedit 6014DA5E) (tstamp 5EAE6668)
+  (module MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB (layer F.Cu) (tedit 60160A00) (tstamp 5EAE6668)
     (at 99.75 209 180)
     (descr "Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
     (tags "Cherry MX keyswitch 1.00u PCB")
@@ -9698,14 +9708,14 @@
     (pad "" np_thru_hole circle (at 0 0 180) (size 4 4) (drill 4) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at -5.08 0 180) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at 5.08 0 180) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask))
-    (model "../libs/MyOwnKeyboard.pretty/Cherry MX.wrl"
+    (model ../libs/MyOwnKeyboard.pretty/SW_Cherry_MX_1.00u_PCB.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB (layer F.Cu) (tedit 6014DA5E) (tstamp 5EAE6650)
+  (module MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB (layer F.Cu) (tedit 60160A00) (tstamp 5EAE6650)
     (at 80.75 228 180)
     (descr "Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
     (tags "Cherry MX keyswitch 1.00u PCB")
@@ -9742,14 +9752,14 @@
     (pad "" np_thru_hole circle (at 0 0 180) (size 4 4) (drill 4) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at -5.08 0 180) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at 5.08 0 180) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask))
-    (model "../libs/MyOwnKeyboard.pretty/Cherry MX.wrl"
+    (model ../libs/MyOwnKeyboard.pretty/SW_Cherry_MX_1.00u_PCB.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB (layer F.Cu) (tedit 6014DA5E) (tstamp 5EAE6638)
+  (module MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB (layer F.Cu) (tedit 60160A00) (tstamp 5EAE6638)
     (at 61.75 228 180)
     (descr "Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
     (tags "Cherry MX keyswitch 1.00u PCB")
@@ -9786,14 +9796,14 @@
     (pad "" np_thru_hole circle (at 0 0 180) (size 4 4) (drill 4) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at -5.08 0 180) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at 5.08 0 180) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask))
-    (model "../libs/MyOwnKeyboard.pretty/Cherry MX.wrl"
+    (model ../libs/MyOwnKeyboard.pretty/SW_Cherry_MX_1.00u_PCB.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB (layer F.Cu) (tedit 6014DA5E) (tstamp 5EAE6620)
+  (module MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB (layer F.Cu) (tedit 60160A00) (tstamp 5EAE6620)
     (at 42.75 228 180)
     (descr "Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
     (tags "Cherry MX keyswitch 1.00u PCB")
@@ -9830,14 +9840,14 @@
     (pad "" np_thru_hole circle (at 0 0 180) (size 4 4) (drill 4) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at -5.08 0 180) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at 5.08 0 180) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask))
-    (model "../libs/MyOwnKeyboard.pretty/Cherry MX.wrl"
+    (model ../libs/MyOwnKeyboard.pretty/SW_Cherry_MX_1.00u_PCB.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB (layer F.Cu) (tedit 6014DA5E) (tstamp 5EAE65F0)
+  (module MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB (layer F.Cu) (tedit 60160A00) (tstamp 5EAE65F0)
     (at 451.25 180.5 180)
     (descr "Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
     (tags "Cherry MX keyswitch 1.00u PCB")
@@ -9874,14 +9884,14 @@
     (pad "" np_thru_hole circle (at 0 0 180) (size 4 4) (drill 4) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at -5.08 0 180) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at 5.08 0 180) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask))
-    (model "../libs/MyOwnKeyboard.pretty/Cherry MX.wrl"
+    (model ../libs/MyOwnKeyboard.pretty/SW_Cherry_MX_1.00u_PCB.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB (layer F.Cu) (tedit 6014DA5E) (tstamp 5EAE65D8)
+  (module MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB (layer F.Cu) (tedit 60160A00) (tstamp 5EAE65D8)
     (at 394.25 209 180)
     (descr "Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
     (tags "Cherry MX keyswitch 1.00u PCB")
@@ -9918,14 +9928,14 @@
     (pad "" np_thru_hole circle (at 0 0 180) (size 4 4) (drill 4) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at -5.08 0 180) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at 5.08 0 180) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask))
-    (model "../libs/MyOwnKeyboard.pretty/Cherry MX.wrl"
+    (model ../libs/MyOwnKeyboard.pretty/SW_Cherry_MX_1.00u_PCB.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB (layer F.Cu) (tedit 6014DA5E) (tstamp 5EAE65C0)
+  (module MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB (layer F.Cu) (tedit 60160A00) (tstamp 5EAE65C0)
     (at 375.25 209 180)
     (descr "Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
     (tags "Cherry MX keyswitch 1.00u PCB")
@@ -9962,14 +9972,14 @@
     (pad "" np_thru_hole circle (at 0 0 180) (size 4 4) (drill 4) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at -5.08 0 180) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at 5.08 0 180) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask))
-    (model "../libs/MyOwnKeyboard.pretty/Cherry MX.wrl"
+    (model ../libs/MyOwnKeyboard.pretty/SW_Cherry_MX_1.00u_PCB.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB (layer F.Cu) (tedit 6014DA5E) (tstamp 5EAE65A8)
+  (module MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB (layer F.Cu) (tedit 60160A00) (tstamp 5EAE65A8)
     (at 356.25 209 180)
     (descr "Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
     (tags "Cherry MX keyswitch 1.00u PCB")
@@ -10006,14 +10016,14 @@
     (pad "" np_thru_hole circle (at 0 0 180) (size 4 4) (drill 4) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at -5.08 0 180) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at 5.08 0 180) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask))
-    (model "../libs/MyOwnKeyboard.pretty/Cherry MX.wrl"
+    (model ../libs/MyOwnKeyboard.pretty/SW_Cherry_MX_1.00u_PCB.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB (layer F.Cu) (tedit 6014DA5E) (tstamp 5EAE6590)
+  (module MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB (layer F.Cu) (tedit 60160A00) (tstamp 5EAE6590)
     (at 337.25 209 180)
     (descr "Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
     (tags "Cherry MX keyswitch 1.00u PCB")
@@ -10050,14 +10060,14 @@
     (pad "" np_thru_hole circle (at 0 0 180) (size 4 4) (drill 4) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at -5.08 0 180) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at 5.08 0 180) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask))
-    (model "../libs/MyOwnKeyboard.pretty/Cherry MX.wrl"
+    (model ../libs/MyOwnKeyboard.pretty/SW_Cherry_MX_1.00u_PCB.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB (layer F.Cu) (tedit 6014DA5E) (tstamp 5EAE6578)
+  (module MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB (layer F.Cu) (tedit 60160A00) (tstamp 5EAE6578)
     (at 318.25 209 180)
     (descr "Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
     (tags "Cherry MX keyswitch 1.00u PCB")
@@ -10094,14 +10104,14 @@
     (pad "" np_thru_hole circle (at 0 0 180) (size 4 4) (drill 4) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at -5.08 0 180) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at 5.08 0 180) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask))
-    (model "../libs/MyOwnKeyboard.pretty/Cherry MX.wrl"
+    (model ../libs/MyOwnKeyboard.pretty/SW_Cherry_MX_1.00u_PCB.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB (layer F.Cu) (tedit 6014DA5E) (tstamp 5EAE6560)
+  (module MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB (layer F.Cu) (tedit 60160A00) (tstamp 5EAE6560)
     (at 299.25 209 180)
     (descr "Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
     (tags "Cherry MX keyswitch 1.00u PCB")
@@ -10138,14 +10148,14 @@
     (pad "" np_thru_hole circle (at 0 0 180) (size 4 4) (drill 4) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at -5.08 0 180) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at 5.08 0 180) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask))
-    (model "../libs/MyOwnKeyboard.pretty/Cherry MX.wrl"
+    (model ../libs/MyOwnKeyboard.pretty/SW_Cherry_MX_1.00u_PCB.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB (layer F.Cu) (tedit 6014DA5E) (tstamp 5EAE6548)
+  (module MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB (layer F.Cu) (tedit 60160A00) (tstamp 5EAE6548)
     (at 280.25 209 180)
     (descr "Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
     (tags "Cherry MX keyswitch 1.00u PCB")
@@ -10182,14 +10192,14 @@
     (pad "" np_thru_hole circle (at 0 0 180) (size 4 4) (drill 4) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at -5.08 0 180) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at 5.08 0 180) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask))
-    (model "../libs/MyOwnKeyboard.pretty/Cherry MX.wrl"
+    (model ../libs/MyOwnKeyboard.pretty/SW_Cherry_MX_1.00u_PCB.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB (layer F.Cu) (tedit 6014DA5E) (tstamp 5EAE6530)
+  (module MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB (layer F.Cu) (tedit 60160A00) (tstamp 5EAE6530)
     (at 261.25 209 180)
     (descr "Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
     (tags "Cherry MX keyswitch 1.00u PCB")
@@ -10226,14 +10236,14 @@
     (pad "" np_thru_hole circle (at 0 0 180) (size 4 4) (drill 4) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at -5.08 0 180) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at 5.08 0 180) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask))
-    (model "../libs/MyOwnKeyboard.pretty/Cherry MX.wrl"
+    (model ../libs/MyOwnKeyboard.pretty/SW_Cherry_MX_1.00u_PCB.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB (layer F.Cu) (tedit 6014DA5E) (tstamp 5EAE6518)
+  (module MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB (layer F.Cu) (tedit 60160A00) (tstamp 5EAE6518)
     (at 223.25 209 180)
     (descr "Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
     (tags "Cherry MX keyswitch 1.00u PCB")
@@ -10270,14 +10280,14 @@
     (pad "" np_thru_hole circle (at 0 0 180) (size 4 4) (drill 4) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at -5.08 0 180) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at 5.08 0 180) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask))
-    (model "../libs/MyOwnKeyboard.pretty/Cherry MX.wrl"
+    (model ../libs/MyOwnKeyboard.pretty/SW_Cherry_MX_1.00u_PCB.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB (layer F.Cu) (tedit 6014DA5E) (tstamp 5EAE6500)
+  (module MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB (layer F.Cu) (tedit 60160A00) (tstamp 5EAE6500)
     (at 204.25 209 180)
     (descr "Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
     (tags "Cherry MX keyswitch 1.00u PCB")
@@ -10314,14 +10324,14 @@
     (pad "" np_thru_hole circle (at 0 0 180) (size 4 4) (drill 4) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at -5.08 0 180) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at 5.08 0 180) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask))
-    (model "../libs/MyOwnKeyboard.pretty/Cherry MX.wrl"
+    (model ../libs/MyOwnKeyboard.pretty/SW_Cherry_MX_1.00u_PCB.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB (layer F.Cu) (tedit 6014DA5E) (tstamp 5EAE64E8)
+  (module MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB (layer F.Cu) (tedit 60160A00) (tstamp 5EAE64E8)
     (at 185.25 209 180)
     (descr "Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
     (tags "Cherry MX keyswitch 1.00u PCB")
@@ -10358,14 +10368,14 @@
     (pad "" np_thru_hole circle (at 0 0 180) (size 4 4) (drill 4) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at -5.08 0 180) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at 5.08 0 180) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask))
-    (model "../libs/MyOwnKeyboard.pretty/Cherry MX.wrl"
+    (model ../libs/MyOwnKeyboard.pretty/SW_Cherry_MX_1.00u_PCB.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB (layer F.Cu) (tedit 6014DA5E) (tstamp 5EAE64D0)
+  (module MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB (layer F.Cu) (tedit 60160A00) (tstamp 5EAE64D0)
     (at 161.5 209 180)
     (descr "Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
     (tags "Cherry MX keyswitch 1.00u PCB")
@@ -10402,14 +10412,14 @@
     (pad "" np_thru_hole circle (at 0 0 180) (size 4 4) (drill 4) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at -5.08 0 180) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at 5.08 0 180) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask))
-    (model "../libs/MyOwnKeyboard.pretty/Cherry MX.wrl"
+    (model ../libs/MyOwnKeyboard.pretty/SW_Cherry_MX_1.00u_PCB.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB (layer F.Cu) (tedit 6014DA5E) (tstamp 5EAE64B8)
+  (module MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB (layer F.Cu) (tedit 60160A00) (tstamp 5EAE64B8)
     (at 142.5 228 180)
     (descr "Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
     (tags "Cherry MX keyswitch 1.00u PCB")
@@ -10446,14 +10456,14 @@
     (pad "" np_thru_hole circle (at 0 0 180) (size 4 4) (drill 4) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at -5.08 0 180) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at 5.08 0 180) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask))
-    (model "../libs/MyOwnKeyboard.pretty/Cherry MX.wrl"
+    (model ../libs/MyOwnKeyboard.pretty/SW_Cherry_MX_1.00u_PCB.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB (layer F.Cu) (tedit 6014DA5E) (tstamp 5EAE64A0)
+  (module MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB (layer F.Cu) (tedit 60160A00) (tstamp 5EAE64A0)
     (at 123.5 209 180)
     (descr "Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
     (tags "Cherry MX keyswitch 1.00u PCB")
@@ -10490,14 +10500,14 @@
     (pad "" np_thru_hole circle (at 0 0 180) (size 4 4) (drill 4) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at -5.08 0 180) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at 5.08 0 180) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask))
-    (model "../libs/MyOwnKeyboard.pretty/Cherry MX.wrl"
+    (model ../libs/MyOwnKeyboard.pretty/SW_Cherry_MX_1.00u_PCB.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB (layer F.Cu) (tedit 6014DA5E) (tstamp 5EAE6488)
+  (module MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB (layer F.Cu) (tedit 60160A00) (tstamp 5EAE6488)
     (at 80.75 209 180)
     (descr "Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
     (tags "Cherry MX keyswitch 1.00u PCB")
@@ -10534,14 +10544,14 @@
     (pad "" np_thru_hole circle (at 0 0 180) (size 4 4) (drill 4) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at -5.08 0 180) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at 5.08 0 180) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask))
-    (model "../libs/MyOwnKeyboard.pretty/Cherry MX.wrl"
+    (model ../libs/MyOwnKeyboard.pretty/SW_Cherry_MX_1.00u_PCB.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB (layer F.Cu) (tedit 6014DA5E) (tstamp 5EAE6470)
+  (module MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB (layer F.Cu) (tedit 60160A00) (tstamp 5EAE6470)
     (at 61.75 209 180)
     (descr "Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
     (tags "Cherry MX keyswitch 1.00u PCB")
@@ -10578,14 +10588,14 @@
     (pad "" np_thru_hole circle (at 0 0 180) (size 4 4) (drill 4) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at -5.08 0 180) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at 5.08 0 180) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask))
-    (model "../libs/MyOwnKeyboard.pretty/Cherry MX.wrl"
+    (model ../libs/MyOwnKeyboard.pretty/SW_Cherry_MX_1.00u_PCB.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB (layer F.Cu) (tedit 6014DA5E) (tstamp 5EAE6458)
+  (module MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB (layer F.Cu) (tedit 60160A00) (tstamp 5EAE6458)
     (at 42.75 209 180)
     (descr "Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
     (tags "Cherry MX keyswitch 1.00u PCB")
@@ -10622,14 +10632,14 @@
     (pad "" np_thru_hole circle (at 0 0 180) (size 4 4) (drill 4) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at -5.08 0 180) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at 5.08 0 180) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask))
-    (model "../libs/MyOwnKeyboard.pretty/Cherry MX.wrl"
+    (model ../libs/MyOwnKeyboard.pretty/SW_Cherry_MX_1.00u_PCB.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB (layer F.Cu) (tedit 6014DA5E) (tstamp 5EAE6428)
+  (module MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB (layer F.Cu) (tedit 60160A00) (tstamp 5EAE6428)
     (at 432.25 180.5 180)
     (descr "Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
     (tags "Cherry MX keyswitch 1.00u PCB")
@@ -10666,14 +10676,14 @@
     (pad "" np_thru_hole circle (at 0 0 180) (size 4 4) (drill 4) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at -5.08 0 180) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at 5.08 0 180) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask))
-    (model "../libs/MyOwnKeyboard.pretty/Cherry MX.wrl"
+    (model ../libs/MyOwnKeyboard.pretty/SW_Cherry_MX_1.00u_PCB.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB (layer F.Cu) (tedit 6014DA5E) (tstamp 5EAE6410)
+  (module MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB (layer F.Cu) (tedit 60160A00) (tstamp 5EAE6410)
     (at 413.25 180.5 180)
     (descr "Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
     (tags "Cherry MX keyswitch 1.00u PCB")
@@ -10710,14 +10720,14 @@
     (pad "" np_thru_hole circle (at 0 0 180) (size 4 4) (drill 4) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at -5.08 0 180) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at 5.08 0 180) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask))
-    (model "../libs/MyOwnKeyboard.pretty/Cherry MX.wrl"
+    (model ../libs/MyOwnKeyboard.pretty/SW_Cherry_MX_1.00u_PCB.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB (layer F.Cu) (tedit 6014DA5E) (tstamp 5EAE63F8)
+  (module MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB (layer F.Cu) (tedit 60160A00) (tstamp 5EAE63F8)
     (at 394.25 180.5 180)
     (descr "Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
     (tags "Cherry MX keyswitch 1.00u PCB")
@@ -10754,14 +10764,14 @@
     (pad "" np_thru_hole circle (at 0 0 180) (size 4 4) (drill 4) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at -5.08 0 180) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at 5.08 0 180) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask))
-    (model "../libs/MyOwnKeyboard.pretty/Cherry MX.wrl"
+    (model ../libs/MyOwnKeyboard.pretty/SW_Cherry_MX_1.00u_PCB.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB (layer F.Cu) (tedit 6014DA5E) (tstamp 5EAE63E0)
+  (module MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB (layer F.Cu) (tedit 60160A00) (tstamp 5EAE63E0)
     (at 365.75 180.5 180)
     (descr "Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
     (tags "Cherry MX keyswitch 1.00u PCB")
@@ -10798,14 +10808,14 @@
     (pad "" np_thru_hole circle (at 0 0 180) (size 4 4) (drill 4) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at -5.08 0 180) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at 5.08 0 180) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask))
-    (model "../libs/MyOwnKeyboard.pretty/Cherry MX.wrl"
+    (model ../libs/MyOwnKeyboard.pretty/SW_Cherry_MX_1.00u_PCB.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB (layer F.Cu) (tedit 6014DA5E) (tstamp 5EAE63C8)
+  (module MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB (layer F.Cu) (tedit 60160A00) (tstamp 5EAE63C8)
     (at 346.75 180.5 180)
     (descr "Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
     (tags "Cherry MX keyswitch 1.00u PCB")
@@ -10842,14 +10852,14 @@
     (pad "" np_thru_hole circle (at 0 0 180) (size 4 4) (drill 4) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at -5.08 0 180) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at 5.08 0 180) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask))
-    (model "../libs/MyOwnKeyboard.pretty/Cherry MX.wrl"
+    (model ../libs/MyOwnKeyboard.pretty/SW_Cherry_MX_1.00u_PCB.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB (layer F.Cu) (tedit 6014DA5E) (tstamp 5EAE63B0)
+  (module MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB (layer F.Cu) (tedit 60160A00) (tstamp 5EAE63B0)
     (at 327.75 180.5 180)
     (descr "Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
     (tags "Cherry MX keyswitch 1.00u PCB")
@@ -10886,14 +10896,14 @@
     (pad "" np_thru_hole circle (at 0 0 180) (size 4 4) (drill 4) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at -5.08 0 180) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at 5.08 0 180) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask))
-    (model "../libs/MyOwnKeyboard.pretty/Cherry MX.wrl"
+    (model ../libs/MyOwnKeyboard.pretty/SW_Cherry_MX_1.00u_PCB.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB (layer F.Cu) (tedit 6014DA5E) (tstamp 5EAE6398)
+  (module MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB (layer F.Cu) (tedit 60160A00) (tstamp 5EAE6398)
     (at 308.75 180.5 180)
     (descr "Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
     (tags "Cherry MX keyswitch 1.00u PCB")
@@ -10930,14 +10940,14 @@
     (pad "" np_thru_hole circle (at 0 0 180) (size 4 4) (drill 4) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at -5.08 0 180) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at 5.08 0 180) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask))
-    (model "../libs/MyOwnKeyboard.pretty/Cherry MX.wrl"
+    (model ../libs/MyOwnKeyboard.pretty/SW_Cherry_MX_1.00u_PCB.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB (layer F.Cu) (tedit 6014DA5E) (tstamp 5EAE6368)
+  (module MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB (layer F.Cu) (tedit 60160A00) (tstamp 5EAE6368)
     (at 280.25 180.5 180)
     (descr "Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
     (tags "Cherry MX keyswitch 1.00u PCB")
@@ -10974,14 +10984,14 @@
     (pad "" np_thru_hole circle (at 0 0 180) (size 4 4) (drill 4) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at -5.08 0 180) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at 5.08 0 180) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask))
-    (model "../libs/MyOwnKeyboard.pretty/Cherry MX.wrl"
+    (model ../libs/MyOwnKeyboard.pretty/SW_Cherry_MX_1.00u_PCB.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB (layer F.Cu) (tedit 6014DA5E) (tstamp 5EAE6350)
+  (module MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB (layer F.Cu) (tedit 60160A00) (tstamp 5EAE6350)
     (at 261.25 180.5 180)
     (descr "Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
     (tags "Cherry MX keyswitch 1.00u PCB")
@@ -11018,14 +11028,14 @@
     (pad "" np_thru_hole circle (at 0 0 180) (size 4 4) (drill 4) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at -5.08 0 180) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at 5.08 0 180) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask))
-    (model "../libs/MyOwnKeyboard.pretty/Cherry MX.wrl"
+    (model ../libs/MyOwnKeyboard.pretty/SW_Cherry_MX_1.00u_PCB.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB (layer F.Cu) (tedit 6014DA5E) (tstamp 5EAE6338)
+  (module MyOwnKeyboard:SW_Cherry_MX_1.00u_PCB (layer F.Cu) (tedit 60160A00) (tstamp 5EAE6338)
     (at 242.25 180.5 180)
     (descr "Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
     (tags "Cherry MX keyswitch 1.00u PCB")
@@ -11062,7 +11072,7 @@
     (pad "" np_thru_hole circle (at 0 0 180) (size 4 4) (drill 4) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at -5.08 0 180) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at 5.08 0 180) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask))
-    (model "../libs/MyOwnKeyboard.pretty/Cherry MX.wrl"
+    (model ../libs/MyOwnKeyboard.pretty/SW_Cherry_MX_1.00u_PCB.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
