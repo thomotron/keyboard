@@ -189,6 +189,7 @@ void handleKeypress(key* key, bool value)
         key->lastPressedState = value;
         if (value == High)
         {
+	    // Pressed
             switch (key->code)
             {
                 case 0x00:
@@ -232,6 +233,7 @@ void handleKeypress(key* key, bool value)
         }
         else
         {
+	    // Released
             switch (key->code)
             {
                 case 0x00:
