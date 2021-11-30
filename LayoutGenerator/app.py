@@ -134,12 +134,10 @@ specialScanCodes = {
 
 # Fill out your desired keyboard layout in the list below.
 inLayout = [
-    ['escape', 'F1', 'F2', 'F3', 'F4', 'F5', 'F6', 'F7', 'F8', 'F9', 'F10', 'F11', 'F12', 'insert', 'home', 'page up', 'num lock', '', ''],
-    ['accent', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine', 'zero', 'minus', 'equal', 'backspace', 'delete', 'end', 'page down', '', ''],
-    ['tab', 'q', 'w', 'e', 'r', 't', 'y', 'u', 'i', 'o', 'p', 'open bracket', 'close bracket', 'backslash', 'numpad seven', 'divide', 'asterisk', '', ''],
-    ['caps lock', 'a', 's', 'd', 'f', 'g', 'h', 'j', 'k', 'l', 'semi colon', 'tick mark', 'enter', 'numpad four', 'numpad eight', 'numpad nine', 'numpad minus', '', ''],
-    ['left shift', 'z', 'x', 'c', 'v', 'b', 'n', 'm', 'comma', 'stop', 'slash', 'right shift', 'up arrow', 'numpad one', 'numpad five', 'numpad six', 'plus', '', ''],
-    ['left control', 'left win', 'left alt', '', 'space', '', 'right alt', '', 'right control', 'left arrow', 'down arrow', 'right arrow', 'numpad zero', 'numpad two', 'numpad three', 'decimal', 'numpad enter', '', '']
+    ['numpad seven', 'numpad eight', 'numpad nine', 'num lock'],
+    ['numpad four', 'numpad five', 'numpad six', 'plus'],
+    ['numpad one', 'numpad two', 'numpad three', 'numpad minus'],
+    ['', 'numpad zero', 'decimal', 'numpad enter']
 ]
 
 if __name__ == '__main__':
@@ -152,11 +150,11 @@ if __name__ == '__main__':
 
             key = inLayout[row][column].upper().replace(' ', '_')
             if key in scanCodes.keys():
-                outStr += '0x{:02X}, false, false'.format(scanCodes[key])
+                outStr += '0x{:02X}, false, false, false'.format(scanCodes[key])
             elif key in specialScanCodes.keys():
-                outStr += '0x{:02X}, true, false'.format(specialScanCodes[key])
+                outStr += '0x{:02X}, true, false, false'.format(specialScanCodes[key])
             elif not key:
-                outStr += '0x{:02X}, false, false'.format(0)
+                outStr += '0x{:02X}, false, false, false'.format(0)
             else:
                 print('Unable to find a matching scan code for \'{}\''.format(key))
 
