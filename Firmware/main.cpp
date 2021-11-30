@@ -66,6 +66,7 @@ void incrementBacklight();
 void decrementBacklight();
 void enableBacklight();
 void disableBacklight();
+void setLayer(uint8_t new_layer);
 
 PS2dev ps2;
 
@@ -81,13 +82,13 @@ key kbmap[LAYERS][MATRIX_HEIGHT][MATRIX_WIDTH] = {
         {{0x6C, false, false, false},{0x75, false, false, false},{0x7D, false, false, false},{0x77, false, false, false}},
         {{0x6B, false, false, false},{0x73, false, false, false},{0x74, false, false, false},{0x79, false, false, false}},
         {{0x69, false, false, false},{0x72, false, false, false},{0x7A, false, false, false},{0x7B, false, false, false}},
-        {{0x01, false, false, false},{0x70, false, false, false},{0x71, false, false, false},{0x5A, true, false, false}}
+        {{0x02, false, false, false},{0x70, false, false, false},{0x71, false, false, false},{0x5A, true, false, false}}
     },
     {
         {{0x15, true, false, false},{0x3B, true, false, false},{0x34, true, false, false},{0x4D, true, false, false}},
         {{0x48, true, false, false},{0x50, true, false, false},{0x2B, true, false, false},{0x32, true, false, false}},
         {{0x3A, true, false, false},{0x10, true, false, false},{0x23, true, false, false},{0x21, true, false, false}},
-        {{0x01, false, false, false},{0x5E, true, false, false},{0x5F, true, false, false},{0x63, true, false, false}}
+        {{0x02, false, false, false},{0x5E, true, false, false},{0x5F, true, false, false},{0x63, true, false, false}}
     }
 };
 
@@ -256,8 +257,9 @@ void handleKeypress(key* key, bool value)
                     fn_lock ? layer = 0 : layer = 1;
                     break;
                 case 0x02:
-                    layer = 1;
-                    fn_lock = true;
+                    // Toggle FnLock
+                    fn_lock = !fn_lock;
+                    setLayer(fn_lock);
                     break;
                 default:
 #ifndef DISABLE_PS2
@@ -279,9 +281,6 @@ void handleKeypress(key* key, bool value)
                 case 0x01:
                     fn_lock ? layer = 0 : layer = 1;
                     break;
-                case 0x02:
-                    layer = 0;
-                    fn_lock = false;
                 default:
 #ifndef DISABLE_PS2
                     // Handle the key change normally
