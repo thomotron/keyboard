@@ -29,6 +29,7 @@
 #define BACKLIGHT_PRESCALER 0b110
 #define BACKLIGHT_INCREMENT 32 // Backlight range is 0-255
 #define LAYERS 2
+#define KEY_BOUNCE_DELAY 5000 // Microseconds of delay before recognising a keypress
 //#define DISABLE_PS2
 
 // The PS/2 protocol requires that the CLK line be checked by the device at
@@ -51,6 +52,7 @@ typedef struct key {
     bool special;
     bool lastPressedState;
     bool isBouncing;
+    uint16_t lastChange = 0;
 } key;
 
 /// Status LEDs states (i.e. numlock, capslock, etc.)
@@ -67,6 +69,8 @@ void decrementBacklight();
 void enableBacklight();
 void disableBacklight();
 void setLayer(uint8_t new_layer);
+uint16_t timestamp();
+uint16_t microsecondsSince(uint16_t sample);
 
 PS2dev ps2;
 
@@ -147,6 +151,12 @@ void init()
     TCCR0 |= (HOSTCOM_PRESCALER & 0b100 << CS02) | (HOSTCOM_PRESCALER & 0b10 << CS01) | (HOSTCOM_PRESCALER & 0b1 << CS00);
     OCR0 = HOSTCOM_TOP; // Set our custom top value
     BitSet(TIMSK, OCIE0); // Enable compare match interrupt
+
+    // Set up Timer1 as a real-time clock for debouncing delay
+    // This will tick once per microsecond @ 8MHz
+    TCCR1A &= 0;
+    TCCR1B |= (1 << CS11); // Prescale to CLK/8
+    OCR1A = 0xFFFF; // Cap at 65,535 microseconds
 
     // Set up PWM for the backlight
     TCCR2 |= (1 << WGM21) | (1 << WGM20); // Use fast PWM mode
@@ -236,6 +246,7 @@ void handleKeypress(key* key, bool value)
         // Update the state and ignore it
         key->lastPressedState = value;
         key->isBouncing = true;
+        key->lastChange = timestamp();
         return;
     }
 
@@ -243,9 +254,11 @@ void handleKeypress(key* key, bool value)
     // i.e. is it stable?
     if (key->isBouncing && key->lastPressedState == value)
     {
+        // Stop processing if the key hasn't stayed put long enough
+        if (microsecondsSince(key->lastChange) < KEY_BOUNCE_DELAY) return;
+
         // Reset the debounce flag and handle the keypress normally
         key->isBouncing = false;
-        key->lastPressedState = value;
         if (value == High)
         {
             switch (key->code)
@@ -368,4 +381,30 @@ void setLayer(uint8_t new_layer)
     
     // Set the backlight level
     setBacklight(backlight_profile[layer]);
+}
+
+/// Returns the current value of Timer1
+inline uint16_t timestamp()
+{
+    return TCNT1;
+}
+
+/// Calculates the number of microseconds since the given time
+/// This is intended for use within a few milliseconds of the given
+/// sample as we cannot determine if there has been more than one
+/// timer overflow since then.
+inline uint16_t microsecondsSince(uint16_t sample)
+{
+    uint16_t timer_current = timestamp();
+
+    if (timer_current > sample)
+    {
+        return timer_current - sample;
+    }
+    else
+    {
+        // Timer has probably overflowed, calculate the distance to TOP and add
+        // the current value
+        return (OCR1A - sample) + timer_current;
+    }
 }
