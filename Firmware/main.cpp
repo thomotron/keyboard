@@ -43,8 +43,8 @@
 //
 // EEPROM address definitions
 //
-#define EE_BACKLIGHT ((uint8_t *) 0) // Backlight level (offset up to +3 for additional layers)
-#define EE_ACTIVE_LAYER ((uint8_t *) 4) // Active layer
+#define EE_BACKLIGHT ((uint8_t *) 0) // Backlight level (can be offset once per additional layer)
+#define EE_ACTIVE_LAYER ((uint8_t *) LAYERS) // Active layer
 
 /// A single key on the keyboard.
 typedef struct key {
@@ -75,7 +75,7 @@ uint16_t microsecondsSince(uint16_t sample);
 PS2dev ps2;
 
 /// Keyboard layer
-uint8_t layer = 0;
+uint8_t layer;
 
 /// Function-lock
 bool fn_lock = false;
@@ -97,7 +97,7 @@ key kbmap[LAYERS][MATRIX_HEIGHT][MATRIX_WIDTH] = {
 };
 
 /// Backlight levels per keyboard layer.
-uint8_t backlight_profile[LAYERS] = {255, 255};
+uint8_t backlight_profile[LAYERS];
 
 /// Timer0 matching comparison interrupt
 ISR(TIMER0_COMP_vect)
