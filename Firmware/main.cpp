@@ -43,8 +43,8 @@
 //
 // EEPROM address definitions
 //
-#define EE_BACKLIGHT ((uint8_t *) 0) // Backlight level (can be offset once per additional layer)
-#define EE_ACTIVE_LAYER ((uint8_t *) LAYERS) // Active layer
+#define EE_ACTIVE_LAYER ((uint8_t *) 0) // Active layer
+#define EE_BACKLIGHT ((uint8_t *) 1) // Backlight level (can be offset once per additional layer)
 
 /// A single key on the keyboard.
 typedef struct key {
