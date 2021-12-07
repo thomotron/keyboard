@@ -31,6 +31,9 @@
 // Timeout if computer not sending for 30ms
 #define TIMEOUT 30
 
+// Escape code when operating in raw byte mode
+#define RAWESCAPE 0xAA
+
 
 /*
  * the clock and data pins can be wired directly to the clk and data pins
@@ -40,6 +43,9 @@ PS2dev::PS2dev()
 {
     clkhi();
     datahi();
+
+    rawMode = false;
+    escapeNextByte = false;
 }
 
 /*
@@ -308,17 +314,34 @@ int PS2dev::keyboard_reply(unsigned char cmd, unsigned char *leds)
 #endif
     return 1;
     break;
+  case 0xBB: //enable raw byte mode
+    ack();
+    rawMode = true;
+    break;
+  case 0xB0: //disable raw byte mode
+    ack();
+    rawMode = false;
+    break;
   }
   return 0;
 }
 
-// Handles incoming messages from the host (if any) and sets the LEDs.
+// Handles incoming messages from the host (if any).
 // Call this function repeatedly to keep up with the host.
-int PS2dev::keyboard_handle(unsigned char *leds) {
+int PS2dev::keyboard_handle(unsigned char *data) {
   unsigned char c;  //char stores data recieved from computer for KBD
   if(available())
   {
-    if(!read(&c)) return keyboard_reply(c, leds);
+    if(!read(&c)) {
+      if (!this->rawMode || this->escapeNextByte) {
+	// Respond to normal commands or an escaped command in raw byte mode
+	this->escapeNextByte = false;
+	return keyboard_reply(c, data);
+      } else if (this->rawMode && c == RAWESCAPE) {
+        // Toggle escape flag for the next iteration
+        this->escapeNextByte = true;
+      }
+    }
   }
   return 0;
 }
