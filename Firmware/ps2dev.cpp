@@ -328,19 +328,38 @@ int PS2dev::keyboard_reply(unsigned char cmd, unsigned char *leds)
 
 // Handles incoming messages from the host (if any).
 // Call this function repeatedly to keep up with the host.
-int PS2dev::keyboard_handle(unsigned char *data) {
-  unsigned char c;  //char stores data recieved from computer for KBD
+int PS2dev::keyboard_handle(unsigned char *cmd, unsigned char *data) {
   if(available())
   {
-    if(!read(&c)) {
-      if (!this->rawMode || this->escapeNextByte) {
-	// Respond to normal commands or an escaped command in raw byte mode
-	this->escapeNextByte = false;
-	return keyboard_reply(c, data);
-      } else if (this->rawMode && c == RAWESCAPE) {
-        // Toggle escape flag for the next iteration
-        this->escapeNextByte = true;
+    if(!read(cmd)) {
+      if (!this->rawMode) {
+        // Normal command
+        return keyboard_reply(*cmd, data);
       }
+
+      // Is this the escape command?
+      if (*cmd == RAWESCAPE) {
+        if (this->escapeNextByte) {
+          // Escaping the escape byte, return it as raw data
+          this->escapeNextByte = false;
+          return 1;
+        }
+
+        // Escape the next byte
+        this->escapeNextByte = true;
+
+        return 0;
+      }
+
+      // Are we escaping?
+      if (this->escapeNextByte) {
+        // Escaped command, process normally
+        this->escapeNextByte = false;
+        return keyboard_reply(*cmd, data);
+      }
+
+      // Must be raw data, return successfully to ensure it gets processed
+      return 1;
     }
   }
   return 0;

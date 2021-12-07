@@ -153,6 +153,8 @@ class PS2dev
 			WAKE = 0x63
 		};
 
+		bool rawMode;
+
 		int write(unsigned char data);
 		int read(unsigned char * data);
 		int available();
@@ -169,11 +171,10 @@ class PS2dev
 		int keyboard_mkbrk_pound();
 		int keyboard_pausebreak();
 		int keyboard_reply(unsigned char cmd, unsigned char *leds);
-		int keyboard_handle(unsigned char *data);
+		int keyboard_handle(unsigned char *cmd, unsigned char *data);
 		int keyboard_mkbrk(unsigned char code);
 		int keyboard_special_mkbrk(unsigned char code);
 	private:
-		bool rawMode;
 		bool escapeNextByte;
 		void clkhi();
 		void clklo();

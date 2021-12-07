@@ -77,23 +77,34 @@ uint8_t backlight_profile[LAYERS];
 /// Timer0 matching comparison interrupt
 ISR(TIMER0_COMP_vect)
 {
-    // Check for host communication and update LEDs if necessary
-    unsigned char raw_leds = 0;
-    if (ps2.keyboard_handle(&raw_leds))
+    // Check for host communication
+    unsigned char cmd = 0;
+    unsigned char data = 0;
+    if (ps2.keyboard_handle(&cmd, &data))
     {
-        // LEDs updated, handle accordingly
-        leds = {((raw_leds & 0b1) != 0), ((raw_leds & 0b10) != 0), ((raw_leds & 0b100) != 0)};
-
-        // Write inverted to disable pullup and sink
-        if (leds.numlock)
-            DigitalWrite(NUMLOCK, Low);
+        if (ps2.rawMode)
+        {
+            // TODO: Handle raw incoming data
+        }
         else
-            DigitalWrite(NUMLOCK, High);
+        {
+            if (cmd == 0xED)
+            {
+                // LEDs updated, handle accordingly
+                leds = {((data & 0b1) != 0), ((data & 0b10) != 0), ((data & 0b100) != 0)};
 
-        if (leds.capslock)
-            DigitalWrite(CAPSLOCK, Low);
-        else
-            DigitalWrite(CAPSLOCK, High);
+                // Write inverted to disable pullup and sink
+                if (leds.numlock)
+                    DigitalWrite(NUMLOCK, Low);
+                else
+                    DigitalWrite(NUMLOCK, High);
+
+                if (leds.capslock)
+                    DigitalWrite(CAPSLOCK, Low);
+                else
+                    DigitalWrite(CAPSLOCK, High);
+            }
+        }
     }
 }
 
