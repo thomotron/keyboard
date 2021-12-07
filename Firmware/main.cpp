@@ -419,3 +419,11 @@ inline uint16_t microsecondsSince(uint16_t sample)
         return (OCR1A - sample) + timer_current;
     }
 }
+
+/// Triggers a reset of the microcontroller
+/// This relies on the watchdog timing out and will take up to 17ms to complete
+void reset()
+{
+    WDTCR |= (1 << WDE); // Enable the watchdog timer
+    while (true); // Spin forever until the watchdog times out and resets
+}
