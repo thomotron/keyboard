@@ -248,10 +248,6 @@ void handleKeypress(key* key, bool value)
                     break;
                 default:
                     normal_keypress:
-
-                    // Don't handle key presses while holding Fn
-                    if (fnPressed) break;
-
 #ifndef DISABLE_PS2
                     // Handle the key change normally
                     cli();
@@ -274,9 +270,6 @@ void handleKeypress(key* key, bool value)
                     setLayer(fnPressed);
                     break;
                 default:
-                    // Don't handle key presses while holding Fn
-                    if (fnPressed) break;
-
 #ifndef DISABLE_PS2
                     // Handle the key change normally
                     cli();
