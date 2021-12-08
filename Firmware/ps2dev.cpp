@@ -48,25 +48,25 @@ PS2dev::PS2dev()
  * various conditions.  It's done this way so you don't need
  * pullup resistors.
  */
-void PS2dev::clkhi()
+inline void PS2dev::clkhi()
 {
     PinMode(CLK, Input);
     DigitalWrite(CLK, High);
 }
 
-void PS2dev::datahi()
+inline void PS2dev::datahi()
 {
     PinMode(DATA, Input);
     DigitalWrite(DATA, High);
 }
 
-void PS2dev::clklo()
+inline void PS2dev::clklo()
 {
     PinMode(CLK, Output);
     DigitalWrite(CLK, Low);
 }
 
-void PS2dev::datalo()
+inline void PS2dev::datalo()
 {
     PinMode(DATA, Output);
     DigitalWrite(DATA, Low);
@@ -378,77 +378,3 @@ int PS2dev::keyboard_special_mkbrk(unsigned char code)
 	return 0;
 }
 
-// Presses Printscreen
-int PS2dev::keyboard_press_printscreen()
-{
-	write(0xe0);
-	write(0x12);
-	write(0xe0);
-	write(0x7c);
-
-	return 0;
-}
-
-// Releases Printscreen
-int PS2dev::keyboard_release_printscreen()
-{
-	write(0xe0);
-	write(0xf0);
-	write(0x7c);
-	write(0xe0);
-	write(0xf0);
-	write(0x12);
-
-	return 0;
-}
-
-// Presses then releases Printscreen
-int PS2dev::keyboard_mkbrk_printscreen()
-{
-	keyboard_press_printscreen();
-	keyboard_release_printscreen();
-
-	return 0;
-}
-
-// Presses Pound
-int PS2dev::keyboard_press_pound()
-{
-    keyboard_press(PS2dev::LEFT_SHIFT);
-    keyboard_press(PS2dev::THREE);
-
-    return 0;
-}
-
-// Releases Pound
-int PS2dev::keyboard_release_pound()
-{
-    keyboard_release(PS2dev::LEFT_SHIFT);
-    keyboard_release(PS2dev::THREE);
-
-    return 0;
-}
-
-// Presses then releases Pound
-int PS2dev::keyboard_mkbrk_pound()
-{
-    keyboard_press_pound();
-    keyboard_release_pound();
-
-    return 0;
-}
-
-// Presses/Releases Pause/Break
-int PS2dev::keyboard_pausebreak()
-{
-	write(0xe1);
-	write(0x14);
-	write(0x77);
-	write(0xe1);
-	write(0xf0);
-	write(0x14);
-	write(0xe0);
-	write(0x77);
-
-	return 0;
-}
