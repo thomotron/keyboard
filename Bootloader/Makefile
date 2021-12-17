@@ -11,7 +11,7 @@ clean:
 
 main: main.cpp
 	# Compile
-	avr-g++ -mmcu=$(MCU) -Os -DF_CPU=$(CLOCK)UL -o main.elf *.cpp *.h
+	avr-g++ -mmcu=$(MCU) -Os -DF_CPU=$(CLOCK)UL -o main.elf *.cpp *.h -Ttext=0x1800
 
 	# HEXify
 	avr-objcopy -j .text -j .data -O ihex main.elf main.hex
@@ -21,5 +21,5 @@ main: main.cpp
 
 flash: main
 	# Flash
-	avrdude -p $(MCU) -c $(ISP) -U boot:w:main.hex
+	avrdude -p $(MCU) -c $(ISP) -U flash:w:main.hex
 
