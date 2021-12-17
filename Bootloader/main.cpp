@@ -89,6 +89,7 @@ int main()
             {
                 // Escape the next byte
                 escaping = true;
+                ps2.ack();
                 continue;
             }
             else if (byte == 0xB0 && escaping)
@@ -107,8 +108,6 @@ int main()
                     write_flash_page(cur_page, word_buf);
                 }
                 
-                // TODO: Validate???????
-                
                 break;
             }
             else
@@ -120,7 +119,8 @@ int main()
                 // Make sure we haven't already passed the last page
                 if (cur_page > 128)
                 {
-                    // TODO: Already written to the last page, return an error
+                    // Already written to the last page, return an error and do nothing
+                    ps2.write(0xFF);
                     continue;
                 }
 
@@ -135,7 +135,6 @@ int main()
                     cur_page++;
                     cur_word = 0;
                 }
-                
             }
         }
     }

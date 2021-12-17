@@ -227,7 +227,7 @@ void PS2dev::keyboard_init()
   return;
 }
 
-inline void PS2dev::ack()
+void PS2dev::ack()
 {
   while(write(0xFA));
   return;

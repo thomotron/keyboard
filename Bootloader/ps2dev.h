@@ -21,12 +21,12 @@ class PS2dev
 		int read(unsigned char * data);
 		inline int available();
 		void keyboard_init();
+		void ack();
 	private:
 		inline void clkhi();
 		inline void clklo();
 		inline void datahi();
 		inline void datalo();
-		inline void ack();
 };
 
 #endif /* ps2dev_h */
