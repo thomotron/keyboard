@@ -155,6 +155,8 @@ if __name__ == '__main__':
                 outStr += '0x{:02X}, true, false, false'.format(specialScanCodes[key])
             elif not key:
                 outStr += '0x{:02X}, false, false, false'.format(0)
+            elif key.upper().startswith('0X'):
+                outStr += '0x{:02X}, false, false, false'.format(int(key, 16))
             else:
                 print('Unable to find a matching scan code for \'{}\''.format(key))
 
