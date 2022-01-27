@@ -134,12 +134,12 @@ specialScanCodes = {
 
 # Fill out your desired keyboard layout in the list below.
 inLayout = [
-    ['escape', 'F1', 'F2', 'F3', 'F4', 'F5', 'F6', 'F7', 'F8', 'F9', 'F10', 'F11', 'F12', 'insert', 'home', 'page up', 'num lock', '', ''],
-    ['accent', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine', 'zero', 'minus', 'equal', 'backspace', 'delete', 'end', 'page down', '', ''],
-    ['tab', 'q', 'w', 'e', 'r', 't', 'y', 'u', 'i', 'o', 'p', 'open bracket', 'close bracket', 'backslash', 'numpad seven', 'divide', 'asterisk', '', ''],
-    ['caps lock', 'a', 's', 'd', 'f', 'g', 'h', 'j', 'k', 'l', 'semi colon', 'tick mark', 'enter', 'numpad four', 'numpad eight', 'numpad nine', 'numpad minus', '', ''],
-    ['left shift', 'z', 'x', 'c', 'v', 'b', 'n', 'm', 'comma', 'stop', 'slash', 'right shift', 'up arrow', 'numpad one', 'numpad five', 'numpad six', 'plus', '', ''],
-    ['left control', 'left win', 'left alt', '', 'space', '', 'right alt', '', 'right control', 'left arrow', 'down arrow', 'right arrow', 'numpad zero', 'numpad two', 'numpad three', 'decimal', 'numpad enter', '', '']
+    ['', '', '', '', 'home', 'escape', 'F1', 'F2', 'F3', 'F4', '', 'F5', 'F6', 'F7', 'F8', 'F9', 'F10', 'F11'],
+    ['num lock', 'divide', 'asterisk', 'insert', 'end', 'page up', 'accent', 'one', 'two', 'four', 'five', 'six', 'seven', 'eight', 'nine', 'zero', 'minus', 'F12'],
+    ['numpad seven', 'numpad eight', 'numpad nine', 'numpad minus', 'delete', 'page down', 'tab', 'q', 'w', 'three', 'r', 'y', 'u', 'i', 'o', 'p', 'open bracket', 'equal'],
+    ['numpad four', 'numpad five', 'numpad six', 'plus', 'up arrow', 'caps lock', 'a', 's', 'd', 'e', 't', 'h', 'j', 'k', 'semi colon', 'tick mark', 'close bracket', 'backspace'],
+    ['numpad one', 'numpad two', 'numpad three', 'numpad enter', 'down arrow', 'left shift', 'z', 'x', 'c', 'f', 'g', 'n', 'm', 'l', 'slash', '', 'right shift', 'backslash'],
+    ['0x01', 'numpad zero', 'decimal', 'left arrow', 'right arrow', 'left control', 'left win', 'left alt', '', 'v', 'b', 'space', 'comma', 'period', 'right alt', '0x01', 'right control', 'enter']
 ]
 
 if __name__ == '__main__':
