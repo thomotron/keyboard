@@ -29,4 +29,4 @@ fuse:
 
 eeprom:
 	# Set up default values in EEPROM
-	avrdude -p $(MCU) -c $(ISP) -U eeprom:w:0xFF:m
+	avrdude -p $(MCU) -c $(ISP) -U eeprom:w:0x00,0x00,0xFF:m

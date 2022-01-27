@@ -152,11 +152,13 @@ if __name__ == '__main__':
 
             key = inLayout[row][column].upper().replace(' ', '_')
             if key in scanCodes.keys():
-                outStr += '0x{:02X}, false, false'.format(scanCodes[key])
+                outStr += '0x{:02X}, false, false, false'.format(scanCodes[key])
             elif key in specialScanCodes.keys():
-                outStr += '0x{:02X}, true, false'.format(specialScanCodes[key])
+                outStr += '0x{:02X}, true, false, false'.format(specialScanCodes[key])
             elif not key:
-                outStr += '0x{:02X}, false, false'.format(0)
+                outStr += '0x{:02X}, false, false, false'.format(0)
+            elif key.upper().startswith('0X'):
+                outStr += '0x{:02X}, false, false, false'.format(int(key, 16))
             else:
                 print('Unable to find a matching scan code for \'{}\''.format(key))
 
